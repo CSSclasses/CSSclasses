@@ -1,3 +1,5 @@
+
+
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
@@ -17,8 +19,23 @@ include:
   - .nojekyll
 exclude:
   - "bower.json"
-  - "bower_components"
+  - "bower_components/"
   - "package.json"
-  - "node_modules"
+  - "node_modules/"
   - "gruntfile.js"
+  - "_sass/"
+  - "css/"
 
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Coaches
+    url: /coaches/
+  - title: Attendees
+    url: /attendees/
+  - title: Learning Materials
+    url: /materials/
+  - title: Code of Conduct
+    url: /code-of-conduct/
