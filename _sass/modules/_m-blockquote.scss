@@ -1,0 +1,67 @@
+
+
+blockquote,
+.m-blockquote {
+  @extend %sans-serif;
+  width: 100%;
+  display: inline-block; //TODO: ADD A FIX FOR INLINE-BLOCK WHITE SPACE ISSUE
+  position: relative;
+  margin: 0 0 4 * $base-unit;
+  padding-left: 2 * $base-unit;
+
+  @include bp(x) {
+    max-width: calc(33.333% - 2.25rem);
+    margin-right: 2 * $base-unit;
+  }
+
+  @include bp(xx) {
+    border: .1875rem solid $color-persian-red;
+    width: 14rem;
+    margin: 0 8 * $base-unit 3.5 * $base-unit 0;
+    height: 16rem;
+    max-width: 100%;
+  }
+
+  &:last-child { margin-right: 0;
+
+    @include bp(xx) { margin-right: 6 * $base-unit; }
+  }
+
+  &::before {
+    color: $color-persian-red;
+    content: '“';
+    font-size: 7em;
+    left: -$base-unit;
+    top: -$base-unit;
+    line-height: .76;
+    position: absolute;
+
+    @include bp(xx) {
+      font-size: 8em;
+      top: $base-unit;
+      left: $base-unit;
+      color: $color-dove-gray;
+    }
+  }
+}
+
+.m-blockquote__p {
+  @extend .delta;
+  background-color: $color-white;
+  bottom: $base-unit;
+  left: 1.5 * $base-unit;
+  margin-bottom: 0;
+
+  @include bp(xx) {
+    width: 20rem;
+    position: absolute;
+  }
+}
+
+.m-blockquote__footer {
+  @extend %small;
+  bottom: -1.5 * $base-unit;
+  color: $color-dove-gray;
+  position: absolute;
+  right: 0;
+}

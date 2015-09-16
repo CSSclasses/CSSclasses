@@ -1,0 +1,23 @@
+
+
+.btn {
+  @extend %sans-serif;
+  background-color: $color-persian-red;
+  border: 2px solid $color-persian-red;
+  color: $color-white;
+  display: inline-block;
+  padding: .5 * $base-unit $base-unit;
+  text-transform: uppercase;
+  transition: background-color .4s, color .4s;
+
+  &:hover,
+  &:visited:hover {
+    background-color: $color-white;
+    color: $color-persian-red;
+  }
+
+  &:visited {
+    border: 2px solid $color-persian-red;
+    color: $color-white;
+  }
+}

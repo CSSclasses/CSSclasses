@@ -1,0 +1,26 @@
+
+
+hr {
+  background-color: $color-dove-gray;
+  border: none;
+  height: .125rem;
+  margin-bottom: 2 * $base-unit;
+}
+
+.hr--is-red { background-color: $color-persian-red; }
+
+.hr--has-ornament { position: relative;
+
+  &::before {
+    background-color: $color-white;
+    content: url(../assets/svg/m-separator__ornament.svg);
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -.75rem;
+    width: 2.25rem;
+  }
+}

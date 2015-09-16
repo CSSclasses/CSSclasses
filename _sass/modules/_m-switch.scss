@@ -1,0 +1,36 @@
+
+
+.m-switch {
+  @extend %sans-serif;
+
+  margin-bottom: .5 * $base-unit;
+  text-transform: uppercase;
+}
+
+.m-switch__input { display: none; }
+
+.m-switch.is--light .m-switch__label--is-light:before { border: .25rem solid $color-persian-red; }
+
+.m-switch.is--dark .m-switch__label--is-dark:before {
+  border: .25rem solid $color-persian-red;
+  background-color: $color-mine-shaft;
+}
+
+.m-switch__label {
+  padding-left: 1.5 * $base-unit;
+  position: relative;
+  cursor: pointer;
+
+  &:not(:first-of-type) { margin-left: $base-unit; }
+
+  &::before {
+    border: .6rem solid $color-persian-red;
+    content: '';
+    display: inline-block;
+    height: $base-unit;
+    left: 0;
+    position: absolute;
+    top: .0625rem;
+    width: $base-unit;
+  }
+}

@@ -1,0 +1,39 @@
+
+
+.icon {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0;
+  transition: background-position 0.4s;
+
+  &:hover { background-position: 0 -36px;}
+}
+
+.icon-only {
+  @extend .icon;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -9999em;
+  border-bottom: none;
+}
+
+$icons:(twitter, github, website);
+  @each $icon in $icons {
+    .icon-#{$icon} {background-image: url('../assets/svg/icon-#{$icon}.svg');}
+  }
+
+.align-bottom {
+  vertical-align: bottom;
+  float: right;
+}
+
+.space-around {
+  margin-right: $base-unit;
+  margin-left: $base-unit;
+}
+
+.is-hidden {
+  display: none;
+}

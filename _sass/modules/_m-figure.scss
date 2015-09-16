@@ -1,0 +1,39 @@
+
+
+img {
+  border-radius: .1875rem;
+  display: block;
+  max-width: 100%;
+}
+
+figure,
+.m-figure {
+  margin: 0 0 2 * $base-unit;
+  position: relative;
+}
+
+figcaption,
+.m-figure__figcaption {
+  border-left: .125rem solid $color-persian-red;
+  color: $color-dove-gray;
+  font-family: Merriweather Italic;
+  font-size: .843888889em;
+  line-height: 1.499670836;
+  padding-left: .5 * $base-unit;
+
+  @include bp(xx) {
+    left: -12.875rem; // WIDTH OF THE CAPTION + 3*$BASE-UNIT
+    padding-left: $base-unit;
+    position: absolute;
+    top: 0;
+    width: 10em;
+  }
+
+  p { margin-bottom: 0; }
+}
+
+figure > img,
+.m-figure__img { margin-bottom: $base-unit;
+
+  @include bp(xx) { margin-bottom: 0; }
+}

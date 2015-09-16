@@ -1,0 +1,160 @@
+
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-white;
+  color: $color-mine-shaft;
+  font-family: Merriweather Regular, Georgia, serif;
+  font-size: 1.125em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.757777778;
+
+  counter-reset: gloss; //COUNTER-RESET FOR GLOSSARY NUMBERS
+}
+
+%sans-serif { font-family: Lato Regular, Helvetica, sans-serif; }
+
+p { margin-bottom: 2 * $base-unit; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Lato Regular, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h1,
+.alpha {
+  font-size: 2.665em;
+  letter-spacing: .008em;
+  line-height: 1.125078174;
+  margin-bottom: 1.75 * $base-unit;
+}
+
+h2,
+.beta {
+  font-size: 1.998888889em;
+  letter-spacing: .007em;
+  line-height: 1.125069483;
+  margin-bottom: 1.25 * $base-unit;
+}
+
+h3,
+.gamma {
+  font-size: 1.5em;
+  letter-spacing: .007em;
+  line-height: 1.171851852;
+  margin-bottom: $base-unit;
+}
+
+h4,
+.delta {
+  font-size: 1.125em;
+  letter-spacing: .01em;
+  line-height: 1.249876543;
+  margin-bottom: $base-unit;
+}
+
+small,
+%small {
+  font-size: .666666667em;
+  line-height: 1.405864198;
+}
+
+em { font-family: Merriweather Italic; }
+
+strong { font-family: Merriweather Bold; }
+
+ul,
+ol {
+  list-style: none;
+  margin-bottom: 2 * $base-unit;
+  padding-left: 1.5em;
+
+  li { position: relative;
+
+    &:not(:last-child) { margin-bottom: $base-unit; }
+  }
+
+  @include bp(x) { padding-left: 0; }
+}
+
+ul li::before {
+  background-color: $color-persian-red;
+  content: '';
+  display: block;
+  height: .5rem;
+  left: -1.5 * $base-unit;
+  position: absolute;
+  top: .75rem;
+  width: .5rem;
+}
+
+ol { counter-reset: item;
+
+  li::before {
+    color: $color-persian-red;
+    content: counter(item) '. ';
+    counter-increment: item;
+    font-family: Merriweather Bold;
+    left: -1.5 * $base-unit;
+    position: absolute;
+    top: 0;
+  }
+}
+
+a,
+.anchor {
+  border-bottom: 1px solid $color-mine-shaft;
+  color: $color-mine-shaft;
+  text-decoration: none;
+  transition: border-color .4s, color .4s;
+
+  &:hover,
+  &:visited:hover {
+    border-color: $color-persian-red;
+    color: $color-persian-red;
+  }
+
+  &:visited {
+    border-color: $color-silver-chalice;
+    color: $color-dove-gray;
+  }
+}
+
+.gloss {
+  @extend %small;
+  border-bottom: 0;
+  color: $color-persian-red;
+  vertical-align: super;
+
+  &::before {
+    content: counter(gloss);
+    counter-increment: gloss;
+  }
+}
+
+.gloss-list li:after {
+  color: $color-persian-red;
+  content: '↩';
+  font-family: Merriweather Bold;
+  position: relative;
+  right: -.5 * $base-unit;
+}
+
+code {
+  color: $color-tall-poppy;
+  font-family: Inconsolata;
+  font-size: 1.125em;
+}
+
+//MOZILLA SPECIFIC STYLING
+@-moz-document url-prefix() {
+
+  p strong { font-size: .9em; }
+}

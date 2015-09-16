@@ -1,0 +1,41 @@
+
+
+.page-footer {
+  @extend %sans-serif;
+  font-size: .777777778em;
+  line-height: 1.405864198;;
+  background-color: $color-mine-shaft;
+  color: $color-white;
+  border-top: 2px solid $color-dove-gray;
+  padding-top: 2 * $base-unit;
+  padding-bottom: 2 * $base-unit;
+}
+
+.page-footer .icon {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -54px;
+
+  &:hover { background-position: 0 -27px; }
+}
+
+.page-footer__a {
+  color: $color-white;
+  border-color: $color-white;
+
+  &:visited { 
+    color: $color-white;
+    border-color: $color-white;
+  }
+}
+
+.page-footer__p { margin-bottom: 0; }
+
+.page-footer .list-simple { margin-bottom: .25 * $base-unit; }
+
+.page-footer .list-simple__el--is-horizontal:not(:first-child) {
+  vertical-align: middle;
+  margin-left: 0;
+}
+
+.page-footer .list-simple__el--is-horizontal:first-child { margin-right: .5 * $base-unit; }

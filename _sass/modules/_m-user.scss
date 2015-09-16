@@ -1,0 +1,44 @@
+
+
+$module-namespace: 'user';
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.#{$module-namespace} {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 330px;
+}
+
+.#{$module-namespace}__img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 80%;
+  margin-bottom: $base-unit;
+}
+
+.#{$module-namespace}__text {
+  @extend %sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  padding-left: $base-unit;
+  margin-bottom: .5 * $base-unit;
+
+  &::before {
+    content: '|';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: $color-persian-red;
+  }
+}
+
+.#{$module-namespace}__list { padding-left: $base-unit; }

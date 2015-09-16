@@ -1,0 +1,15 @@
+
+
+.list-simple { padding-left: 0; }
+
+.list-simple__el { margin-bottom: 0 !important;
+
+  &:before { content: none; }
+}
+
+.list-simple__el--is-horizontal {
+  @extend .list-simple__el;
+  display: inline-block; //RESOLVE WHITE SPACE ISSUE WITH HTML COMMENTS
+
+  &:not(:first-child) { margin-left: .5 * $base-unit; }
+}
