@@ -23,7 +23,6 @@ exclude:
   - "node_modules/"
   - "gruntfile.js"
   - "_sass/"
-  - "css/"
 
 navigation:
   - title: Home
