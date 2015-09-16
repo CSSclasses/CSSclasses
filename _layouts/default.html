@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="l-container-content">
+      <div class="navigation">
+        {% include navigation-main.html %}
+        <button class="navigation__close" id="close-button">Close Navigation</button>
+        <div class="morph-shape" id="morph-shape" data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+            <path d="M-7.312,0H0c0,0,0,113.839,0,400c0,264.506,0,400,0,400h-7.312V0z"/>
+          </svg>
+        </div>
       </div>
+      <button class="navigation__toggle" id="open-button">Open Menu</button>
+      {% include header.html %}
+      <main class="l-width-content l--has-pt">
+        {{ content }}
+      </main>
+      <section class="l-width-extended">
+        {% include testimonial.html %}
+      </section>
+      {% include footer.html %}
     </div>
-
-    {% include footer.html %}
-
+    <script src="{{ site.baseurl }}/bower_components/classie/classie.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/navigation-main.js"></script>
   </body>
-
 </html>

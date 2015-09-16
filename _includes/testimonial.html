@@ -1,0 +1,10 @@
+{% if site.data.testimonials %}
+  <div class="testimonial">
+    {% for testimonial in site.data.testimonials %}
+      <blockquote class="m-blockquote">
+        <p class="m-blockquote__p">{{ testimonial.content }}</p>
+        <footer class="m-blockquote__footer">{{ testimonial.name }}</footer>
+      </blockquote>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,23 +1,29 @@
 ---
 layout: default
+title: CSSclasses – HOME
 ---
 
-<div class="home">
+{% include upcoming-events.html %}
+<section>
+  <p>
+    The day will include an optional workshop for beginners (and anyone who feels like refreshing their basics), as well as free hacking and collaborating for experts and newbies alike. Around 6pm, we’ll wrap up and everyone is invited to demo their achievements. Afterwards, we’ll end the day with celebratory drinks and socializing at co.up!
+  </p>
+</section>
+<section>
+  <h1 class="beta">What is CSSclasses?</h1>
+  <p>CSSClasses are one day events for people who are interested in learning how they can create and manipulate elements on a website. A group of experienced developers will be by your side all day and make sure you return home with a lot of new knowledge. The event itself is seperated into two parts: A workshop where you will learn how to get creative with CSS and a hackathon where you can then make your hands dirty and work on your own little fun project.</p>
 
-  <h1 class="page-heading">Posts</h1>
+  <h2>What is CSSclasses?</h2>
+  <p>CSSClasses are one day events for people who are interested in learning how they can create and manipulate elements on a website. A group of experienced developers will be by your side all day and make sure you return home with a lot of new knowledge.
+  The event itself is seperated into two parts: A workshop where you will learn how to get creative with CSS and a hackathon where you can then make your hands dirty and work on your own little fun project.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <h2>Who can attend?</h2>
+  <p>Anyone! Learners of all levels are welcome, including beginners with absolutely no experience and advanced CSS coders. We require you to respect our core values, and make sure to check out the information for attendees page.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <h2>An event around CSS… really?</h2>
+  <p>Yes! We believe that CSS is one of the quickest and most fun ways to understand how websites are built and get your hands into coding. And that doesn’t mean CSS is for beginners only: Just check out the many unbelievable experiments on Codepen.io or see what leading developers are discussing at events like CSSconf EU to get inspired and see how far you can take the language.</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h2>Who is organizing this?</h2>
+  <p>The volunteer teams behind CSSconf EU and Open Tech School. We have experience in teaching workshops and organzing events, and our motivation is to share knowledge and passion for building fun and beautiful things for the web. We subscribe to the core values of Open Tech School and are committed to create a safe and encouraging space for learners and coaches.</p>
+</section>
 
-</div>

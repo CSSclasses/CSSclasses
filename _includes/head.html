@@ -6,7 +6,39 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <script>
+    (function(){
+        function addFont() {
+            var style = document.createElement('style');
+            style.rel = 'stylesheet';
+            document.head.appendChild(style);
+            style.textContent = localStorage.sourceSansPro;
+        }
+        try {
+            if (localStorage.sourceSansPro) {
+                addFont();
+            } else {
+                var request = new XMLHttpRequest();
+                request.open('GET', 'css/fonts/data-woff.css', true);
+
+                request.onload = function() {
+                    if (request.status >= 200 && request.status < 400) {
+                        localStorage.sourceSansPro = request.responseText;
+                        addFont();
+                    }
+                };
+                request.send();
+            }
+        } catch(ex) {
+      }
+    }());
+  </script>
+  <script src="{{ site.baseurl }}/assets/js/highlight.pack.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/switch.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/scrollMenu.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="{{ site.baseurl }}/bower_components/snap.svg/dist/snap.svg-min.js"></script>
 </head>

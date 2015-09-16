@@ -1,0 +1,30 @@
+---
+layout: post
+title: "CSS Hover"
+---
+
+### Hover
+Hover is a small example of how you can add some fun little interactivity to your site. Take our `div` example from above and let’s add a little bit to our CSS:
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+{% highlight CSS %}
+div {
+  color: white;
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  font-family: sans-serif;
+  border: 5px solid black;
+}
+div:hover {
+  background-color: red;
+  border: 5px dotted black;
+}
+{% endhighlight %}
+
+If you apply this CSS to our [border](#border) example, you will see no change at first. But if you move your mouse cursor over the `div` (you "`hover`" it), you will see the style changes applied, that we defined with the `div:hover` pseudo-class. There are some more pseudo-classes like that that you can learn about later.
