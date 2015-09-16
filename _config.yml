@@ -6,8 +6,8 @@ email: contact@cssconf.eu
 description: "CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cssclasses.cssconf.eu"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: cssclasses
+github_username:  cssconf
 
 # Build settings
 markdown: kramdown
