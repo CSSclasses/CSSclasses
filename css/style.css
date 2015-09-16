@@ -753,6 +753,7 @@ iframe {
 
 .page-header__a {
   color: #fcfcfc;
+  border-color: #fcfcfc;
 }
 
 .page-header__a:visited {
