@@ -57,7 +57,9 @@
   @extend %small;
 }
 
-.page-header__a { color: $color-white;
+.page-header__a {
+  color: $color-white;
+  border-color: $color-white;
 
   &:visited {
     color: $color-white;
