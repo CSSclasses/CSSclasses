@@ -29,9 +29,16 @@ module.exports = function (grunt) {
             options: {
                 sourceMap: true,
                 relativeAssets: false,
-                outputStyle: 'expanded',
-                sassDir: '_sass',
-                cssDir: '_site/css'
+                outputStyle: 'expanded'
+            },
+            dev: {
+              files: [{
+                expand: true,
+                cwd: '_sass/',
+                src: ['**/*.{scss,sass}'],
+                dest: 'css/',
+                ext: '.css'
+              }]
             },
             build: {
                 files: [{
@@ -47,7 +54,7 @@ module.exports = function (grunt) {
         // run tasks in parallel
         concurrent: {
             serve: [
-                'sass',
+                'sass:dev',
                 'watch',
                 'shell:jekyllServe'
             ],
@@ -102,10 +109,10 @@ module.exports = function (grunt) {
 
     // Register the grunt build task
     grunt.registerTask('build', [
+        'copy:vendor',
         'shell:jekyllBuild',
-        'sass',
-        'postcss',
-        'copy:vendor'
+        'sass:build',
+        'postcss'
     ]);
 
     // Register build as the default task fallback
