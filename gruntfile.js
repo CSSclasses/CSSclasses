@@ -56,6 +56,7 @@ module.exports = function (grunt) {
             serve: [
                 'sass:dev',
                 'watch',
+                'copy:vendor',
                 'shell:jekyllServe'
             ],
             options: { logConcurrentOutput: true }
