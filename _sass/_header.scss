@@ -1,7 +1,7 @@
 
 
 .page-header {
-  background-image: url('../assets/images/bg.header.jpg');
+  background-image: url('../assets/images/bg.header--small.jpg');
   background-size: cover;
   background-position: center center;
   height: 31.25rem;
@@ -16,9 +16,13 @@
   @include bp(x) {
     font-size: 1em;
     height: 46.875rem;
+    background-image: url('../assets/images/bg.header--medium.jpg');
   }
 
-  @include bp(xx) { height: 56.25rem; }
+  @include bp(xx) {
+    height: 56.25rem;
+    background-image: url('../assets/images/bg.header.jpg');
+  }
 }
 
 .page-header__logo {
