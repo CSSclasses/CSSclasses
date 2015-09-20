@@ -5,9 +5,9 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclasses.cssconf.eu/</link>
     <atom:link href="http://cssclasses.cssconf.eu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Sep 2015 10:52:36 +0200</pubDate>
-    <lastBuildDate>Sun, 20 Sep 2015 10:52:36 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sun, 20 Sep 2015 12:49:38 +0200</pubDate>
+    <lastBuildDate>Sun, 20 Sep 2015 12:49:38 +0200</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>CSS Challenges</title>
@@ -490,7 +490,7 @@
       <item>
         <title>CSS Font Properties</title>
         <description>&lt;h3 id=&quot;font-family&quot;&gt;Font-family&lt;/h3&gt;
-&lt;p&gt;The `font-family CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;font-family&lt;/code&gt; CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.&lt;/p&gt;
 
 &lt;p&gt;You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.&lt;/p&gt;
 

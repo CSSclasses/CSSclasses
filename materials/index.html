@@ -531,77 +531,11 @@ linebreak.</p>
 
 <p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="http://devdocs.io/css/" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
 
-<h3 id="font-family">Font-family</h3>
-<p>The `font-family CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
-
-<p>You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Proxima</span><span class="o">-</span><span class="n">Nova</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-
-<p>Font family names must either be given quoted as strings, or unquoted as a sequence of one or more identifiers. This means that punctuation characters and digits at the start of each token must be escaped in unquoted font family names.</p>
-
-<p>Here a few examples how it’s done right:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Times</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="n">Georgia</span><span class="o">,</span> <span class="k">serif</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Verdana</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="k">cursive</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
-
-<p>Keep going with our example let’s add a font-family to the <code>div</code> we’ve created before.</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-<span class="c">&lt;!-- ... --&gt;</span>
-  <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></div>
-
-<p>If you hit refresh (CMD + R) again, your font-family should have changed from the default serif to sans-serif. Now that wasn’t so hard, was it?</p>
-
   </article>
 
   <article>
     <h3 id="font-family">Font-family</h3>
-<p>The `font-family CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
+<p>The <code>font-family</code> CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
 
 <p>You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.</p>
 
