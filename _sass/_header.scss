@@ -85,15 +85,8 @@
 
 .subpage-header__logo {
   width: 28%;
-  fill: $color-white;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 
   @include bp(x) { width: 8.25rem; }
 }
 
-.subpage-header__logo-a {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
+.subpage-header__logo-a { margin-bottom: 0; }
