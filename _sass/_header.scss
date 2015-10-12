@@ -80,17 +80,19 @@
 .subpage-header {
   @extend .page-header;
 
-  height: 9rem;
+  height: 4.5rem;
+
+  @include bp(x) { height: 8rem; }
 }
 
 .subpage-header__logo {
-  width: 50%;
+  width: 28%;
   fill: $color-white;
   height: auto;
   display: block;
   margin: 0 auto;
 
-  @include bp(x) { width: 10.25rem; }
+  @include bp(x) { width: 8.25rem; }
 }
 
 .subpage-header__logo-a {
