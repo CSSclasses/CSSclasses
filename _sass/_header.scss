@@ -78,8 +78,6 @@
 }
 
 .subpage-header {
-  @extend .page-header;
-
   height: 4.5rem;
 
   @include bp(x) { height: 8rem; }
