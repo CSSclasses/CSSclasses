@@ -1,7 +1,8 @@
 
 
 .page-header {
-  background-image: url('../assets/images/bg.header--small.jpg');
+  background-image: url("../assets/images/bg.header--small.jpg"), linear-gradient(30deg, $color-persian-red 10%, $color-sky-blue 90%);
+  background-blend-mode: luminosity;
   background-size: cover;
   background-position: center center;
   height: 31.25rem;
