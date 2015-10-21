@@ -1,7 +1,8 @@
 
 
 .page-header {
-  background-image: url('../assets/images/bg.header--small.jpg');
+  background-image: url("../assets/images/bg.header--small.jpg"), linear-gradient(30deg, $color-persian-red 10%, $color-sky-blue 90%);
+  background-blend-mode: luminosity;
   background-size: cover;
   background-position: center center;
   height: 31.25rem;
@@ -16,12 +17,12 @@
   @include bp(x) {
     font-size: 1em;
     height: 46.875rem;
-    background-image: url('../assets/images/bg.header--medium.jpg');
+    background-image: url('../assets/images/bg.header--medium.jpg'), linear-gradient(30deg, $color-persian-red 10%, $color-sky-blue 90%);
   }
 
   @include bp(xx) {
     height: 56.25rem;
-    background-image: url('../assets/images/bg.header.jpg');
+    background-image: url('../assets/images/bg.header.jpg'), linear-gradient(30deg, $color-persian-red 10%, $color-sky-blue 90%);
   }
 }
 
@@ -58,6 +59,7 @@
 
 .page-header__h3 {
   color: $color-white;
+  margin-bottom: 0.5 * $base-unit;
   @extend %small;
 }
 
