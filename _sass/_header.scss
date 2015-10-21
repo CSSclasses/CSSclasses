@@ -59,6 +59,7 @@
 
 .page-header__h3 {
   color: $color-white;
+  margin-bottom: 0.5 * $base-unit;
   @extend %small;
 }
 
