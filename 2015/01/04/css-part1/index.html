@@ -166,13 +166,13 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
   <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
     <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
   <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span></code></pre></div>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
 
 <h3 id="basic-css-syntax">Basic CSS syntax</h3>
 <p>CSS has a simple syntax. The file consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:</p>
@@ -184,9 +184,9 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
   <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p><code>h1</code> is the selector, the HTML element we want to style. <code>color</code> is one of the properties that we can give to our selector, and <code>red</code> is the value of this property. The right syntax is:</p>
 
@@ -197,10 +197,10 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
   <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
   <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
 
@@ -215,7 +215,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
@@ -228,7 +228,7 @@
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></div>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
 <p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code>color</code>. There is also `background-color, width and height.</p>
 
@@ -242,7 +242,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
   <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
   <span class="k">border-style</span><span class="o">:</span> <span class="k">dotted</span><span class="p">;</span>
   <span class="k">border-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
@@ -250,7 +250,7 @@
 
 <span class="nt">anotherselector</span> <span class="p">{</span>
   <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="http://devdocs.io/css/" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
 

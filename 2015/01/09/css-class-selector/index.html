@@ -143,7 +143,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
@@ -159,7 +159,7 @@
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;div&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div&gt;</span>I am a different div but i look like the other one! 😞<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></div>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
 <p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code>div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
 
@@ -170,7 +170,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
@@ -194,7 +194,7 @@
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;greenthing&quot;</span><span class="nt">&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;bluething border-dotted&quot;</span><span class="nt">&gt;</span>I am a different div and I don’t look like the other one any more! 😀<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></div>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
 <p>Now here you should note several things. Both <code>div</code>s get the styles of the <code>div</code> rule, as this applies to all <code>div</code>s. Then the first <code>div</code> also gets the styles of the class <code>.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code>div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code>.border-dotted</code>. This class is remarkable as it <code>overrides</code> the border style that was defined in the `div selector.</p>
 

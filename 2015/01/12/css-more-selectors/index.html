@@ -152,9 +152,9 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
 
-<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
 <p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
 

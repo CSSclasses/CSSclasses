@@ -143,7 +143,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style </span><span class="na">type=</span><span class="s">&quot;text/css&quot;</span><span class="nt">&gt;</span>
     <span class="nc">.changeonhover</span> <span class="p">{</span>
@@ -165,7 +165,7 @@
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;changeonhover&quot;</span><span class="nt">&gt;</span>Hover me! Hover Me!<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></div>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
 <p>Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert <code>transition: 1s all;</code> which is the transition shorthand with just the first two values that are a <code>transition-duration</code> of 1 second and the <code>transition-property</code> of <code>all</code> which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:</p>
 
@@ -181,7 +181,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">1s</span> <span class="nt">width</span> <span class="nt">0</span><span class="nc">.2s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">2s</span> <span class="nt">background-color</span><span class="o">,</span> <span class="nt">0</span><span class="nc">.5s</span> <span class="nt">height</span> <span class="nt">0</span><span class="nc">.5s</span><span class="o">;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">1s</span> <span class="nt">width</span> <span class="nt">0</span><span class="nc">.2s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">2s</span> <span class="nt">background-color</span><span class="o">,</span> <span class="nt">0</span><span class="nc">.5s</span> <span class="nt">height</span> <span class="nt">0</span><span class="nc">.5s</span><span class="o">;</span></code></pre></figure>
 
 <p>Let’s break it down: <code>1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
 
@@ -192,7 +192,7 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">transition-duration</span> <span class="nt">transition-property</span> <span class="nt">transition-delay</span> <span class="nt">transition-timing-function</span><span class="o">;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">transition-duration</span> <span class="nt">transition-property</span> <span class="nt">transition-delay</span> <span class="nt">transition-timing-function</span><span class="o">;</span></code></pre></figure>
 
 <p>So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.</p>
 
