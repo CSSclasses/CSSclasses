@@ -1,0 +1,12 @@
+
+
+.upcoming-event {
+  &__register { margin-bottom: 2 * $base-unit; }
+
+  @include bp(x) {
+    display: flex;
+    justify-content: space-between;
+
+    &__register { margin-bottom: 0; }
+  }
+}

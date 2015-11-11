@@ -20,4 +20,10 @@
     border: 2px solid $color-persian-red;
     color: $color-white;
   }
+
+  &--upcoming-events {
+    white-space: nowrap;
+
+    @include bp(x) { margin-top: .5 * $base-unit; }
+  }
 }

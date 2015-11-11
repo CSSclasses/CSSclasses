@@ -1,6 +1,9 @@
 
 
-.list-simple { padding-left: 0; }
+.list-simple { padding-left: 0;
+
+  &--upcoming-events { display: flex; }
+}
 
 .list-simple__el { margin-bottom: 0 !important;
 
