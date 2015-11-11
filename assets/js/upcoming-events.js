@@ -21,9 +21,17 @@
       }
     };
 
+    var getMapLinkForVenue = function (venue) {
+      if (!venue.lat || !venue.lon) {
+        return;
+      }
+
+      return 'http://maps.google.com/?q=' + venue.lat + ',' + venue.lon;
+    };
+
     var renderUpcomingEventDate = function (upcomingEvent) {
       var template = [
-        '<strong>When:</strong>',
+        '<div><strong>When:</strong></div>',
         strftime('%A, %B %o, %I:%M%P-ca. 6:00pm', new Date(upcomingEvent.time))
       ];
 
@@ -34,8 +42,8 @@
       var eventVenue = upcomingEvent.venue;
       var linkLabel = eventVenue.name + ', ' + eventVenue.address_1 + ', ' + eventVenue.city;
       var template = [
-        '<strong>Where:</strong>',
-        '<a href="' + upcomingEvent.event_url + '" target="_blank">' + linkLabel + '</a>'
+        '<div><strong>Where:</strong></div>',
+        '<a href="' + getMapLinkForVenue(eventVenue) + '" target="_blank">' + linkLabel + '</a>'
       ];
 
       return template.join(' ');
@@ -43,7 +51,7 @@
 
     var renderUpcomingEvent = function (upcomingEvent) {
       var template = [
-        '<li>',
+        '<li class="upcoming-event">',
           '<ul class="list-simple">',
             '<li class="list-simple__el">',
               renderUpcomingEventDate(upcomingEvent),
@@ -52,6 +60,9 @@
               renderUpcomingEventLocation(upcomingEvent),
             '</li>',
           '</ul>',
+          '<div class="upcoming-event__register">',
+            '<a href="' + upcomingEvent.event_url + '" target="_blank" class="btn btn--upcoming-events">Sign up for free</a>',
+          '</div>',
         '</li>'
       ];
 
@@ -75,14 +86,10 @@
       reqwest(reqwestOptions).then(callback);
     };
 
-    var render = function () {
-      getEvents(function (res) {
-        renderUpcomingEvents(res.results);
-      });
-    };
-
-    return Object.freeze({ render: render });
+    getEvents(function (res) {
+      renderUpcomingEvents(res.results);
+    });
   };
 
-  upcomingEvents().render();
+  upcomingEvents();
 }(reqwest, strftime));
