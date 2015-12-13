@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+(function() {
   var container = document.body.children[0];
 
   var checkScroll = function () {
@@ -18,4 +18,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   container.addEventListener('scroll', function () {
     checkScroll()
   });
-});
+})();
