@@ -1,4 +1,3 @@
-
 (function() {
   var bodyEl = document.body,
       content = document.querySelector('.l-container-content'),
@@ -56,7 +55,4 @@
     isOpen = !isOpen;
   }
   init();
-
-
-
 })();

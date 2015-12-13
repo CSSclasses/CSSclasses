@@ -5,6 +5,19 @@ module.exports = function (grunt) {
     require('time-grunt')(grunt); // Show elapsed time after tasks run to visualize performance
     require('load-grunt-tasks')(grunt); // Load all Grunt tasks that are listed in package.json automagically
 
+    var JS_FILES = [
+      './vendor/js/snap.svg-min.js',
+      './vendor/js/reqwest.min.js',
+      './vendor/js/strftime-min.js',
+      './vendor/js/classie.js',
+      './assets/js/highlight.pack.js',
+      './assets/js/switch.js',
+      './assets/js/scrollMenu.js',
+      './assets/js/highlight.js',
+      './assets/js/upcoming-events.js',
+      './assets/js/navigation-main.js'
+    ];
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
@@ -17,6 +30,11 @@ module.exports = function (grunt) {
 
         // watch for files to change and run tasks when they do
         watch: {
+            javascript: {
+                files: ['assets/js/**/*.js'],
+                tasks: ['concat:development'],
+                options: { livereload: true } //using the browserextension
+            },
             sass: {
                 files: ['_sass/**/*.{scss,sass}'],
                 tasks: ['sass'],
@@ -55,8 +73,8 @@ module.exports = function (grunt) {
         concurrent: {
             serve: [
                 'sass:dev',
+                'concat:development',
                 'watch',
-                'copy:vendor',
                 'shell:jekyllServe'
             ],
             options: { logConcurrentOutput: true }
@@ -102,18 +120,47 @@ module.exports = function (grunt) {
               dest: "vendor/js"
             }]
           }
+        },
+
+        concat: {
+          options: {
+           separator: ';',
+          },
+          development : {
+            src: JS_FILES,
+            dest: 'js/cssclasses.js',
+          }
+        },
+
+        uglify : {
+          build : {
+            options : {
+              sourceMap: true
+            },
+            files: {
+              'js/cssclasses.min.js': JS_FILES
+            }
+          }
+        },
+
+        env : {
+          build : {
+            JEKYLL_ENV : 'production'
+          }
         }
     });
 
     // Register the grunt serve task
-    grunt.registerTask('serve', [ 'concurrent:serve' ]);
+    grunt.registerTask('serve', [ 'copy:vendor', 'concurrent:serve' ]);
 
     // Register the grunt build task
     grunt.registerTask('build', [
+        'env:build',
         'copy:vendor',
         'shell:jekyllBuild',
         'sass:build',
-        'postcss'
+        'postcss',
+        'uglify:build'
     ]);
 
     // Register build as the default task fallback
