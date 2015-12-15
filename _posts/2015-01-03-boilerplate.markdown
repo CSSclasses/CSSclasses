@@ -217,7 +217,7 @@ Links take the user to another page. The tag is simply an a which stands for anc
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 {% highlight HTML %}
-<a href="http://cssconf.eu" title="CSS Conf EU">CSSConfEU</a>
+<a href="http://cssconf.eu" title="CSSconf EU">CSSconfEU</a>
 {% endhighlight %}
 
 #### Div
