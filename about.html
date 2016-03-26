@@ -2,19 +2,52 @@
 layout: subpage
 title: CSSclasses – ABOUT US
 ---
+
 <section>
   <h1>About</h1>
   <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
-  <h2>Team</h2>
-  <div class="flex-row">
-    {% include user.html %}
-  </div>
-  <h2>Coaches</h2>
-  {% if site.data.coaches %}
+
+  {% if site.data.teams.berlin %}
+    <h2>Berlin</h2>
+    <h3>Team</h3>
+    <div class="flex-row">
+      {% for member in site.data.teams.berlin %}
+        {% include team-element.html name=member.name image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if site.data.coaches.berlin %}
+    <h3>Coaches</h3>
     <ul>
-      {% for coach in site.data.coaches %}
-        {% include team-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+      {% for coach in site.data.coaches.berlin %}
+        <li>
+          {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+        </li>
       {% endfor %}
     </ul>
   {% endif %}
+
+  {% if site.data.teams.hamburg %}
+    <h2>Hamburg</h2>
+    <h3>Team</h3>
+    <div class="flex-row">
+      {% for member in site.data.teams.hamburg %}
+        {% include team-element.html name=member.name image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if site.data.coaches.hamburg %}
+    <h3>Coaches</h3>
+    <ul>
+      {% for coach in site.data.coaches.hamburg %}
+        <li>
+          {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+        </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+
 </section>
