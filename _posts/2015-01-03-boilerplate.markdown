@@ -3,13 +3,13 @@ layout: post
 title: "Boilerplate"
 ---
 
-##Basic HTML & HTML boilerplate
+## Basic HTML & HTML boilerplate
 * [Elements and Tags](#elements-and-tags)
 * [Pageflow](#pageflow)
 * [HTML Boilerplate](#html-boilerplate)
 * [(Practical) Elements](#practical-elements)
 
-###Elements and Tags
+### Elements and Tags
 Elements and Tags are the building blocks of HTML.
 
 Elements are what makes up a HTML document. You can put elements inside of other elements. An element can include three things: a tag, attributes, and content.
@@ -59,7 +59,7 @@ or this:
 
 In the above example, you can see our first case of an attribute. It starts with a lowercase name, and then is almost always followed by an = and a ‘value’ that’s surrounded in double quotes, "like this". An element can have many attributes, in which case you separate them by spaces, as you’ll see soon. Attributes give information about an element in particular.
 
-###Pageflow
+### Pageflow
 In most circumstances "normal flow" is the way that elements are laid out on a web page. Every element in HTML is inside a rectangular box. Shown on the picture below.
 
 <figure>
@@ -92,7 +92,7 @@ So HTML elements are by default either **block boxes** or **inline boxes** (of c
 
 For now just keep in mind, that every box has some sort of display value.
 
-###HTML Boilerplate
+### HTML Boilerplate
 There is some basic structure you don't need to spend too much time on that is always there. Let's handle this in a very quick walkthrough (code, line-by-line comments):
 
 <div class="m-switch">
