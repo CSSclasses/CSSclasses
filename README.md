@@ -15,8 +15,6 @@ This clones the source files into the CSSclasses projects folder and the generat
 
 * **Jekyll** – Simply run the command, `gem install jekyll` and you're good to go.
 
-* **Grunt CLI** – Run `npm install -g grunt-cli` if you have the Grunt CLI not already installed
-
 * **Grunt Plugins** – Run `npm install`
 
 * **Bower Dependencies** - Run `bower install`
@@ -25,7 +23,7 @@ This clones the source files into the CSSclasses projects folder and the generat
 
 ## Run the project
 
-After installing all dependencies run `grunt`. This triggers `jekyll serve` and also a Grunt watch task, Sass compiler and live reload. To access the page go to `localhost:4000`.
+After installing all dependencies run `npm start`. This triggers `jekyll serve` and also a Grunt watch task, Sass compiler and live reload. To access the page go to `localhost:4000`.
 
 ## Contributing
 
