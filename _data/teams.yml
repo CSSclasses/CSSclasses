@@ -1,54 +1,51 @@
 berlin:
   - name: Kristina Schneider
-    image-file-name: schneider-kristina.jpg
+    image-file-name: berlin/schneider-kristina.jpg
     twitter: kriesse
     github: Kriesse
     website: http://www.kristinaschneider.com
 
   - name: Kevin Lorenz
-    image-file-name: lorenz-kevin.jpg
+    image-file-name: berlin/lorenz-kevin.jpg
     twitter: verpixelt
     github: verpixelt
     website: /
 
   - name: Bastian Albers
-    image-file-name: albers-bastian.jpg
+    image-file-name: berlin/albers-bastian.jpg
     twitter: bastianalbers
     github: bastianalbers
 
 hamburg:
   - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
+    image-file-name: hamburg/reitmann-jonas.jpg
     twitter: jonicious
     github: jonicious
     website: http://jonas.re
 
-  - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
-    twitter: jonicious
-    github: jonicious
-    website: http://jonas.re
+  - name: Klaus Trainer
+    image-file-name: hamburg/trainer-klaus.png
+    twitter: KlausTrainer
+    github: KlausTrainer
 
-  - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
-    twitter: jonicious
-    github: jonicious
-    website: http://jonas.re
+  - name: Leonard Koch
+    image-file-name: hamburg/koch-leonard.png
+    twitter: LeonardKoch_
+    github: leonardkoch
+    website: http://leonardkoch.com
 
-  - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
-    twitter: jonicious
-    github: jonicious
-    website: http://jonas.re
+  - name: Markus Bertling
+    image-file-name: hamburg/bertling-markus.png
+    twitter: HerrBertling
+    github: HerrBertling
+    website: http://www.herrbertling.de
 
-  - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
-    twitter: jonicious
-    github: jonicious
-    website: http://jonas.re
+  - name: Stefan Schult
+    image-file-name: user.png
+    twitter: schubidu
+    github: Schubidu
 
-  - name: Jonas Reitmann
-    image-file-name: lorenz-kevin.jpg
-    twitter: jonicious
-    github: jonicious
-    website: http://jonas.re
+  - name: Isabel Fallera
+    image-file-name: hamburg/fallera-isabel.png
+    twitter: fallera
+    github: fallera
