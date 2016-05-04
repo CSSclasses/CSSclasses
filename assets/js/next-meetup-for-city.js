@@ -28,7 +28,7 @@
 
             events.forEach(function (event) {
                 if (event.venue.city.indexOf(element.dataset.city) > -1) {
-                    element.innerHTML = "<p>The next event takes place at <a href=" + event.event_url + ">" + strftime('%A, %B %o, %I:%M%P-ca. 6:00pm', new Date(event.time)) + "</a></p>";
+                    element.innerHTML = "<p>The next event takes place on <a href=" + event.event_url + ">" + strftime('%A, %B %o, %I:%M%P-ca. 6:00pm', new Date(event.time)) + "</a></p>";
                 }
             });
         };
