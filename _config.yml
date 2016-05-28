@@ -10,7 +10,7 @@ twitter_username: cssclasses
 github_username:  cssconf
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 
