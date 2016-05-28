@@ -137,13 +137,14 @@
     <p class="post-meta">Jan 9, 2015</p>
   </header>
   <article class="post-content">
-    <h3 id="class-selector">Class Selector</h3>
+    <h3>Class Selector</h3>
+
 <p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code>div</code>s on your page.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -168,9 +169,9 @@
 <p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code>div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -201,7 +202,6 @@
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
 <p>Now here you should note several things. Both <code>div</code>s get the styles of the <code>div</code> rule, as this applies to all <code>div</code>s. Then the first <code>div</code> also gets the styles of the class <code>.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code>div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code>.border-dotted</code>. This class is remarkable as it <code>overrides</code> the border style that was defined in the `div selector.</p>
-
 
   </article>
 </div>
