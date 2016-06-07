@@ -1,0 +1,16 @@
+- name: Kristina Schneider
+  image-file-name: schneider-kristina.jpg
+  twitter: kriesse
+  github: Kriesse
+  website: http://www.kristinaschneider.com
+
+- name: Kevin Lorenz
+  image-file-name: lorenz-kevin.jpg
+  twitter: verpixelt
+  github: verpixelt
+  website: /
+
+- name: Bastian Albers
+  image-file-name: albers-bastian.jpg
+  twitter: bastianalbers
+  github: bastianalbers
