@@ -180,24 +180,21 @@ if ( typeof define === 'function' && define.amd ) {
 ;(function () {
   var upcomingEvents = function () {
     var reqwestOptions = {
-      url: 'https://api.meetup.com/2/open_events',
+      url: 'https://api.meetup.com/opentechschool-berlin/events',
       method: 'get',
       type: 'jsonp',
       data: {
-        and_text: 'False',
-        desc: 'False',
-        format: 'json',
-        limited_events: 'False',
-        offset: 0,
-        only: 'time,venue,event_url',
+        only: 'time,venue,event_url,name',
+        page: 100,
         'photo-host': 'public',
-        page: 20,
-        radius: 25.0,
-        status: 'upcoming',
+        sig: 'c5c73f83e1b43531530e50bce671b662f3960c05',
         sig_id: '111973952',
-        sig: '5992951a7b154c83b404c2ae95bf932738813c03',
-        text: 'CSSclasses'
+        status: 'upcoming'
       }
+    };
+
+    var isCSSclasses = function (event) {
+      return event.name.indexOf('CSSclasses') > -1;
     };
 
     var getMapLinkForVenue = function (venue) {
@@ -249,13 +246,12 @@ if ( typeof define === 'function' && define.amd ) {
     };
 
     var renderUpcomingEvents = function (upcomingEvents) {
-      if (!upcomingEvents.length) {
-        return;
-      }
+      if (!upcomingEvents.length) return;
 
+      var events = upcomingEvents.filter(isCSSclasses);
       var upcomingEventsEl = document.getElementById('upcoming-events');
       var upcomingEventsListEl = document.getElementById('upcoming-events-list');
-      var eventsListHtml = upcomingEvents.map(renderUpcomingEvent);
+      var eventsListHtml = events.map(renderUpcomingEvent).join('');
 
       upcomingEventsListEl.innerHTML = eventsListHtml;
       upcomingEventsEl.classList.remove('is-hidden');
@@ -266,7 +262,7 @@ if ( typeof define === 'function' && define.amd ) {
     };
 
     getEvents(function (res) {
-      renderUpcomingEvents(res.results);
+      renderUpcomingEvents(res.data);
     });
   };
 
@@ -278,7 +274,6 @@ if ( typeof define === 'function' && define.amd ) {
       openbtn = document.getElementById('open-button'),
       closebtn = document.getElementById('close-button'),
       isOpen = false,
-
 
       morphEl = document.getElementById('morph-shape'),
       s = Snap(morphEl.querySelector('svg'));
