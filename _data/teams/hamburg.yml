@@ -1,35 +1,32 @@
 - name: Jonas Reitmann
-  image-file-name: lorenz-kevin.jpg
+  image-file-name: hamburg/reitmann-jonas.jpg
   twitter: jonicious
   github: jonicious
   website: http://jonas.re
+
+- name: Klaus Trainer
+  image-file-name: hamburg/trainer-klaus.png
+  twitter: KlausTrainer
+  github: KlausTrainer
+
+- name: Leonard Koch
+  image-file-name: hamburg/koch-leonard.png
+  twitter: LeonardKoch_
+  github: leonardkoch
+  website: http://leonardkoch.com
+
+- name: Markus Bertling
+  image-file-name: hamburg/bertling-markus.png
+  twitter: HerrBertling
+  github: HerrBertling
+  website: http://www.herrbertling.de
 
 - name: Stefan Schult
-  image-file-name: lorenz-kevin.jpg
+  image-file-name: hamburg/schult-stefan.png
   twitter: schubidu
-  github: schubidu
-  website: https://schultstefan.de
+  github: Schubidu
 
-- name: Jonas Reitmann
-  image-file-name: lorenz-kevin.jpg
-  twitter: jonicious
-  github: jonicious
-  website: http://jonas.re
-
-- name: Jonas Reitmann
-  image-file-name: lorenz-kevin.jpg
-  twitter: jonicious
-  github: jonicious
-  website: http://jonas.re
-
-- name: Jonas Reitmann
-  image-file-name: lorenz-kevin.jpg
-  twitter: jonicious
-  github: jonicious
-  website: http://jonas.re
-
-- name: Jonas Reitmann
-  image-file-name: lorenz-kevin.jpg
-  twitter: jonicious
-  github: jonicious
-  website: http://jonas.re
+- name: Isabel Fallera
+  image-file-name: hamburg/fallera-isabel.png
+  twitter: fallera
+  github: fallera
