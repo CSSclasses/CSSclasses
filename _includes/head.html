@@ -61,9 +61,9 @@
       }
     }());
   </script>
-  <script src="{{ site.baseurl }}/assets/js/highlight.pack.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/switch.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/scrollMenu.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="{{ site.baseurl }}/vendor/js/snap.svg-min.js"></script>
+  {% if site.env == 'production' %}
+    <script src="{{ site.baseurl }}/js/cssclasses.min.js" defer></script>
+  {% else %}
+    <script src="{{ site.baseurl }}/js/cssclasses.js" defer></script>
+  {% endif %}
 </head>
