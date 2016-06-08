@@ -4,64 +4,65 @@ title: CSSclasses – ABOUT US
 ---
 
 <section>
-  <h1>About</h1>
-  <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
+    <h1>About</h1>
+    <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
 
-  {% if site.data.teams.berlin %}
-    <h2>Berlin</h2>
-
-    {% include introduction-city.html city="Berlin" countryCode="de" text="
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.
-    " %}
+    {% for city in site.data.cities %}
+    <h2>{{city.name}}</h2>
+    <p>
+        {{ city.introduction }}
+    </p>
+    <p class="next-event" data-city="{{ city.city }}" data-countryCode="{{ city.countryCode }}"></p>
 
     <h3>Team</h3>
 
     <div class="flex-row">
-      {% for member in site.data.teams.berlin %}
-        {% include team-element.html name=member.name image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
-      {% endfor %}
-    </div>
-  {% endif %}
+        {% for member in site.data.teams[city.key] %}
+        <div class="user">
+            <img class="user__img" src="{{ site.baseurl }}/assets/images/team/{{ member.image-file-name }}" alt="">
+            <div class="user-data">
+                <span class="user__text delta">{{ member.name }}</span>
+                <ul class="list-simple user__list">
+                    {% if member.twitter %}
+                    <li class="list-simple__el--is-horizontal">
+                        <a class="icon-only icon-twitter" href="https://twitter.com/{{ member.twitter }}" target="_blank">Twitter</a>
+                    </li>
+                    {% endif %}
+                    {% if member.github %}
+                    <li class="list-simple__el--is-horizontal">
+                        <a class="icon-only icon-github" href="https://github.com/{{ member.github }}" target="_blank">GitHub</a>
+                    </li>
+                    {% endif %}
+                    {% if member.website %}
+                    <li class="list-simple__el--is-horizontal">
+                        <a class="icon-only icon-website" href="{{ member.website }}" target="_blank">Website</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
 
-  {% if site.data.coaches.berlin %}
+        {% endfor %}
+    </div>
+
+    {% if site.data.coaches[city.key] %}
     <h3>Coaches</h3>
     <ul>
-      {% for coach in site.data.coaches.berlin %}
+        {% for coach in site.data.coaches[city.key] %}
         <li>
-          {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+          {{ coach.name }}
+          {% if coach.twitter %}
+          <a class="icon-only icon-twitter align-bottom" href="https://twitter.com/{{ coach.twitter }}" target="_blank">@{{ coach.twitter }}</a>
+          {% endif %}
+          {% if coach.github %}
+          <a class="icon-only icon-github align-bottom space-around" href="https://github.com/{{ coach.github }}" target="_blank">@{{ coach.github }}</a>
+          {% endif %}
         </li>
-      {% endfor %}
+        {% endfor %}
     </ul>
-  {% endif %}
+    {% endif %}
 
-  {% if site.data.teams.hamburg %}
-    <h2>Hamburg</h2>
-
-    {% include introduction-city.html city="Hamburg" countryCode="de" text="
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.
-    " %}
-
-    <h3>Team</h3>
-    <div class="flex-row">
-      {% for member in site.data.teams.hamburg %}
-        {% include team-element.html name=member.name image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% if site.data.coaches.hamburg %}
-    <h3>Coaches</h3>
-
-    <ul>
-      {% for coach in site.data.coaches.hamburg %}
-        <li>
-          {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
-        </li>
     {% endfor %}
-    </ul>
-  {% endif %}
-
-
 </section>
 
 <script src="/vendor/js/reqwest.min.js"></script>
