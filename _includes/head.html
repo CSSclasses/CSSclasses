@@ -47,7 +47,7 @@
                 addFont();
             } else {
                 var request = new XMLHttpRequest();
-                request.open('GET', 'css/fonts/data-woff.css', true);
+                request.open('GET', '/css/fonts/data-woff.css', true);
 
                 request.onload = function() {
                     if (request.status >= 200 && request.status < 400) {
