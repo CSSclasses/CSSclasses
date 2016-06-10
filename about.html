@@ -8,63 +8,26 @@ title: CSSclasses – ABOUT US
     <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
 
     {% for city in site.data.cities %}
-    <h2>{{city.name}}</h2>
-    <p>
-        {{ city.introduction }}
-    </p>
-    <p class="next-event" data-city="{{ city.city }}" data-countryCode="{{ city.countryCode }}"></p>
+        <h2>{{city.name}}</h2>
 
-    <h3>Team</h3>
+        {% include introduction-city.html text=city.introduction %}
 
-    <div class="flex-row">
-        {% for member in site.data.teams[city.key] %}
-        <div class="user">
-            <img class="user__img" src="{{ site.baseurl }}/assets/images/team/{{ member.image-file-name }}" alt="">
-            <div class="user-data">
-                <span class="user__text delta">{{ member.name }}</span>
-                <ul class="list-simple user__list">
-                    {% if member.twitter %}
-                    <li class="list-simple__el--is-horizontal">
-                        <a class="icon-only icon-twitter" href="https://twitter.com/{{ member.twitter }}" target="_blank">Twitter</a>
-                    </li>
-                    {% endif %}
-                    {% if member.github %}
-                    <li class="list-simple__el--is-horizontal">
-                        <a class="icon-only icon-github" href="https://github.com/{{ member.github }}" target="_blank">GitHub</a>
-                    </li>
-                    {% endif %}
-                    {% if member.website %}
-                    <li class="list-simple__el--is-horizontal">
-                        <a class="icon-only icon-website" href="{{ member.website }}" target="_blank">Website</a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
+        <h3>Team</h3>
+
+        <div class="flex-row">
+            {% for member in site.data.teams[city.key] %}
+                {% include team-element.html image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
+            {% endfor %}
         </div>
 
-        {% endfor %}
-    </div>
-
-    {% if site.data.coaches[city.key] %}
-    <h3>Coaches</h3>
-    <ul>
-        {% for coach in site.data.coaches[city.key] %}
-        <li>
-          {{ coach.name }}
-          {% if coach.twitter %}
-          <a class="icon-only icon-twitter align-bottom" href="https://twitter.com/{{ coach.twitter }}" target="_blank">@{{ coach.twitter }}</a>
-          {% endif %}
-          {% if coach.github %}
-          <a class="icon-only icon-github align-bottom space-around" href="https://github.com/{{ coach.github }}" target="_blank">@{{ coach.github }}</a>
-          {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
+        {% if site.data.coaches[city.key] %}
+            <h3>Coaches</h3>
+            <ul>
+                {% for coach in site.data.coaches[city.key] %}
+                    {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+                {% endfor %}
+            </ul>
+        {% endif %}
 
     {% endfor %}
 </section>
-
-<script src="/vendor/js/reqwest.min.js"></script>
-<script src="/vendor/js/strftime-min.js"></script>
-<script src="/assets/js/next-meetup-for-city.js"></script>
