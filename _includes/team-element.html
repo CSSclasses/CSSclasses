@@ -1,9 +1,23 @@
-<li>
-  {{ include.name }}
-  {% if include.twitter %}
-  <a class="icon-only icon-twitter align-bottom" href="https://twitter.com/{{ include.twitter }}" target="_blank">@{{ include.twitter }}</a>
-  {% endif %}
-  {% if include.github %}
-  <a class="icon-only icon-github align-bottom space-around" href="https://github.com/{{ include.github }}" target="_blank">@{{ include.github }}</a>
-  {% endif %}
-</li>
+<div class="user">
+    <img class="user__img" src="{{ site.baseurl }}/assets/images/team/{{ include.image-file-name }}" alt="">
+    <div class="user-data">
+        <span class="user__text delta">{{ include.name }}</span>
+        <ul class="list-simple user__list">
+            {% if include.twitter %}
+            <li class="list-simple__el--is-horizontal">
+                <a class="icon-only icon-twitter" href="https://twitter.com/{{ include.twitter }}" target="_blank">Twitter</a>
+            </li>
+            {% endif %}
+            {% if include.github %}
+            <li class="list-simple__el--is-horizontal">
+                <a class="icon-only icon-github" href="https://github.com/{{ include.github }}" target="_blank">GitHub</a>
+            </li>
+            {% endif %}
+            {% if include.website %}
+            <li class="list-simple__el--is-horizontal">
+                <a class="icon-only icon-website" href="{{ include.website }}" target="_blank">Website</a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

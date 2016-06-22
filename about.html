@@ -2,19 +2,32 @@
 layout: subpage
 title: CSSclasses – ABOUT US
 ---
+
 <section>
-  <h1>About</h1>
-  <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
-  <h2>Team</h2>
-  <div class="flex-row">
-    {% include user.html %}
-  </div>
-  <h2>Coaches</h2>
-  {% if site.data.coaches %}
-    <ul>
-      {% for coach in site.data.coaches %}
-        {% include team-element.html name=coach.name twitter=coach.twitter github=coach.github %}
-      {% endfor %}
-    </ul>
-  {% endif %}
+    <h1>About</h1>
+    <p>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</p>
+
+    {% for city in site.data.cities %}
+        <h2>{{city.name}}</h2>
+
+        {% include introduction-city.html text=city.introduction %}
+
+        <h3>Team</h3>
+
+        <div class="flex-row">
+            {% for member in site.data.teams[city.key] %}
+                {% include team-element.html image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
+            {% endfor %}
+        </div>
+
+        {% if site.data.coaches[city.key] %}
+            <h3>Coaches</h3>
+            <ul>
+                {% for coach in site.data.coaches[city.key] %}
+                    {% include coaches-element.html name=coach.name twitter=coach.twitter github=coach.github %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+    {% endfor %}
 </section>

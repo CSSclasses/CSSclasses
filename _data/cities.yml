@@ -1,0 +1,9 @@
+- name: Berlin
+  key: berlin
+  countryCode: de
+  introduction: CSSclasses was kicked off in Berlin by the teams of CSSconf EU and OpenTechSchool, and regularly offers beginner workshops and expert classes.
+
+- name: Hamburg
+  key: hamburg
+  countryCode: de
+  introduction: More info soon.
