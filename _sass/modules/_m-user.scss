@@ -31,14 +31,4 @@ $module-namespace: 'user';
   display: block;
   padding-left: $base-unit;
   margin-bottom: .5 * $base-unit;
-
-  &::before {
-    content: '|';
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: $color-persian-red;
-  }
 }
-
-.#{$module-namespace}__list { padding-left: $base-unit; }
