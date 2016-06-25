@@ -180,16 +180,23 @@ if ( typeof define === 'function' && define.amd ) {
 ;(function () {
   var upcomingEvents = function () {
     var reqwestOptions = {
-      url: 'https://api.meetup.com/opentechschool-berlin/events',
+      url: 'https://api.meetup.com/2/events',
       method: 'get',
       type: 'jsonp',
       data: {
+        offset: 0,
+        format: 'json',
+        limited_events: 'False',
+        group_id: '4293362,7912752',
         only: 'time,venue,event_url,name',
-        page: 100,
         'photo-host': 'public',
-        sig: 'c5c73f83e1b43531530e50bce671b662f3960c05',
-        sig_id: '111973952',
-        status: 'upcoming'
+        page: 100,
+        fields: '',
+        order: 'time',
+        status: 'upcoming',
+        desc: false,
+        sig_id: 111973952,
+        sig: 'e2e65418c3e117dfdeae72393473cdf045395c72'
       }
     };
 
@@ -262,7 +269,7 @@ if ( typeof define === 'function' && define.amd ) {
     };
 
     getEvents(function (res) {
-      renderUpcomingEvents(res.data);
+      renderUpcomingEvents(res.results);
     });
   };
 
