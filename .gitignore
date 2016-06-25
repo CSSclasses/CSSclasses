@@ -1,10 +1,11 @@
-.DS_Store
-_site
 .bundle
-.sass-cache
+.DS_Store
+.idea
 .jekyll-metadata
+.sass-cache
+_site/
 bower_components/
+css/
+js/
 node_modules/
 vendor/
-css/
-.idea
