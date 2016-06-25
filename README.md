@@ -5,17 +5,17 @@
 This website is run by Jekyll and GitHub pages. To separate the source files from the files used for the live page this repo uses two active branches: `master` and `gh-pages`.
 `master` contains all files, `gh-pages` only contains the files needed to serve the actual website.
 To work with this environment follow these steps:
-* `git clone git@github.com:cssconf/CSSclasses.git`
+* `git clone git@github.com:CSSclasses/CSSclasses.git`
 * `cd CSSclasses`
-* `git clone git@github.com:cssconf/CSSclasses.git -b gh-pages _site`
+* `git clone git@github.com:CSSclasses/CSSclasses.git -b gh-pages _site`
 
 This clones the source files into the CSSclasses projects folder and the generated `_site` content aka. `gh-pages` repository inside the `_site`folder.
 
 * **Ruby** – Jekyll requires the Ruby language. If you have a Mac, you've most likely already got Ruby. If you open up the Terminal application, and run the command `ruby --version` you can confirm this. Your Ruby version should be at least `2.0.0`. If you've got that, you're all set. Skip to step #2. Otherwise, follow [these instructions](https://www.ruby-lang.org/en/downloads/) to install Ruby.
 
-* **Jekyll** – Simply run the command, `gem install jekyll` and you're good to go.
+* **Gems Dependencies** – In order to install all of the gems we need, please run the following: `gem install bundler`. Now you're ready to install everything with one command: `bundle install` and you're good to go.
 
-* **Grunt Plugins** – Run `npm install`
+* **Grunt Plugins** – Run `npm install` (we recommend turning off the progress bar since it speeds up the npm by `npm set progress=false`)
 
 * **Bower Dependencies** - Run `bower install`
 
@@ -27,7 +27,7 @@ After installing all dependencies run `npm start`. This triggers `jekyll serve` 
 
 ## Contributing
 
-All changes have to be made and pushed inside the `master branch`.
+All changes have to be made and pushed inside the `master` branch.
 
 ## Publishing to the live page
 
