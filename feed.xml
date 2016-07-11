@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclasses.cssconf.eu/</link>
     <atom:link href="http://cssclasses.cssconf.eu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Jun 2016 23:52:36 +0200</pubDate>
-    <lastBuildDate>Sat, 25 Jun 2016 23:52:36 +0200</lastBuildDate>
+    <pubDate>Mon, 11 Jul 2016 11:03:18 +0200</pubDate>
+    <lastBuildDate>Mon, 11 Jul 2016 11:03:18 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -20,7 +20,7 @@
 &lt;p&gt;At this point, you have a solid understanding of how to color, size and even transform the elements on your web page. However, you would probably like to position these elements next to each other? And get in control of where exactly they are laid out on the page? Luckily, CSS offers a variety of approaches to control the layout of elements on your page.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://learnlayout.com&quot; target=&quot;_blank&quot;&gt;learnlayout.com&lt;a/&gt; – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnlayout.com&quot; target=&quot;_blank&quot;&gt;learnlayout.com&lt;/a&gt; – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot; target=&quot;_blank&quot;&gt;A Complete Guide to Flexbox&lt;/a&gt; from CSS-Tricks – You have already mastered the basics of CSS layout? You understand floats, position, and even looked into responsive web design? Once you are done with all that, you should check out a more recent, but already well-supported way to build complex yet flexible layouts: Flexbox.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties&quot; target=&quot;_blank&quot;&gt;A Visual Guide to CSS3 Flexbox Properties&lt;/a&gt; – Another great resource to explore and and understand how to work with Flexbox.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://flexbox.io&quot; target=&quot;_blank&quot;&gt;Flexbox.io&lt;/a&gt; by Wes Bos&lt;/li&gt;
@@ -79,6 +79,9 @@
 &lt;h4&gt;General Resources&lt;/h4&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://marksheet.io&quot; target=&quot;_blank&quot;&gt;MarkSheet&lt;/a&gt; - MarkSheet is a free HTML &amp;amp; CSS tutorial covering&lt;br&gt;
+everything from explaining what a web browser is to how to make your website responsive. It is split up in 
+different sections and chapters so you can easily skip on topics you are already familiar with.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5/&quot; target=&quot;_blank&quot;&gt;The official HTML5 Specification&lt;/a&gt; - Well, almost. But if they ever make an official specification of what HTML5 is, this is the W3C Candidate Recommendation. If you really want to know how something is defined, go here and read up.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.w3.org/standards/techs/css#w3c_all&quot; target=&quot;_blank&quot;&gt;The official CSS3 &lt;em&gt;stuff&lt;/em&gt;&lt;/a&gt; - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS&quot; target=&quot;_blank&quot;&gt;Mozilla Developer Network CSS Portal&lt;/a&gt;&lt;/li&gt;
