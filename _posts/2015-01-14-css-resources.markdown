@@ -51,6 +51,9 @@ At this point, you have a solid understanding of how to color, size and even tra
 
 #### General Resources
 
+* <a href="http://marksheet.io" target="_blank">MarkSheet</a> - MarkSheet is a free HTML & CSS tutorial covering  
+everything from explaining what a web browser is to how to make your website responsive. It is split up in 
+different sections and chapters so you can easily skip on topics you are already familiar with.
 * <a href="http://www.w3.org/TR/html5/" target="_blank">The official HTML5 Specification</a> - Well, almost. But if they ever make an official specification of what HTML5 is, this is the W3C Candidate Recommendation. If you really want to know how something is defined, go here and read up.
 * <a href="http://www.w3.org/standards/techs/css#w3c_all" target="_blank">The official CSS3 *stuff*</a> - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network CSS Portal</a>
