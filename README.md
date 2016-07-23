@@ -2,14 +2,10 @@
 
 ## Installation
 
-This website is run by Jekyll and GitHub pages. To separate the source files from the files used for the live page this repo uses two active branches: `master` and `gh-pages`.
-`master` contains all files, `gh-pages` only contains the files needed to serve the actual website.
-To work with this environment follow these steps:
+This website is run by Jekyll and GitHub pages. To work with this environment follow these steps:
 * `git clone git@github.com:CSSclasses/CSSclasses.git`
-* `cd CSSclasses`
-* `git clone git@github.com:CSSclasses/CSSclasses.git -b gh-pages _site`
 
-This clones the source files into the CSSclasses projects folder and the generated `_site` content aka. `gh-pages` repository inside the `_site`folder.
+* `cd CSSclasses`
 
 * **Ruby** – Jekyll requires the Ruby language. If you have a Mac, you've most likely already got Ruby. If you open up the Terminal application, and run the command `ruby --version` you can confirm this. Your Ruby version should be at least `2.0.0`. If you've got that, you're all set. Skip to step #2. Otherwise, follow [these instructions](https://www.ruby-lang.org/en/downloads/) to install Ruby.
 
@@ -31,7 +27,7 @@ All changes have to be made and pushed inside the `master` branch.
 
 ## Publishing to the live page
 
-To publish changes to the live page, run `grunt build` inside the `master` branch. This will trigger a bunch of Grunt tasks (to prepare the files) + Jekyll's build process. Afterwards `cd` into the `_site` folder. This will simultaneously change your branch to `gh-pages`. Commit your changes and push it to GitHub.
+To publish changes to the live page, run `npm run deploy`. This triggers a Grunt task that commits all your changes from the build destination directory `_site` to the `gh-pages` branch, and pushes it to the remote repository.
 
 ## Browser Support
 This project only supports the latest versions of Chrome, Firefox and Safari.
