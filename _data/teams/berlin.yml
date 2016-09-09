@@ -1,16 +1,22 @@
-- name: Kristina Schneider
+- name: 'Kristina Schneider'
   image-file-name: berlin/schneider-kristina.jpg
   twitter: kriesse
   github: Kriesse
   website: http://www.kristinaschneider.com
 
-- name: Kevin Lorenz
+- name: 'Kevin Lorenz'
   image-file-name: berlin/lorenz-kevin.jpg
   twitter: verpixelt
   github: verpixelt
   website: http://kevinlorenz.com
 
-- name: Bastian Albers
+- name: 'Bastian Albers'
   image-file-name: berlin/albers-bastian.jpg
   twitter: bastianalbers
   github: bastianalbers
+
+- name: 'Łukasz Kliś'
+  image-file-name: berlin/klis-lukasz.jpg
+  twitter: lukaszklis
+  github: lukaszklis
+  website: https://lukasz.klis.co/

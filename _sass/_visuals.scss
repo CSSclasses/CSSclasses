@@ -1,14 +1,13 @@
 
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: 0 0;
-  transition: background-position 0.4s;
 
-  &:hover { background-position: 0 -36px;}
+  &:hover { background-position: 0 -27px;}
 }
 
 .icon-only {

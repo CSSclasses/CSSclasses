@@ -16,7 +16,7 @@ title: CSSclasses – ABOUT US
 
         <div class="flex-row">
             {% for member in site.data.teams[city.key] %}
-                {% include team-element.html image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
+                {% include team-element.html name=member.name image-file-name=member.image-file-name twitter=member.twitter github=member.github website=member.website %}
             {% endfor %}
         </div>
 

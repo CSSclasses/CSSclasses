@@ -1,34 +1,32 @@
-- name: Max Fellmuth
-  twitter: maxfell
-  github: maxfell
-
-- name: Łukasz Kliś
-  twitter: lukaszklis
-  github: lukaszklis
+- name: Lucie Höhler
+  twitter: autofocus
 
 - name: Nika Zawila
   twitter: nikazawila
   github: nikazawila
 
+- name: Stefan Judis
+  twitter: stefanjudis
+  github: stefanjudis
+
 - name: Rafal Bromirski
   twitter: paranoida
   github: paranoida
 
+- name: Robin Pokorný
+  twitter: robinpokorny
+  github: robinpokorny
+
+- name: Max Fellmuth
+  twitter: maxfell
+  github: maxfell
+
 - name: Jessica Jordan
+  twitter: jjordan_dev
+  github: jessica-jordan
 
 - name: Lisa Passing
-  twitter: lisapassing
   github: lislis
-
-- name: Cath Richardson
-  twitter: ohrworm
-
-- name: Mariusz Cieśla
-  twitter: dotmariusz
-  github: mariusz
-
-- name: Lucie Höhler
-  twitter: autofocus
 
 - name: Nico Hagenburger
   twitter: hagenburger
@@ -37,10 +35,9 @@
 - name: Ferdinand Vogler
   twitter: ferdinandvogler
 
-- name: Robin Pokorný
-  twitter: robinpokorny
-  github: robinpokorny
+- name: Cath Richardson
+  twitter: ohrworm
 
-- name: Stefan Judis
-  twitter: stefanjudis
-  github: stefanjudis
+- name: Mariusz Cieśla
+  twitter: dotmariusz
+  github: mariusz

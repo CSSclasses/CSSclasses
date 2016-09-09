@@ -5,22 +5,26 @@ $module-namespace: 'user';
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-left: -$base-unit;
+  margin-right: -$base-unit;
 }
 
 .#{$module-namespace} {
-  flex: 1 1 220px;
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 330px;
+  max-width: 180px;
+  padding-left: $base-unit;
+  padding-right: $base-unit;
+  @include bp(x) { flex-basis: 25%; }
+
 }
 
 .#{$module-namespace}__img {
-  border-radius: 50%;
   width: 100%;
-  max-width: 80%;
   margin-bottom: $base-unit;
 }
 
@@ -29,6 +33,5 @@ $module-namespace: 'user';
   text-transform: uppercase;
   position: relative;
   display: block;
-  padding-left: $base-unit;
   margin-bottom: .5 * $base-unit;
 }

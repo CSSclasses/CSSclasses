@@ -60,6 +60,15 @@ h4,
   margin-bottom: $base-unit;
 }
 
+
+h5,
+.epsilon {
+  font-size: 1em;
+  letter-spacing: .01em;
+  line-height: 1.249876543;
+  margin-bottom: $base-unit;
+}
+
 small,
 %small {
   font-size: .666666667em;
