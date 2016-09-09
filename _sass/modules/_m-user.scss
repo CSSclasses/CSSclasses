@@ -38,7 +38,17 @@ $module-namespace: 'user';
 
 // coaches list with leading dots
 
-.coach { clear: both; }
+.coach {
+  clear: both;
+  &:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    height: 1em;
+    border-bottom: 3px dotted $color-silver-chalice;
+    opacity: .25;
+  }
+}
 
 .coach__name {
   float: left;
@@ -49,13 +59,4 @@ $module-namespace: 'user';
   float: right;
   padding-left: .5em;
   margin: 0;
-}
-
-.coach:after {
-  content: "";
-  display: block;
-  overflow: hidden;
-  height: 1em;
-  border-bottom: 3px dotted $color-silver-chalice;
-  opacity: .25;
 }
