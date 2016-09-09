@@ -35,3 +35,27 @@ $module-namespace: 'user';
   display: block;
   margin-bottom: .5 * $base-unit;
 }
+
+// coaches list with leading dots
+
+.coach { clear: both; }
+
+.coach__name {
+  float: left;
+  padding: 0 1em 0 0;
+  margin: 0;
+}
+.coach__links {
+  float: right;
+  padding-left: .5em;
+  margin: 0;
+}
+
+.coach:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  height: 1em;
+  border-bottom: 3px dotted $color-silver-chalice;
+  opacity: .25;
+}

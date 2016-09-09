@@ -1,9 +1,11 @@
-<li>
-  {{ include.name }}
-  {% if include.twitter %}
-  <a class="icon-only icon-twitter align-bottom" href="https://twitter.com/{{ include.twitter }}" target="_blank">@{{ include.twitter }}</a>
+<li class="coach">
+  <span class="coach__name">{{ include.name }}</span>
+  <div class="coach__links">
+    {% if include.twitter %}
+      <a class="icon-only icon-twitter align-bottom" href="https://twitter.com/{{ include.twitter }}" target="_blank">@{{ include.twitter }}</a>
+    {% endif %}
+    {% if include.github %}
+    <a class="icon-only icon-github align-bottom space-around" href="https://github.com/{{ include.github }}" target="_blank">@{{ include.github }}</a>
   {% endif %}
-  {% if include.github %}
-  <a class="icon-only icon-github align-bottom space-around" href="https://github.com/{{ include.github }}" target="_blank">@{{ include.github }}</a>
-  {% endif %}
+</div>
 </li>
