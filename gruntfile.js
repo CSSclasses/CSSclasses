@@ -6,10 +6,10 @@ module.exports = function (grunt) {
     require('load-grunt-tasks')(grunt); // Load all Grunt tasks that are listed in package.json automagically
 
     var JS_FILES = [
-      './bower_components/snap.svg/dist/snap.svg-min.js',
-      './bower_components/reqwest/reqwest.min.js',
-      './bower_components/strftime/strftime-min.js',
-      './bower_components/classie/classie.js',
+      './vendor/js/snap.svg-min.js',
+      './vendor/js/reqwest.min.js',
+      './vendor/js/strftime-min.js',
+      './vendor/js/classie.js',
       './assets/js/highlight.pack.js',
       './assets/js/switch.js',
       './assets/js/scrollMenu.js',
@@ -92,14 +92,43 @@ module.exports = function (grunt) {
             src: '_site/css/*.css'
           }
         },
-        
+
+        copy: {
+          vendor: {
+            files: [{
+              expand: true,
+              cwd: "bower_components/classie/",
+              src: "classie.js",
+              dest: "vendor/js"
+            },
+            {
+              expand: true,
+              cwd: "bower_components/reqwest/",
+              src: "reqwest.min.js",
+              dest: "vendor/js"
+            },
+            {
+              expand: true,
+              cwd: "bower_components/snap.svg/dist/",
+              src: "snap.svg-min.js",
+              dest: "vendor/js"
+            },
+            {
+              expand: true,
+              cwd: "bower_components/strftime/",
+              src: "strftime-min.js",
+              dest: "vendor/js"
+            }]
+          }
+        },
+
         concat: {
           options: {
-           separator: ';'
+           separator: ';',
           },
           development : {
             src: JS_FILES,
-            dest: 'js/cssclasses.js'
+            dest: 'js/cssclasses.js',
           }
         },
 
@@ -122,11 +151,12 @@ module.exports = function (grunt) {
     });
 
     // Register the grunt serve task
-    grunt.registerTask('serve', ['concurrent:serve' ]);
+    grunt.registerTask('serve', [ 'copy:vendor', 'concurrent:serve' ]);
 
     // Register the grunt build task
     grunt.registerTask('build', [
         'env:build',
+        'copy:vendor',
         'shell:jekyllBuild',
         'sass:build',
         'postcss',
