@@ -63,11 +63,9 @@
       }
     }());
   </script>
-  <script src="/assets/js/highlight.pack.js"></script>
-  <script src="/assets/js/switch.js"></script>
-  <script src="/assets/js/scrollMenu.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="/vendor/js/snap.svg-min.js"></script>
+  
+    <script src="/js/cssclasses.min.js" defer></script>
+  
 </head>
 
   <body>
@@ -181,7 +179,7 @@
 
 <h3>Edit, Save and Refresh workflow</h3>
 
-<p>Leave this browser window open and go back to your text editor. Edit your index.html by adding a second sentence. For example, you might edit your text to look like this: &quot;Hello world! How are you?&quot;. Click &quot;File -&gt; Save&quot; again (or use the keyboard shortcut to save some time: CMd + S). Now go back to your browser. No change showing? Sad face? You’ll have to click the &quot;Refresh&quot; button (or use the shortcut: CMD + R) in your browser to see the change on screen. All there? Great! Now let’s make this a real website.</p>
+<p>Leave this browser window open and go back to your text editor. Edit your index.html by adding a second sentence. For example, you might edit your text to look like this: &quot;Hello world! How are you?&quot;. Click &quot;File -&gt; Save&quot; again (or use the keyboard shortcut to save some time: CMD + S). Now go back to your browser. No change showing? Sad face? You’ll have to click the &quot;Refresh&quot; button (or use the shortcut: CMD + R) in your browser to see the change on screen. All there? Great! Now let’s make this a real website.</p>
 
   </article>
 
@@ -244,7 +242,7 @@
 
 In the above example, you can see our first case of an attribute. It starts with a lowercase name, and then is almost always followed by an = and a ‘value’ that’s surrounded in double quotes, "like this". An element can have many attributes, in which case you separate them by spaces, as you’ll see soon. Attributes give information about an element in particular.
 
-###Pageflow
+### Pageflow
 In most circumstances "normal flow" is the way that elements are laid out on a web page. Every element in HTML is inside a rectangular box. Shown on the picture below.
 
 <figure>
@@ -548,7 +546,7 @@ linebreak.</p>
   <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="http://devdocs.io/css/" target="_blank">reference</a>, but don&#39;t worry too much about it for now. It&#39;s just good that you know that it exists in case you see it. If you think it&#39;s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
+<p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don&#39;t worry too much about it for now. It&#39;s just good that you know that it exists in case you see it. If you think it&#39;s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
 
   </article>
 
@@ -1025,7 +1023,7 @@ linebreak.</p>
 <p>At this point, you have a solid understanding of how to color, size and even transform the elements on your web page. However, you would probably like to position these elements next to each other? And get in control of where exactly they are laid out on the page? Luckily, CSS offers a variety of approaches to control the layout of elements on your page.</p>
 
 <ul>
-<li><a href="http://learnlayout.com" target="_blank">learnlayout.com<a/> – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!</li>
+<li><a href="http://learnlayout.com" target="_blank">learnlayout.com</a> – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!</li>
 <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> from CSS-Tricks – You have already mastered the basics of CSS layout? You understand floats, position, and even looked into responsive web design? Once you are done with all that, you should check out a more recent, but already well-supported way to build complex yet flexible layouts: Flexbox.</li>
 <li><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a> – Another great resource to explore and and understand how to work with Flexbox.</li>
 <li><a href="http://flexbox.io" target="_blank">Flexbox.io</a> by Wes Bos</li>
@@ -1084,12 +1082,15 @@ linebreak.</p>
 <h4>General Resources</h4>
 
 <ul>
+<li><a href="http://marksheet.io" target="_blank">MarkSheet</a> - MarkSheet is a free HTML &amp; CSS tutorial covering<br>
+everything from explaining what a web browser is to how to make your website responsive. It is split up in 
+different sections and chapters so you can easily skip on topics you are already familiar with.</li>
 <li><a href="http://www.w3.org/TR/html5/" target="_blank">The official HTML5 Specification</a> - Well, almost. But if they ever make an official specification of what HTML5 is, this is the W3C Candidate Recommendation. If you really want to know how something is defined, go here and read up.</li>
 <li><a href="http://www.w3.org/standards/techs/css#w3c_all" target="_blank">The official CSS3 <em>stuff</em></a> - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.</li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network CSS Portal</a></li>
 <li><a href="http://caniuse.com/" target="_blank">caniuse</a> – Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
-<li><a href="http://devdocs.io/css" target="_blank">Search the CSS reference</a></li>
-<li><a href="http://devdocs.io/html" target="_blank">Search the HTML reference</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Search the CSS reference</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Search the HTML reference</a></li>
 </ul>
 
   </article>
@@ -1131,7 +1132,5 @@ linebreak.</p>
 </footer>
 
     </div>
-    <script src="/vendor/js/classie.js"></script>
-    <script src="/assets/js/navigation-main.js"></script>
   </body>
 </html>

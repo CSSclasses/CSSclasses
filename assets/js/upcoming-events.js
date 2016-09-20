@@ -1,24 +1,28 @@
 (function () {
   var upcomingEvents = function () {
     var reqwestOptions = {
-      url: 'https://api.meetup.com/2/open_events',
+      url: 'https://api.meetup.com/2/events',
       method: 'get',
       type: 'jsonp',
       data: {
-        and_text: 'False',
-        desc: 'False',
+        offset: 0,
         format: 'json',
         limited_events: 'False',
-        offset: 0,
-        only: 'time,venue,event_url',
+        group_id: '4293362,7912752',
+        only: 'time,venue,event_url,name',
         'photo-host': 'public',
-        page: 20,
-        radius: 25.0,
+        page: 100,
+        fields: '',
+        order: 'time',
         status: 'upcoming',
-        sig_id: '111973952',
-        sig: '5992951a7b154c83b404c2ae95bf932738813c03',
-        text: 'CSSclasses'
+        desc: false,
+        sig_id: 111973952,
+        sig: 'e2e65418c3e117dfdeae72393473cdf045395c72'
       }
+    };
+
+    var isCSSclasses = function (event) {
+      return event.name.indexOf('CSSclasses') > -1;
     };
 
     var getMapLinkForVenue = function (venue) {
@@ -70,13 +74,12 @@
     };
 
     var renderUpcomingEvents = function (upcomingEvents) {
-      if (!upcomingEvents.length) {
-        return;
-      }
+      if (!upcomingEvents.length) return;
 
+      var events = upcomingEvents.filter(isCSSclasses);
       var upcomingEventsEl = document.getElementById('upcoming-events');
       var upcomingEventsListEl = document.getElementById('upcoming-events-list');
-      var eventsListHtml = upcomingEvents.map(renderUpcomingEvent);
+      var eventsListHtml = events.map(renderUpcomingEvent).join('');
 
       upcomingEventsListEl.innerHTML = eventsListHtml;
       upcomingEventsEl.classList.remove('is-hidden');
