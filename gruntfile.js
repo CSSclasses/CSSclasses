@@ -143,6 +143,13 @@ module.exports = function (grunt) {
           }
         },
 
+        'gh-pages': {
+          options: {
+            base: '_site'
+          },
+          src: ['**']
+        },
+
         env : {
           build : {
             JEKYLL_ENV : 'production'
@@ -163,6 +170,8 @@ module.exports = function (grunt) {
         'uglify:build'
     ]);
 
+    // Register the grunt deploy task
+    grunt.registerTask('deploy', 'gh-pages');
     // Register build as the default task fallback
     grunt.registerTask('default', 'serve');
 };
