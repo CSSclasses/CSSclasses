@@ -7,7 +7,9 @@
     "url": "https://github.com/verpixelt/moby.git"
   },
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "grunt": "grunt",
+    "grunt build": "grunt build"
   },
   "license": "CC BY-SA 3.0",
   "devDependencies": {
