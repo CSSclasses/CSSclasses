@@ -1,5 +1,5 @@
 (function () {
-  var upcomingEvents = function () {
+  var upcomingEvents = function() {
     var reqwestOptions = {
       url: 'https://api.meetup.com/2/events',
       method: 'get',
@@ -20,12 +20,14 @@
         sig: 'e2e65418c3e117dfdeae72393473cdf045395c72'
       }
     };
+    var upcomingEventsEl = document.getElementById('upcoming-events');
+    var upcomingEventsListEl = document.getElementById('upcoming-events-list');
 
-    var isCSSclasses = function (event) {
+    var isCSSclasses = function(event) {
       return event.name.indexOf('CSSclasses') > -1;
     };
 
-    var getMapLinkForVenue = function (venue) {
+    var getMapLinkForVenue = function(venue) {
       if (!venue.lat || !venue.lon) {
         return;
       }
@@ -33,7 +35,7 @@
       return 'http://maps.google.com/?q=' + venue.lat + ',' + venue.lon;
     };
 
-    var renderUpcomingEventDate = function (upcomingEvent) {
+    var renderUpcomingEventDate = function(upcomingEvent) {
       var template = [
         '<div><strong>When:</strong></div>',
         strftime('%A, %B %o, %I:%M%P-ca. 6:00pm', new Date(upcomingEvent.time))
@@ -42,7 +44,7 @@
       return template.join(' ');
     };
 
-    var renderUpcomingEventLocation = function (upcomingEvent) {
+    var renderUpcomingEventLocation = function(upcomingEvent) {
       var eventVenue = upcomingEvent.venue;
       var linkLabel = eventVenue.name + ', ' + eventVenue.address_1 + ', ' + eventVenue.city;
       var template = [
@@ -53,7 +55,7 @@
       return template.join(' ');
     };
 
-    var renderUpcomingEvent = function (upcomingEvent) {
+    var renderUpcomingEvent = function(upcomingEvent) {
       var template = [
         '<li class="upcoming-event">',
           '<ul class="list-simple">',
@@ -73,23 +75,21 @@
       return template.join(' ');
     };
 
-    var renderUpcomingEvents = function (upcomingEvents) {
+    var renderUpcomingEvents = function(upcomingEvents) {
       if (!upcomingEvents.length) return;
 
       var events = upcomingEvents.filter(isCSSclasses);
-      var upcomingEventsEl = document.getElementById('upcoming-events');
-      var upcomingEventsListEl = document.getElementById('upcoming-events-list');
       var eventsListHtml = events.map(renderUpcomingEvent).join('');
 
       upcomingEventsListEl.innerHTML = eventsListHtml;
       upcomingEventsEl.classList.remove('is-hidden');
     };
 
-    var getEvents = function (callback) {
-      reqwest(reqwestOptions).then(callback);
-    };
+    if (upcomingEventsEl === null) {
+      return;
+    }
 
-    getEvents(function (res) {
+    reqwest(reqwestOptions).then(function(res) {
       renderUpcomingEvents(res.results);
     });
   };
