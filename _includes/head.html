@@ -40,18 +40,18 @@
             var style = document.createElement('style');
             style.rel = 'stylesheet';
             document.head.appendChild(style);
-            style.textContent = localStorage.sourceSansPro;
+            style.textContent = localStorage.fonts;
         }
         try {
-            if (localStorage.sourceSansPro) {
+            if (localStorage.fonts) {
                 addFont();
             } else {
                 var request = new XMLHttpRequest();
-                request.open('GET', '/css/fonts/data-woff.css', true);
+                request.open('GET', '/css/fonts/fonts.css', true);
 
                 request.onload = function() {
                     if (request.status >= 200 && request.status < 400) {
-                        localStorage.sourceSansPro = request.responseText;
+                        localStorage.fonts = request.responseText;
                         addFont();
                     }
                 };
