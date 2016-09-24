@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Boilerplate</title>
-  <meta name="description" content="Basic HTML &amp; HTML boilerplateElements and TagsPageflowHTML Boilerplate(Practical) Elements">
+  <meta name="description" content="Basic HTML &amp; HTML boilerplate  Elements and Tags  Pageflow  HTML Boilerplate  (Practical) Elements">
 
   <link rel="stylesheet" href="/css/style.css">
   <link rel="canonical" href="http://cssclass.es/2015/01/03/boilerplate/">
@@ -135,17 +135,15 @@
     <p class="post-meta">Jan 3, 2015</p>
   </header>
   <article class="post-content">
-    <h2>Basic HTML &amp; HTML boilerplate</h2>
-
+    <h2 id="basic-html--html-boilerplate">Basic HTML &amp; HTML boilerplate</h2>
 <ul>
-<li><a href="#elements-and-tags">Elements and Tags</a></li>
-<li><a href="#pageflow">Pageflow</a></li>
-<li><a href="#html-boilerplate">HTML Boilerplate</a></li>
-<li><a href="#practical-elements">(Practical) Elements</a></li>
+  <li><a href="#elements-and-tags">Elements and Tags</a></li>
+  <li><a href="#pageflow">Pageflow</a></li>
+  <li><a href="#html-boilerplate">HTML Boilerplate</a></li>
+  <li><a href="#practical-elements">(Practical) Elements</a></li>
 </ul>
 
-<h3>Elements and Tags</h3>
-
+<h3 id="elements-and-tags">Elements and Tags</h3>
 <p>Elements and Tags are the building blocks of HTML.</p>
 
 <p>Elements are what makes up a HTML document. You can put elements inside of other elements. An element can include three things: a tag, attributes, and content.</p>
@@ -153,9 +151,9 @@
 <p>A Tag is the thing that indicates an element’s purpose. For example, the <code>&lt;p&gt;</code> tag indicates a paragraph of text is in that element, and the <code>&lt;li&gt;</code> represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -168,9 +166,9 @@
 <p>Lastly, having elements inside of each other (“nesting”) looks just like this:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -179,9 +177,9 @@
 <p>or this:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -190,14 +188,13 @@
   <span class="nt">&lt;p&gt;</span>Some text.<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
+<p>In the above example, you can see our first case of an attribute. It starts with a lowercase name, and then is almost always followed by an = and a ‘value’ that’s surrounded in double quotes, “like this”. An element can have many attributes, in which case you separate them by spaces, as you’ll see soon. Attributes give information about an element in particular.</p>
 
-In the above example, you can see our first case of an attribute. It starts with a lowercase name, and then is almost always followed by an = and a ‘value’ that’s surrounded in double quotes, "like this". An element can have many attributes, in which case you separate them by spaces, as you’ll see soon. Attributes give information about an element in particular.
-
-### Pageflow
-In most circumstances "normal flow" is the way that elements are laid out on a web page. Every element in HTML is inside a rectangular box. Shown on the picture below.
+<h3 id="pageflow">Pageflow</h3>
+<p>In most circumstances “normal flow” is the way that elements are laid out on a web page. Every element in HTML is inside a rectangular box. Shown on the picture below.</p>
 
 <figure>
-  <img src="/assets/images/pageflow.png" alt="Screenshot of the CSSclasses GitHub page with elements highlighted with black borders.">
+  <img src="/assets/images/pageflow.png" alt="Screenshot of the CSSclasses GitHub page with elements highlighted with black borders." />
   <figcaption>
     <p>Every element on the page highlighted.</p>
   </figcaption>
@@ -209,35 +206,32 @@ In most circumstances "normal flow" is the way that elements are laid out on a w
 
 <p>Here is a simple example. Don’t get confused by the additional CSS. It’s just there for the purpose of making the boxes visible.</p>
 
-<p data-height="765" data-theme-id="17669" data-slug-hash="tmcHC" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/tmcHC/'>CSSClasses Block Boxes</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="765" data-theme-id="17669" data-slug-hash="tmcHC" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/tmcHC/">CSSClasses Block Boxes</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p><strong>Inline Boxes</strong> work a bit differently. These boxes will also start at the upper left corner, but will arrange themselves horizontally.</p>
 
 <p>Here’s an example of that as well.</p>
 
-<p data-height="256" data-theme-id="17669" data-slug-hash="rtvGu" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/rtvGu/'>CSSClasses inline box</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="256" data-theme-id="17669" data-slug-hash="rtvGu" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/rtvGu/">CSSClasses inline box</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>So HTML elements are by default either <strong>block boxes</strong> or <strong>inline boxes</strong> (of course, there are exceptions to this rule, but we don’t have to worry about that for now). For example, <code>div</code> is a block element, and so are headings like <code>h1</code> or <code>h2</code>. <code>span</code> or <code>strong</code> on the other hand are <strong>inline elements</strong>. Here are lists for the different elements:</p>
 
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block-level elements</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente" target="_blank">Inline elements</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block-level elements</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente" target="_blank">Inline elements</a></li>
 </ul>
 
 <p>For now just keep in mind, that every box has some sort of display value.</p>
 
-<h3>HTML Boilerplate</h3>
-
-<p>There is some basic structure you don&#39;t need to spend too much time on that is always there. Let&#39;s handle this in a very quick walkthrough (code, line-by-line comments):</p>
+<h3 id="html-boilerplate">HTML Boilerplate</h3>
+<p>There is some basic structure you don’t need to spend too much time on that is always there. Let’s handle this in a very quick walkthrough (code, line-by-line comments):</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -263,9 +257,9 @@ In most circumstances "normal flow" is the way that elements are laid out on a w
 <p>And there we are, this is our first valid HTML file! Here it is again, so you can neatly copy&amp;paste it:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -281,16 +275,16 @@ In most circumstances "normal flow" is the way that elements are laid out on a w
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<h3>(Practical) Elements</h3>
+<h3 id="practical-elements">(Practical) Elements</h3>
 
-<h4>Headings (h1-h6)</h4>
+<h4 id="headings-h1-h6">Headings (h1-h6)</h4>
 
 <p>There is a hierarchy of heading elements that you can use for headlines. They start with h1 and end with h6.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -301,74 +295,70 @@ In most circumstances "normal flow" is the way that elements are laid out on a w
 <span class="nt">&lt;h5&gt;</span>heading 5<span class="nt">&lt;/h5&gt;</span>
 <span class="nt">&lt;h6&gt;</span>heading 6<span class="nt">&lt;/h6&gt;</span></code></pre></figure>
 
-<h4>Paragraph</h4>
-
+<h4 id="paragraph">Paragraph</h4>
 <p>This is the perfect tag if you want to markup text. Even this text is wrapped in a p.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>Some text<span class="nt">&lt;/p&gt;</span></code></pre></figure>
 
-<h4>Strong, em, break</h4>
-
+<h4 id="strong-em-break">Strong, em, break</h4>
 <p>These are some inline Elements that you can nest inside a paragraph. Strong and emphasis give some meaning to pieces of text, while break forces a
 linebreak.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;strong&gt;</span>Strong<span class="nt">&lt;/strong&gt;</span> and <span class="nt">&lt;em&gt;</span>emphasis<span class="nt">&lt;/em&gt;</span>,
 <span class="nt">&lt;br&gt;</span>break</code></pre></figure>
 
-<h4>Images</h4>
-
+<h4 id="images">Images</h4>
 <p>The image tag is special as it is self-closing, it has no closing tag (like the break tag). It also has a special attribute the src which carries the path to the actual image. The alt attribute is a placeholder, if for some reason the image does not load.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;https://placehold.it/664x442&quot;</span> <span class="na">alt=</span><span class="s">&quot;placeholder image&quot;</span><span class="nt">&gt;</span></code></pre></figure>
 
-<p><img src="https://placehold.it/664x442" alt="placeholder image"></p>
+<p><img src="https://placehold.it/664x442" alt="placeholder image" /></p>
 
-<h4>Links</h4>
-
+<h4 id="links">Links</h4>
 <p>Links take the user to another page. The tag is simply an a which stands for anchor. It comes with the href (hyper reference) attribute, that tells the browser where to go to. You can also add a title attribute that shows once the user hovers over it.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://cssconf.eu&quot;</span> <span class="na">title=</span><span class="s">&quot;CSSconf EU&quot;</span><span class="nt">&gt;</span>CSSconfEU<span class="nt">&lt;/a&gt;</span></code></pre></figure>
 
-<h4>Div</h4>
-
+<h4 id="div">Div</h4>
 <p>The div element is an element that does not have any special meaning or special styling. It’s perfect for grouping other elements together and assigning them a class or an id.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;</span>I do nothing special<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
 
   </article>
 </div>

@@ -135,14 +135,13 @@
     <p class="post-meta">Jan 10, 2015</p>
   </header>
   <article class="post-content">
-    <h3>Transition</h3>
-
+    <h3 id="transition">Transition</h3>
 <p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code>:hover</code> and add the <code>transition</code> property to the mix:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -172,16 +171,15 @@
 
 <p>Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert <code>transition: 1s all;</code> which is the transition shorthand with just the first two values that are a <code>transition-duration</code> of 1 second and the <code>transition-property</code> of <code>all</code> which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:</p>
 
-<p data-height="458" data-theme-id="17669" data-slug-hash="YXBmgx" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/YXBmgx/'>YXBmgx</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="458" data-theme-id="17669" data-slug-hash="YXBmgx" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/YXBmgx/">YXBmgx</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>Notice how we used a very complicated transition shorthand here:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -190,9 +188,9 @@
 <p>Let’s break it down: <code>1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 

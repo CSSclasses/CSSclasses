@@ -135,24 +135,22 @@
     <p class="post-meta">Jan 12, 2015</p>
   </header>
   <article class="post-content">
-    <h3>More selectors: nth-child, nth-of-type, sibling</h3>
-
+    <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
 <p>There are a few more selectors to select subsets out of many elements. <code>:nth-child</code>, <code>:nth-of-type</code> and the <code>~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
 
 <p>The <code>:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code>li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code>2nd</code> element, <code>3n</code> for every third, <code>3n-1</code> for every third but starting with the second and so on.</p>
 
-<p data-height="381" data-theme-id="17669" data-slug-hash="mJobeL" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/mJobeL/'>mJobeL</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="381" data-theme-id="17669" data-slug-hash="mJobeL" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/mJobeL/">mJobeL</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn&#39;t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
+<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn’t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
 
 <p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
   <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
@@ -160,11 +158,11 @@
 
 <span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
-<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class &quot;vegetable-checkbox&quot; in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
+<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
 
-<p data-height="476" data-theme-id="17669" data-slug-hash="vOPBLd" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/vOPBLd/'>vOPBLd</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="476" data-theme-id="17669" data-slug-hash="vOPBLd" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/vOPBLd/">vOPBLd</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
   </article>
 </div>
