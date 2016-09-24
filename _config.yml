@@ -5,9 +5,9 @@ title: CSSclasses
 email: contact@cssconf.eu
 description: "CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cssclasses.cssconf.eu"
-twitter_username: cssclasses
-github_username:  cssconf
+url: "http://cssclass.es"
+twitter_username: CSSclasses
+github_username:  CSSclasses
 
 # Build settings
 markdown: redcarpet
@@ -16,13 +16,19 @@ permalink: pretty
 
 include:
   - .nojekyll
+  - "js/cssclasses.min.js"
+  - "js/cssclasses.min.js.map"
+
 exclude:
+  - "_sass/"
   - "bower.json"
   - "bower_components/"
-  - "package.json"
-  - "node_modules/"
+  - "Gemfile"
+  - "Gemfile.lock"
   - "gruntfile.js"
-  - "_sass/"
+  - "js/cssclasses.js"
+  - "node_modules/"
+  - "package.json"
   - "README.md"
 
 navigation:
