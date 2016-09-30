@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSSclasses</title>
+    <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
+    <link>http://cssclass.es/</link>
+    <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Sep 2016 11:12:19 +0200</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 11:12:19 +0200</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>CSS Challenges</title>
+        <description>&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+&lt;p&gt;You have covered most of the really basic stuff, now it’s time to take a deep dive into some CSS topics. Here’s a list of good articles and resources.&lt;/p&gt;
+
+&lt;h4 id=&quot;layout&quot;&gt;Layout&lt;/h4&gt;
+&lt;p&gt;At this point, you have a solid understanding of how to color, size and even transform the elements on your web page. However, you would probably like to position these elements next to each other? And get in control of where exactly they are laid out on the page? Luckily, CSS offers a variety of approaches to control the layout of elements on your page.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learnlayout.com&quot; target=&quot;_blank&quot;&gt;learnlayout.com&lt;/a&gt; – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot; target=&quot;_blank&quot;&gt;A Complete Guide to Flexbox&lt;/a&gt; from CSS-Tricks – You have already mastered the basics of CSS layout? You understand floats, position, and even looked into responsive web design? Once you are done with all that, you should check out a more recent, but already well-supported way to build complex yet flexible layouts: Flexbox.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties&quot; target=&quot;_blank&quot;&gt;A Visual Guide to CSS3 Flexbox Properties&lt;/a&gt; – Another great resource to explore and and understand how to work with Flexbox.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flexbox.io&quot; target=&quot;_blank&quot;&gt;Flexbox.io&lt;/a&gt; by Wes Bos&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gridbyexample.com/&quot; target=&quot;blank&quot;&gt;Grid by Example&lt;/a&gt; – If you are even more adventurous and want to check out the latest and still experimental way to layout in CSS, spend some time to explore the CSS Grid Layout Module. We recommend this excellent resource by Rachel Andrew.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;transition&quot;&gt;Transition&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leaverou.github.io/animatable/&quot; target=&quot;_blank&quot;&gt;A gallery of transitions&lt;/a&gt; by Lea Verou&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions&quot; target=&quot;_blank&quot;&gt;Using CSS Transitions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;transform&quot;&gt;Transform&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.westciv.com/tools/transforms/index.html&quot; target=&quot;_blank&quot;&gt;Transform live playground&lt;/a&gt; – a nice way to try out the most common transform functions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/transform&quot; target=&quot;_blank&quot;&gt;MDN: transform&lt;/a&gt; – explains the most common transform functions and the syntax.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;animation&quot;&gt;Animation&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alexberg.in/keyframer&quot; target=&quot;_blank&quot;&gt;Keyframer by Alex Berg&lt;/a&gt; – a tool to produce animation keyframes.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vimeo.com/125335964&quot; target=&quot;_blank&quot;&gt;Putting Your UI in Motion with CSS&lt;/a&gt; by Val Head — An Event Apart Video.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;pseudo-classes&quot;&gt;Pseudo Classes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css-tricks.com/pseudo-class-selectors/&quot; target=&quot;_blank&quot;&gt;Pseudo Class Selectors&lt;/a&gt; - Good overview of all the relevant pseudo classes that can spice up your site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;typography&quot;&gt;Typography&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/howtosizetextincss/&quot; target=&quot;_blank&quot;&gt;How to Size Text in CSS&lt;/a&gt; – classic article on how to set your font sizes with ems that are relative values instead of px that are fixed.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://snook.ca/archives/html_and_css/font-size-with-rem&quot; target=&quot;_blank&quot;&gt;Font Sizing With REM&lt;/a&gt; – can be considered an update on the former link that gives another modern alternative for font sizing. Makes sense to read the former article first.&lt;/li&gt;
+  &lt;li&gt;&lt;a hraf=&quot;http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/&quot; target=&quot;_blank&quot;&gt;Size Matters: Balancing Line Length And Font Size In Responsive Web Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;responsive-web-design&quot;&gt;Responsive Web Design&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/responsive-web-design&quot; target=&quot;_blank&quot;&gt;Responsive Web Design&lt;/a&gt; - The classic article defining what Responsive Web Design is and how you can adapt your site to any screen size.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;architecture&quot;&gt;Architecture&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cssguidelin.es/&quot; target=&quot;_blank&quot;&gt;cssguidelin.es&lt;/a&gt; – High-level advice and guidelines for writing sane, manageable, scalable CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048&quot; target=&quot;_blank&quot;&gt;The 30 CSS Selectors you Must Memorize&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left&quot; target=&quot;_blank&quot;&gt;Why do browsers match CSS selectors from right to left&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;general-resources&quot;&gt;General Resources&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://marksheet.io&quot; target=&quot;_blank&quot;&gt;MarkSheet&lt;/a&gt; - MarkSheet is a free HTML &amp;amp; CSS tutorial covering&lt;br /&gt;
+everything from explaining what a web browser is to how to make your website responsive. It is split up in 
+different sections and chapters so you can easily skip on topics you are already familiar with.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3.org/TR/html5/&quot; target=&quot;_blank&quot;&gt;The official HTML5 Specification&lt;/a&gt; - Well, almost. But if they ever make an official specification of what HTML5 is, this is the W3C Candidate Recommendation. If you really want to know how something is defined, go here and read up.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3.org/standards/techs/css#w3c_all&quot; target=&quot;_blank&quot;&gt;The official CSS3 &lt;em&gt;stuff&lt;/em&gt;&lt;/a&gt; - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS&quot; target=&quot;_blank&quot;&gt;Mozilla Developer Network CSS Portal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://caniuse.com/&quot; target=&quot;_blank&quot;&gt;caniuse&lt;/a&gt; – Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Reference&quot; target=&quot;_blank&quot;&gt;Search the CSS reference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot; target=&quot;_blank&quot;&gt;Search the HTML reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 14 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/14/css-resources/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/14/css-resources/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Challenges</title>
+        <description>&lt;h3 id=&quot;challenges-start-experimenting&quot;&gt;Challenges: Start experimenting!&lt;/h3&gt;
+
+&lt;p&gt;Believe it or not: Now you know the basics of getting content and styles on your website! You might have noticed that, once you got the hang of the basic syntax, CSS is surprisingly simple and often self-explanatory. From here on, you have all the tools you need to explore the many more properties and possibilities of CSS. Start experimenting – we want to see what you discovered in the demos!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;The dotted circle:&lt;/strong&gt; You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the &lt;code&gt;border-radius&lt;/code&gt; property!&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/NGxOrL/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The fancy link:&lt;/strong&gt; &lt;code&gt;border-radius&lt;/code&gt;, &lt;code&gt;background-color&lt;/code&gt;, &lt;code&gt;padding&lt;/code&gt;, &lt;code&gt;:hover&lt;/code&gt; … you know most of the things to create a nice looking link like this!&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/zvrmdv/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Polaroid:&lt;/strong&gt; You know how to add an &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, you know how to apply &lt;code&gt;padding. If now you can figure out how &lt;/code&gt;box-shadow` works, creating a Polaroid effect like this will be a piece of cake for you!&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/PPZyBd/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Little Galaxy:&lt;/strong&gt; &lt;code&gt;transform&lt;/code&gt;, &lt;code&gt;animation&lt;/code&gt;, &lt;code&gt;@keyframes&lt;/code&gt; — All the new things!&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/VveEqy/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Smiley:&lt;/strong&gt; You will need to read up a little bit on &lt;code&gt;border-radius&lt;/code&gt; to make the meh face smile on &lt;code&gt;:hover&lt;/code&gt;. Also you will need to understand how to use selectors for elements inside of other elements. To make it go a little smooth, you need to add a &lt;code&gt;transition&lt;/code&gt;.&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/ojbaVo/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Chasing The Laser Pointer:&lt;/strong&gt; You are the cat, chasing the laser pointer with your cursor. You will need to know about &lt;code&gt;:hover&lt;/code&gt;, the &lt;code&gt;~ sibling&lt;/code&gt; selector and &lt;code&gt;transition&lt;/code&gt;. Also, some &lt;code&gt;position&lt;/code&gt; knowledge. Moving things can be done in several ways, you should check out &lt;code&gt;transform: translate&lt;/code&gt;.&lt;br /&gt;
+(&lt;a href=&quot;http://codepen.io/verpixelt/full/YywRyj/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 13 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/13/css-challenges/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/13/css-challenges/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS More Selectors</title>
+        <description>&lt;h3 id=&quot;more-selectors-nth-child-nth-of-type-sibling&quot;&gt;More selectors: nth-child, nth-of-type, sibling&lt;/h3&gt;
+&lt;p&gt;There are a few more selectors to select subsets out of many elements. &lt;code&gt;:nth-child&lt;/code&gt;, &lt;code&gt;:nth-of-type&lt;/code&gt; and the &lt;code&gt;~&lt;/code&gt; sibling selector are a few common examples of css selectors that are often very useful.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code&gt;2nd&lt;/code&gt; element, &lt;code&gt;3n&lt;/code&gt; for every third, &lt;code&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
+
+&lt;p data-height=&quot;381&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;mJobeL&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/mJobeL/&quot;&gt;mJobeL&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The &lt;code&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code&gt;:nth-child&lt;/code&gt;. But &lt;code&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code&gt;div&lt;/code&gt; in the middle of the list, &lt;code&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.fruit-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffaabb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
+
+&lt;p data-height=&quot;476&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;vOPBLd&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/vOPBLd/&quot;&gt;vOPBLd&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 12 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/12/css-more-selectors/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/12/css-more-selectors/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Transitions</title>
+        <description>&lt;h3 id=&quot;transform&quot;&gt;Transform&lt;/h3&gt;
+
+&lt;p&gt;Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including &lt;code&gt;translate&lt;/code&gt; (moving the element), &lt;code&gt;scale&lt;/code&gt; (make it bigger/smaller), &lt;code&gt;skew&lt;/code&gt; (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add &lt;code&gt;transform: scale(2);&lt;/code&gt; to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.&lt;/p&gt;
+
+&lt;p&gt;Let’s go through these one by one. &lt;code&gt;translate&lt;/code&gt; can be used in two different ways:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.movedownright&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.movedownright2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Both classes &lt;code&gt;.movedownright&lt;/code&gt; and &lt;code&gt;.movedownright2&lt;/code&gt; manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. &lt;code&gt;.movedownright&lt;/code&gt; uses a shorthand syntax for translateX and translateY, &lt;code&gt;.movedownright2&lt;/code&gt; uses the individual &lt;code&gt;translateX&lt;/code&gt; and &lt;code&gt;translateY&lt;/code&gt; transforms. Notice how you can add several transforms by just leaving a space between them.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;scale&lt;/code&gt; can be used to scale elements up or down, where &lt;code&gt;transform: scale(0);&lt;/code&gt; means the element is gone, &lt;code&gt;transform: scale(0.5);&lt;/code&gt; scales it down to 50% of the original size and &lt;code&gt;transform: scale(2);&lt;/code&gt; doubles the size to 200%.&lt;/p&gt;
+
+&lt;p&gt;Using &lt;code&gt;skew&lt;/code&gt; or &lt;code&gt;skewX&lt;/code&gt; and &lt;code&gt;skewY&lt;/code&gt; you can skew your elements by given angles on the x- or y-axis. With rotate you can &lt;code&gt;rotate&lt;/code&gt; your elements by a given angle.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.skewme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skew&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/* .skewme2 does the same as .skewme */&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.skewme2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.rotateme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now here is an example of using several transforms at once, but only on &lt;code&gt;:hover&lt;/code&gt; when you move the cursor over an element (notice how we are very happy to use transitions again as well):&lt;/p&gt;
+
+&lt;p data-height=&quot;481&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;jPJNNo&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/jPJNNo/&quot;&gt;jPJNNo&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Note: This example currently doesn’t work in Safari. It’s because it needs something called vendor prefix, which we haven’t included (yet :P). If you want to take a quick journey into vendor-prefix-land read this &lt;a href=&quot;http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm&quot; target=&quot;_blank&quot;&gt;CSS Vendor Prefixes&lt;/a&gt;. But make sure to come back ;)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/11/css-transform/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/11/css-transform/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Transitions</title>
+        <description>&lt;h3 id=&quot;transition&quot;&gt;Transition&lt;/h3&gt;
+&lt;p&gt;Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and &lt;code&gt;:hover&lt;/code&gt; and add the &lt;code&gt;transition&lt;/code&gt; property to the mix:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.changeonhover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.changeonhover&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;600px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;changeonhover&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hover me! Hover Me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert &lt;code&gt;transition: 1s all;&lt;/code&gt; which is the transition shorthand with just the first two values that are a &lt;code&gt;transition-duration&lt;/code&gt; of 1 second and the &lt;code&gt;transition-property&lt;/code&gt; of &lt;code&gt;all&lt;/code&gt; which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:&lt;/p&gt;
+
+&lt;p data-height=&quot;458&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;YXBmgx&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/YXBmgx/&quot;&gt;YXBmgx&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Notice how we used a very complicated transition shorthand here:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ease-out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Let’s break it down: &lt;code&gt;1s width 0.2s ease-out&lt;/code&gt; are the values that define the transition just for the width. The shorthand syntax is:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-duration&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-property&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-delay&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-timing-function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/10/css-transitions/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/10/css-transitions/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Class Selector</title>
+        <description>&lt;h3 id=&quot;class-selector&quot;&gt;Class Selector&lt;/h3&gt;
+&lt;p&gt;Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled &lt;code&gt;div&lt;/code&gt;s on your page.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a different div but i look like the other one! 😞&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;.greenthing&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;.bluething&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;.border-dotted&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;greenthing&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bluething border-dotted&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a different div and I don’t look like the other one any more! 😀&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now here you should note several things. Both &lt;code&gt;div&lt;/code&gt;s get the styles of the &lt;code&gt;div&lt;/code&gt; rule, as this applies to all &lt;code&gt;div&lt;/code&gt;s. Then the first &lt;code&gt;div&lt;/code&gt; also gets the styles of the class &lt;code&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code&gt;overrides&lt;/code&gt; the border style that was defined in the `div selector.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/09/css-class-selector/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/09/css-class-selector/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Hover</title>
+        <description>&lt;h3 id=&quot;hover&quot;&gt;Hover&lt;/h3&gt;
+&lt;p&gt;Hover is a small example of how you can add some fun little interactivity to your site. Take our &lt;code&gt;div&lt;/code&gt; example from above and let’s add a little bit to our CSS:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you apply this CSS to our &lt;a href=&quot;#border&quot;&gt;border&lt;/a&gt; example, you will see no change at first. But if you move your mouse cursor over the &lt;code&gt;div&lt;/code&gt; (you “&lt;code&gt;hover&lt;/code&gt;” it), you will see the style changes applied, that we defined with the &lt;code&gt;div:hover&lt;/code&gt; pseudo-class. There are some more pseudo-classes like that that you can learn about later.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/08/css-hover/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/08/css-hover/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Box Model</title>
+        <description>&lt;h3 id=&quot;the-box-model&quot;&gt;The Box Model&lt;/h3&gt;
+&lt;p&gt;The Box Model is something that describes how all of these boxes behave, and how the browser knows about the space they occupy on a page.&lt;/p&gt;
+
+&lt;p&gt;We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a &lt;code&gt;padding&lt;/code&gt;, which is some space between your content and the edge of the box. And you can specify a &lt;code&gt;margin&lt;/code&gt;, which is the size between the box and it’s neighboring boxes.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.&lt;/p&gt;
+
+&lt;p data-height=&quot;345&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;WvPVwz&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/WvPVwz/&quot;&gt;WvPVwz&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And here you can see how these different properties compose a box:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/box-model.png&quot; alt=&quot;A visualization of the box model.&quot; /&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;A visualization of the box model.&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now, how much space does this box occupy on a page? We need to take into account not just the width and the height that was specified, but also the paddings and the borders (we can forget about the margins for now). So in reality, our box occupies a width of 80px plus 5px on each side for the paddings, plus 1px for each border (note we’re using the border shorthand). So that means that the real width is 92px.&lt;/p&gt;
+
+&lt;p&gt;There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: &lt;code&gt;box-sizing: border-box;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p data-height=&quot;437&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;pJGMdq&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/pJGMdq/&quot;&gt;pJGMdq&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;If you specify that, now your box will actually occupy just 80px, as the borders and paddings become part of the box. This usually makes it easier to understand, so we suggest you use it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/07/css-box-model/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/07/css-box-model/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Border Properties</title>
+        <description>&lt;h3 id=&quot;border&quot;&gt;Border&lt;/h3&gt;
+&lt;p&gt;You can also put a nice &lt;code&gt;border&lt;/code&gt; around your elements. Try this:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now you assigned your &lt;code&gt;div&lt;/code&gt; to have a &lt;code&gt;black&lt;/code&gt; border that is &lt;code&gt;5px&lt;/code&gt; thick and &lt;code&gt;solid&lt;/code&gt;. Let’s `dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dashed&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#ff88aa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;line-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;line-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here you see an even thicker border that is not solid and has a different color, but is also &lt;code&gt;dashed&lt;/code&gt; instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/06/css-border/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/06/css-border/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS Font Properties</title>
+        <description>&lt;h3 id=&quot;font-family&quot;&gt;Font-family&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;font-family&lt;/code&gt; CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.&lt;/p&gt;
+
+&lt;p&gt;You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Proxima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nova&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Font family names must either be given quoted as strings, or unquoted as a sequence of one or more identifiers. This means that punctuation characters and digits at the start of each token must be escaped in unquoted font family names.&lt;/p&gt;
+
+&lt;p&gt;Here a few examples how it’s done right:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Times&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Times New Roman&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Verdana&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;cursive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Keep going with our example let’s add a font-family to the &lt;code&gt;div&lt;/code&gt; we’ve created before.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I’m a div&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you hit refresh (CMD + R) again, your font-family should have changed from the default serif to sans-serif. Now that wasn’t so hard, was it?&lt;/p&gt;
+
+&lt;h3 id=&quot;font-size&quot;&gt;Font-Size&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code&gt;font-size&lt;/code&gt; property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;I am a big heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;First you can see we set the &lt;code&gt;font-size&lt;/code&gt; for everything inside of the html element to a small &lt;code&gt;10px&lt;/code&gt; (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of &lt;code&gt;32px&lt;/code&gt; assigned, so the browser shows us a big heading while the div has the small text size without having any &lt;code&gt;font-size&lt;/code&gt; property declared.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://cssclass.es/2015/01/05/css-font/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/05/css-font/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
