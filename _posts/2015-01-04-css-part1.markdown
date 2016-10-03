@@ -37,7 +37,7 @@ To get you started, you can just insert a `style` tag inside of your `head tag:
 <head>
   <meta charset="UTF-8">
   <title>Our Page Title</title>
-  <style type="text/css">
+  <style>
     /* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */
   </style>
 </head>
@@ -88,7 +88,7 @@ Now, let us insert a `div` and style it a little bit. So parts of your file shou
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     div {
       color: white;
       background-color: green;

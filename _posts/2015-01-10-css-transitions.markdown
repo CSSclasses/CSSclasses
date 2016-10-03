@@ -15,7 +15,7 @@ Transitions are a nice way to add some interactive animations to your site. If y
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     .changeonhover {
       color: white;
       background-color: green;

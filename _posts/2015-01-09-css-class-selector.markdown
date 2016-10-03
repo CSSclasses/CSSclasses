@@ -15,7 +15,7 @@ Until now we used the element selector to apply styles to an element. What’s w
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     div {
       color: white;
       background-color: green;
@@ -43,7 +43,7 @@ Copy this code example into your html file, and check out what it looks like in 
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     div {
       width: 300px;
       height: 200px;
