@@ -1,6 +1,10 @@
 language: ruby
 install:
+  - gem install bundler
+  - bundle install
+  - nvm install 6 && nvm use 6
   - npm install
+  - bower install
 script:
   - grunt build
 after_success:
