@@ -16,7 +16,7 @@ git init
 git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-git remote add upstream "https://$GH_TOKEN@github.com/rust-lang/rust-by-example.git"
+git remote add upstream "https://$GH_TOKEN@github.com/CSSclasses/CSSclasses.git"
 git fetch upstream
 git reset upstream/gh-pages
 
