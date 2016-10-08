@@ -9,12 +9,14 @@ then
 fi
 
 rev=$(git rev-parse --short HEAD)
+author_name=$(git log --max-count=1 --format=%an)
+author_email=$(git log --max-count=1 --format=%ae)
 
 cd _site
 
 git init
-git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.name "$author_name"
+git config user.email "$author_email"
 
 git remote add upstream "https://$GH_TOKEN@github.com/CSSclasses/CSSclasses.git"
 git fetch upstream
