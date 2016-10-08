@@ -58,5 +58,5 @@ different sections and chapters so you can easily skip on topics you are already
 * <a href="http://www.w3.org/standards/techs/css#w3c_all" target="_blank">The official CSS3 *stuff*</a> - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network CSS Portal</a>
 * <a href="http://caniuse.com/" target="_blank">caniuse</a> – Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
-* <a href="http://devdocs.io/css" target="_blank">Search the CSS reference</a>
-* <a href="http://devdocs.io/html" target="_blank">Search the HTML reference</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Search the CSS reference</a>
+* <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Search the HTML reference</a>

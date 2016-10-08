@@ -55,7 +55,7 @@ Keep going with our example let’s add a font-family to the `div` we’ve creat
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     div {
       color: white;
       background-color: green;
@@ -85,7 +85,7 @@ The `font-size` property allows you to set a font size for the text in your Elem
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     html {
       font-size: 10px;
     }

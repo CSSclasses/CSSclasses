@@ -15,7 +15,7 @@ You can also put a nice `border` around your elements. Try this:
 {% highlight HTML %}
 <head>
 <!-- ... -->
-  <style type="text/css">
+  <style>
     div {
       color: white;
       background-color: green;
