@@ -1,0 +1,7 @@
+language: ruby
+install:
+  - npm install
+script:
+  - grunt build
+after_success:
+  - bash deploy.sh
