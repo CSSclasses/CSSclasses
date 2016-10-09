@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 22:11:03 +0200</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 22:11:03 +0200</lastBuildDate>
+    <pubDate>Sun, 09 Oct 2016 10:21:58 +0000</pubDate>
+    <lastBuildDate>Sun, 09 Oct 2016 10:21:58 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -87,7 +87,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot; target=&quot;_blank&quot;&gt;Search the HTML reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 14 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/14/css-resources/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/14/css-resources/</guid>
         
@@ -115,7 +115,7 @@ different sections and chapters so you can easily skip on topics you are already
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/YywRyj/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 13 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/13/css-challenges/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/13/css-challenges/</guid>
         
@@ -153,7 +153,7 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 </description>
-        <pubDate>Mon, 12 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/12/css-more-selectors/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/12/css-more-selectors/</guid>
         
@@ -215,7 +215,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Note: This example currently doesn’t work in Safari. It’s because it needs something called vendor prefix, which we haven’t included (yet :P). If you want to take a quick journey into vendor-prefix-land read this &lt;a href=&quot;http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm&quot; target=&quot;_blank&quot;&gt;CSS Vendor Prefixes&lt;/a&gt;. But make sure to come back ;)&lt;/p&gt;
 </description>
-        <pubDate>Sun, 11 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/11/css-transform/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/11/css-transform/</guid>
         
@@ -236,7 +236,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nc&quot;&gt;.changeonhover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -287,7 +287,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/10/css-transitions/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/10/css-transitions/</guid>
         
@@ -308,7 +308,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -335,7 +335,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -362,7 +362,7 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Now here you should note several things. Both &lt;code&gt;div&lt;/code&gt;s get the styles of the &lt;code&gt;div&lt;/code&gt; rule, as this applies to all &lt;code&gt;div&lt;/code&gt;s. Then the first &lt;code&gt;div&lt;/code&gt; also gets the styles of the class &lt;code&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code&gt;overrides&lt;/code&gt; the border style that was defined in the `div selector.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 09 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/09/css-class-selector/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/09/css-class-selector/</guid>
         
@@ -396,7 +396,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;If you apply this CSS to our &lt;a href=&quot;#border&quot;&gt;border&lt;/a&gt; example, you will see no change at first. But if you move your mouse cursor over the &lt;code&gt;div&lt;/code&gt; (you “&lt;code&gt;hover&lt;/code&gt;” it), you will see the style changes applied, that we defined with the &lt;code&gt;div:hover&lt;/code&gt; pseudo-class. There are some more pseudo-classes like that that you can learn about later.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 08 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/08/css-hover/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/08/css-hover/</guid>
         
@@ -433,7 +433,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;If you specify that, now your box will actually occupy just 80px, as the borders and paddings become part of the box. This usually makes it easier to understand, so we suggest you use it.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 07 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 07 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/07/css-box-model/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/07/css-box-model/</guid>
         
@@ -454,7 +454,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -483,7 +483,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Here you see an even thicker border that is not solid and has a different color, but is also &lt;code&gt;dashed&lt;/code&gt; instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 06 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/06/css-border/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/06/css-border/</guid>
         
@@ -542,7 +542,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -571,7 +571,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/css&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -594,7 +594,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;First you can see we set the &lt;code&gt;font-size&lt;/code&gt; for everything inside of the html element to a small &lt;code&gt;10px&lt;/code&gt; (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of &lt;code&gt;32px&lt;/code&gt; assigned, so the browser shows us a big heading while the div has the small text size without having any &lt;code&gt;font-size&lt;/code&gt; property declared.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 05 Jan 2015 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/05/css-font/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/05/css-font/</guid>
         
