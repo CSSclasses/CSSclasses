@@ -88,7 +88,7 @@ Inspecting an element will tell you a lot of useful things. For example you can 
 
 #### Parents, Children, Siblings, Inheritance
 
-When we talk about an HTML document, we often describe it as a family tree. When an element stands between the opening tag and the closing tag of another element, it is _wrapped_ inside another element. Elements that are wrapped inside another element are also called _children_.
+When we talk about an HTML document, we often describe it as a family tree. When an element stands between the opening tag and the closing tag of another element, it is _wrapped_ inside another element. Elements that are wrapped inside another element are also called _children_. The tree of elements in a document is also called the _[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)_, and the elements in the tree are called _DOM nodes_.
 
 Consider the following document:
 
