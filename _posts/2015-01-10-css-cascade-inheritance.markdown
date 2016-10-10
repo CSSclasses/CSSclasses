@@ -63,11 +63,20 @@ If you think that is all very complicated, you are not wrong. Thankfully, comput
 
 Developer tools are our best friends when building websites. They can give us a lot of feedback about the elements on a web page.
 
-One great developer tool in all modern browsers is the _element inspector_.
+One great developer tool is _inspect element_.
 
-If you right click anywhere on website, you should see an option like "inspect" or "inspect element" in your browser's context menu. This should bring up the developer tools panel.
+The basic idea behind inspect element is that you can click any element on a page and your browser will tell you a lot of useful things about it. For example which styles are assigned to the element.
 
-Then click the _inspect element_ button in the developer tools panel, and after that click the element on the page that you want to inspect. Here is an animated gif of what that looks like in Google Chrome:
+Inspect element or something similar is available in all modern browsers. In Chrome and Firefox you just need to right click on the page and select _Inspect Element_ from the context menu. If you are using Safari you first need to [enable developer tools in the browser](https://support.apple.com/kb/PH21414). If you are using Edge, inspect element is called _DOM Inspector_. You also need to [enable it first in the f12 Developer Tools menu](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/settings/).
+
+You can read more about how to use developer tools in your browser using the following links:
+
+- [Safari](https://support.apple.com/kb/PH21414)
+- [Chrome](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/)
+- [Edge](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/dom-explorer/)
+- [Firefox](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/UI_Tour)
+
+Here is an animated gif of what inspect element looks like in Google Chrome:
 
 <figure>
   <img src="{{site.baseurl}}/assets/images/inspect-element.gif" alt="Animated gif of inspecting an element in Google Chrome">
@@ -75,8 +84,6 @@ Then click the _inspect element_ button in the developer tools panel, and after 
     <p>The element inspector in Google Chrome Developer Tools</p>
   </figcaption>
 </figure>
-
-Inspecting an element will tell you a lot of useful things. For example you can see which styles are assigned to the element in the styles panel.
 
 <figure>
   <img src="{{site.baseurl}}/assets/images/inspect-element.png" alt="Image of the styles panel in Google Chrome Developer Tools">
