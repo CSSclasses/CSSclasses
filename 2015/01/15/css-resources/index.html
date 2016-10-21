@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSS Basics</title>
-  <meta name="description" content="CSS  CSS - what is that?  Start with inline styles  Basic CSS syntax  Useful properties  Shorthand  Font-Family  Font-Size  Border  The Box Model  Hover  Cla...">
+  <title>CSS Challenges</title>
+  <meta name="description" content="ResourcesYou have covered most of the really basic stuff, now it’s time to take a deep dive into some CSS topics. Here’s a list of good articles and resources.">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="http://cssclass.es/2015/01/04/css-part1/">
+  <link rel="canonical" href="http://cssclass.es/2015/01/15/css-resources/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="http://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -131,131 +131,85 @@
       <main class="l-width-content l--has-pt">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">CSS Basics</h1>
-    <p class="post-meta">Jan 4, 2015</p>
+    <h1 class="post-title">CSS Challenges</h1>
+    <p class="post-meta">Jan 15, 2015</p>
   </header>
   <article class="post-content">
-    <h2 id="css">CSS</h2>
+    <h3 id="resources">Resources</h3>
+<p>You have covered most of the really basic stuff, now it’s time to take a deep dive into some CSS topics. Here’s a list of good articles and resources.</p>
+
+<h4 id="layout">Layout</h4>
+<p>At this point, you have a solid understanding of how to color, size and even transform the elements on your web page. However, you would probably like to position these elements next to each other? And get in control of where exactly they are laid out on the page? Luckily, CSS offers a variety of approaches to control the layout of elements on your page.</p>
+
 <ul>
-  <li><a href="#css---what-is-that">CSS - what is that?</a></li>
-  <li><a href="#start-with-inline-styles">Start with inline styles</a></li>
-  <li><a href="#basic-css-syntax">Basic CSS syntax</a></li>
-  <li><a href="#useful-css-properties">Useful properties</a></li>
-  <li><a href="#shorthand">Shorthand</a></li>
-  <li><a href="#font-family">Font-Family</a></li>
-  <li><a href="#font-size">Font-Size</a></li>
-  <li><a href="#border">Border</a></li>
-  <li><a href="#the-box-model">The Box Model</a></li>
-  <li><a href="#hover">Hover</a></li>
-  <li><a href="#class-selector">Class Selector</a></li>
-  <li><a href="#cascade-and-inheritance">Cascade and Inheritance</a></li>
-  <li><a href="#more-selectors-nth-child-nth-of-type-sibling">More Selectors</a></li>
-  <li><a href="#transition">Transition</a></li>
-  <li><a href="#transform">Transform</a></li>
-  <li><a href="#challenges-start-experimenting">Challenges</a></li>
-  <li><a href="#resources">Resources</a></li>
+  <li><a href="http://learnlayout.com" target="_blank">learnlayout.com</a> – The topic of layout is incredibly fun, but also takes more room to explain than this workshop can cover. If you are ready to dive into it and explore how to layout with CSS, we highly recommend this tutorial. It also comes in various languages!</li>
+  <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> from CSS-Tricks – You have already mastered the basics of CSS layout? You understand floats, position, and even looked into responsive web design? Once you are done with all that, you should check out a more recent, but already well-supported way to build complex yet flexible layouts: Flexbox.</li>
+  <li><a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a> – Another great resource to explore and and understand how to work with Flexbox.</li>
+  <li><a href="http://flexbox.io" target="_blank">Flexbox.io</a> by Wes Bos</li>
+  <li><a href="http://gridbyexample.com/" target="blank">Grid by Example</a> – If you are even more adventurous and want to check out the latest and still experimental way to layout in CSS, spend some time to explore the CSS Grid Layout Module. We recommend this excellent resource by Rachel Andrew.</li>
 </ul>
 
-<h3 id="css---what-is-that">CSS - what is that?</h3>
-<p>CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the “cascading” part of our <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet.</p>
+<h4 id="transition">Transition</h4>
 
-<h3 id="start-with-inline-styles">Start with inline styles</h3>
-<p>To get you started, you can just insert a <code>style</code> tag inside of your `head tag:</p>
+<ul>
+  <li><a href="http://leaverou.github.io/animatable/" target="_blank">A gallery of transitions</a> by Lea Verou</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions" target="_blank">Using CSS Transitions</a></li>
+</ul>
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+<h4 id="transform">Transform</h4>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
-  <span class="nt">&lt;style&gt;</span>
-    <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
-  <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+<ul>
+  <li><a href="http://www.westciv.com/tools/transforms/index.html" target="_blank">Transform live playground</a> – a nice way to try out the most common transform functions.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform" target="_blank">MDN: transform</a> – explains the most common transform functions and the syntax.</li>
+</ul>
 
-<h3 id="basic-css-syntax">Basic CSS syntax</h3>
-<p>CSS has a simple syntax. The file consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:</p>
+<h4 id="animation">Animation</h4>
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+<ul>
+  <li><a href="http://alexberg.in/keyframer" target="_blank">Keyframer by Alex Berg</a> – a tool to produce animation keyframes.</li>
+  <li><a href="https://vimeo.com/125335964" target="_blank">Putting Your UI in Motion with CSS</a> by Val Head — An Event Apart Video.</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<h4 id="pseudo-classes">Pseudo Classes</h4>
 
-<p><code>h1</code> is the selector, the HTML element we want to style. <code>color</code> is one of the properties that we can give to our selector, and <code>red</code> is the value of this property. The right syntax is:</p>
+<ul>
+  <li><a href="http://css-tricks.com/pseudo-class-selectors/" target="_blank">Pseudo Class Selectors</a> - Good overview of all the relevant pseudo classes that can spice up your site.</li>
+</ul>
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+<h4 id="typography">Typography</h4>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<ul>
+  <li><a href="http://alistapart.com/article/howtosizetextincss/" target="_blank">How to Size Text in CSS</a> – classic article on how to set your font sizes with ems that are relative values instead of px that are fixed.</li>
+  <li><a href="http://snook.ca/archives/html_and_css/font-size-with-rem" target="_blank">Font Sizing With REM</a> – can be considered an update on the former link that gives another modern alternative for font sizing. Makes sense to read the former article first.</li>
+  <li><a hraf="http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/" target="_blank">Size Matters: Balancing Line Length And Font Size In Responsive Web Design</a></li>
+</ul>
 
-<p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
+<h4 id="responsive-web-design">Responsive Web Design</h4>
+<ul>
+  <li><a href="http://alistapart.com/article/responsive-web-design" target="_blank">Responsive Web Design</a> - The classic article defining what Responsive Web Design is and how you can adapt your site to any screen size.</li>
+</ul>
 
-<h3 id="useful-css-properties">Useful CSS properties</h3>
+<h4 id="architecture">Architecture</h4>
 
-<p>Now, let us insert a <code>div</code> and style it a little bit. So parts of your file should look like this:</p>
+<ul>
+  <li><a href="http://cssguidelin.es/" target="_blank">cssguidelin.es</a> – High-level advice and guidelines for writing sane, manageable, scalable CSS</li>
+  <li><a href="http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048" target="_blank">The 30 CSS Selectors you Must Memorize</a></li>
+  <li><a href="http://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left" target="_blank">Why do browsers match CSS selectors from right to left</a></li>
+</ul>
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+<h4 id="general-resources">General Resources</h4>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-<span class="c">&lt;!-- ... --&gt;</span>
-  <span class="nt">&lt;style&gt;</span>
-    <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></figure>
-
-<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code>color</code>. There is also `background-color, width and height.</p>
-
-<h3 id="shorthand">Shorthand</h3>
-<p>On some occasions you might see properties defined in different ways but doing the same thing, such as:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
-  <span class="k">border-style</span><span class="o">:</span> <span class="k">dotted</span><span class="p">;</span>
-  <span class="k">border-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">anotherselector</span> <span class="p">{</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-<p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
+<ul>
+  <li><a href="http://marksheet.io" target="_blank">MarkSheet</a> - MarkSheet is a free HTML &amp; CSS tutorial covering<br />
+everything from explaining what a web browser is to how to make your website responsive. It is split up in 
+different sections and chapters so you can easily skip on topics you are already familiar with.</li>
+  <li><a href="http://www.w3.org/TR/html5/" target="_blank">The official HTML5 Specification</a> - Well, almost. But if they ever make an official specification of what HTML5 is, this is the W3C Candidate Recommendation. If you really want to know how something is defined, go here and read up.</li>
+  <li><a href="http://www.w3.org/standards/techs/css#w3c_all" target="_blank">The official CSS3 <em>stuff</em></a> - Unlike HTML5, CSS3 is not defined in one big specification. It consists of a lot of puzzle pieces called modules that each define a specific subset of CSS properties. Again, don’t be afraid to have a look at this at some point (it’s ok if that point is somewhere in the future), even if it seems overly technical at first.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Mozilla Developer Network CSS Portal</a></li>
+  <li><a href="http://caniuse.com/" target="_blank">caniuse</a> – Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Search the CSS reference</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Search the HTML reference</a></li>
+</ul>
 
   </article>
 </div>

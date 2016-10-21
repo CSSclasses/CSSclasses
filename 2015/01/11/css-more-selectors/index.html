@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSS Basics</title>
-  <meta name="description" content="CSS  CSS - what is that?  Start with inline styles  Basic CSS syntax  Useful properties  Shorthand  Font-Family  Font-Size  Border  The Box Model  Hover  Cla...">
+  <title>CSS More Selectors</title>
+  <meta name="description" content="More selectors: nth-child, nth-of-type, siblingThere are a few more selectors to select subsets out of many elements. :nth-child, :nth-of-type and the ~ sibl...">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="http://cssclass.es/2015/01/04/css-part1/">
+  <link rel="canonical" href="http://cssclass.es/2015/01/11/css-more-selectors/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="http://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -131,36 +131,21 @@
       <main class="l-width-content l--has-pt">
         <div class="post">
   <header class="post-header">
-    <h1 class="post-title">CSS Basics</h1>
-    <p class="post-meta">Jan 4, 2015</p>
+    <h1 class="post-title">CSS More Selectors</h1>
+    <p class="post-meta">Jan 11, 2015</p>
   </header>
   <article class="post-content">
-    <h2 id="css">CSS</h2>
-<ul>
-  <li><a href="#css---what-is-that">CSS - what is that?</a></li>
-  <li><a href="#start-with-inline-styles">Start with inline styles</a></li>
-  <li><a href="#basic-css-syntax">Basic CSS syntax</a></li>
-  <li><a href="#useful-css-properties">Useful properties</a></li>
-  <li><a href="#shorthand">Shorthand</a></li>
-  <li><a href="#font-family">Font-Family</a></li>
-  <li><a href="#font-size">Font-Size</a></li>
-  <li><a href="#border">Border</a></li>
-  <li><a href="#the-box-model">The Box Model</a></li>
-  <li><a href="#hover">Hover</a></li>
-  <li><a href="#class-selector">Class Selector</a></li>
-  <li><a href="#cascade-and-inheritance">Cascade and Inheritance</a></li>
-  <li><a href="#more-selectors-nth-child-nth-of-type-sibling">More Selectors</a></li>
-  <li><a href="#transition">Transition</a></li>
-  <li><a href="#transform">Transform</a></li>
-  <li><a href="#challenges-start-experimenting">Challenges</a></li>
-  <li><a href="#resources">Resources</a></li>
-</ul>
+    <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
+<p>There are a few more selectors to select subsets out of many elements. <code>:nth-child</code>, <code>:nth-of-type</code> and the <code>~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
 
-<h3 id="css---what-is-that">CSS - what is that?</h3>
-<p>CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the “cascading” part of our <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet.</p>
+<p>The <code>:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code>li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code>2nd</code> element, <code>3n</code> for every third, <code>3n-1</code> for every third but starting with the second and so on.</p>
 
-<h3 id="start-with-inline-styles">Start with inline styles</h3>
-<p>To get you started, you can just insert a <code>style</code> tag inside of your `head tag:</p>
+<p data-height="381" data-theme-id="17669" data-slug-hash="mJobeL" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/mJobeL/">mJobeL</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn’t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
+
+<p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
 
 <div class="m-switch">
   <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
@@ -169,93 +154,15 @@
   <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
-  <span class="nt">&lt;style&gt;</span>
-    <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
-  <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
 
-<h3 id="basic-css-syntax">Basic CSS syntax</h3>
-<p>CSS has a simple syntax. The file consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:</p>
+<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
+<p data-height="476" data-theme-id="17669" data-slug-hash="vOPBLd" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/vOPBLd/">vOPBLd</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-<p><code>h1</code> is the selector, the HTML element we want to style. <code>color</code> is one of the properties that we can give to our selector, and <code>red</code> is the value of this property. The right syntax is:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-<p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
-
-<h3 id="useful-css-properties">Useful CSS properties</h3>
-
-<p>Now, let us insert a <code>div</code> and style it a little bit. So parts of your file should look like this:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-<span class="c">&lt;!-- ... --&gt;</span>
-  <span class="nt">&lt;style&gt;</span>
-    <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-    <span class="p">}</span>
-  <span class="nt">&lt;/style&gt;</span>
-<span class="nt">&lt;/head&gt;</span>
-<span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/body&gt;</span></code></pre></figure>
-
-<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code>color</code>. There is also `background-color, width and height.</p>
-
-<h3 id="shorthand">Shorthand</h3>
-<p>On some occasions you might see properties defined in different ways but doing the same thing, such as:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
-  <span class="k">border-style</span><span class="o">:</span> <span class="k">dotted</span><span class="p">;</span>
-  <span class="k">border-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nt">anotherselector</span> <span class="p">{</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-<p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
 
   </article>
 </div>

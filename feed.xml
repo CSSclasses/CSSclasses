@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 08:52:03 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 08:52:03 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Oct 2016 15:36:54 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Oct 2016 15:36:54 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -87,9 +87,9 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot; target=&quot;_blank&quot;&gt;Search the HTML reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/14/css-resources/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/14/css-resources/</guid>
+        <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://cssclass.es/2015/01/15/css-resources/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/15/css-resources/</guid>
         
         
       </item>
@@ -115,47 +115,9 @@ different sections and chapters so you can easily skip on topics you are already
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/YywRyj/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/13/css-challenges/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/13/css-challenges/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CSS More Selectors</title>
-        <description>&lt;h3 id=&quot;more-selectors-nth-child-nth-of-type-sibling&quot;&gt;More selectors: nth-child, nth-of-type, sibling&lt;/h3&gt;
-&lt;p&gt;There are a few more selectors to select subsets out of many elements. &lt;code&gt;:nth-child&lt;/code&gt;, &lt;code&gt;:nth-of-type&lt;/code&gt; and the &lt;code&gt;~&lt;/code&gt; sibling selector are a few common examples of css selectors that are often very useful.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code&gt;2nd&lt;/code&gt; element, &lt;code&gt;3n&lt;/code&gt; for every third, &lt;code&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
-
-&lt;p data-height=&quot;381&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;mJobeL&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/mJobeL/&quot;&gt;mJobeL&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;The &lt;code&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code&gt;:nth-child&lt;/code&gt;. But &lt;code&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code&gt;div&lt;/code&gt; in the middle of the list, &lt;code&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
-
-&lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nc&quot;&gt;.fruit-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffaabb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
-
-&lt;p data-height=&quot;476&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;vOPBLd&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/vOPBLd/&quot;&gt;vOPBLd&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/12/css-more-selectors/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/12/css-more-selectors/</guid>
+        <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://cssclass.es/2015/01/14/css-challenges/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/14/css-challenges/</guid>
         
         
       </item>
@@ -215,9 +177,9 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Note: This example currently doesn’t work in Safari. It’s because it needs something called vendor prefix, which we haven’t included (yet :P). If you want to take a quick journey into vendor-prefix-land read this &lt;a href=&quot;http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm&quot; target=&quot;_blank&quot;&gt;CSS Vendor Prefixes&lt;/a&gt;. But make sure to come back ;)&lt;/p&gt;
 </description>
-        <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/11/css-transform/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/11/css-transform/</guid>
+        <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://cssclass.es/2015/01/13/css-transform/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/13/css-transform/</guid>
         
         
       </item>
@@ -287,9 +249,339 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.&lt;/p&gt;
 </description>
+        <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://cssclass.es/2015/01/12/css-transitions/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/12/css-transitions/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSS More Selectors</title>
+        <description>&lt;h3 id=&quot;more-selectors-nth-child-nth-of-type-sibling&quot;&gt;More selectors: nth-child, nth-of-type, sibling&lt;/h3&gt;
+&lt;p&gt;There are a few more selectors to select subsets out of many elements. &lt;code&gt;:nth-child&lt;/code&gt;, &lt;code&gt;:nth-of-type&lt;/code&gt; and the &lt;code&gt;~&lt;/code&gt; sibling selector are a few common examples of css selectors that are often very useful.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code&gt;2nd&lt;/code&gt; element, &lt;code&gt;3n&lt;/code&gt; for every third, &lt;code&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
+
+&lt;p data-height=&quot;381&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;mJobeL&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/mJobeL/&quot;&gt;mJobeL&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The &lt;code&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code&gt;:nth-child&lt;/code&gt;. But &lt;code&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code&gt;div&lt;/code&gt; in the middle of the list, &lt;code&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.fruit-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffaabb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
+
+&lt;p data-height=&quot;476&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;vOPBLd&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/vOPBLd/&quot;&gt;vOPBLd&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://cssclass.es/2015/01/11/css-more-selectors/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/11/css-more-selectors/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cascade and Inheritance</title>
+        <description>&lt;h3 id=&quot;cascade-and-inheritance&quot;&gt;Cascade and Inheritance&lt;/h3&gt;
+
+&lt;p&gt;As the name Cascading Style Sheets suggests, CSS specifies the &lt;em&gt;styles&lt;/em&gt; for a document in a &lt;em&gt;cascading&lt;/em&gt; manner. But what exactly does &lt;em&gt;cascading&lt;/em&gt; mean?&lt;/p&gt;
+
+&lt;p&gt;First it is important to understand that most elements in a document are subject to more than one style declaration. Sometimes these declarations are conflicting. If one declaration says an element should be red and another one says it should be green, the browser can only apply one of them.&lt;/p&gt;
+
+&lt;p&gt;The set of rules that determines which of these conflicting declarations to apply is called the &lt;em&gt;cascade&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-user-agent-stylesheet&quot;&gt;The User Agent Stylesheet&lt;/h4&gt;
+
+&lt;p&gt;Every stylesheet that you, the &lt;em&gt;author&lt;/em&gt;, add to a website, is called an &lt;em&gt;author stylesheet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Every browser, or &lt;em&gt;user agent&lt;/em&gt;, also has its own &lt;em&gt;user agent stylesheet&lt;/em&gt;. It makes sure that every document always has some sensible default styling, even without you writing a single line of CSS.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the user agent stylesheet, all headlines have a bigger font size, and every link is blue and underlined. While these defaults are very useful, the rules of the cascade make sure that you can always overwrite them in your own author stylesheets.&lt;/p&gt;
+
+&lt;p&gt;If the user agent stylesheet says all links should be blue, but your author stylesheet says all links should be red, all links will be red.&lt;/p&gt;
+
+&lt;h4 id=&quot;overwriting-your-own-styles&quot;&gt;Overwriting your own styles&lt;/h4&gt;
+
+&lt;p&gt;The cascade is also important for when you want to overwrite your own styles. But why would you want to overwrite your own styles?&lt;/p&gt;
+
+&lt;p&gt;Imagine you are styling a document with some paragraphs. All these paragraphs should have green text, but one of them contains a warning, and should therefore be red.&lt;/p&gt;
+
+&lt;p&gt;Here is one way to do this:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.warning&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am a normal green paragraph of text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am another normal green paragraph of text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;warning&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Warning! I am a red paragraph of text!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever &lt;code&gt;class=&quot;warning&quot;&lt;/code&gt; is applied.&lt;/p&gt;
+
+&lt;p&gt;This is a good example why you would want to overwrite your own styles: Apply generic default styles for all elements first, then overwrite some of them to create exceptions.&lt;/p&gt;
+
+&lt;p&gt;If you think that is all very complicated, you are not wrong. Thankfully, computers are much better at figuring these things out than humans.&lt;/p&gt;
+
+&lt;h4 id=&quot;developer-tools-to-the-rescue&quot;&gt;Developer Tools to the rescue&lt;/h4&gt;
+
+&lt;p&gt;Developer tools are our best friends when building websites. They can give us a lot of feedback about the elements on a web page.&lt;/p&gt;
+
+&lt;p&gt;One great developer tool is &lt;em&gt;inspect element&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The basic idea behind inspect element is that you can click any element on a page and your browser will tell you a lot of useful things about it. For example which styles are assigned to the element.&lt;/p&gt;
+
+&lt;p&gt;Inspect element or something similar is available in all modern browsers. In Chrome and Firefox you just need to right click on the page and select &lt;em&gt;Inspect Element&lt;/em&gt; from the context menu. If you are using Safari you first need to &lt;a href=&quot;https://support.apple.com/kb/PH21414&quot;&gt;enable developer tools in the browser&lt;/a&gt;. If you are using Edge, inspect element is called &lt;em&gt;DOM Inspector&lt;/em&gt;. You also need to &lt;a href=&quot;https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/settings/&quot;&gt;enable it first in the f12 Developer Tools menu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read more about how to use developer tools in your browser using the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://support.apple.com/kb/PH21414&quot;&gt;Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/web/tools/chrome-devtools/inspect-styles/&quot;&gt;Chrome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/dom-explorer/&quot;&gt;Edge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/UI_Tour&quot;&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is an animated gif of what inspect element looks like in Google Chrome:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/inspect-element.gif&quot; alt=&quot;Animated gif of inspecting an element in Google Chrome&quot; /&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The element inspector in Google Chrome Developer Tools&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/inspect-element.png&quot; alt=&quot;Image of the styles panel in Google Chrome Developer Tools&quot; /&gt;
+  &lt;figcaption&gt;
+    &lt;p&gt;The styles panel shows you what styles are applied to an element and where to find them.&lt;/p&gt;
+    &lt;p&gt;It also indicates overwritten styles as &lt;strike&gt;striked out&lt;/strike&gt;&lt;/p&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;parents-children-siblings-inheritance&quot;&gt;Parents, Children, Siblings, Inheritance&lt;/h4&gt;
+
+&lt;p&gt;When we talk about an HTML document, we often describe it as a family tree. When an element stands between the opening tag and the closing tag of another element, it is &lt;em&gt;wrapped&lt;/em&gt; inside another element. Elements that are wrapped inside another element are also called &lt;em&gt;children&lt;/em&gt;. The tree of elements in a document is also called the &lt;em&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model&quot;&gt;DOM&lt;/a&gt;&lt;/em&gt;, and the elements in the tree are called &lt;em&gt;DOM nodes&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Consider the following document:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;main&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Web Browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Firefox is Mozilla&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Chrome is Google&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Safari is Apple&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Edge is Microsoft&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Learn more&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Read the Wikipedia article about web browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;For this document, the following statements are true:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; is a child of &lt;code&gt;main&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;footer&lt;/code&gt; is a child of &lt;code&gt;body&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; is a sibling of &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; has four siblings&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; is a parent of &lt;code&gt;h2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; has five children&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; and &lt;code&gt;main&lt;/code&gt; are descendants of &lt;code&gt;body&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;html&lt;/code&gt; and &lt;code&gt;body&lt;/code&gt; are ancestors of &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; and &lt;code&gt;footer&lt;/code&gt; are wrapped inside a &lt;code&gt;body&lt;/code&gt;-element&lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;html&lt;/code&gt;-element is wrapped around the &lt;code&gt;body&lt;/code&gt;-element&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One way we can make use of these relationships in our CSS is through &lt;em&gt;inheritance&lt;/em&gt;. Inheritance means that some CSS properties, like text color or font size, get passed down, or &lt;em&gt;inherited&lt;/em&gt; from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn’t have its own color property value.&lt;/p&gt;
+
+&lt;p&gt;Now let’s make this document a bit more interesting:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;main&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Web Browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.mozilla.org/en-US/firefox/new/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Firefox&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Mozilla&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.google.com/chrome/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Chrome&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Google&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.apple.com/lae/safari/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Safari&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Apple&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.microsoft.com/en-us/windows/microsoft-edge&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Edge&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Microsoft&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Learn more&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Read the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://en.wikipedia.org/wiki/Web_browser&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Wikipedia article about web browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In this document, all elements without a specified text color will inherit the green text color from the &lt;code&gt;body&lt;/code&gt;-element. The &lt;code&gt;footer&lt;/code&gt; has its own white text color that overwrites the green text color from the &lt;code&gt;body&lt;/code&gt;-element. It also has a green background color.&lt;/p&gt;
+
+&lt;p&gt;You will notice that the &lt;code&gt;a&lt;/code&gt;-elements don’t inherit the text color of their ancestors. That is because the &lt;code&gt;a&lt;/code&gt;-element has its own blue text color specified in the user agent style sheet.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the &lt;code&gt;footer&lt;/code&gt; by adding the following CSS:&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You might wonder why there is an empty space between &lt;code&gt;footer&lt;/code&gt; and &lt;code&gt;a&lt;/code&gt; in the &lt;code&gt;footer a&lt;/code&gt; selector. This empty space is called &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors&quot;&gt;descendant combinator&lt;/a&gt;. The descendant combinator lets you select elements that are descendants of another element.&lt;/p&gt;
+
+&lt;p&gt;This becomes a bit clearer when you read the selectors from right to left. &lt;code&gt;footer a&lt;/code&gt; will select every &lt;code&gt;a&lt;/code&gt; element, that is a &lt;em&gt;descendant&lt;/em&gt; of a &lt;code&gt;footer&lt;/code&gt;-element. You can also combine more selectors. For example &lt;code&gt;footer h2 a&lt;/code&gt; would select every link inside of a level two headline that is inside of a footer.&lt;/p&gt;
+
+&lt;p&gt;Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with &lt;code&gt;text-decoration: underline;&lt;/code&gt;. This way people can still recognize that they are links, not just regular text.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-inherit-keyword&quot;&gt;The &lt;code&gt;inherit&lt;/code&gt; keyword&lt;/h4&gt;
+
+&lt;p&gt;This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the &lt;code&gt;color&lt;/code&gt; values for &lt;code&gt;footer&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;footer a&lt;/code&gt; to yellow to achieve this. Ugh, so much work!&lt;/p&gt;
+
+&lt;p&gt;Thankfully, there is the &lt;code&gt;inherit&lt;/code&gt; keyword.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;inherit&lt;/code&gt; keyword forces some attributes, like color, to be &lt;em&gt;inherited&lt;/em&gt; from the parent element. So in our example we could give our &lt;code&gt;footer a&lt;/code&gt; the property value &lt;code&gt;color: inherit;&lt;/code&gt;. This way the links inside our footer are always the same color as the text in our footer.&lt;/p&gt;
+
+&lt;p&gt;There is also the newer &lt;code&gt;currentcolor&lt;/code&gt; keyword. &lt;code&gt;currentcolor&lt;/code&gt; always represents the text color of a certain element. If you want to change another attribute than &lt;code&gt;color&lt;/code&gt; to that same element’s text color, you could do that with a declaration like &lt;code&gt;border-color: currentcolor&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;specificity&quot;&gt;Specificity&lt;/h4&gt;
+
+&lt;p&gt;Specificity means that a rule that is &lt;em&gt;more specific&lt;/em&gt; overpowers a rule that is &lt;em&gt;less specific&lt;/em&gt;. For example selecting every link inside a footer element with &lt;code&gt;footer a&lt;/code&gt; is &lt;em&gt;more specific&lt;/em&gt; than selecting every link element everywhere with &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some selectors are more specific by default. For example a &lt;em&gt;class selector&lt;/em&gt; will always have a higher specificity than an &lt;em&gt;element selector&lt;/em&gt;. This makes sense, because selecting only elements with a certain class attribute is &lt;em&gt;more specific&lt;/em&gt; than selecting &lt;em&gt;every&lt;/em&gt; element of a type.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nc&quot;&gt;.danger-link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;danger-link&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;danger.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a very dangerous link, do not click me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In this example the link will end up red. The first rule for &lt;code&gt;a&lt;/code&gt; will be overwritten by the &lt;em&gt;more specific&lt;/em&gt; rule &lt;code&gt;body a&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The class selector &lt;code&gt;.danger-link&lt;/code&gt; is even more specific, therefore it overwrites them both.&lt;/p&gt;
+
+&lt;p&gt;It is important to keep in mind that in the cascade &lt;em&gt;specificity beats the order&lt;/em&gt; of rules in your stylesheet. If a rule is followed by another rule with the &lt;em&gt;same specificity&lt;/em&gt;, the second rule overwrites the first. If the first rule has a &lt;em&gt;higher specificity&lt;/em&gt;, the first rule still overwrites any less specific rules that come after it.&lt;/p&gt;
+
+&lt;div class=&quot;m-switch&quot;&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
+  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am a green paragraph of text because &amp;quot;body p&amp;quot; is more specific than &amp;quot;p&amp;quot;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like &lt;code&gt;.site-header nav ul li a&lt;/code&gt;. If you want to read more about this, the Mozilla Developer Network has a &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/CSS/Specificity&quot;&gt;more detailed article on specificity&lt;/a&gt;.&lt;/p&gt;
+</description>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/10/css-transitions/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/10/css-transitions/</guid>
+        <link>http://cssclass.es/2015/01/10/css-cascade-inheritance/</link>
+        <guid isPermaLink="true">http://cssclass.es/2015/01/10/css-cascade-inheritance/</guid>
         
         
       </item>
@@ -486,117 +778,6 @@ different sections and chapters so you can easily skip on topics you are already
         <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/06/css-border/</link>
         <guid isPermaLink="true">http://cssclass.es/2015/01/06/css-border/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CSS Font Properties</title>
-        <description>&lt;h3 id=&quot;font-family&quot;&gt;Font-family&lt;/h3&gt;
-&lt;p&gt;The &lt;code&gt;font-family&lt;/code&gt; CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.&lt;/p&gt;
-
-&lt;p&gt;You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.&lt;/p&gt;
-
-&lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Proxima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nova&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Font family names must either be given quoted as strings, or unquoted as a sequence of one or more identifiers. This means that punctuation characters and digits at the start of each token must be escaped in unquoted font family names.&lt;/p&gt;
-
-&lt;p&gt;Here a few examples how it’s done right:&lt;/p&gt;
-
-&lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Times&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Times New Roman&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Verdana&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;cursive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Keep going with our example let’s add a font-family to the &lt;code&gt;div&lt;/code&gt; we’ve created before.&lt;/p&gt;
-
-&lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I’m a div&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you hit refresh (CMD + R) again, your font-family should have changed from the default serif to sans-serif. Now that wasn’t so hard, was it?&lt;/p&gt;
-
-&lt;h3 id=&quot;font-size&quot;&gt;Font-Size&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code&gt;font-size&lt;/code&gt; property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:&lt;/p&gt;
-
-&lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
-&lt;/div&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;32px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;I am a big heading&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;First you can see we set the &lt;code&gt;font-size&lt;/code&gt; for everything inside of the html element to a small &lt;code&gt;10px&lt;/code&gt; (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of &lt;code&gt;32px&lt;/code&gt; assigned, so the browser shows us a big heading while the div has the small text size without having any &lt;code&gt;font-size&lt;/code&gt; property declared.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/05/css-font/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/05/css-font/</guid>
         
         
       </item>

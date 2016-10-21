@@ -421,9 +421,10 @@ linebreak.</p>
   <li><a href="#the-box-model">The Box Model</a></li>
   <li><a href="#hover">Hover</a></li>
   <li><a href="#class-selector">Class Selector</a></li>
+  <li><a href="#cascade-and-inheritance">Cascade and Inheritance</a></li>
+  <li><a href="#more-selectors-nth-child-nth-of-type-sibling">More Selectors</a></li>
   <li><a href="#transition">Transition</a></li>
   <li><a href="#transform">Transform</a></li>
-  <li><a href="#more-selectors-nth-child-nth-of-type-sibling">More Selectors</a></li>
   <li><a href="#challenges-start-experimenting">Challenges</a></li>
   <li><a href="#resources">Resources</a></li>
 </ul>
@@ -809,6 +810,324 @@ linebreak.</p>
   </article>
 
   <article>
+    <h3 id="cascade-and-inheritance">Cascade and Inheritance</h3>
+
+<p>As the name Cascading Style Sheets suggests, CSS specifies the <em>styles</em> for a document in a <em>cascading</em> manner. But what exactly does <em>cascading</em> mean?</p>
+
+<p>First it is important to understand that most elements in a document are subject to more than one style declaration. Sometimes these declarations are conflicting. If one declaration says an element should be red and another one says it should be green, the browser can only apply one of them.</p>
+
+<p>The set of rules that determines which of these conflicting declarations to apply is called the <em>cascade</em>.</p>
+
+<h4 id="the-user-agent-stylesheet">The User Agent Stylesheet</h4>
+
+<p>Every stylesheet that you, the <em>author</em>, add to a website, is called an <em>author stylesheet</em>.</p>
+
+<p>Every browser, or <em>user agent</em>, also has its own <em>user agent stylesheet</em>. It makes sure that every document always has some sensible default styling, even without you writing a single line of CSS.</p>
+
+<p>Thanks to the user agent stylesheet, all headlines have a bigger font size, and every link is blue and underlined. While these defaults are very useful, the rules of the cascade make sure that you can always overwrite them in your own author stylesheets.</p>
+
+<p>If the user agent stylesheet says all links should be blue, but your author stylesheet says all links should be red, all links will be red.</p>
+
+<h4 id="overwriting-your-own-styles">Overwriting your own styles</h4>
+
+<p>The cascade is also important for when you want to overwrite your own styles. But why would you want to overwrite your own styles?</p>
+
+<p>Imagine you are styling a document with some paragraphs. All these paragraphs should have green text, but one of them contains a warning, and should therefore be red.</p>
+
+<p>Here is one way to do this:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+    <span class="nt">p</span> <span class="p">{</span>
+      <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nc">.warning</span> <span class="p">{</span>
+      <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;p&gt;</span>I am a normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p&gt;</span>I am another normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;warning&quot;</span><span class="nt">&gt;</span>Warning! I am a red paragraph of text!<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever <code>class="warning"</code> is applied.</p>
+
+<p>This is a good example why you would want to overwrite your own styles: Apply generic default styles for all elements first, then overwrite some of them to create exceptions.</p>
+
+<p>If you think that is all very complicated, you are not wrong. Thankfully, computers are much better at figuring these things out than humans.</p>
+
+<h4 id="developer-tools-to-the-rescue">Developer Tools to the rescue</h4>
+
+<p>Developer tools are our best friends when building websites. They can give us a lot of feedback about the elements on a web page.</p>
+
+<p>One great developer tool is <em>inspect element</em>.</p>
+
+<p>The basic idea behind inspect element is that you can click any element on a page and your browser will tell you a lot of useful things about it. For example which styles are assigned to the element.</p>
+
+<p>Inspect element or something similar is available in all modern browsers. In Chrome and Firefox you just need to right click on the page and select <em>Inspect Element</em> from the context menu. If you are using Safari you first need to <a href="https://support.apple.com/kb/PH21414">enable developer tools in the browser</a>. If you are using Edge, inspect element is called <em>DOM Inspector</em>. You also need to <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/settings/">enable it first in the f12 Developer Tools menu</a>.</p>
+
+<p>You can read more about how to use developer tools in your browser using the following links:</p>
+
+<ul>
+  <li><a href="https://support.apple.com/kb/PH21414">Safari</a></li>
+  <li><a href="https://developers.google.com/web/tools/chrome-devtools/inspect-styles/">Chrome</a></li>
+  <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/dom-explorer/">Edge</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/UI_Tour">Firefox</a></li>
+</ul>
+
+<p>Here is an animated gif of what inspect element looks like in Google Chrome:</p>
+
+<figure>
+  <img src="/assets/images/inspect-element.gif" alt="Animated gif of inspecting an element in Google Chrome" />
+  <figcaption>
+    <p>The element inspector in Google Chrome Developer Tools</p>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/images/inspect-element.png" alt="Image of the styles panel in Google Chrome Developer Tools" />
+  <figcaption>
+    <p>The styles panel shows you what styles are applied to an element and where to find them.</p>
+    <p>It also indicates overwritten styles as <strike>striked out</strike></p>
+  </figcaption>
+</figure>
+
+<h4 id="parents-children-siblings-inheritance">Parents, Children, Siblings, Inheritance</h4>
+
+<p>When we talk about an HTML document, we often describe it as a family tree. When an element stands between the opening tag and the closing tag of another element, it is <em>wrapped</em> inside another element. Elements that are wrapped inside another element are also called <em>children</em>. The tree of elements in a document is also called the <em><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a></em>, and the elements in the tree are called <em>DOM nodes</em>.</p>
+
+<p>Consider the following document:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;main&gt;</span>
+      <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Firefox is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Chrome is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Safari is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Edge is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/main&gt;</span>
+    <span class="nt">&lt;footer&gt;</span>
+      <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Read the Wikipedia article about web browsers<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/footer&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>For this document, the following statements are true:</p>
+
+<ul>
+  <li><code>h2</code> is a child of <code>main</code></li>
+  <li><code>footer</code> is a child of <code>body</code></li>
+  <li><code>h2</code> is a sibling of <code>p</code></li>
+  <li><code>h2</code> has four siblings</li>
+  <li><code>main</code> is a parent of <code>h2</code></li>
+  <li><code>main</code> has five children</li>
+  <li><code>h2</code> and <code>main</code> are descendants of <code>body</code></li>
+  <li><code>html</code> and <code>body</code> are ancestors of <code>p</code></li>
+  <li><code>main</code> and <code>footer</code> are wrapped inside a <code>body</code>-element</li>
+  <li>The <code>html</code>-element is wrapped around the <code>body</code>-element</li>
+</ul>
+
+<p>One way we can make use of these relationships in our CSS is through <em>inheritance</em>. Inheritance means that some CSS properties, like text color or font size, get passed down, or <em>inherited</em> from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn’t have its own color property value.</p>
+
+<p>Now let’s make this document a bit more interesting:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+      <span class="nt">body</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="nt">footer</span> <span class="p">{</span>
+        <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;main&gt;</span>
+      <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.mozilla.org/en-US/firefox/new/&quot;</span><span class="nt">&gt;</span>Firefox<span class="nt">&lt;/a&gt;</span> is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.google.com/chrome/&quot;</span><span class="nt">&gt;</span>Chrome<span class="nt">&lt;/a&gt;</span> is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.apple.com/lae/safari/&quot;</span><span class="nt">&gt;</span>Safari<span class="nt">&lt;/a&gt;</span> is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.microsoft.com/en-us/windows/microsoft-edge&quot;</span><span class="nt">&gt;</span>Edge<span class="nt">&lt;/a&gt;</span> is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/main&gt;</span>
+    <span class="nt">&lt;footer&gt;</span>
+      <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Read the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://en.wikipedia.org/wiki/Web_browser&quot;</span><span class="nt">&gt;</span>Wikipedia article about web browsers<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;/footer&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>In this document, all elements without a specified text color will inherit the green text color from the <code>body</code>-element. The <code>footer</code> has its own white text color that overwrites the green text color from the <code>body</code>-element. It also has a green background color.</p>
+
+<p>You will notice that the <code>a</code>-elements don’t inherit the text color of their ancestors. That is because the <code>a</code>-element has its own blue text color specified in the user agent style sheet.</p>
+
+<p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code>footer</code> by adding the following CSS:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">footer</span> <span class="nt">a</span> <span class="p">{</span>
+  <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
+  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>You might wonder why there is an empty space between <code>footer</code> and <code>a</code> in the <code>footer a</code> selector. This empty space is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">descendant combinator</a>. The descendant combinator lets you select elements that are descendants of another element.</p>
+
+<p>This becomes a bit clearer when you read the selectors from right to left. <code>footer a</code> will select every <code>a</code> element, that is a <em>descendant</em> of a <code>footer</code>-element. You can also combine more selectors. For example <code>footer h2 a</code> would select every link inside of a level two headline that is inside of a footer.</p>
+
+<p>Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with <code>text-decoration: underline;</code>. This way people can still recognize that they are links, not just regular text.</p>
+
+<h4 id="the-inherit-keyword">The <code>inherit</code> keyword</h4>
+
+<p>This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the <code>color</code> values for <code>footer</code> <em>and</em> <code>footer a</code> to yellow to achieve this. Ugh, so much work!</p>
+
+<p>Thankfully, there is the <code>inherit</code> keyword.</p>
+
+<p>The <code>inherit</code> keyword forces some attributes, like color, to be <em>inherited</em> from the parent element. So in our example we could give our <code>footer a</code> the property value <code>color: inherit;</code>. This way the links inside our footer are always the same color as the text in our footer.</p>
+
+<p>There is also the newer <code>currentcolor</code> keyword. <code>currentcolor</code> always represents the text color of a certain element. If you want to change another attribute than <code>color</code> to that same element’s text color, you could do that with a declaration like <code>border-color: currentcolor</code>.</p>
+
+<h4 id="specificity">Specificity</h4>
+
+<p>Specificity means that a rule that is <em>more specific</em> overpowers a rule that is <em>less specific</em>. For example selecting every link inside a footer element with <code>footer a</code> is <em>more specific</em> than selecting every link element everywhere with <code>a</code>.</p>
+
+<p>Some selectors are more specific by default. For example a <em>class selector</em> will always have a higher specificity than an <em>element selector</em>. This makes sense, because selecting only elements with a certain class attribute is <em>more specific</em> than selecting <em>every</em> element of a type.</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+      <span class="nt">a</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="nt">body</span> <span class="nt">a</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="nc">.danger-link</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;danger-link&quot;</span> <span class="na">href=</span><span class="s">&quot;danger.html&quot;</span><span class="nt">&gt;</span>I am a very dangerous link, do not click me!<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>In this example the link will end up red. The first rule for <code>a</code> will be overwritten by the <em>more specific</em> rule <code>body a</code>.</p>
+
+<p>The class selector <code>.danger-link</code> is even more specific, therefore it overwrites them both.</p>
+
+<p>It is important to keep in mind that in the cascade <em>specificity beats the order</em> of rules in your stylesheet. If a rule is followed by another rule with the <em>same specificity</em>, the second rule overwrites the first. If the first rule has a <em>higher specificity</em>, the first rule still overwrites any less specific rules that come after it.</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+      <span class="nt">body</span> <span class="nt">p</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+      <span class="p">}</span>
+      <span class="nt">p</span> <span class="p">{</span>
+        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>I am a green paragraph of text because &quot;body p&quot; is more specific than &quot;p&quot;<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like <code>.site-header nav ul li a</code>. If you want to read more about this, the Mozilla Developer Network has a <a href="https://developer.mozilla.org/en/docs/Web/CSS/Specificity">more detailed article on specificity</a>.</p>
+
+  </article>
+
+  <article>
+    <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
+<p>There are a few more selectors to select subsets out of many elements. <code>:nth-child</code>, <code>:nth-of-type</code> and the <code>~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
+
+<p>The <code>:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code>li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code>2nd</code> element, <code>3n</code> for every third, <code>3n-1</code> for every third but starting with the second and so on.</p>
+
+<p data-height="381" data-theme-id="17669" data-slug-hash="mJobeL" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/mJobeL/">mJobeL</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn’t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
+
+<p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
+
+<div class="m-switch">
+  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
+  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
+  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
+  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
+
+<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
+
+<p data-height="476" data-theme-id="17669" data-slug-hash="vOPBLd" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/vOPBLd/">vOPBLd</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+  </article>
+
+  <article>
     <h3 id="transition">Transition</h3>
 <p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code>:hover</code> and add the <code>transition</code> property to the mix:</p>
 
@@ -927,38 +1246,6 @@ linebreak.</p>
 <script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>Note: This example currently doesn’t work in Safari. It’s because it needs something called vendor prefix, which we haven’t included (yet :P). If you want to take a quick journey into vendor-prefix-land read this <a href="http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm" target="_blank">CSS Vendor Prefixes</a>. But make sure to come back ;)</p>
-
-  </article>
-
-  <article>
-    <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
-<p>There are a few more selectors to select subsets out of many elements. <code>:nth-child</code>, <code>:nth-of-type</code> and the <code>~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
-
-<p>The <code>:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code>li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code>2nd</code> element, <code>3n</code> for every third, <code>3n-1</code> for every third but starting with the second and so on.</p>
-
-<p data-height="381" data-theme-id="17669" data-slug-hash="mJobeL" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/mJobeL/">mJobeL</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn’t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
-
-<p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
-
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
-
-<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
-
-<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
-
-<p data-height="476" data-theme-id="17669" data-slug-hash="vOPBLd" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/vOPBLd/">vOPBLd</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
-
 
   </article>
 
