@@ -1,5 +1,3 @@
-
-
 img {
   border-radius: .1875rem;
   display: block;
@@ -22,7 +20,7 @@ figcaption,
   padding-left: .5 * $base-unit;
 
   @include bp(xx) {
-    left: -12.875rem; // WIDTH OF THE CAPTION + 3*$BASE-UNIT
+    left: -12.875rem; // WIDTH OF THE CAPTION + 3 * $BASE-UNIT
     padding-left: $base-unit;
     position: absolute;
     top: 0;

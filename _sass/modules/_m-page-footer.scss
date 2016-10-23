@@ -1,31 +1,29 @@
-
-
 .page-footer {
   @extend %sans-serif;
+  background-color: $color-mine-shaft;
+  border-top: .125rem solid $color-dove-gray;
+  color: $color-white;
   font-size: .777777778em;
   line-height: 1.405864198;;
-  background-color: $color-mine-shaft;
-  color: $color-white;
-  border-top: 2px solid $color-dove-gray;
-  padding-top: 2 * $base-unit;
   padding-bottom: 2 * $base-unit;
+  padding-top: 2 * $base-unit;
 }
 
 .page-footer .icon {
-  width: 24px;
-  height: 24px;
-  background-position: 0 -54px;
+  background-position: 0 -3.375rem;
+  height: 1.5rem;
+  width: 1.5rem;
 
-  &:hover { background-position: 0 -27px; }
+  &:hover { background-position: 0 -1.6875rem; }
 }
 
 .page-footer__a {
-  color: $color-white;
   border-color: $color-white;
+  color: $color-white;
 
   &:visited { 
-    color: $color-white;
     border-color: $color-white;
+    color: $color-white;
   }
 }
 
@@ -34,8 +32,8 @@
 .page-footer .list-simple { margin-bottom: .25 * $base-unit; }
 
 .page-footer .list-simple__el--is-horizontal:not(:first-child) {
-  vertical-align: middle;
   margin-left: 0;
+  vertical-align: middle;
 }
 
 .page-footer .list-simple__el--is-horizontal:first-child { margin-right: .5 * $base-unit; }

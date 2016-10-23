@@ -1,17 +1,15 @@
-
-
 blockquote,
 .m-blockquote {
   @extend %sans-serif;
-  width: 100%;
-  display: inline-block; //TODO: ADD A FIX FOR INLINE-BLOCK WHITE SPACE ISSUE
-  position: relative;
+  display: inline-block;
   margin: 0 0 4 * $base-unit;
   padding-left: 2 * $base-unit;
+  position: relative;
+  width: 100%;
 
   @include bp(x) {
-    max-width: calc(33.333% - 2.25rem);
     margin-right: 2 * $base-unit;
+    max-width: calc(33.333% - 2.25rem);
   }
 
   @include bp(xx) {
@@ -32,15 +30,15 @@ blockquote,
     content: '“';
     font-size: 7em;
     left: -$base-unit;
-    top: -$base-unit;
     line-height: .76;
     position: absolute;
+    top: -$base-unit;
 
     @include bp(xx) {
-      font-size: 8em;
-      top: $base-unit;
-      left: $base-unit;
       color: $color-dove-gray;
+      font-size: 8em;
+      left: $base-unit;
+      top: $base-unit;
     }
   }
 }
@@ -53,8 +51,8 @@ blockquote,
   margin-bottom: 0;
 
   @include bp(xx) {
-    width: 20rem;
     position: absolute;
+    width: 20rem;
   }
 }
 
