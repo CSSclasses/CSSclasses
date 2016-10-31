@@ -202,6 +202,18 @@ if ( typeof define === 'function' && define.amd ) {
     var upcomingEventsEl = document.getElementById('upcoming-events');
     var upcomingEventsListEl = document.getElementById('upcoming-events-list');
 
+    var hasVenue = function(event) {
+      return !!(event && event.venue);
+    };
+
+    var capitalizeString = function(str) {
+      var result = str.split('');
+
+      result[0] = result[0].toUpperCase();
+
+      return result.join('');
+    };
+
     var isCSSclasses = function(event) {
       return event.name.indexOf('CSSclasses') > -1;
     };
@@ -223,15 +235,29 @@ if ( typeof define === 'function' && define.amd ) {
       return template.join(' ');
     };
 
-    var renderUpcomingEventLocation = function(upcomingEvent) {
-      var eventVenue = upcomingEvent.venue;
-      var linkLabel = eventVenue.name + ', ' + eventVenue.address_1 + ', ' + eventVenue.city;
-      var template = [
-        '<div><strong>Where:</strong></div>',
-        '<a href="' + getMapLinkForVenue(eventVenue) + '" target="_blank">' + linkLabel + '</a>'
-      ];
+    var getLocationLabel = function(event) {
+      if (hasVenue(event)) {
+        var eventVenue = event.venue;
 
-      return template.join(' ');
+        return eventVenue.name + ', ' + eventVenue.address_1 + ', ' + eventVenue.city;
+      }
+
+      var cityName = event.event_url.split('/')[3].split('-')[1];
+
+      return 'Needs a venue, ' + capitalizeString(cityName);
+    };
+
+    var renderUpcomingEventLocation = function(upcomingEvent) {
+      var linkLabel = getLocationLabel(upcomingEvent);
+      var template = '<div><strong>Where:</strong></div>';
+
+      if (hasVenue(upcomingEvent)) {
+        template += '<a href="' + getMapLinkForVenue(upcomingEvent.venue) + '" target="_blank">' + linkLabel + '</a>';
+      } else {
+        template += linkLabel;
+      }
+
+      return template;
     };
 
     var renderUpcomingEvent = function(upcomingEvent) {
