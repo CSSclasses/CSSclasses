@@ -1,26 +1,24 @@
-
-
 $module-namespace: 'user';
 
 .flex-row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-left: -$base-unit;
   margin-right: -$base-unit;
 }
 
 .#{$module-namespace} {
-  flex: 1 1 50%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  flex: 1 1 50%;
   max-width: 180px;
   padding-left: $base-unit;
   padding-right: $base-unit;
-  @include bp(x) { flex-basis: 25%; }
 
+  @include bp(x) { flex-basis: 25%; }
 }
 
 .#{$module-namespace}__img {
@@ -36,27 +34,28 @@ $module-namespace: 'user';
   margin-bottom: .5 * $base-unit;
 }
 
-// coaches list with leading dots
-
+// COACHES LIST WITH LEADING DOTS
 .coach {
   clear: both;
+
   &:after {
+    border-bottom: 3px dotted $color-silver-chalice;
     content: "";
     display: block;
-    overflow: hidden;
     height: 1em;
-    border-bottom: 3px dotted $color-silver-chalice;
     opacity: .25;
+    overflow: hidden;
   }
 }
 
 .coach__name {
   float: left;
-  padding: 0 1em 0 0;
   margin: 0;
+  padding: 0 1em 0 0;
 }
+
 .coach__links {
   float: right;
-  padding-left: .5em;
   margin: 0;
+  padding-left: .5em;
 }

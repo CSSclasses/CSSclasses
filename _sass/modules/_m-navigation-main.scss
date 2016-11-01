@@ -1,26 +1,24 @@
-
-
 .navigation__toggle {
-  position: fixed;
-  z-index: 1000;
-  margin: .2rem .5rem;
-  padding: 0;
-  width: 4.0625rem;
-  height: 4.0625rem;
-  border: 0;
-  text-indent: 5em;
-  color: transparent;
   background: transparent;
+  border: 0;
+  color: transparent;
+  height: 4.0625rem;
+  margin: .2rem .5rem;
   outline: none;
+  padding: 0;
+  position: fixed;
+  text-indent: 5em;
+  width: 4.0625rem;
+  z-index: 1000;
 
   &::before {
-    position: absolute;
-    top: 1rem;
-    right: .625rem;
-    bottom: 1rem;
-    left: .625rem;
     background: linear-gradient($color-white 20%, transparent 20%, transparent 40%, $color-white 40%, $color-white 60%, transparent 60%, transparent 80%, $color-white 80%);
+    bottom: 1rem;
     content: '';
+    left: .625rem;
+    position: absolute;
+    right: .625rem;
+    top: 1rem;
   }
 
   @include bp(x) { margin: 2rem; }
@@ -33,33 +31,31 @@
 } 
 
 .navigation__close {
-  width: 1rem;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: transparent;
   height: 1rem;
+  overflow: hidden;
   position: absolute;
   right: 1em;
-  top: 1em;
-  overflow: hidden;
   text-indent: 1rem;
-  border: 0;
+  top: 1em;
+  width: 1rem;
   z-index: 1001;
-  background: transparent;
-  color: transparent;
-  -webkit-appearance: none;
 
   &:hover::before,
-  &:hover::after {
-    background: $color-persian-red;
-  }
+  &:hover::after { background: $color-persian-red; }
 
   &::before,
   &::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    height: 100%;
-    top: 0;
-    left: 50%;
     background: $color-white;
+    content: '';
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 2px;
   }
 
   &::before { transform: rotate(45deg); }
@@ -68,19 +64,19 @@
 }
 
 .navigation {
-  position: fixed;
-  z-index: 1001;
-  width: 17.5rem;
-  height: 100%;
   font-size: 1.15em;
+  height: 100%;
+  position: fixed;
   transform: translate3d(-17.5rem, 0, 0);
   transition: transform .4s;
+  width: 17.5rem;
+  z-index: 1001;
 }
 
 .navigation__element {
+  padding-top: 5 * $base-unit;
   position: relative;
   z-index: 1000;
-  padding-top: 5 * $base-unit;
 }
 
 .navigation__element,
@@ -92,12 +88,12 @@
 }
 
 .morph-shape {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
   fill: $color-mine-shaft;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
 }
 
 .show-menu .navigation,
@@ -132,41 +128,41 @@
   &::before { content: none; }
 }
 
-.navigation__list-item.current { border-bottom: 2px solid $color-persian-red;; }
+.navigation__list-item.current { border-bottom: .125rem solid $color-persian-red;; }
 
 .navigation__a {
   @extend %sans-serif;
-  text-transform: uppercase;
   border-bottom: none;
   color: $color-white;
+  text-transform: uppercase;
 
   &:visited { color: $color-white; }
 }
 
 .navigation__logo {
-  width: 60%;
   margin: 0 auto 3 * $base-unit;
+  width: 60%;
 }
 
 
 .hover-effect {
-  position: relative;
   display: inline-block;
+  position: relative;
 
   &::before {
+    border-bottom-color: $color-persian-red;
+    color: $color-persian-red;
+    content: attr(data-hover);
+    left: 0;
+    max-width: 0;
+    overflow: hidden;
     position: absolute;
     top: 0;
-    left: 0;
-    overflow: hidden;
-    max-width: 0;
-    content: attr(data-hover);
     transition: max-width .5s;
     white-space: nowrap;
-    color: $color-persian-red;
-    border-bottom-color: $color-persian-red;
   }
 
-  &:hover { color: currentColor !important; } //OVerrides the default
+  &:hover { color: currentColor !important; } // OVERWRITES THE DEFAULT
 
   &:hover::before { max-width: 100%; }
 }
