@@ -81,6 +81,8 @@
   position: relative;
   z-index: 1000;
   padding-top: 5 * $base-unit;
+  overflow-y: auto;
+  max-height: 100%;
 }
 
 .navigation__element,
