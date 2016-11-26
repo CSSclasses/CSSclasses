@@ -144,6 +144,8 @@ And there we are, this is our first valid HTML file! Here it is again, so you ca
 </html>
 {% endhighlight %}
 
+Are you looking for a place to put your CSS? Don't rush, we will come to that. At the moment, we are looking at HTML only. If you know what you are doing, you can skip over to the <a href="#start-with-inline-styles">CSS</a> part.
+
 ### (Practical) Elements
 
 #### Headings (h1-h6)
