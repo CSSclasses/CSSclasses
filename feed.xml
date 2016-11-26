@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 08:57:39 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 08:57:39 +0000</lastBuildDate>
+    <pubDate>Sat, 26 Nov 2016 09:46:14 +0000</pubDate>
+    <lastBuildDate>Sat, 26 Nov 2016 09:46:14 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -76,6 +76,7 @@
 &lt;h4 id=&quot;general-resources&quot;&gt;General Resources&lt;/h4&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cssreference.io&quot; target=&quot;_blank&quot;&gt;CSS Reference&lt;/a&gt; - Learn by example: cssreference.io is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://marksheet.io&quot; target=&quot;_blank&quot;&gt;MarkSheet&lt;/a&gt; - MarkSheet is a free HTML &amp;amp; CSS tutorial covering&lt;br /&gt;
 everything from explaining what a web browser is to how to make your website responsive. It is split up in 
 different sections and chapters so you can easily skip on topics you are already familiar with.&lt;/li&gt;
