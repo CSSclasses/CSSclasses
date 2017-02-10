@@ -61,3 +61,4 @@ different sections and chapters so you can easily skip on topics you are already
 * <a href="http://caniuse.com/" target="_blank">caniuse</a> – Can I use provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Search the CSS reference</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">Search the HTML reference</a>
+* <a href="https://internetingishard.com/html-and-css/" target="_blank">HTML & CSS is hard - (But it doesn’t have to be)</a>
