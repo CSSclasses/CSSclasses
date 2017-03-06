@@ -55,5 +55,3 @@ Now here is an example of using several transforms at once, but only on `:hover`
 
 <p data-height="481" data-theme-id="17669" data-slug-hash="jPJNNo" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/jPJNNo/'>jPJNNo</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
-Note: This example currently doesn't work in Safari. It's because it needs something called vendor prefix, which we haven't included (yet :P). If you want to take a quick journey into vendor-prefix-land read this <a href="http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm" target="_blank">CSS Vendor Prefixes</a>. But make sure to come back ;)
