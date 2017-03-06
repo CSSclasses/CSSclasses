@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Nov 2016 13:10:34 +0000</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2016 13:10:34 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Mar 2017 08:10:08 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Mar 2017 08:10:08 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -176,7 +176,6 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p data-height=&quot;481&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;jPJNNo&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/jPJNNo/&quot;&gt;jPJNNo&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;Note: This example currently doesn’t work in Safari. It’s because it needs something called vendor prefix, which we haven’t included (yet :P). If you want to take a quick journey into vendor-prefix-land read this &lt;a href=&quot;http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm&quot; target=&quot;_blank&quot;&gt;CSS Vendor Prefixes&lt;/a&gt;. But make sure to come back ;)&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/13/css-transform/</link>
