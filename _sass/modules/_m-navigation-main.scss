@@ -30,7 +30,7 @@
 
 .navigation__toggle.is-scrolled::before {
   background: linear-gradient($color-persian-red 20%, transparent 20%, transparent 40%, $color-persian-red 40%, $color-persian-red 60%, transparent 60%, transparent 80%, $color-persian-red 80%);
-} 
+}
 
 .navigation__close {
   width: 1rem;
@@ -72,7 +72,7 @@
   z-index: 1001;
   width: 17.5rem;
   height: 100%;
-  font-size: 1.15em;
+  font-size: 1em;
   transform: translate3d(-17.5rem, 0, 0);
   transition: transform .4s;
 }
