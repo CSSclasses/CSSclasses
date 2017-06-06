@@ -40,8 +40,9 @@ Transitions are a nice way to add some interactive animations to your site. If y
 
 Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert `transition: 1s all;` which is the transition shorthand with just the first two values that are a `transition-duration` of 1 second and the `transition-property` of `all` which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:
 
-<p data-height="458" data-theme-id="17669" data-slug-hash="YXBmgx" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/YXBmgx/'>YXBmgx</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="458" data-theme-id="dark" data-slug-hash="MowpMv" data-default-tab="result" data-user="CSSclasses"
+data-embed-version="2" data-pen-title="CSSclasses :hover" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/MowpMv/">CSSclasses :hover</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Notice how we used a very complicated transition shorthand here:
 
