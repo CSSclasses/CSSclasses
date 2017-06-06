@@ -41,5 +41,7 @@ navigation:
     url: /attendees/
   - title: Learning Materials
     url: /materials/
+  - title: Run Your Own Event
+    url: /run-your-own-event/
   - title: Code of Conduct
     url: /code-of-conduct/

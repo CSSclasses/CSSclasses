@@ -51,6 +51,7 @@ At this point, you have a solid understanding of how to color, size and even tra
 
 #### General Resources
 
+* <a href="http://cssreference.io" target="_blank">CSS Reference</a> - Learn by example: cssreference.io is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples.
 * <a href="http://marksheet.io" target="_blank">MarkSheet</a> - MarkSheet is a free HTML & CSS tutorial covering  
 everything from explaining what a web browser is to how to make your website responsive. It is split up in 
 different sections and chapters so you can easily skip on topics you are already familiar with.

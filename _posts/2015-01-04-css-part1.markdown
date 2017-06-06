@@ -15,9 +15,10 @@ title: "CSS Basics"
 * [The Box Model](#the-box-model)
 * [Hover](#hover)
 * [Class Selector](#class-selector)
+* [Cascade and Inheritance](#cascade-and-inheritance)
+* [More Selectors](#more-selectors-nth-child-nth-of-type-sibling)
 * [Transition](#transition)
 * [Transform](#transform)
-* [More Selectors](#more-selectors-nth-child-nth-of-type-sibling)
 * [Challenges](#challenges-start-experimenting)
 * [Resources](#resources)
 

@@ -53,8 +53,5 @@ Using `skew` or `skewX` and `skewY` you can skew your elements by given angles o
 
 Now here is an example of using several transforms at once, but only on `:hover` when you move the cursor over an element (notice how we are very happy to use transitions again as well):
 
-<p data-height="481" data-theme-id="dark" data-slug-hash="pwJeMP" data-default-tab="result" data-user="CSSclasses"
-data-embed-version="2" data-pen-title="CSSclasses :hover 2" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/pwJeMP/">CSSclasses :hover 2</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-Note: This example currently doesn't work in Safari. It's because it needs something called vendor prefix, which we haven't included (yet :P). If you want to take a quick journey into vendor-prefix-land read this <a href="http://webdesign.about.com/od/css/a/css-vendor-prefixes.htm" target="_blank">CSS Vendor Prefixes</a>. But make sure to come back ;)
+<p data-height="481" data-theme-id="17669" data-slug-hash="jPJNNo" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/jPJNNo/'>jPJNNo</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

@@ -29,10 +29,6 @@ After installing all dependencies run `npm start`. This triggers `jekyll serve` 
 
 All changes have to be made and pushed inside the `master` branch.
 
-## Publishing to the live page
-
-To publish changes to the live page, run `grunt build` inside the `master` branch. This will trigger a bunch of Grunt tasks (to prepare the files) + Jekyll's build process. Afterwards `cd` into the `_site` folder. This will simultaneously change your branch to `gh-pages`. Commit your changes and push it to GitHub.
-
 ## Browser Support
 This project only supports the latest versions of Chrome, Firefox and Safari.
 
@@ -51,3 +47,7 @@ Images always have to have a ratio of 3:2.
 * There are no `px` units allowed inside this project.
 * For `margin` and `padding` always mulitply or divide the `$base-unit`.
 * Use the predefined color variables from `_variables`.
+
+## Deployment of the live page
+
+After committing to the `master` branch, the site is deployed automatically using Travis CI.
