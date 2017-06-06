@@ -10,8 +10,9 @@ We’ve told you that you can specify width, height and borders, but there’s m
 
 Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.
 
-<p data-height="345" data-theme-id="17669" data-slug-hash="WvPVwz" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/WvPVwz/'>WvPVwz</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="345" data-theme-id="dark" data-slug-hash="mwJmYO" data-default-tab="result" data-user="CSSclasses"
+data-embed-version="2" data-pen-title="CSSclasses Box Model" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/mwJmYO/">CSSclasses Box Model</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 And here you can see how these different properties compose a box:
 
@@ -26,7 +27,8 @@ And here you can see how these different properties compose a box:
 
  There is a way to make the box model work differently, so that you don't need to do these kinds of calculations, using the box-sizing property: `box-sizing: border-box;`.
 
- <p data-height="437" data-theme-id="17669" data-slug-hash="pJGMdq" data-default-tab="result" data-user="verpixelt" class='codepen'>See the Pen <a href='http://codepen.io/verpixelt/pen/pJGMdq/'>pJGMdq</a> by Kevin Lorenz (<a href='http://codepen.io/verpixelt'>@verpixelt</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
- <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+ <p data-height="437" data-theme-id="dark" data-slug-hash="RgPpOm" data-default-tab="result" data-user="CSSclasses"
+ data-embed-version="2" data-pen-title="CSSclasses Box Sizing" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/RgPpOm/">CSSclasses Box Sizing</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
  If you specify that, now your box will actually occupy just 80px, as the borders and paddings become part of the box. This usually makes it easier to understand, so we suggest you use it.
