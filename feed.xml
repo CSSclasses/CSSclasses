@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 May 2017 19:53:05 +0000</pubDate>
-    <lastBuildDate>Mon, 22 May 2017 19:53:05 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2017 19:24:33 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 19:24:33 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -222,8 +222,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert &lt;code&gt;transition: 1s all;&lt;/code&gt; which is the transition shorthand with just the first two values that are a &lt;code&gt;transition-duration&lt;/code&gt; of 1 second and the &lt;code&gt;transition-property&lt;/code&gt; of &lt;code&gt;all&lt;/code&gt; which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:&lt;/p&gt;
 
-&lt;p data-height=&quot;458&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;YXBmgx&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/YXBmgx/&quot;&gt;YXBmgx&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p data-height=&quot;458&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;MowpMv&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses :hover&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/MowpMv/&quot;&gt;CSSclasses :hover&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;Notice how we used a very complicated transition shorthand here:&lt;/p&gt;
 
@@ -263,8 +263,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;The &lt;code&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code&gt;2nd&lt;/code&gt; element, &lt;code&gt;3n&lt;/code&gt; for every third, &lt;code&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
 
-&lt;p data-height=&quot;381&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;mJobeL&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/mJobeL/&quot;&gt;mJobeL&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p data-height=&quot;381&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;rwVygY&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses nth-child&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/rwVygY/&quot;&gt;CSSclasses nth-child&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;The &lt;code&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code&gt;:nth-child&lt;/code&gt;. But &lt;code&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code&gt;div&lt;/code&gt; in the middle of the list, &lt;code&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
 
@@ -283,8 +283,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
 
-&lt;p data-height=&quot;476&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;vOPBLd&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/vOPBLd/&quot;&gt;vOPBLd&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p data-height=&quot;476&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;dRoWEY&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses :checked&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/dRoWEY/&quot;&gt;CSSclasses :checked&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 </description>
         <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
@@ -704,8 +704,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.&lt;/p&gt;
 
-&lt;p data-height=&quot;345&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;WvPVwz&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/WvPVwz/&quot;&gt;WvPVwz&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p data-height=&quot;345&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;mwJmYO&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses Box Model&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/mwJmYO/&quot;&gt;CSSclasses Box Model&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;And here you can see how these different properties compose a box:&lt;/p&gt;
 
@@ -720,8 +720,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: &lt;code&gt;box-sizing: border-box;&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p data-height=&quot;437&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;pJGMdq&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/pJGMdq/&quot;&gt;pJGMdq&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+&lt;p data-height=&quot;437&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;RgPpOm&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses Box Sizing&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/RgPpOm/&quot;&gt;CSSclasses Box Sizing&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;If you specify that, now your box will actually occupy just 80px, as the borders and paddings become part of the box. This usually makes it easier to understand, so we suggest you use it.&lt;/p&gt;
 </description>
