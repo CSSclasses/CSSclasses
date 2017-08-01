@@ -1,0 +1,22 @@
+@media print {
+
+	html {
+		font-size: 12px;
+	}
+
+	body {
+		height: auto;
+	}
+
+	.page-header {
+		background: none;
+	}
+
+	.subpage-header__logo {
+		fill: $color-mine-shaft;
+	}
+
+	.l-width-content {
+		max-width: 100%;
+	}
+}
