@@ -6,12 +6,8 @@ title: "CSS Hover"
 ### Hover
 Hover is a small example of how you can add some fun little interactivity to your site. Take our `div` example from above and let’s add a little bit to our CSS:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 div {
   color: white;

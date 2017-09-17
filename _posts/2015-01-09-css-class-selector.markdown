@@ -6,12 +6,8 @@ title: "CSS Class Selector"
 ### Class Selector
 Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled `div`s on your page.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->
@@ -34,12 +30,8 @@ Until now we used the element selector to apply styles to an element. What’s w
 
 Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second `div` should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->

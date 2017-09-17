@@ -6,12 +6,8 @@ title: "CSS Border Properties"
 ### Border
 You can also put a nice `border` around your elements. Try this:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->
@@ -33,12 +29,8 @@ You can also put a nice `border` around your elements. Try this:
 
 Now you assigned your `div` to have a `black` border that is `5px` thick and `solid`. Let’s `dissect the border property a little bit with a different border and a generic description:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 border: 20px dashed #ff88aa;
 border: <line-width> || <line-style> || <color>;

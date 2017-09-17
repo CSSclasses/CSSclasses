@@ -6,12 +6,8 @@ title: "CSS Transitions"
 ### Transition
 Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and `:hover` and add the `transition` property to the mix:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->
@@ -46,24 +42,16 @@ data-embed-version="2" data-pen-title="CSSclasses :hover" class="codepen">See th
 
 Notice how we used a very complicated transition shorthand here:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 transition: 1s width 0.2s ease-out, 2s background-color, 0.5s height 0.5s;
 {% endhighlight %}
 
 Let’s break it down: `1s width 0.2s ease-out` are the values that define the transition just for the width. The shorthand syntax is:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 transition: transition-duration transition-property transition-delay transition-timing-function;
 {% endhighlight %}

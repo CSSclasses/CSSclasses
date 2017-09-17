@@ -9,12 +9,8 @@ Transforms can be used to manipulate elements. You can take any element and add 
 
 Let’s go through these one by one. `translate` can be used in two different ways:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 .movedownright {
   transform: translate(10px, 20px);
@@ -30,12 +26,8 @@ Both classes `.movedownright` and `.movedownright2` manipulate any element in th
 
 Using `skew` or `skewX` and `skewY` you can skew your elements by given angles on the x- or y-axis. With rotate you can `rotate` your elements by a given angle.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 .skewme {
   transform: skew(20deg, 30deg);
