@@ -1,36 +1,75 @@
 
 
 .m-switch {
-  @extend %sans-serif;
+  $switcher-height: 28px;
+  $switcher-width: 60px;
+  $switcher-inner-spacing: 1px;
+  $switcher-outer-spacing: 1em;
+  $thumb-size: $switcher-height - 2 * $switcher-inner-spacing;
+  $thumb-way: ($switcher-width - $thumb-size - 2 * $switcher-inner-spacing);
 
-  margin-bottom: .5 * $base-unit;
-  text-transform: uppercase;
-}
-
-.m-switch__input { display: none; }
-
-.m-switch.is--light .m-switch__label--is-light:before { border: .25rem solid $color-persian-red; }
-
-.m-switch.is--dark .m-switch__label--is-dark:before {
-  border: .25rem solid $color-persian-red;
-  background-color: $color-mine-shaft;
-}
-
-.m-switch__label {
-  padding-left: 1.5 * $base-unit;
-  position: relative;
-  cursor: pointer;
-
-  &:not(:first-of-type) { margin-left: $base-unit; }
-
-  &::before {
-    border: .6rem solid $color-persian-red;
+  $thumb-color: $color-white;
+  $input-bg-color: $color-persian-red;
+  $label-hl-color: $color-persian-red;
+  
+	position: relative;
+	display: inline-flex;
+	margin: $switcher-outer-spacing 0;
+	user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	&__label {
+		z-index: 1;
+    line-height: $switcher-height;
+		cursor: pointer;
+		&:first-of-type {
+			padding-right: calc(#{$switcher-outer-spacing} + #{$switcher-width});
+		}
+		&:last-of-type {
+			margin-left: -$switcher-width;
+      padding-left: calc(#{$switcher-outer-spacing} + #{$switcher-width});
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        display: inline-block;
+        width: $thumb-size;
+        height: $thumb-size;
+        margin-top: $switcher-inner-spacing;
+        vertical-align: top;
+        border-radius: 50%;
+        background-color: $thumb-color;
+        transform: translate3d(calc(-50% - #{$thumb-way / 2}), 0px, 0px);
+        transition: transform 0.15s ease-in;
+      }
+		}
+	}
+	&::after {
     content: '';
-    display: inline-block;
-    height: $base-unit;
-    left: 0;
+    z-index: -1;
     position: absolute;
-    top: .0625rem;
-    width: $base-unit;
+    left: 50%;
+		display: inline-block;
+		width: $switcher-width;
+		height: $switcher-height;
+		border-radius: $switcher-height / 2;
+		background-color: $input-bg-color;
+    transform: translateX(-50%);
+  }  
+
+  &__input {
+    display: none;
+    &:checked {
+      + .m-switch__label {
+        z-index: 0;
+        color: $label-hl-color;
+      }
+      &:last-of-type ~ .m-switch__label::before {
+        transform: translate3d(calc(-50% + #{$thumb-way / 2}), 0px, 0px);
+      }
+    }
   }
 }
+
+
+
