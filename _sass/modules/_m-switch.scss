@@ -1,74 +1,78 @@
+$switch__track-height: 28px;
+$switch__track-width: 60px;
+$switch__track-inner-spacing: 1px;
+$switch__track-outer-spacing: 1em;
+$switch__thumb-size: $switch__track-height - 2 * $switch__track-inner-spacing;
+$switch__thumb-way: ($switch__track-width - $switch__thumb-size - 2 * $switch__track-inner-spacing);
 
+$switch__thumb-color: $color-white;
+$switch__track-color: $color-persian-red;
+$switch__label-hl-color: $color-persian-red;
 
 .m-switch {
-  $switcher-height: 28px;
-  $switcher-width: 60px;
-  $switcher-inner-spacing: 1px;
-  $switcher-outer-spacing: 1em;
-  $thumb-size: $switcher-height - 2 * $switcher-inner-spacing;
-  $thumb-way: ($switcher-width - $thumb-size - 2 * $switcher-inner-spacing);
-
-  $thumb-color: $color-white;
-  $input-bg-color: $color-persian-red;
-  $label-hl-color: $color-persian-red;
+  @extend %sans-serif;
   
 	position: relative;
 	display: inline-flex;
-	margin: $switcher-outer-spacing 0;
+	margin: $switch__track-outer-spacing 0;
 	user-select: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-	&__label {
-		z-index: 1;
-    line-height: $switcher-height;
-		cursor: pointer;
-		&:first-of-type {
-			padding-right: calc(#{$switcher-outer-spacing} + #{$switcher-width});
-		}
-		&:last-of-type {
-			margin-left: -$switcher-width;
-      padding-left: calc(#{$switcher-outer-spacing} + #{$switcher-width});
-      
-      &::before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        display: inline-block;
-        width: $thumb-size;
-        height: $thumb-size;
-        margin-top: $switcher-inner-spacing;
-        vertical-align: top;
-        border-radius: 50%;
-        background-color: $thumb-color;
-        transform: translate3d(calc(-50% - #{$thumb-way / 2}), 0px, 0px);
-        transition: transform 0.15s ease-in;
-      }
-		}
-	}
-	&::after {
+
+  &::after {
     content: '';
     z-index: -1;
     position: absolute;
     left: 50%;
 		display: inline-block;
-		width: $switcher-width;
-		height: $switcher-height;
-		border-radius: $switcher-height / 2;
-		background-color: $input-bg-color;
+		width: $switch__track-width;
+		height: $switch__track-height;
+		border-radius: $switch__track-height / 2;
+		background-color: $switch__track-color;
     transform: translateX(-50%);
   }  
+}
 
-  &__input {
-    display: none;
-    &:checked {
-      + .m-switch__label {
-        z-index: 0;
-        color: $label-hl-color;
-      }
-      &:last-of-type ~ .m-switch__label::before {
-        transform: translate3d(calc(-50% + #{$thumb-way / 2}), 0px, 0px);
-      }
-    }
+.m-switch__label {
+  z-index: 1;
+  line-height: $switch__track-height;
+  cursor: pointer;
+}
+
+.m-switch__label:first-of-type {
+  padding-right: calc(#{$switch__track-outer-spacing} + #{$switch__track-width});
+}
+
+.m-switch__label:last-of-type {
+  margin-left: -$switch__track-width;
+  padding-left: calc(#{$switch__track-outer-spacing} + #{$switch__track-width});
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    width: $switch__thumb-size;
+    height: $switch__thumb-size;
+    margin-top: $switch__track-inner-spacing;
+    vertical-align: top;
+    border-radius: 50%;
+    background-color: $switch__thumb-color;
+    transform: translate3d(calc(-50% - #{$switch__thumb-way / 2}), 0px, 0px);
+    transition: transform 0.15s ease-in;
   }
+}
+
+.m-switch__input {
+  display: none;
+}
+
+.m-switch__input:checked + .m-switch__label {
+  z-index: 0;
+  color: $switch__label-hl-color;
+}
+
+.m-switch__input:checked:last-of-type ~ .m-switch__label::before {
+  transform: translate3d(calc(-50% + #{$switch__thumb-way / 2}), 0px, 0px);
 }
 
 
