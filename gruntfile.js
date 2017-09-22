@@ -138,7 +138,7 @@ module.exports = function (grunt) {
               sourceMap: true
             },
             files: {
-              'js/cssclasses.min.js': JS_FILES
+              '_site/js/cssclasses.min.js': JS_FILES
             }
           }
         },
