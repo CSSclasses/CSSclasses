@@ -8,6 +8,6 @@ install:
   - npm install
   - node_modules/bower/bin/bower install
 script:
-  - grunt build
+  - npm run grunt build
 after_success:
   - bash deploy.sh
