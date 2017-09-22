@@ -168,10 +168,12 @@
 <p>Here is one way to do this:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_25_50" type="radio" name="switch_25" value="dark" />
+  <label class="m-switch__label" for="switch_25_50">Dark</label>
+  
+  <input class="m-switch__input" id="switch_25_51" type="radio" name="switch_25" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_25_51">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
@@ -239,10 +241,12 @@
 <p>Consider the following document:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_26_52" type="radio" name="switch_26" value="dark" />
+  <label class="m-switch__label" for="switch_26_52">Dark</label>
+  
+  <input class="m-switch__input" id="switch_26_53" type="radio" name="switch_26" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_26_53">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
@@ -279,10 +283,12 @@
 <p>One way we can make use of these relationships in our CSS is through <em>inheritance</em>. Inheritance means that some CSS properties, like text color or font size, get passed down, or <em>inherited</em> from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_27_54" type="radio" name="switch_27" value="dark" />
+  <label class="m-switch__label" for="switch_27_54">Dark</label>
+  
+  <input class="m-switch__input" id="switch_27_55" type="radio" name="switch_27" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_27_55">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
@@ -294,10 +300,12 @@
 <p>Now let’s make this document a bit more interesting:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_28_56" type="radio" name="switch_28" value="dark" />
+  <label class="m-switch__label" for="switch_28_56">Dark</label>
+  
+  <input class="m-switch__input" id="switch_28_57" type="radio" name="switch_28" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_28_57">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
@@ -334,10 +342,12 @@
 <p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code>footer</code> by adding the following CSS:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_29_58" type="radio" name="switch_29" value="dark" />
+  <label class="m-switch__label" for="switch_29_58">Dark</label>
+  
+  <input class="m-switch__input" id="switch_29_59" type="radio" name="switch_29" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_29_59">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">footer</span> <span class="nt">a</span> <span class="p">{</span>
@@ -368,10 +378,12 @@
 <p>Some selectors are more specific by default. For example a <em>class selector</em> will always have a higher specificity than an <em>element selector</em>. This makes sense, because selecting only elements with a certain class attribute is <em>more specific</em> than selecting <em>every</em> element of a type.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_30_60" type="radio" name="switch_30" value="dark" />
+  <label class="m-switch__label" for="switch_30_60">Dark</label>
+  
+  <input class="m-switch__input" id="switch_30_61" type="radio" name="switch_30" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_30_61">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>
@@ -400,10 +412,12 @@
 <p>It is important to keep in mind that in the cascade <em>specificity beats the order</em> of rules in your stylesheet. If a rule is followed by another rule with the <em>same specificity</em>, the second rule overwrites the first. If the first rule has a <em>higher specificity</em>, the first rule still overwrites any less specific rules that come after it.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_31_62" type="radio" name="switch_31" value="dark" />
+  <label class="m-switch__label" for="switch_31_62">Dark</label>
+  
+  <input class="m-switch__input" id="switch_31_63" type="radio" name="switch_31" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_31_63">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;html&gt;</span>

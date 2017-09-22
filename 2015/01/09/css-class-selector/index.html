@@ -145,10 +145,12 @@
 <p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code>div</code>s on your page.</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_23_46" type="radio" name="switch_23" value="dark" />
+  <label class="m-switch__label" for="switch_23_46">Dark</label>
+  
+  <input class="m-switch__input" id="switch_23_47" type="radio" name="switch_23" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_23_47">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
@@ -172,10 +174,12 @@
 <p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code>div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_24_48" type="radio" name="switch_24" value="dark" />
+  <label class="m-switch__label" for="switch_24_48">Dark</label>
+  
+  <input class="m-switch__input" id="switch_24_49" type="radio" name="switch_24" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_24_49">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>

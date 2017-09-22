@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Aug 2017 07:10:14 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Aug 2017 07:10:14 +0000</lastBuildDate>
+    <pubDate>Fri, 22 Sep 2017 19:00:12 +0000</pubDate>
+    <lastBuildDate>Fri, 22 Sep 2017 19:00:12 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -132,10 +132,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Let’s go through these one by one. &lt;code&gt;translate&lt;/code&gt; can be used in two different ways:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_36_72&quot; type=&quot;radio&quot; name=&quot;switch_36&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_36_72&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_36_73&quot; type=&quot;radio&quot; name=&quot;switch_36&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_36_73&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.movedownright&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -152,10 +154,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Using &lt;code&gt;skew&lt;/code&gt; or &lt;code&gt;skewX&lt;/code&gt; and &lt;code&gt;skewY&lt;/code&gt; you can skew your elements by given angles on the x- or y-axis. With rotate you can &lt;code&gt;rotate&lt;/code&gt; your elements by a given angle.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_37_74&quot; type=&quot;radio&quot; name=&quot;switch_37&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_37_74&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_37_75&quot; type=&quot;radio&quot; name=&quot;switch_37&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_37_75&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.skewme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -190,10 +194,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and &lt;code&gt;:hover&lt;/code&gt; and add the &lt;code&gt;transition&lt;/code&gt; property to the mix:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_33_66&quot; type=&quot;radio&quot; name=&quot;switch_33&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_33_66&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_33_67&quot; type=&quot;radio&quot; name=&quot;switch_33&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_33_67&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -228,10 +234,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Notice how we used a very complicated transition shorthand here:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_34_68&quot; type=&quot;radio&quot; name=&quot;switch_34&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_34_68&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_34_69&quot; type=&quot;radio&quot; name=&quot;switch_34&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_34_69&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ease-out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -239,10 +247,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Let’s break it down: &lt;code&gt;1s width 0.2s ease-out&lt;/code&gt; are the values that define the transition just for the width. The shorthand syntax is:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_35_70&quot; type=&quot;radio&quot; name=&quot;switch_35&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_35_70&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_35_71&quot; type=&quot;radio&quot; name=&quot;switch_35&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_35_71&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-duration&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-property&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-delay&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;transition-timing-function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -271,10 +281,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;The &lt;code&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_32_64&quot; type=&quot;radio&quot; name=&quot;switch_32&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_32_64&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_32_65&quot; type=&quot;radio&quot; name=&quot;switch_32&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_32_65&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
@@ -323,10 +335,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Here is one way to do this:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_25_50&quot; type=&quot;radio&quot; name=&quot;switch_25&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_25_50&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_25_51&quot; type=&quot;radio&quot; name=&quot;switch_25&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_25_51&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -394,10 +408,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Consider the following document:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_26_52&quot; type=&quot;radio&quot; name=&quot;switch_26&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_26_52&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_26_53&quot; type=&quot;radio&quot; name=&quot;switch_26&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_26_53&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -434,10 +450,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;One way we can make use of these relationships in our CSS is through &lt;em&gt;inheritance&lt;/em&gt;. Inheritance means that some CSS properties, like text color or font size, get passed down, or &lt;em&gt;inherited&lt;/em&gt; from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_27_54&quot; type=&quot;radio&quot; name=&quot;switch_27&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_27_54&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_27_55&quot; type=&quot;radio&quot; name=&quot;switch_27&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_27_55&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -449,10 +467,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Now let’s make this document a bit more interesting:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_28_56&quot; type=&quot;radio&quot; name=&quot;switch_28&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_28_56&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_28_57&quot; type=&quot;radio&quot; name=&quot;switch_28&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_28_57&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -489,10 +509,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the &lt;code&gt;footer&lt;/code&gt; by adding the following CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_29_58&quot; type=&quot;radio&quot; name=&quot;switch_29&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_29_58&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_29_59&quot; type=&quot;radio&quot; name=&quot;switch_29&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_29_59&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -523,10 +545,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Some selectors are more specific by default. For example a &lt;em&gt;class selector&lt;/em&gt; will always have a higher specificity than an &lt;em&gt;element selector&lt;/em&gt;. This makes sense, because selecting only elements with a certain class attribute is &lt;em&gt;more specific&lt;/em&gt; than selecting &lt;em&gt;every&lt;/em&gt; element of a type.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_30_60&quot; type=&quot;radio&quot; name=&quot;switch_30&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_30_60&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_30_61&quot; type=&quot;radio&quot; name=&quot;switch_30&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_30_61&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -555,10 +579,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;It is important to keep in mind that in the cascade &lt;em&gt;specificity beats the order&lt;/em&gt; of rules in your stylesheet. If a rule is followed by another rule with the &lt;em&gt;same specificity&lt;/em&gt;, the second rule overwrites the first. If the first rule has a &lt;em&gt;higher specificity&lt;/em&gt;, the first rule still overwrites any less specific rules that come after it.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_31_62&quot; type=&quot;radio&quot; name=&quot;switch_31&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_31_62&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_31_63&quot; type=&quot;radio&quot; name=&quot;switch_31&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_31_63&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -592,10 +618,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled &lt;code&gt;div&lt;/code&gt;s on your page.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_23_46&quot; type=&quot;radio&quot; name=&quot;switch_23&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_23_46&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_23_47&quot; type=&quot;radio&quot; name=&quot;switch_23&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_23_47&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -619,10 +647,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_24_48&quot; type=&quot;radio&quot; name=&quot;switch_24&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_24_48&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_24_49&quot; type=&quot;radio&quot; name=&quot;switch_24&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_24_49&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -667,10 +697,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Hover is a small example of how you can add some fun little interactivity to your site. Take our &lt;code&gt;div&lt;/code&gt; example from above and let’s add a little bit to our CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_22_44&quot; type=&quot;radio&quot; name=&quot;switch_22&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_22_44&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_22_45&quot; type=&quot;radio&quot; name=&quot;switch_22&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_22_45&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -738,10 +770,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;You can also put a nice &lt;code&gt;border&lt;/code&gt; around your elements. Try this:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_20_40&quot; type=&quot;radio&quot; name=&quot;switch_20&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_20_40&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_20_41&quot; type=&quot;radio&quot; name=&quot;switch_20&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_20_41&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
@@ -764,10 +798,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Now you assigned your &lt;code&gt;div&lt;/code&gt; to have a &lt;code&gt;black&lt;/code&gt; border that is &lt;code&gt;5px&lt;/code&gt; thick and &lt;code&gt;solid&lt;/code&gt;. Let’s `dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;dark&quot; type=&quot;radio&quot; name=&quot;theme&quot; onchange=&quot;darkenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-dark&quot; for=&quot;dark&quot;&gt;Dark&lt;/label&gt;
-  &lt;input class=&quot;m-switch__input&quot; id=&quot;light&quot; type=&quot;radio&quot; name=&quot;theme&quot; checked=&quot;checked&quot; onchange=&quot;lightenEverything()&quot; /&gt;
-  &lt;label class=&quot;m-switch__label m-switch__label--is-light&quot; for=&quot;light&quot;&gt;Light&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_21_42&quot; type=&quot;radio&quot; name=&quot;switch_21&quot; value=&quot;dark&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_21_42&quot;&gt;Dark&lt;/label&gt;
+  
+  &lt;input class=&quot;m-switch__input&quot; id=&quot;switch_21_43&quot; type=&quot;radio&quot; name=&quot;switch_21&quot; value=&quot;light&quot; checked=&quot;checked&quot; /&gt;
+  &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_21_43&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dashed&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#ff88aa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;

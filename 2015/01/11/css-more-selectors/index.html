@@ -154,10 +154,12 @@
 <p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_32_64" type="radio" name="switch_32" value="dark" />
+  <label class="m-switch__label" for="switch_32_64">Dark</label>
+  
+  <input class="m-switch__input" id="switch_32_65" type="radio" name="switch_32" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_32_65">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>

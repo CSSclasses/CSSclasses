@@ -145,10 +145,12 @@
 <p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code>:hover</code> and add the <code>transition</code> property to the mix:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_33_66" type="radio" name="switch_33" value="dark" />
+  <label class="m-switch__label" for="switch_33_66">Dark</label>
+  
+  <input class="m-switch__input" id="switch_33_67" type="radio" name="switch_33" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_33_67">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
@@ -183,10 +185,12 @@
 <p>Notice how we used a very complicated transition shorthand here:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_34_68" type="radio" name="switch_34" value="dark" />
+  <label class="m-switch__label" for="switch_34_68">Dark</label>
+  
+  <input class="m-switch__input" id="switch_34_69" type="radio" name="switch_34" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_34_69">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">1s</span> <span class="nt">width</span> <span class="nt">0</span><span class="nc">.2s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">2s</span> <span class="nt">background-color</span><span class="o">,</span> <span class="nt">0</span><span class="nc">.5s</span> <span class="nt">height</span> <span class="nt">0</span><span class="nc">.5s</span><span class="o">;</span></code></pre></figure>
@@ -194,10 +198,12 @@
 <p>Let’s break it down: <code>1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
 
 <div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()" />
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()" />
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
+  
+  <input class="m-switch__input" id="switch_35_70" type="radio" name="switch_35" value="dark" />
+  <label class="m-switch__label" for="switch_35_70">Dark</label>
+  
+  <input class="m-switch__input" id="switch_35_71" type="radio" name="switch_35" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_35_71">Light</label>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">transition-duration</span> <span class="nt">transition-property</span> <span class="nt">transition-delay</span> <span class="nt">transition-timing-function</span><span class="o">;</span></code></pre></figure>
