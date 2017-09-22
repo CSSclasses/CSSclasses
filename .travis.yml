@@ -6,7 +6,7 @@ install:
   - bundle install
   - nvm install 6 && nvm use 6
   - npm install
-  - bower install
+  - node_modules/bower/bin/bower install
 script:
   - grunt build
 after_success:
