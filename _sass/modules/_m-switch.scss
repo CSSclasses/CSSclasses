@@ -1,36 +1,79 @@
+$switch__track-height: 28px;
+$switch__track-width: 60px;
+$switch__track-inner-spacing: 1px;
+$switch__track-outer-spacing: 1em;
+$switch__thumb-size: $switch__track-height - 2 * $switch__track-inner-spacing;
+$switch__thumb-way: ($switch__track-width - $switch__thumb-size - 2 * $switch__track-inner-spacing);
 
+$switch__thumb-color: $color-white;
+$switch__track-color: $color-persian-red;
+$switch__label-hl-color: $color-persian-red;
 
 .m-switch {
   @extend %sans-serif;
+  
+	position: relative;
+	display: inline-flex;
+	margin: $switch__track-outer-spacing 0;
+	user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 
-  margin-bottom: .5 * $base-unit;
-  text-transform: uppercase;
-}
-
-.m-switch__input { display: none; }
-
-.m-switch.is--light .m-switch__label--is-light:before { border: .25rem solid $color-persian-red; }
-
-.m-switch.is--dark .m-switch__label--is-dark:before {
-  border: .25rem solid $color-persian-red;
-  background-color: $color-mine-shaft;
+  &::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+		display: inline-block;
+		width: $switch__track-width;
+		height: $switch__track-height;
+		border-radius: $switch__track-height / 2;
+		background-color: $switch__track-color;
+    transform: translateX(-50%);
+  }  
 }
 
 .m-switch__label {
-  padding-left: 1.5 * $base-unit;
-  position: relative;
+  z-index: 1;
+  line-height: $switch__track-height;
   cursor: pointer;
+}
 
-  &:not(:first-of-type) { margin-left: $base-unit; }
+.m-switch__label:first-of-type {
+  padding-right: calc(#{$switch__track-outer-spacing} + #{$switch__track-width});
+}
 
+.m-switch__label:last-of-type {
+  margin-left: -$switch__track-width;
+  padding-left: calc(#{$switch__track-outer-spacing} + #{$switch__track-width});
+  
   &::before {
-    border: .6rem solid $color-persian-red;
     content: '';
-    display: inline-block;
-    height: $base-unit;
-    left: 0;
     position: absolute;
-    top: .0625rem;
-    width: $base-unit;
+    left: 50%;
+    display: inline-block;
+    width: $switch__thumb-size;
+    height: $switch__thumb-size;
+    margin-top: $switch__track-inner-spacing;
+    vertical-align: top;
+    border-radius: 50%;
+    background-color: $switch__thumb-color;
+    transform: translate3d(calc(-50% - #{$switch__thumb-way / 2}), 0px, 0px);
+    transition: transform 0.15s ease-in;
   }
 }
+
+.m-switch__input {
+  display: none;
+}
+
+.m-switch__input:checked + .m-switch__label {
+  z-index: 0;
+  color: $switch__label-hl-color;
+}
+
+.m-switch__input:checked:last-of-type ~ .m-switch__label::before {
+  transform: translate3d(calc(-50% + #{$switch__thumb-way / 2}), 0px, 0px);
+}
+
+
+

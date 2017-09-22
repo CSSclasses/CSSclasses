@@ -1,0 +1,14 @@
+{% comment %}Calculating uniquie ID for switch.{% endcomment %}
+{% capture switchID %}switch_{% increment switchCounter %}{% endcapture %}
+
+{% comment %}Defining default name value for inputs of switch. Can be overwritten by include{% endcomment %}
+{% capture nameValue %}{{include.name | default: switchID}}{% endcapture %}
+
+<div class="m-switch">
+  {% capture inputID %}{{switchID}}_{% increment inputCounter %}{% endcapture %}
+  <input class="m-switch__input" id="{{inputID}}" type="radio" name="{{nameValue}}" value="dark">
+  <label class="m-switch__label" for="{{inputID}}">Dark</label>
+  {% capture inputID %}{{switchID}}_{% increment inputCounter %}{% endcapture %}
+  <input class="m-switch__input" id="{{inputID}}" type="radio" name="{{nameValue}}" value="light" checked="checked">
+  <label class="m-switch__label" for="{{inputID}}">Light</label>
+</div>

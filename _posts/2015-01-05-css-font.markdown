@@ -8,12 +8,8 @@ The `font-family` CSS property allows for a prioritized list of font family name
 
 You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 body {
   font-family: Proxima-Nova, Helvetica, sans-serif;
@@ -24,12 +20,8 @@ Font family names must either be given quoted as strings, or unquoted as a seque
 
 Here a few examples how it’s done right:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight CSS %}
 body {
   font-family: Times, "Times New Roman", Georgia, serif;
@@ -46,12 +38,8 @@ p {
 
 Keep going with our example let’s add a font-family to the `div` we’ve created before.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->
@@ -76,12 +64,8 @@ If you hit refresh (CMD + R) again, your font-family should have changed from th
 
 The `font-size` property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <head>
 <!-- ... -->

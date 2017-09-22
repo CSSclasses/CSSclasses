@@ -16,12 +16,8 @@ Elements are what makes up a HTML document. You can put elements inside of other
 
 A Tag is the thing that indicates an element’s purpose. For example, the `<p>` tag indicates a paragraph of text is in that element, and the `<li>` represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <p>This is a paragraph.</p>
 {% endhighlight %}
@@ -32,24 +28,16 @@ Always double-check that you’ve closed all your elements; otherwise, a browser
 
 Lastly, having elements inside of each other (“nesting”) looks just like this:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <p>This is a sentence, with an <em>em</em> element ("emphasize") inside of it.</p>
 {% endhighlight %}
 
 or this:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <div id="main-container">
   <h1>The h1 tag indicates the primary header of the document.</h1>
@@ -95,12 +83,8 @@ For now just keep in mind, that every box has some sort of display value.
 ### HTML Boilerplate
 There is some basic structure you don't need to spend too much time on that is always there. Let's handle this in a very quick walkthrough (code, line-by-line comments):
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <!DOCTYPE html>
 <!--This is a doctype. Every HTML file should have one.
@@ -124,12 +108,8 @@ for modern browsers but old browsers still pick up that your file is some kind o
 
 And there we are, this is our first valid HTML file! Here it is again, so you can neatly copy&paste it:
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <!DOCTYPE html>
 <html>
@@ -152,12 +132,8 @@ Are you looking for a place to put your CSS? Don't rush, we will come to that. A
 
 There is a hierarchy of heading elements that you can use for headlines. They start with h1 and end with h6.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <h1>heading 1</h1>
 <h2>heading 2</h2>
@@ -170,12 +146,8 @@ There is a hierarchy of heading elements that you can use for headlines. They st
 #### Paragraph
 This is the perfect tag if you want to markup text. Even this text is wrapped in a p.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <p>Some text</p>
 {% endhighlight %}
@@ -184,12 +156,8 @@ This is the perfect tag if you want to markup text. Even this text is wrapped in
 These are some inline Elements that you can nest inside a paragraph. Strong and emphasis give some meaning to pieces of text, while break forces a
 linebreak.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <strong>Strong</strong> and <em>emphasis</em>,
 <br>break
@@ -198,12 +166,8 @@ linebreak.
 #### Images
 The image tag is special as it is self-closing, it has no closing tag (like the break tag). It also has a special attribute the src which carries the path to the actual image. The alt attribute is a placeholder, if for some reason the image does not load.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <img src="https://placehold.it/664x442" alt="placeholder image">
 {% endhighlight %}
@@ -212,12 +176,8 @@ The image tag is special as it is self-closing, it has no closing tag (like the 
 #### Links
 Links take the user to another page. The tag is simply an a which stands for anchor. It comes with the href (hyper reference) attribute, that tells the browser where to go to. You can also add a title attribute that shows once the user hovers over it.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <a href="http://cssconf.eu" title="CSSconf EU">CSSconfEU</a>
 {% endhighlight %}
@@ -225,12 +185,8 @@ Links take the user to another page. The tag is simply an a which stands for anc
 #### Div
 The div element is an element that does not have any special meaning or special styling. It’s perfect for grouping other elements together and assigning them a class or an id.
 
-<div class="m-switch">
-  <input class="m-switch__input" id="dark" type="radio" name="theme" onchange="darkenEverything()">
-  <label class="m-switch__label m-switch__label--is-dark" for="dark">Dark</label>
-  <input class="m-switch__input" id="light" type="radio" name="theme" checked="checked" onchange="lightenEverything()">
-  <label class="m-switch__label m-switch__label--is-light" for="light">Light</label>
-</div>
+{% include switch.html %}
+
 {% highlight HTML %}
 <div>I do nothing special</div>
 {% endhighlight %}

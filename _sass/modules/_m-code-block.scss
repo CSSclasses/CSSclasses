@@ -26,6 +26,7 @@ pre {
   padding: $base-unit;
   word-wrap: normal;
   white-space: pre;
+  transition: background-color .2s ease;
 }
 
 pre code { font-size: 1em; }
