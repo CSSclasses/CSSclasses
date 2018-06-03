@@ -144,7 +144,7 @@
     <h3 id="the-box-model">The Box Model</h3>
 <p>The Box Model is something that describes how all of these boxes behave, and how the browser knows about the space they occupy on a page.</p>
 
-<p>We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a <code>padding</code>, which is some space between your content and the edge of the box. And you can specify a <code>margin</code>, which is the size between the box and it’s neighboring boxes.</p>
+<p>We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a <code class="highlighter-rouge">padding</code>, which is some space between your content and the edge of the box. And you can specify a <code class="highlighter-rouge">margin</code>, which is the size between the box and it’s neighboring boxes.</p>
 
 <p>Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.</p>
 
@@ -162,7 +162,7 @@
 
 <p>Now, how much space does this box occupy on a page? We need to take into account not just the width and the height that was specified, but also the paddings and the borders (we can forget about the margins for now). So in reality, our box occupies a width of 80px plus 5px on each side for the paddings, plus 1px for each border (note we’re using the border shorthand). So that means that the real width is 92px.</p>
 
-<p>There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: <code>box-sizing: border-box;</code>.</p>
+<p>There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: <code class="highlighter-rouge">box-sizing: border-box;</code>.</p>
 
 <p data-height="437" data-theme-id="dark" data-slug-hash="RgPpOm" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses Box Sizing" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/RgPpOm/">CSSclasses Box Sizing</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

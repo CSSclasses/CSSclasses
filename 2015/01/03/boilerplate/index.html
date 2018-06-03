@@ -154,7 +154,7 @@
 
 <p>Elements are what makes up a HTML document. You can put elements inside of other elements. An element can include three things: a tag, attributes, and content.</p>
 
-<p>A Tag is the thing that indicates an element’s purpose. For example, the <code>&lt;p&gt;</code> tag indicates a paragraph of text is in that element, and the <code>&lt;li&gt;</code> represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:</p>
+<p>A Tag is the thing that indicates an element’s purpose. For example, the <code class="highlighter-rouge">&lt;p&gt;</code> tag indicates a paragraph of text is in that element, and the <code class="highlighter-rouge">&lt;li&gt;</code> represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:</p>
 
 <div class="m-switch">
   
@@ -167,7 +167,7 @@
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a paragraph.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
 
-<p>You can see the closing tag includes a <code>/</code> before its name; otherwise it would be another opening tag!</p>
+<p>You can see the closing tag includes a <code class="highlighter-rouge">/</code> before its name; otherwise it would be another opening tag!</p>
 
 <p>Always double-check that you’ve closed all your elements; otherwise, a browser can and will get mixed up trying to understand your HTML document.</p>
 
@@ -182,7 +182,7 @@
   <label class="m-switch__label" for="switch_1_3">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a sentence, with an <span class="nt">&lt;em&gt;</span>em<span class="nt">&lt;/em&gt;</span> element (&quot;emphasize&quot;) inside of it.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a sentence, with an <span class="nt">&lt;em&gt;</span>em<span class="nt">&lt;/em&gt;</span> element ("emphasize") inside of it.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
 
 <p>or this:</p>
 
@@ -195,7 +195,7 @@
   <label class="m-switch__label" for="switch_2_5">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;main-container&quot;</span><span class="nt">&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main-container"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;h1&gt;</span>The h1 tag indicates the primary header of the document.<span class="nt">&lt;/h1&gt;</span>
   <span class="nt">&lt;p&gt;</span>Some text.<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
@@ -228,7 +228,7 @@
 <p data-height="256" data-theme-id="dark" data-slug-hash="Pjqmvm" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses inline box" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/Pjqmvm/">CSSclasses inline box</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<p>So HTML elements are by default either <strong>block boxes</strong> or <strong>inline boxes</strong> (of course, there are exceptions to this rule, but we don’t have to worry about that for now). For example, <code>div</code> is a block element, and so are headings like <code>h1</code> or <code>h2</code>. <code>span</code> or <code>strong</code> on the other hand are <strong>inline elements</strong>. Here are lists for the different elements:</p>
+<p>So HTML elements are by default either <strong>block boxes</strong> or <strong>inline boxes</strong> (of course, there are exceptions to this rule, but we don’t have to worry about that for now). For example, <code class="highlighter-rouge">div</code> is a block element, and so are headings like <code class="highlighter-rouge">h1</code> or <code class="highlighter-rouge">h2</code>. <code class="highlighter-rouge">span</code> or <code class="highlighter-rouge">strong</code> on the other hand are <strong>inline elements</strong>. Here are lists for the different elements:</p>
 
 <ul>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block-level elements</a></li>
@@ -250,14 +250,14 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="c">&lt;!--This is a doctype. Every HTML file should have one.</span>
-<span class="c">Basically you only need this one nowadays, as this means HTML5 (what you&#39;re learning here)</span>
-<span class="c">for modern browsers but old browsers still pick up that your file is some kind of HTML.--&gt;</span>
+<span class="c">&lt;!--This is a doctype. Every HTML file should have one.
+Basically you only need this one nowadays, as this means HTML5 (what you're learning here)
+for modern browsers but old browsers still pick up that your file is some kind of HTML.--&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="c">&lt;!-- Here the HTML starts, so we put an opening &lt;html&gt; tag here. --&gt;</span>
   <span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- Inside the &lt;head&gt; we can put some meta information… --&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
 <span class="c">&lt;!-- … like charset and title. --&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
@@ -282,7 +282,7 @@
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
   <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
@@ -357,7 +357,7 @@ linebreak.</p>
   <label class="m-switch__label" for="switch_8_17">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;https://placehold.it/664x442&quot;</span> <span class="na">alt=</span><span class="s">&quot;placeholder image&quot;</span><span class="nt">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://placehold.it/664x442"</span> <span class="na">alt=</span><span class="s">"placeholder image"</span><span class="nt">&gt;</span></code></pre></figure>
 
 <p><img src="https://placehold.it/664x442" alt="placeholder image" /></p>
 
@@ -373,7 +373,7 @@ linebreak.</p>
   <label class="m-switch__label" for="switch_9_19">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://cssconf.eu&quot;</span> <span class="na">title=</span><span class="s">&quot;CSSconf EU&quot;</span><span class="nt">&gt;</span>CSSconfEU<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://cssconf.eu"</span> <span class="na">title=</span><span class="s">"CSSconf EU"</span><span class="nt">&gt;</span>CSSconfEU<span class="nt">&lt;/a&gt;</span></code></pre></figure>
 
 <h4 id="div">Div</h4>
 <p>The div element is an element that does not have any special meaning or special styling. It’s perfect for grouping other elements together and assigning them a class or an id.</p>

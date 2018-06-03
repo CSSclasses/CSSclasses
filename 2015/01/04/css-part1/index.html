@@ -166,7 +166,7 @@
 <p>CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the “cascading” part of our <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet.</p>
 
 <h3 id="start-with-inline-styles">Start with inline styles</h3>
-<p>To get you started, you can just insert a <code>style</code> tag inside of your `head tag:</p>
+<p>To get you started, you can just insert a <code class="highlighter-rouge">style</code> tag inside of your `head tag:</p>
 
 <div class="m-switch">
   
@@ -178,7 +178,7 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
@@ -198,10 +198,10 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p><code>h1</code> is the selector, the HTML element we want to style. <code>color</code> is one of the properties that we can give to our selector, and <code>red</code> is the value of this property. The right syntax is:</p>
+<p><code class="highlighter-rouge">h1</code> is the selector, the HTML element we want to style. <code class="highlighter-rouge">color</code> is one of the properties that we can give to our selector, and <code class="highlighter-rouge">red</code> is the value of this property. The right syntax is:</p>
 
 <div class="m-switch">
   
@@ -213,15 +213,15 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
 
 <h3 id="useful-css-properties">Useful CSS properties</h3>
 
-<p>Now, let us insert a <code>div</code> and style it a little bit. So parts of your file should look like this:</p>
+<p>Now, let us insert a <code class="highlighter-rouge">div</code> and style it a little bit. So parts of your file should look like this:</p>
 
 <div class="m-switch">
   
@@ -236,10 +236,10 @@
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -247,7 +247,7 @@
   <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code>color</code>. There is also `background-color, width and height.</p>
+<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code class="highlighter-rouge">color</code>. There is also `background-color, width and height.</p>
 
 <h3 id="shorthand">Shorthand</h3>
 <p>On some occasions you might see properties defined in different ways but doing the same thing, such as:</p>
@@ -262,13 +262,13 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
-  <span class="k">border-style</span><span class="o">:</span> <span class="k">dotted</span><span class="p">;</span>
-  <span class="k">border-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">dotted</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">anotherselector</span> <span class="p">{</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">dotted</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>

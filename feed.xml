@@ -5,9 +5,9 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Sep 2017 19:35:58 +0000</pubDate>
-    <lastBuildDate>Fri, 22 Sep 2017 19:35:58 +0000</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <pubDate>Sun, 03 Jun 2018 08:35:55 +0000</pubDate>
+    <lastBuildDate>Sun, 03 Jun 2018 08:35:55 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
     
       <item>
         <title>CSS Challenges</title>
@@ -102,17 +102,17 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Believe it or not: Now you know the basics of getting content and styles on your website! You might have noticed that, once you got the hang of the basic syntax, CSS is surprisingly simple and often self-explanatory. From here on, you have all the tools you need to explore the many more properties and possibilities of CSS. Start experimenting – we want to see what you discovered in the demos!&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The dotted circle:&lt;/strong&gt; You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the &lt;code&gt;border-radius&lt;/code&gt; property!&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;The dotted circle:&lt;/strong&gt; You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the &lt;code class=&quot;highlighter-rouge&quot;&gt;border-radius&lt;/code&gt; property!&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/NGxOrL/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The fancy link:&lt;/strong&gt; &lt;code&gt;border-radius&lt;/code&gt;, &lt;code&gt;background-color&lt;/code&gt;, &lt;code&gt;padding&lt;/code&gt;, &lt;code&gt;:hover&lt;/code&gt; … you know most of the things to create a nice looking link like this!&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;The fancy link:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;border-radius&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt; … you know most of the things to create a nice looking link like this!&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/zvrmdv/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The Polaroid:&lt;/strong&gt; You know how to add an &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, you know how to apply &lt;code&gt;padding. If now you can figure out how &lt;/code&gt;box-shadow` works, creating a Polaroid effect like this will be a piece of cake for you!&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;The Polaroid:&lt;/strong&gt; You know how to add an &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt;, you know how to apply &lt;code class=&quot;highlighter-rouge&quot;&gt;padding. If now you can figure out how &lt;/code&gt;box-shadow` works, creating a Polaroid effect like this will be a piece of cake for you!&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/PPZyBd/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The Little Galaxy:&lt;/strong&gt; &lt;code&gt;transform&lt;/code&gt;, &lt;code&gt;animation&lt;/code&gt;, &lt;code&gt;@keyframes&lt;/code&gt; — All the new things!&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;The Little Galaxy:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;transform&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;animation&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;@keyframes&lt;/code&gt; — All the new things!&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/VveEqy/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The Smiley:&lt;/strong&gt; You will need to read up a little bit on &lt;code&gt;border-radius&lt;/code&gt; to make the meh face smile on &lt;code&gt;:hover&lt;/code&gt;. Also you will need to understand how to use selectors for elements inside of other elements. To make it go a little smooth, you need to add a &lt;code&gt;transition&lt;/code&gt;.&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;The Smiley:&lt;/strong&gt; You will need to read up a little bit on &lt;code class=&quot;highlighter-rouge&quot;&gt;border-radius&lt;/code&gt; to make the meh face smile on &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt;. Also you will need to understand how to use selectors for elements inside of other elements. To make it go a little smooth, you need to add a &lt;code class=&quot;highlighter-rouge&quot;&gt;transition&lt;/code&gt;.&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/ojbaVo/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Chasing The Laser Pointer:&lt;/strong&gt; You are the cat, chasing the laser pointer with your cursor. You will need to know about &lt;code&gt;:hover&lt;/code&gt;, the &lt;code&gt;~ sibling&lt;/code&gt; selector and &lt;code&gt;transition&lt;/code&gt;. Also, some &lt;code&gt;position&lt;/code&gt; knowledge. Moving things can be done in several ways, you should check out &lt;code&gt;transform: translate&lt;/code&gt;.&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Chasing The Laser Pointer:&lt;/strong&gt; You are the cat, chasing the laser pointer with your cursor. You will need to know about &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;~ sibling&lt;/code&gt; selector and &lt;code class=&quot;highlighter-rouge&quot;&gt;transition&lt;/code&gt;. Also, some &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; knowledge. Moving things can be done in several ways, you should check out &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: translate&lt;/code&gt;.&lt;br /&gt;
 (&lt;a href=&quot;http://codepen.io/verpixelt/full/YywRyj/&quot; target=&quot;_blank&quot;&gt;Visual example&lt;/a&gt; — Try not to look at the code)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -127,9 +127,9 @@ different sections and chapters so you can easily skip on topics you are already
         <title>CSS Transitions</title>
         <description>&lt;h3 id=&quot;transform&quot;&gt;Transform&lt;/h3&gt;
 
-&lt;p&gt;Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including &lt;code&gt;translate&lt;/code&gt; (moving the element), &lt;code&gt;scale&lt;/code&gt; (make it bigger/smaller), &lt;code&gt;skew&lt;/code&gt; (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add &lt;code&gt;transform: scale(2);&lt;/code&gt; to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.&lt;/p&gt;
+&lt;p&gt;Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including &lt;code class=&quot;highlighter-rouge&quot;&gt;translate&lt;/code&gt; (moving the element), &lt;code class=&quot;highlighter-rouge&quot;&gt;scale&lt;/code&gt; (make it bigger/smaller), &lt;code class=&quot;highlighter-rouge&quot;&gt;skew&lt;/code&gt; (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: scale(2);&lt;/code&gt; to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.&lt;/p&gt;
 
-&lt;p&gt;Let’s go through these one by one. &lt;code&gt;translate&lt;/code&gt; can be used in two different ways:&lt;/p&gt;
+&lt;p&gt;Let’s go through these one by one. &lt;code class=&quot;highlighter-rouge&quot;&gt;translate&lt;/code&gt; can be used in two different ways:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -141,17 +141,17 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.movedownright&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;.movedownright2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;translateY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Both classes &lt;code&gt;.movedownright&lt;/code&gt; and &lt;code&gt;.movedownright2&lt;/code&gt; manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. &lt;code&gt;.movedownright&lt;/code&gt; uses a shorthand syntax for translateX and translateY, &lt;code&gt;.movedownright2&lt;/code&gt; uses the individual &lt;code&gt;translateX&lt;/code&gt; and &lt;code&gt;translateY&lt;/code&gt; transforms. Notice how you can add several transforms by just leaving a space between them.&lt;/p&gt;
+&lt;p&gt;Both classes &lt;code class=&quot;highlighter-rouge&quot;&gt;.movedownright&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.movedownright2&lt;/code&gt; manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. &lt;code class=&quot;highlighter-rouge&quot;&gt;.movedownright&lt;/code&gt; uses a shorthand syntax for translateX and translateY, &lt;code class=&quot;highlighter-rouge&quot;&gt;.movedownright2&lt;/code&gt; uses the individual &lt;code class=&quot;highlighter-rouge&quot;&gt;translateX&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;translateY&lt;/code&gt; transforms. Notice how you can add several transforms by just leaving a space between them.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;scale&lt;/code&gt; can be used to scale elements up or down, where &lt;code&gt;transform: scale(0);&lt;/code&gt; means the element is gone, &lt;code&gt;transform: scale(0.5);&lt;/code&gt; scales it down to 50% of the original size and &lt;code&gt;transform: scale(2);&lt;/code&gt; doubles the size to 200%.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scale&lt;/code&gt; can be used to scale elements up or down, where &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: scale(0);&lt;/code&gt; means the element is gone, &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: scale(0.5);&lt;/code&gt; scales it down to 50% of the original size and &lt;code class=&quot;highlighter-rouge&quot;&gt;transform: scale(2);&lt;/code&gt; doubles the size to 200%.&lt;/p&gt;
 
-&lt;p&gt;Using &lt;code&gt;skew&lt;/code&gt; or &lt;code&gt;skewX&lt;/code&gt; and &lt;code&gt;skewY&lt;/code&gt; you can skew your elements by given angles on the x- or y-axis. With rotate you can &lt;code&gt;rotate&lt;/code&gt; your elements by a given angle.&lt;/p&gt;
+&lt;p&gt;Using &lt;code class=&quot;highlighter-rouge&quot;&gt;skew&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;skewX&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;skewY&lt;/code&gt; you can skew your elements by given angles on the x- or y-axis. With rotate you can &lt;code class=&quot;highlighter-rouge&quot;&gt;rotate&lt;/code&gt; your elements by a given angle.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -163,19 +163,19 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.skewme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skew&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skew&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;/* .skewme2 does the same as .skewme */&lt;/span&gt;
 &lt;span class=&quot;nc&quot;&gt;.skewme2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;20deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;skewY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;nc&quot;&gt;.rotateme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;transform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;30deg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now here is an example of using several transforms at once, but only on &lt;code&gt;:hover&lt;/code&gt; when you move the cursor over an element (notice how we are very happy to use transitions again as well):&lt;/p&gt;
+&lt;p&gt;Now here is an example of using several transforms at once, but only on &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt; when you move the cursor over an element (notice how we are very happy to use transitions again as well):&lt;/p&gt;
 
 &lt;p data-height=&quot;481&quot; data-theme-id=&quot;17669&quot; data-slug-hash=&quot;jPJNNo&quot; data-default-tab=&quot;result&quot; data-user=&quot;verpixelt&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/verpixelt/pen/jPJNNo/&quot;&gt;jPJNNo&lt;/a&gt; by Kevin Lorenz (&lt;a href=&quot;http://codepen.io/verpixelt&quot;&gt;@verpixelt&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -191,7 +191,7 @@ different sections and chapters so you can easily skip on topics you are already
       <item>
         <title>CSS Transitions</title>
         <description>&lt;h3 id=&quot;transition&quot;&gt;Transition&lt;/h3&gt;
-&lt;p&gt;Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and &lt;code&gt;:hover&lt;/code&gt; and add the &lt;code&gt;transition&lt;/code&gt; property to the mix:&lt;/p&gt;
+&lt;p&gt;Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and &lt;code class=&quot;highlighter-rouge&quot;&gt;:hover&lt;/code&gt; and add the &lt;code class=&quot;highlighter-rouge&quot;&gt;transition&lt;/code&gt; property to the mix:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -206,27 +206,27 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nc&quot;&gt;.changeonhover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;nc&quot;&gt;.changeonhover&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;600px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;600px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;changeonhover&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hover me! Hover Me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;changeonhover&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hover me! Hover Me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert &lt;code&gt;transition: 1s all;&lt;/code&gt; which is the transition shorthand with just the first two values that are a &lt;code&gt;transition-duration&lt;/code&gt; of 1 second and the &lt;code&gt;transition-property&lt;/code&gt; of &lt;code&gt;all&lt;/code&gt; which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:&lt;/p&gt;
+&lt;p&gt;Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert &lt;code class=&quot;highlighter-rouge&quot;&gt;transition: 1s all;&lt;/code&gt; which is the transition shorthand with just the first two values that are a &lt;code class=&quot;highlighter-rouge&quot;&gt;transition-duration&lt;/code&gt; of 1 second and the &lt;code class=&quot;highlighter-rouge&quot;&gt;transition-property&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;all&lt;/code&gt; which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:&lt;/p&gt;
 
 &lt;p data-height=&quot;458&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;MowpMv&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses :hover&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/MowpMv/&quot;&gt;CSSclasses :hover&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -244,7 +244,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;1s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;ease-out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;2s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;height&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.5s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Let’s break it down: &lt;code&gt;1s width 0.2s ease-out&lt;/code&gt; are the values that define the transition just for the width. The shorthand syntax is:&lt;/p&gt;
+&lt;p&gt;Let’s break it down: &lt;code class=&quot;highlighter-rouge&quot;&gt;1s width 0.2s ease-out&lt;/code&gt; are the values that define the transition just for the width. The shorthand syntax is:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -269,16 +269,16 @@ different sections and chapters so you can easily skip on topics you are already
       <item>
         <title>CSS More Selectors</title>
         <description>&lt;h3 id=&quot;more-selectors-nth-child-nth-of-type-sibling&quot;&gt;More selectors: nth-child, nth-of-type, sibling&lt;/h3&gt;
-&lt;p&gt;There are a few more selectors to select subsets out of many elements. &lt;code&gt;:nth-child&lt;/code&gt;, &lt;code&gt;:nth-of-type&lt;/code&gt; and the &lt;code&gt;~&lt;/code&gt; sibling selector are a few common examples of css selectors that are often very useful.&lt;/p&gt;
+&lt;p&gt;There are a few more selectors to select subsets out of many elements. &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-child&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-of-type&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;~&lt;/code&gt; sibling selector are a few common examples of css selectors that are often very useful.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code&gt;2nd&lt;/code&gt; element, &lt;code&gt;3n&lt;/code&gt; for every third, &lt;code&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-child&lt;/code&gt; is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign &lt;code class=&quot;highlighter-rouge&quot;&gt;li:nth-child(even) { background-color: #f3f3f3; }&lt;/code&gt; to those list elements. Instead of even you could also use 2n to select any &lt;code class=&quot;highlighter-rouge&quot;&gt;2nd&lt;/code&gt; element, &lt;code class=&quot;highlighter-rouge&quot;&gt;3n&lt;/code&gt; for every third, &lt;code class=&quot;highlighter-rouge&quot;&gt;3n-1&lt;/code&gt; for every third but starting with the second and so on.&lt;/p&gt;
 
 &lt;p data-height=&quot;381&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;rwVygY&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses nth-child&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/rwVygY/&quot;&gt;CSSclasses nth-child&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;The &lt;code&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code&gt;:nth-child&lt;/code&gt;. But &lt;code&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code&gt;div&lt;/code&gt; in the middle of the list, &lt;code&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-of-type&lt;/code&gt; works almost like the &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-child&lt;/code&gt;. But &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-child&lt;/code&gt; doesn’t care about what type the elements are. If you put a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; in the middle of the list, &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-child&lt;/code&gt; will treat that just like one of the list elements. That is where &lt;code class=&quot;highlighter-rouge&quot;&gt;:nth-of-type&lt;/code&gt; is stricter: It only executes the rule on elements of the given selector.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;~&lt;/code&gt; sibling selector selects all elements that are &lt;em&gt;neighbors&lt;/em&gt; of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -289,11 +289,11 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;label class=&quot;m-switch__label&quot; for=&quot;switch_32_65&quot;&gt;Light&lt;/label&gt;
 &lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.vegetable-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.vegetable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaf0bb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;nc&quot;&gt;.fruit-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffaabb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nc&quot;&gt;.fruit-checkbox&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:checked&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fruit&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffaabb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
+&lt;p&gt;While these rules look very complex, they are not so bad when you take them apart. The first selector &lt;code class=&quot;highlighter-rouge&quot;&gt;.vegetable-checkbox&lt;/code&gt; looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the &lt;code class=&quot;highlighter-rouge&quot;&gt;:checked&lt;/code&gt; that rule only applies if it is a checkbox that is checked. Then the &lt;code class=&quot;highlighter-rouge&quot;&gt;~&lt;/code&gt; indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.&lt;/p&gt;
 
 &lt;p data-height=&quot;476&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;dRoWEY&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses :checked&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/dRoWEY/&quot;&gt;CSSclasses :checked&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -346,20 +346,20 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;nc&quot;&gt;.warning&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am a normal green paragraph of text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am another normal green paragraph of text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;warning&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Warning! I am a red paragraph of text!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;warning&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Warning! I am a red paragraph of text!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever &lt;code&gt;class=&quot;warning&quot;&lt;/code&gt; is applied.&lt;/p&gt;
+&lt;p&gt;In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever &lt;code class=&quot;highlighter-rouge&quot;&gt;class=&quot;warning&quot;&lt;/code&gt; is applied.&lt;/p&gt;
 
 &lt;p&gt;This is a good example why you would want to overwrite your own styles: Apply generic default styles for all elements first, then overwrite some of them to create exceptions.&lt;/p&gt;
 
@@ -420,10 +420,10 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;main&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Web Browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Firefox is Mozilla&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Chrome is Google&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Safari is Apple&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Edge is Microsoft&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Firefox is Mozilla's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Chrome is Google's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Safari is Apple's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Edge is Microsoft's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Learn more&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
@@ -435,16 +435,16 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;For this document, the following statements are true:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; is a child of &lt;code&gt;main&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;footer&lt;/code&gt; is a child of &lt;code&gt;body&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; is a sibling of &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; has four siblings&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; is a parent of &lt;code&gt;h2&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; has five children&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;h2&lt;/code&gt; and &lt;code&gt;main&lt;/code&gt; are descendants of &lt;code&gt;body&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;html&lt;/code&gt; and &lt;code&gt;body&lt;/code&gt; are ancestors of &lt;code&gt;p&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;main&lt;/code&gt; and &lt;code&gt;footer&lt;/code&gt; are wrapped inside a &lt;code&gt;body&lt;/code&gt;-element&lt;/li&gt;
-  &lt;li&gt;The &lt;code&gt;html&lt;/code&gt;-element is wrapped around the &lt;code&gt;body&lt;/code&gt;-element&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; is a child of &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; is a child of &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; is a sibling of &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; has four siblings&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; is a parent of &lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; has five children&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;h2&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; are descendants of &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; are ancestors of &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; are wrapped inside a &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;-element&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;html&lt;/code&gt;-element is wrapped around the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;-element&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;One way we can make use of these relationships in our CSS is through &lt;em&gt;inheritance&lt;/em&gt;. Inheritance means that some CSS properties, like text color or font size, get passed down, or &lt;em&gt;inherited&lt;/em&gt; from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:&lt;/p&gt;
@@ -459,7 +459,7 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn’t have its own color property value.&lt;/p&gt;
@@ -479,34 +479,34 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;main&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Web Browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.mozilla.org/en-US/firefox/new/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Firefox&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Mozilla&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.google.com/chrome/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Chrome&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Google&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://www.apple.com/lae/safari/&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Safari&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Apple&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://www.microsoft.com/en-us/windows/microsoft-edge&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Edge&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Microsoft&amp;#39;s web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Firefox&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Mozilla's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.google.com/chrome/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Chrome&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Google's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.apple.com/lae/safari/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Safari&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Apple's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://www.microsoft.com/en-us/windows/microsoft-edge&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Edge&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; is Microsoft's web browser.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/main&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;h3&amp;gt;&lt;/span&gt;Learn more&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Read the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://en.wikipedia.org/wiki/Web_browser&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Wikipedia article about web browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Read the &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://en.wikipedia.org/wiki/Web_browser&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Wikipedia article about web browsers&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;In this document, all elements without a specified text color will inherit the green text color from the &lt;code&gt;body&lt;/code&gt;-element. The &lt;code&gt;footer&lt;/code&gt; has its own white text color that overwrites the green text color from the &lt;code&gt;body&lt;/code&gt;-element. It also has a green background color.&lt;/p&gt;
+&lt;p&gt;In this document, all elements without a specified text color will inherit the green text color from the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;-element. The &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; has its own white text color that overwrites the green text color from the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;-element. It also has a green background color.&lt;/p&gt;
 
-&lt;p&gt;You will notice that the &lt;code&gt;a&lt;/code&gt;-elements don’t inherit the text color of their ancestors. That is because the &lt;code&gt;a&lt;/code&gt;-element has its own blue text color specified in the user agent style sheet.&lt;/p&gt;
+&lt;p&gt;You will notice that the &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;-elements don’t inherit the text color of their ancestors. That is because the &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;-element has its own blue text color specified in the user agent style sheet.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the &lt;code&gt;footer&lt;/code&gt; by adding the following CSS:&lt;/p&gt;
+&lt;p&gt;Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; by adding the following CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -518,29 +518,29 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;text-decoration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;underline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;You might wonder why there is an empty space between &lt;code&gt;footer&lt;/code&gt; and &lt;code&gt;a&lt;/code&gt; in the &lt;code&gt;footer a&lt;/code&gt; selector. This empty space is called &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors&quot;&gt;descendant combinator&lt;/a&gt;. The descendant combinator lets you select elements that are descendants of another element.&lt;/p&gt;
+&lt;p&gt;You might wonder why there is an empty space between &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;footer a&lt;/code&gt; selector. This empty space is called &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors&quot;&gt;descendant combinator&lt;/a&gt;. The descendant combinator lets you select elements that are descendants of another element.&lt;/p&gt;
 
-&lt;p&gt;This becomes a bit clearer when you read the selectors from right to left. &lt;code&gt;footer a&lt;/code&gt; will select every &lt;code&gt;a&lt;/code&gt; element, that is a &lt;em&gt;descendant&lt;/em&gt; of a &lt;code&gt;footer&lt;/code&gt;-element. You can also combine more selectors. For example &lt;code&gt;footer h2 a&lt;/code&gt; would select every link inside of a level two headline that is inside of a footer.&lt;/p&gt;
+&lt;p&gt;This becomes a bit clearer when you read the selectors from right to left. &lt;code class=&quot;highlighter-rouge&quot;&gt;footer a&lt;/code&gt; will select every &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; element, that is a &lt;em&gt;descendant&lt;/em&gt; of a &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt;-element. You can also combine more selectors. For example &lt;code class=&quot;highlighter-rouge&quot;&gt;footer h2 a&lt;/code&gt; would select every link inside of a level two headline that is inside of a footer.&lt;/p&gt;
 
-&lt;p&gt;Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with &lt;code&gt;text-decoration: underline;&lt;/code&gt;. This way people can still recognize that they are links, not just regular text.&lt;/p&gt;
+&lt;p&gt;Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with &lt;code class=&quot;highlighter-rouge&quot;&gt;text-decoration: underline;&lt;/code&gt;. This way people can still recognize that they are links, not just regular text.&lt;/p&gt;
 
-&lt;h4 id=&quot;the-inherit-keyword&quot;&gt;The &lt;code&gt;inherit&lt;/code&gt; keyword&lt;/h4&gt;
+&lt;h4 id=&quot;the-inherit-keyword&quot;&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;inherit&lt;/code&gt; keyword&lt;/h4&gt;
 
-&lt;p&gt;This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the &lt;code&gt;color&lt;/code&gt; values for &lt;code&gt;footer&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code&gt;footer a&lt;/code&gt; to yellow to achieve this. Ugh, so much work!&lt;/p&gt;
+&lt;p&gt;This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; values for &lt;code class=&quot;highlighter-rouge&quot;&gt;footer&lt;/code&gt; &lt;em&gt;and&lt;/em&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;footer a&lt;/code&gt; to yellow to achieve this. Ugh, so much work!&lt;/p&gt;
 
-&lt;p&gt;Thankfully, there is the &lt;code&gt;inherit&lt;/code&gt; keyword.&lt;/p&gt;
+&lt;p&gt;Thankfully, there is the &lt;code class=&quot;highlighter-rouge&quot;&gt;inherit&lt;/code&gt; keyword.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;inherit&lt;/code&gt; keyword forces some attributes, like color, to be &lt;em&gt;inherited&lt;/em&gt; from the parent element. So in our example we could give our &lt;code&gt;footer a&lt;/code&gt; the property value &lt;code&gt;color: inherit;&lt;/code&gt;. This way the links inside our footer are always the same color as the text in our footer.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;inherit&lt;/code&gt; keyword forces some attributes, like color, to be &lt;em&gt;inherited&lt;/em&gt; from the parent element. So in our example we could give our &lt;code class=&quot;highlighter-rouge&quot;&gt;footer a&lt;/code&gt; the property value &lt;code class=&quot;highlighter-rouge&quot;&gt;color: inherit;&lt;/code&gt;. This way the links inside our footer are always the same color as the text in our footer.&lt;/p&gt;
 
-&lt;p&gt;There is also the newer &lt;code&gt;currentcolor&lt;/code&gt; keyword. &lt;code&gt;currentcolor&lt;/code&gt; always represents the text color of a certain element. If you want to change another attribute than &lt;code&gt;color&lt;/code&gt; to that same element’s text color, you could do that with a declaration like &lt;code&gt;border-color: currentcolor&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There is also the newer &lt;code class=&quot;highlighter-rouge&quot;&gt;currentcolor&lt;/code&gt; keyword. &lt;code class=&quot;highlighter-rouge&quot;&gt;currentcolor&lt;/code&gt; always represents the text color of a certain element. If you want to change another attribute than &lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; to that same element’s text color, you could do that with a declaration like &lt;code class=&quot;highlighter-rouge&quot;&gt;border-color: currentcolor&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h4 id=&quot;specificity&quot;&gt;Specificity&lt;/h4&gt;
 
-&lt;p&gt;Specificity means that a rule that is &lt;em&gt;more specific&lt;/em&gt; overpowers a rule that is &lt;em&gt;less specific&lt;/em&gt;. For example selecting every link inside a footer element with &lt;code&gt;footer a&lt;/code&gt; is &lt;em&gt;more specific&lt;/em&gt; than selecting every link element everywhere with &lt;code&gt;a&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Specificity means that a rule that is &lt;em&gt;more specific&lt;/em&gt; overpowers a rule that is &lt;em&gt;less specific&lt;/em&gt;. For example selecting every link inside a footer element with &lt;code class=&quot;highlighter-rouge&quot;&gt;footer a&lt;/code&gt; is &lt;em&gt;more specific&lt;/em&gt; than selecting every link element everywhere with &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Some selectors are more specific by default. For example a &lt;em&gt;class selector&lt;/em&gt; will always have a higher specificity than an &lt;em&gt;element selector&lt;/em&gt;. This makes sense, because selecting only elements with a certain class attribute is &lt;em&gt;more specific&lt;/em&gt; than selecting &lt;em&gt;every&lt;/em&gt; element of a type.&lt;/p&gt;
 
@@ -557,24 +557,24 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
       &lt;span class=&quot;nc&quot;&gt;.danger-link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;danger-link&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;danger.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a very dangerous link, do not click me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;danger-link&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;danger.html&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a very dangerous link, do not click me!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;In this example the link will end up red. The first rule for &lt;code&gt;a&lt;/code&gt; will be overwritten by the &lt;em&gt;more specific&lt;/em&gt; rule &lt;code&gt;body a&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this example the link will end up red. The first rule for &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; will be overwritten by the &lt;em&gt;more specific&lt;/em&gt; rule &lt;code class=&quot;highlighter-rouge&quot;&gt;body a&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;The class selector &lt;code&gt;.danger-link&lt;/code&gt; is even more specific, therefore it overwrites them both.&lt;/p&gt;
+&lt;p&gt;The class selector &lt;code class=&quot;highlighter-rouge&quot;&gt;.danger-link&lt;/code&gt; is even more specific, therefore it overwrites them both.&lt;/p&gt;
 
 &lt;p&gt;It is important to keep in mind that in the cascade &lt;em&gt;specificity beats the order&lt;/em&gt; of rules in your stylesheet. If a rule is followed by another rule with the &lt;em&gt;same specificity&lt;/em&gt;, the second rule overwrites the first. If the first rule has a &lt;em&gt;higher specificity&lt;/em&gt;, the first rule still overwrites any less specific rules that come after it.&lt;/p&gt;
 
@@ -591,19 +591,19 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
       &lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am a green paragraph of text because &amp;quot;body p&amp;quot; is more specific than &amp;quot;p&amp;quot;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;I am a green paragraph of text because &quot;body p&quot; is more specific than &quot;p&quot;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like &lt;code&gt;.site-header nav ul li a&lt;/code&gt;. If you want to read more about this, the Mozilla Developer Network has a &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/CSS/Specificity&quot;&gt;more detailed article on specificity&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like &lt;code class=&quot;highlighter-rouge&quot;&gt;.site-header nav ul li a&lt;/code&gt;. If you want to read more about this, the Mozilla Developer Network has a &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/CSS/Specificity&quot;&gt;more detailed article on specificity&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/10/css-cascade-inheritance/</link>
@@ -615,7 +615,7 @@ different sections and chapters so you can easily skip on topics you are already
       <item>
         <title>CSS Class Selector</title>
         <description>&lt;h3 id=&quot;class-selector&quot;&gt;Class Selector&lt;/h3&gt;
-&lt;p&gt;Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled &lt;code&gt;div&lt;/code&gt;s on your page.&lt;/p&gt;
+&lt;p&gt;Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s on your page.&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -630,12 +630,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
@@ -644,7 +644,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a different div but i look like the other one! 😞&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
+&lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -659,29 +659,29 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-    &lt;span class=&quot;nc&quot;&gt;.greenthing&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.greenthing&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
     &lt;span class=&quot;nc&quot;&gt;.bluething&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;text-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-    &lt;span class=&quot;nc&quot;&gt;.border-dotted&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;.border-dotted&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;greenthing&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;bluething border-dotted&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a different div and I don’t look like the other one any more! 😀&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;greenthing&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bluething border-dotted&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a different div and I don’t look like the other one any more! 😀&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now here you should note several things. Both &lt;code&gt;div&lt;/code&gt;s get the styles of the &lt;code&gt;div&lt;/code&gt; rule, as this applies to all &lt;code&gt;div&lt;/code&gt;s. Then the first &lt;code&gt;div&lt;/code&gt; also gets the styles of the class &lt;code&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code&gt;overrides&lt;/code&gt; the border style that was defined in the `div selector.&lt;/p&gt;
+&lt;p&gt;Now here you should note several things. Both &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s get the styles of the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; rule, as this applies to all &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s. Then the first &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; also gets the styles of the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code class=&quot;highlighter-rouge&quot;&gt;overrides&lt;/code&gt; the border style that was defined in the `div selector.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
@@ -694,7 +694,7 @@ different sections and chapters so you can easily skip on topics you are already
       <item>
         <title>CSS Hover</title>
         <description>&lt;h3 id=&quot;hover&quot;&gt;Hover&lt;/h3&gt;
-&lt;p&gt;Hover is a small example of how you can add some fun little interactivity to your site. Take our &lt;code&gt;div&lt;/code&gt; example from above and let’s add a little bit to our CSS:&lt;/p&gt;
+&lt;p&gt;Hover is a small example of how you can add some fun little interactivity to your site. Take our &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; example from above and let’s add a little bit to our CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -706,19 +706,19 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/div&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;If you apply this CSS to our &lt;a href=&quot;#border&quot;&gt;border&lt;/a&gt; example, you will see no change at first. But if you move your mouse cursor over the &lt;code&gt;div&lt;/code&gt; (you “&lt;code&gt;hover&lt;/code&gt;” it), you will see the style changes applied, that we defined with the &lt;code&gt;div:hover&lt;/code&gt; pseudo-class. There are some more pseudo-classes like that that you can learn about later.&lt;/p&gt;
+&lt;p&gt;If you apply this CSS to our &lt;a href=&quot;#border&quot;&gt;border&lt;/a&gt; example, you will see no change at first. But if you move your mouse cursor over the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; (you “&lt;code class=&quot;highlighter-rouge&quot;&gt;hover&lt;/code&gt;” it), you will see the style changes applied, that we defined with the &lt;code class=&quot;highlighter-rouge&quot;&gt;div:hover&lt;/code&gt; pseudo-class. There are some more pseudo-classes like that that you can learn about later.&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/08/css-hover/</link>
@@ -732,7 +732,7 @@ different sections and chapters so you can easily skip on topics you are already
         <description>&lt;h3 id=&quot;the-box-model&quot;&gt;The Box Model&lt;/h3&gt;
 &lt;p&gt;The Box Model is something that describes how all of these boxes behave, and how the browser knows about the space they occupy on a page.&lt;/p&gt;
 
-&lt;p&gt;We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a &lt;code&gt;padding&lt;/code&gt;, which is some space between your content and the edge of the box. And you can specify a &lt;code&gt;margin&lt;/code&gt;, which is the size between the box and it’s neighboring boxes.&lt;/p&gt;
+&lt;p&gt;We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, which is some space between your content and the edge of the box. And you can specify a &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;, which is the size between the box and it’s neighboring boxes.&lt;/p&gt;
 
 &lt;p&gt;Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.&lt;/p&gt;
 
@@ -750,7 +750,7 @@ different sections and chapters so you can easily skip on topics you are already
 
 &lt;p&gt;Now, how much space does this box occupy on a page? We need to take into account not just the width and the height that was specified, but also the paddings and the borders (we can forget about the margins for now). So in reality, our box occupies a width of 80px plus 5px on each side for the paddings, plus 1px for each border (note we’re using the border shorthand). So that means that the real width is 92px.&lt;/p&gt;
 
-&lt;p&gt;There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: &lt;code&gt;box-sizing: border-box;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: &lt;code class=&quot;highlighter-rouge&quot;&gt;box-sizing: border-box;&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p data-height=&quot;437&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;RgPpOm&quot; data-default-tab=&quot;result&quot; data-user=&quot;CSSclasses&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;CSSclasses Box Sizing&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/team/CSSclasses/pen/RgPpOm/&quot;&gt;CSSclasses Box Sizing&lt;/a&gt; by CSSclasses (&lt;a href=&quot;https://codepen.io/CSSclasses&quot;&gt;@CSSclasses&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -767,7 +767,7 @@ different sections and chapters so you can easily skip on topics you are already
       <item>
         <title>CSS Border Properties</title>
         <description>&lt;h3 id=&quot;border&quot;&gt;Border&lt;/h3&gt;
-&lt;p&gt;You can also put a nice &lt;code&gt;border&lt;/code&gt; around your elements. Try this:&lt;/p&gt;
+&lt;p&gt;You can also put a nice &lt;code class=&quot;highlighter-rouge&quot;&gt;border&lt;/code&gt; around your elements. Try this:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -782,12 +782,12 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- ... --&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
@@ -795,7 +795,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now you assigned your &lt;code&gt;div&lt;/code&gt; to have a &lt;code&gt;black&lt;/code&gt; border that is &lt;code&gt;5px&lt;/code&gt; thick and &lt;code&gt;solid&lt;/code&gt;. Let’s `dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
+&lt;p&gt;Now you assigned your &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; to have a &lt;code class=&quot;highlighter-rouge&quot;&gt;black&lt;/code&gt; border that is &lt;code class=&quot;highlighter-rouge&quot;&gt;5px&lt;/code&gt; thick and &lt;code class=&quot;highlighter-rouge&quot;&gt;solid&lt;/code&gt;. Let’s `dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -809,7 +809,7 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;20px&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dashed&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;#ff88aa&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;line-width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;line-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Here you see an even thicker border that is not solid and has a different color, but is also &lt;code&gt;dashed&lt;/code&gt; instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.&lt;/p&gt;
+&lt;p&gt;Here you see an even thicker border that is not solid and has a different color, but is also &lt;code class=&quot;highlighter-rouge&quot;&gt;dashed&lt;/code&gt; instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://cssclass.es/2015/01/06/css-border/</link>

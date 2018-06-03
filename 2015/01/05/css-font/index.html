@@ -142,7 +142,7 @@
   </header>
   <article class="post-content">
     <h3 id="font-family">Font-family</h3>
-<p>The <code>font-family</code> CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
+<p>The <code class="highlighter-rouge">font-family</code> CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
 
 <p>You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.</p>
 
@@ -156,7 +156,7 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Proxima</span><span class="o">-</span><span class="n">Nova</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Proxima-Nova</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>Font family names must either be given quoted as strings, or unquoted as a sequence of one or more identifiers. This means that punctuation characters and digits at the start of each token must be escaped in unquoted font family names.</p>
@@ -173,18 +173,18 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Times</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="n">Georgia</span><span class="o">,</span> <span class="k">serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Times</span><span class="p">,</span> <span class="s1">"Times New Roman"</span><span class="p">,</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Verdana</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Verdana</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="k">cursive</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="nb">cursive</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Keep going with our example let’s add a font-family to the <code>div</code> we’ve created before.</p>
+<p>Keep going with our example let’s add a font-family to the <code class="highlighter-rouge">div</code> we’ve created before.</p>
 
 <div class="m-switch">
   
@@ -199,11 +199,11 @@
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -215,7 +215,7 @@
 
 <h3 id="font-size">Font-Size</h3>
 
-<p>The <code>font-size</code> property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:</p>
+<p>The <code class="highlighter-rouge">font-size</code> property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:</p>
 
 <div class="m-switch">
   
@@ -230,17 +230,17 @@
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">html</span> <span class="p">{</span>
-      <span class="k">font-size</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+      <span class="nl">font-size</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nt">h1</span> <span class="p">{</span>
-      <span class="k">font-size</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
+      <span class="nl">font-size</span><span class="p">:</span> <span class="m">32px</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -249,7 +249,7 @@
   <span class="nt">&lt;div&gt;</span>I am a div<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>First you can see we set the <code>font-size</code> for everything inside of the html element to a small <code>10px</code> (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of <code>32px</code> assigned, so the browser shows us a big heading while the div has the small text size without having any <code>font-size</code> property declared.</p>
+<p>First you can see we set the <code class="highlighter-rouge">font-size</code> for everything inside of the html element to a small <code class="highlighter-rouge">10px</code> (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of <code class="highlighter-rouge">32px</code> assigned, so the browser shows us a big heading while the div has the small text size without having any <code class="highlighter-rouge">font-size</code> property declared.</p>
 
   </article>
 </div>

@@ -179,20 +179,20 @@
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">p</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nc">.warning</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;p&gt;</span>I am a normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p&gt;</span>I am another normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;warning&quot;</span><span class="nt">&gt;</span>Warning! I am a red paragraph of text!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"warning"</span><span class="nt">&gt;</span>Warning! I am a red paragraph of text!<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever <code>class="warning"</code> is applied.</p>
+<p>In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever <code class="highlighter-rouge">class="warning"</code> is applied.</p>
 
 <p>This is a good example why you would want to overwrite your own styles: Apply generic default styles for all elements first, then overwrite some of them to create exceptions.</p>
 
@@ -253,10 +253,10 @@
   <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;main&gt;</span>
       <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Firefox is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Chrome is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Safari is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Edge is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Firefox is Mozilla's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Chrome is Google's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Safari is Apple's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Edge is Microsoft's web browser.<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/main&gt;</span>
     <span class="nt">&lt;footer&gt;</span>
       <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
@@ -268,16 +268,16 @@
 <p>For this document, the following statements are true:</p>
 
 <ul>
-  <li><code>h2</code> is a child of <code>main</code></li>
-  <li><code>footer</code> is a child of <code>body</code></li>
-  <li><code>h2</code> is a sibling of <code>p</code></li>
-  <li><code>h2</code> has four siblings</li>
-  <li><code>main</code> is a parent of <code>h2</code></li>
-  <li><code>main</code> has five children</li>
-  <li><code>h2</code> and <code>main</code> are descendants of <code>body</code></li>
-  <li><code>html</code> and <code>body</code> are ancestors of <code>p</code></li>
-  <li><code>main</code> and <code>footer</code> are wrapped inside a <code>body</code>-element</li>
-  <li>The <code>html</code>-element is wrapped around the <code>body</code>-element</li>
+  <li><code class="highlighter-rouge">h2</code> is a child of <code class="highlighter-rouge">main</code></li>
+  <li><code class="highlighter-rouge">footer</code> is a child of <code class="highlighter-rouge">body</code></li>
+  <li><code class="highlighter-rouge">h2</code> is a sibling of <code class="highlighter-rouge">p</code></li>
+  <li><code class="highlighter-rouge">h2</code> has four siblings</li>
+  <li><code class="highlighter-rouge">main</code> is a parent of <code class="highlighter-rouge">h2</code></li>
+  <li><code class="highlighter-rouge">main</code> has five children</li>
+  <li><code class="highlighter-rouge">h2</code> and <code class="highlighter-rouge">main</code> are descendants of <code class="highlighter-rouge">body</code></li>
+  <li><code class="highlighter-rouge">html</code> and <code class="highlighter-rouge">body</code> are ancestors of <code class="highlighter-rouge">p</code></li>
+  <li><code class="highlighter-rouge">main</code> and <code class="highlighter-rouge">footer</code> are wrapped inside a <code class="highlighter-rouge">body</code>-element</li>
+  <li>The <code class="highlighter-rouge">html</code>-element is wrapped around the <code class="highlighter-rouge">body</code>-element</li>
 </ul>
 
 <p>One way we can make use of these relationships in our CSS is through <em>inheritance</em>. Inheritance means that some CSS properties, like text color or font size, get passed down, or <em>inherited</em> from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:</p>
@@ -292,7 +292,7 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn’t have its own color property value.</p>
@@ -312,34 +312,34 @@
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">body</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">footer</span> <span class="p">{</span>
-        <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
+        <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;main&gt;</span>
       <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.mozilla.org/en-US/firefox/new/&quot;</span><span class="nt">&gt;</span>Firefox<span class="nt">&lt;/a&gt;</span> is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.google.com/chrome/&quot;</span><span class="nt">&gt;</span>Chrome<span class="nt">&lt;/a&gt;</span> is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.apple.com/lae/safari/&quot;</span><span class="nt">&gt;</span>Safari<span class="nt">&lt;/a&gt;</span> is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.microsoft.com/en-us/windows/microsoft-edge&quot;</span><span class="nt">&gt;</span>Edge<span class="nt">&lt;/a&gt;</span> is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.mozilla.org/en-US/firefox/new/"</span><span class="nt">&gt;</span>Firefox<span class="nt">&lt;/a&gt;</span> is Mozilla's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com/chrome/"</span><span class="nt">&gt;</span>Chrome<span class="nt">&lt;/a&gt;</span> is Google's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"http://www.apple.com/lae/safari/"</span><span class="nt">&gt;</span>Safari<span class="nt">&lt;/a&gt;</span> is Apple's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.microsoft.com/en-us/windows/microsoft-edge"</span><span class="nt">&gt;</span>Edge<span class="nt">&lt;/a&gt;</span> is Microsoft's web browser.<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/main&gt;</span>
     <span class="nt">&lt;footer&gt;</span>
       <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Read the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://en.wikipedia.org/wiki/Web_browser&quot;</span><span class="nt">&gt;</span>Wikipedia article about web browsers<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Read the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://en.wikipedia.org/wiki/Web_browser"</span><span class="nt">&gt;</span>Wikipedia article about web browsers<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
     <span class="nt">&lt;/footer&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>In this document, all elements without a specified text color will inherit the green text color from the <code>body</code>-element. The <code>footer</code> has its own white text color that overwrites the green text color from the <code>body</code>-element. It also has a green background color.</p>
+<p>In this document, all elements without a specified text color will inherit the green text color from the <code class="highlighter-rouge">body</code>-element. The <code class="highlighter-rouge">footer</code> has its own white text color that overwrites the green text color from the <code class="highlighter-rouge">body</code>-element. It also has a green background color.</p>
 
-<p>You will notice that the <code>a</code>-elements don’t inherit the text color of their ancestors. That is because the <code>a</code>-element has its own blue text color specified in the user agent style sheet.</p>
+<p>You will notice that the <code class="highlighter-rouge">a</code>-elements don’t inherit the text color of their ancestors. That is because the <code class="highlighter-rouge">a</code>-element has its own blue text color specified in the user agent style sheet.</p>
 
-<p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code>footer</code> by adding the following CSS:</p>
+<p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code class="highlighter-rouge">footer</code> by adding the following CSS:</p>
 
 <div class="m-switch">
   
@@ -351,29 +351,29 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">footer</span> <span class="nt">a</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>You might wonder why there is an empty space between <code>footer</code> and <code>a</code> in the <code>footer a</code> selector. This empty space is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">descendant combinator</a>. The descendant combinator lets you select elements that are descendants of another element.</p>
+<p>You might wonder why there is an empty space between <code class="highlighter-rouge">footer</code> and <code class="highlighter-rouge">a</code> in the <code class="highlighter-rouge">footer a</code> selector. This empty space is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">descendant combinator</a>. The descendant combinator lets you select elements that are descendants of another element.</p>
 
-<p>This becomes a bit clearer when you read the selectors from right to left. <code>footer a</code> will select every <code>a</code> element, that is a <em>descendant</em> of a <code>footer</code>-element. You can also combine more selectors. For example <code>footer h2 a</code> would select every link inside of a level two headline that is inside of a footer.</p>
+<p>This becomes a bit clearer when you read the selectors from right to left. <code class="highlighter-rouge">footer a</code> will select every <code class="highlighter-rouge">a</code> element, that is a <em>descendant</em> of a <code class="highlighter-rouge">footer</code>-element. You can also combine more selectors. For example <code class="highlighter-rouge">footer h2 a</code> would select every link inside of a level two headline that is inside of a footer.</p>
 
-<p>Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with <code>text-decoration: underline;</code>. This way people can still recognize that they are links, not just regular text.</p>
+<p>Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with <code class="highlighter-rouge">text-decoration: underline;</code>. This way people can still recognize that they are links, not just regular text.</p>
 
-<h4 id="the-inherit-keyword">The <code>inherit</code> keyword</h4>
+<h4 id="the-inherit-keyword">The <code class="highlighter-rouge">inherit</code> keyword</h4>
 
-<p>This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the <code>color</code> values for <code>footer</code> <em>and</em> <code>footer a</code> to yellow to achieve this. Ugh, so much work!</p>
+<p>This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the <code class="highlighter-rouge">color</code> values for <code class="highlighter-rouge">footer</code> <em>and</em> <code class="highlighter-rouge">footer a</code> to yellow to achieve this. Ugh, so much work!</p>
 
-<p>Thankfully, there is the <code>inherit</code> keyword.</p>
+<p>Thankfully, there is the <code class="highlighter-rouge">inherit</code> keyword.</p>
 
-<p>The <code>inherit</code> keyword forces some attributes, like color, to be <em>inherited</em> from the parent element. So in our example we could give our <code>footer a</code> the property value <code>color: inherit;</code>. This way the links inside our footer are always the same color as the text in our footer.</p>
+<p>The <code class="highlighter-rouge">inherit</code> keyword forces some attributes, like color, to be <em>inherited</em> from the parent element. So in our example we could give our <code class="highlighter-rouge">footer a</code> the property value <code class="highlighter-rouge">color: inherit;</code>. This way the links inside our footer are always the same color as the text in our footer.</p>
 
-<p>There is also the newer <code>currentcolor</code> keyword. <code>currentcolor</code> always represents the text color of a certain element. If you want to change another attribute than <code>color</code> to that same element’s text color, you could do that with a declaration like <code>border-color: currentcolor</code>.</p>
+<p>There is also the newer <code class="highlighter-rouge">currentcolor</code> keyword. <code class="highlighter-rouge">currentcolor</code> always represents the text color of a certain element. If you want to change another attribute than <code class="highlighter-rouge">color</code> to that same element’s text color, you could do that with a declaration like <code class="highlighter-rouge">border-color: currentcolor</code>.</p>
 
 <h4 id="specificity">Specificity</h4>
 
-<p>Specificity means that a rule that is <em>more specific</em> overpowers a rule that is <em>less specific</em>. For example selecting every link inside a footer element with <code>footer a</code> is <em>more specific</em> than selecting every link element everywhere with <code>a</code>.</p>
+<p>Specificity means that a rule that is <em>more specific</em> overpowers a rule that is <em>less specific</em>. For example selecting every link inside a footer element with <code class="highlighter-rouge">footer a</code> is <em>more specific</em> than selecting every link element everywhere with <code class="highlighter-rouge">a</code>.</p>
 
 <p>Some selectors are more specific by default. For example a <em>class selector</em> will always have a higher specificity than an <em>element selector</em>. This makes sense, because selecting only elements with a certain class attribute is <em>more specific</em> than selecting <em>every</em> element of a type.</p>
 
@@ -390,24 +390,24 @@
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">a</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">body</span> <span class="nt">a</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nc">.danger-link</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;danger-link&quot;</span> <span class="na">href=</span><span class="s">&quot;danger.html&quot;</span><span class="nt">&gt;</span>I am a very dangerous link, do not click me!<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"danger-link"</span> <span class="na">href=</span><span class="s">"danger.html"</span><span class="nt">&gt;</span>I am a very dangerous link, do not click me!<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>In this example the link will end up red. The first rule for <code>a</code> will be overwritten by the <em>more specific</em> rule <code>body a</code>.</p>
+<p>In this example the link will end up red. The first rule for <code class="highlighter-rouge">a</code> will be overwritten by the <em>more specific</em> rule <code class="highlighter-rouge">body a</code>.</p>
 
-<p>The class selector <code>.danger-link</code> is even more specific, therefore it overwrites them both.</p>
+<p>The class selector <code class="highlighter-rouge">.danger-link</code> is even more specific, therefore it overwrites them both.</p>
 
 <p>It is important to keep in mind that in the cascade <em>specificity beats the order</em> of rules in your stylesheet. If a rule is followed by another rule with the <em>same specificity</em>, the second rule overwrites the first. If the first rule has a <em>higher specificity</em>, the first rule still overwrites any less specific rules that come after it.</p>
 
@@ -424,19 +424,19 @@
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">body</span> <span class="nt">p</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">p</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;p&gt;</span>I am a green paragraph of text because &quot;body p&quot; is more specific than &quot;p&quot;<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>I am a green paragraph of text because "body p" is more specific than "p"<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like <code>.site-header nav ul li a</code>. If you want to read more about this, the Mozilla Developer Network has a <a href="https://developer.mozilla.org/en/docs/Web/CSS/Specificity">more detailed article on specificity</a>.</p>
+<p>Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like <code class="highlighter-rouge">.site-header nav ul li a</code>. If you want to read more about this, the Mozilla Developer Network has a <a href="https://developer.mozilla.org/en/docs/Web/CSS/Specificity">more detailed article on specificity</a>.</p>
 
   </article>
 </div>

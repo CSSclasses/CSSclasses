@@ -142,7 +142,7 @@
   </header>
   <article class="post-content">
     <h3 id="class-selector">Class Selector</h3>
-<p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code>div</code>s on your page.</p>
+<p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code class="highlighter-rouge">div</code>s on your page.</p>
 
 <div class="m-switch">
   
@@ -157,12 +157,12 @@
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -171,7 +171,7 @@
   <span class="nt">&lt;div&gt;</span>I am a different div but i look like the other one! 😞<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code>div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
+<p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code class="highlighter-rouge">div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
 
 <div class="m-switch">
   
@@ -186,29 +186,29 @@
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="nc">.greenthing</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nc">.greenthing</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span> <span class="p">}</span>
 
     <span class="nc">.bluething</span> <span class="p">{</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">serif</span><span class="p">;</span>
-      <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">serif</span><span class="p">;</span>
+      <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="nc">.border-dotted</span> <span class="p">{</span> <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">dotted</span> <span class="nb">black</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nc">.border-dotted</span> <span class="p">{</span> <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">dotted</span> <span class="no">black</span><span class="p">;</span> <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;greenthing&quot;</span><span class="nt">&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;bluething border-dotted&quot;</span><span class="nt">&gt;</span>I am a different div and I don’t look like the other one any more! 😀<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"greenthing"</span><span class="nt">&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bluething border-dotted"</span><span class="nt">&gt;</span>I am a different div and I don’t look like the other one any more! 😀<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Now here you should note several things. Both <code>div</code>s get the styles of the <code>div</code> rule, as this applies to all <code>div</code>s. Then the first <code>div</code> also gets the styles of the class <code>.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code>div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code>.border-dotted</code>. This class is remarkable as it <code>overrides</code> the border style that was defined in the `div selector.</p>
+<p>Now here you should note several things. Both <code class="highlighter-rouge">div</code>s get the styles of the <code class="highlighter-rouge">div</code> rule, as this applies to all <code class="highlighter-rouge">div</code>s. Then the first <code class="highlighter-rouge">div</code> also gets the styles of the class <code class="highlighter-rouge">.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code class="highlighter-rouge">div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code class="highlighter-rouge">.border-dotted</code>. This class is remarkable as it <code class="highlighter-rouge">overrides</code> the border style that was defined in the `div selector.</p>
 
 
   </article>

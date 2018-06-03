@@ -150,7 +150,7 @@
 </ul>
 
 <h3 id="how-to-create-a-file-called-indexhtml">How to create a file called index.html</h3>
-<p>Now it’s time for you to create your first website! Open your text editor and create a new file. In your text editor (e.g. Sublime Text), click the <code>File</code> menu and then click <code>New File</code>.</p>
+<p>Now it’s time for you to create your first website! Open your text editor and create a new file. In your text editor (e.g. Sublime Text), click the <code class="highlighter-rouge">File</code> menu and then click <code class="highlighter-rouge">New File</code>.</p>
 
 <figure>
   <img src="/assets/images/new-file.png" alt="Image of Sublime Texts file menu - New file selected." />
@@ -168,7 +168,7 @@
   </figcaption>
 </figure>
 
-<p>Now click <code>File -&gt; Save as…</code> and navigate to a folder you know how to find on your computer. It could be a good idea for now to just create a folder on your desktop or in your home folder called “cssclasses” and save your file in it. As a filename choose “index.html” and click <code>save</code>.</p>
+<p>Now click <code class="highlighter-rouge">File -&gt; Save as…</code> and navigate to a folder you know how to find on your computer. It could be a good idea for now to just create a folder on your desktop or in your home folder called “cssclasses” and save your file in it. As a filename choose “index.html” and click <code class="highlighter-rouge">save</code>.</p>
 
 <figure>
   <img src="/assets/images/save-as.png" alt="OS X Save as file dialog window." />
@@ -199,7 +199,7 @@
 
 <p>Elements are what makes up a HTML document. You can put elements inside of other elements. An element can include three things: a tag, attributes, and content.</p>
 
-<p>A Tag is the thing that indicates an element’s purpose. For example, the <code>&lt;p&gt;</code> tag indicates a paragraph of text is in that element, and the <code>&lt;li&gt;</code> represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:</p>
+<p>A Tag is the thing that indicates an element’s purpose. For example, the <code class="highlighter-rouge">&lt;p&gt;</code> tag indicates a paragraph of text is in that element, and the <code class="highlighter-rouge">&lt;li&gt;</code> represents a ‘list item’. You’ll notice they’re always surrounded by angle brackets. Opening and Closing tags mark the beginning and end of an element and wrap its content, like so:</p>
 
 <div class="m-switch">
   
@@ -212,7 +212,7 @@
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a paragraph.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
 
-<p>You can see the closing tag includes a <code>/</code> before its name; otherwise it would be another opening tag!</p>
+<p>You can see the closing tag includes a <code class="highlighter-rouge">/</code> before its name; otherwise it would be another opening tag!</p>
 
 <p>Always double-check that you’ve closed all your elements; otherwise, a browser can and will get mixed up trying to understand your HTML document.</p>
 
@@ -227,7 +227,7 @@
   <label class="m-switch__label" for="switch_1_3">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a sentence, with an <span class="nt">&lt;em&gt;</span>em<span class="nt">&lt;/em&gt;</span> element (&quot;emphasize&quot;) inside of it.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a sentence, with an <span class="nt">&lt;em&gt;</span>em<span class="nt">&lt;/em&gt;</span> element ("emphasize") inside of it.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
 
 <p>or this:</p>
 
@@ -240,7 +240,7 @@
   <label class="m-switch__label" for="switch_2_5">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;main-container&quot;</span><span class="nt">&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main-container"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;h1&gt;</span>The h1 tag indicates the primary header of the document.<span class="nt">&lt;/h1&gt;</span>
   <span class="nt">&lt;p&gt;</span>Some text.<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></figure>
@@ -273,7 +273,7 @@
 <p data-height="256" data-theme-id="dark" data-slug-hash="Pjqmvm" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses inline box" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/Pjqmvm/">CSSclasses inline box</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<p>So HTML elements are by default either <strong>block boxes</strong> or <strong>inline boxes</strong> (of course, there are exceptions to this rule, but we don’t have to worry about that for now). For example, <code>div</code> is a block element, and so are headings like <code>h1</code> or <code>h2</code>. <code>span</code> or <code>strong</code> on the other hand are <strong>inline elements</strong>. Here are lists for the different elements:</p>
+<p>So HTML elements are by default either <strong>block boxes</strong> or <strong>inline boxes</strong> (of course, there are exceptions to this rule, but we don’t have to worry about that for now). For example, <code class="highlighter-rouge">div</code> is a block element, and so are headings like <code class="highlighter-rouge">h1</code> or <code class="highlighter-rouge">h2</code>. <code class="highlighter-rouge">span</code> or <code class="highlighter-rouge">strong</code> on the other hand are <strong>inline elements</strong>. Here are lists for the different elements:</p>
 
 <ul>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block-level elements</a></li>
@@ -295,14 +295,14 @@
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="c">&lt;!--This is a doctype. Every HTML file should have one.</span>
-<span class="c">Basically you only need this one nowadays, as this means HTML5 (what you&#39;re learning here)</span>
-<span class="c">for modern browsers but old browsers still pick up that your file is some kind of HTML.--&gt;</span>
+<span class="c">&lt;!--This is a doctype. Every HTML file should have one.
+Basically you only need this one nowadays, as this means HTML5 (what you're learning here)
+for modern browsers but old browsers still pick up that your file is some kind of HTML.--&gt;</span>
 <span class="nt">&lt;html&gt;</span>
 <span class="c">&lt;!-- Here the HTML starts, so we put an opening &lt;html&gt; tag here. --&gt;</span>
   <span class="nt">&lt;head&gt;</span>
 <span class="c">&lt;!-- Inside the &lt;head&gt; we can put some meta information… --&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
 <span class="c">&lt;!-- … like charset and title. --&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
@@ -327,7 +327,7 @@
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
   <span class="nt">&lt;head&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
@@ -402,7 +402,7 @@ linebreak.</p>
   <label class="m-switch__label" for="switch_8_17">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;https://placehold.it/664x442&quot;</span> <span class="na">alt=</span><span class="s">&quot;placeholder image&quot;</span><span class="nt">&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"https://placehold.it/664x442"</span> <span class="na">alt=</span><span class="s">"placeholder image"</span><span class="nt">&gt;</span></code></pre></figure>
 
 <p><img src="https://placehold.it/664x442" alt="placeholder image" /></p>
 
@@ -418,7 +418,7 @@ linebreak.</p>
   <label class="m-switch__label" for="switch_9_19">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://cssconf.eu&quot;</span> <span class="na">title=</span><span class="s">&quot;CSSconf EU&quot;</span><span class="nt">&gt;</span>CSSconfEU<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://cssconf.eu"</span> <span class="na">title=</span><span class="s">"CSSconf EU"</span><span class="nt">&gt;</span>CSSconfEU<span class="nt">&lt;/a&gt;</span></code></pre></figure>
 
 <h4 id="div">Div</h4>
 <p>The div element is an element that does not have any special meaning or special styling. It’s perfect for grouping other elements together and assigning them a class or an id.</p>
@@ -463,7 +463,7 @@ linebreak.</p>
 <p>CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the “cascading” part of our <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet.</p>
 
 <h3 id="start-with-inline-styles">Start with inline styles</h3>
-<p>To get you started, you can just insert a <code>style</code> tag inside of your `head tag:</p>
+<p>To get you started, you can just insert a <code class="highlighter-rouge">style</code> tag inside of your `head tag:</p>
 
 <div class="m-switch">
   
@@ -475,7 +475,7 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
-  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">&quot;UTF-8&quot;</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
@@ -495,10 +495,10 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p><code>h1</code> is the selector, the HTML element we want to style. <code>color</code> is one of the properties that we can give to our selector, and <code>red</code> is the value of this property. The right syntax is:</p>
+<p><code class="highlighter-rouge">h1</code> is the selector, the HTML element we want to style. <code class="highlighter-rouge">color</code> is one of the properties that we can give to our selector, and <code class="highlighter-rouge">red</code> is the value of this property. The right syntax is:</p>
 
 <div class="m-switch">
   
@@ -510,15 +510,15 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
-  <span class="n">property</span><span class="o">:</span> <span class="n">value</span><span class="p">;</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
 
 <h3 id="useful-css-properties">Useful CSS properties</h3>
 
-<p>Now, let us insert a <code>div</code> and style it a little bit. So parts of your file should look like this:</p>
+<p>Now, let us insert a <code class="highlighter-rouge">div</code> and style it a little bit. So parts of your file should look like this:</p>
 
 <div class="m-switch">
   
@@ -533,10 +533,10 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -544,7 +544,7 @@ linebreak.</p>
   <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code>color</code>. There is also `background-color, width and height.</p>
+<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. So here you see some properties, you already know <code class="highlighter-rouge">color</code>. There is also `background-color, width and height.</p>
 
 <h3 id="shorthand">Shorthand</h3>
 <p>On some occasions you might see properties defined in different ways but doing the same thing, such as:</p>
@@ -559,13 +559,13 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
-  <span class="k">border-width</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span>
-  <span class="k">border-style</span><span class="o">:</span> <span class="k">dotted</span><span class="p">;</span>
-  <span class="k">border-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">dotted</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">anotherselector</span> <span class="p">{</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">dotted</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">dotted</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don’t worry too much about it for now. It’s just good that you know that it exists in case you see it. If you think it’s confusing, just use the non shorthand format for your own code and specify each property at a time.</p>
@@ -574,7 +574,7 @@ linebreak.</p>
 
   <article>
     <h3 id="font-family">Font-family</h3>
-<p>The <code>font-family</code> CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
+<p>The <code class="highlighter-rouge">font-family</code> CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.</p>
 
 <p>You should always add at least one generic family in a font-family list, since there’s no guarantee that a specific font is installed on the computer or can be downloaded.</p>
 
@@ -588,7 +588,7 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Proxima</span><span class="o">-</span><span class="n">Nova</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Proxima-Nova</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>Font family names must either be given quoted as strings, or unquoted as a sequence of one or more identifiers. This means that punctuation characters and digits at the start of each token must be escaped in unquoted font family names.</p>
@@ -605,18 +605,18 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Times</span><span class="o">,</span> <span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span> <span class="n">Georgia</span><span class="o">,</span> <span class="k">serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Times</span><span class="p">,</span> <span class="s1">"Times New Roman"</span><span class="p">,</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">h1</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="n">Verdana</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="k">sans-serif</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="n">Verdana</span><span class="p">,</span> <span class="n">Arial</span><span class="p">,</span> <span class="n">Helvetica</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
 <span class="p">}</span>
 
 <span class="nt">p</span> <span class="p">{</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="k">cursive</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="nb">cursive</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Keep going with our example let’s add a font-family to the <code>div</code> we’ve created before.</p>
+<p>Keep going with our example let’s add a font-family to the <code class="highlighter-rouge">div</code> we’ve created before.</p>
 
 <div class="m-switch">
   
@@ -631,11 +631,11 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -647,7 +647,7 @@ linebreak.</p>
 
 <h3 id="font-size">Font-Size</h3>
 
-<p>The <code>font-size</code> property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:</p>
+<p>The <code class="highlighter-rouge">font-size</code> property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:</p>
 
 <div class="m-switch">
   
@@ -662,17 +662,17 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">html</span> <span class="p">{</span>
-      <span class="k">font-size</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+      <span class="nl">font-size</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nt">h1</span> <span class="p">{</span>
-      <span class="k">font-size</span><span class="o">:</span> <span class="m">32px</span><span class="p">;</span>
+      <span class="nl">font-size</span><span class="p">:</span> <span class="m">32px</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -681,13 +681,13 @@ linebreak.</p>
   <span class="nt">&lt;div&gt;</span>I am a div<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>First you can see we set the <code>font-size</code> for everything inside of the html element to a small <code>10px</code> (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of <code>32px</code> assigned, so the browser shows us a big heading while the div has the small text size without having any <code>font-size</code> property declared.</p>
+<p>First you can see we set the <code class="highlighter-rouge">font-size</code> for everything inside of the html element to a small <code class="highlighter-rouge">10px</code> (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of <code class="highlighter-rouge">32px</code> assigned, so the browser shows us a big heading while the div has the small text size without having any <code class="highlighter-rouge">font-size</code> property declared.</p>
 
   </article>
 
   <article>
     <h3 id="border">Border</h3>
-<p>You can also put a nice <code>border</code> around your elements. Try this:</p>
+<p>You can also put a nice <code class="highlighter-rouge">border</code> around your elements. Try this:</p>
 
 <div class="m-switch">
   
@@ -702,12 +702,12 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -715,7 +715,7 @@ linebreak.</p>
   <span class="nt">&lt;div&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Now you assigned your <code>div</code> to have a <code>black</code> border that is <code>5px</code> thick and <code>solid</code>. Let’s `dissect the border property a little bit with a different border and a generic description:</p>
+<p>Now you assigned your <code class="highlighter-rouge">div</code> to have a <code class="highlighter-rouge">black</code> border that is <code class="highlighter-rouge">5px</code> thick and <code class="highlighter-rouge">solid</code>. Let’s `dissect the border property a little bit with a different border and a generic description:</p>
 
 <div class="m-switch">
   
@@ -729,7 +729,7 @@ linebreak.</p>
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">border</span><span class="o">:</span> <span class="nt">20px</span> <span class="nt">dashed</span> <span class="nf">#ff88aa</span><span class="o">;</span>
 <span class="nt">border</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">line-width</span><span class="o">&gt;</span> <span class="o">||</span> <span class="o">&lt;</span><span class="nt">line-style</span><span class="o">&gt;</span> <span class="o">||</span> <span class="o">&lt;</span><span class="nt">color</span><span class="o">&gt;;</span></code></pre></figure>
 
-<p>Here you see an even thicker border that is not solid and has a different color, but is also <code>dashed</code> instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.</p>
+<p>Here you see an even thicker border that is not solid and has a different color, but is also <code class="highlighter-rouge">dashed</code> instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.</p>
 
   </article>
 
@@ -737,7 +737,7 @@ linebreak.</p>
     <h3 id="the-box-model">The Box Model</h3>
 <p>The Box Model is something that describes how all of these boxes behave, and how the browser knows about the space they occupy on a page.</p>
 
-<p>We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a <code>padding</code>, which is some space between your content and the edge of the box. And you can specify a <code>margin</code>, which is the size between the box and it’s neighboring boxes.</p>
+<p>We’ve told you that you can specify width, height and borders, but there’s more than that. You can also specify a <code class="highlighter-rouge">padding</code>, which is some space between your content and the edge of the box. And you can specify a <code class="highlighter-rouge">margin</code>, which is the size between the box and it’s neighboring boxes.</p>
 
 <p>Here’s an example with all of these properties so you can see how they behave. Note that the content is 5px away from the border, and that the boxes are 10px away from each other.</p>
 
@@ -755,7 +755,7 @@ linebreak.</p>
 
 <p>Now, how much space does this box occupy on a page? We need to take into account not just the width and the height that was specified, but also the paddings and the borders (we can forget about the margins for now). So in reality, our box occupies a width of 80px plus 5px on each side for the paddings, plus 1px for each border (note we’re using the border shorthand). So that means that the real width is 92px.</p>
 
-<p>There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: <code>box-sizing: border-box;</code>.</p>
+<p>There is a way to make the box model work differently, so that you don’t need to do these kinds of calculations, using the box-sizing property: <code class="highlighter-rouge">box-sizing: border-box;</code>.</p>
 
 <p data-height="437" data-theme-id="dark" data-slug-hash="RgPpOm" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses Box Sizing" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/RgPpOm/">CSSclasses Box Sizing</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -766,7 +766,7 @@ linebreak.</p>
 
   <article>
     <h3 id="hover">Hover</h3>
-<p>Hover is a small example of how you can add some fun little interactivity to your site. Take our <code>div</code> example from above and let’s add a little bit to our CSS:</p>
+<p>Hover is a small example of how you can add some fun little interactivity to your site. Take our <code class="highlighter-rouge">div</code> example from above and let’s add a little bit to our CSS:</p>
 
 <div class="m-switch">
   
@@ -778,25 +778,25 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">div</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-  <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-  <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-  <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-  <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
 <span class="p">}</span>
 <span class="nt">div</span><span class="nd">:hover</span> <span class="p">{</span>
-  <span class="k">background-color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
-  <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">dotted</span> <span class="nb">black</span><span class="p">;</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">dotted</span> <span class="no">black</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>If you apply this CSS to our <a href="#border">border</a> example, you will see no change at first. But if you move your mouse cursor over the <code>div</code> (you “<code>hover</code>” it), you will see the style changes applied, that we defined with the <code>div:hover</code> pseudo-class. There are some more pseudo-classes like that that you can learn about later.</p>
+<p>If you apply this CSS to our <a href="#border">border</a> example, you will see no change at first. But if you move your mouse cursor over the <code class="highlighter-rouge">div</code> (you “<code class="highlighter-rouge">hover</code>” it), you will see the style changes applied, that we defined with the <code class="highlighter-rouge">div:hover</code> pseudo-class. There are some more pseudo-classes like that that you can learn about later.</p>
 
   </article>
 
   <article>
     <h3 id="class-selector">Class Selector</h3>
-<p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code>div</code>s on your page.</p>
+<p>Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled <code class="highlighter-rouge">div</code>s on your page.</p>
 
 <div class="m-switch">
   
@@ -811,12 +811,12 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
@@ -825,7 +825,7 @@ linebreak.</p>
   <span class="nt">&lt;div&gt;</span>I am a different div but i look like the other one! 😞<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code>div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
+<p>Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second <code class="highlighter-rouge">div</code> should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:</p>
 
 <div class="m-switch">
   
@@ -840,29 +840,29 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">div</span> <span class="p">{</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="nc">.greenthing</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nc">.greenthing</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span> <span class="p">}</span>
 
     <span class="nc">.bluething</span> <span class="p">{</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">serif</span><span class="p">;</span>
-      <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">serif</span><span class="p">;</span>
+      <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
     <span class="p">}</span>
 
-    <span class="nc">.border-dotted</span> <span class="p">{</span> <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">dotted</span> <span class="nb">black</span><span class="p">;</span> <span class="p">}</span>
+    <span class="nc">.border-dotted</span> <span class="p">{</span> <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">dotted</span> <span class="no">black</span><span class="p">;</span> <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;greenthing&quot;</span><span class="nt">&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;bluething border-dotted&quot;</span><span class="nt">&gt;</span>I am a different div and I don’t look like the other one any more! 😀<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"greenthing"</span><span class="nt">&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bluething border-dotted"</span><span class="nt">&gt;</span>I am a different div and I don’t look like the other one any more! 😀<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Now here you should note several things. Both <code>div</code>s get the styles of the <code>div</code> rule, as this applies to all <code>div</code>s. Then the first <code>div</code> also gets the styles of the class <code>.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code>div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code>.border-dotted</code>. This class is remarkable as it <code>overrides</code> the border style that was defined in the `div selector.</p>
+<p>Now here you should note several things. Both <code class="highlighter-rouge">div</code>s get the styles of the <code class="highlighter-rouge">div</code> rule, as this applies to all <code class="highlighter-rouge">div</code>s. Then the first <code class="highlighter-rouge">div</code> also gets the styles of the class <code class="highlighter-rouge">.greenthing</code>. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second <code class="highlighter-rouge">div</code> has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: <code class="highlighter-rouge">.border-dotted</code>. This class is remarkable as it <code class="highlighter-rouge">overrides</code> the border style that was defined in the `div selector.</p>
 
 
   </article>
@@ -906,20 +906,20 @@ linebreak.</p>
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nt">p</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nc">.warning</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
   <span class="nt">&lt;p&gt;</span>I am a normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;p&gt;</span>I am another normal green paragraph of text.<span class="nt">&lt;/p&gt;</span>
-  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;warning&quot;</span><span class="nt">&gt;</span>Warning! I am a red paragraph of text!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"warning"</span><span class="nt">&gt;</span>Warning! I am a red paragraph of text!<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever <code>class="warning"</code> is applied.</p>
+<p>In this example, the first rule specifies that all paragraphs have green text. The second rule overwrites the first rule wherever <code class="highlighter-rouge">class="warning"</code> is applied.</p>
 
 <p>This is a good example why you would want to overwrite your own styles: Apply generic default styles for all elements first, then overwrite some of them to create exceptions.</p>
 
@@ -980,10 +980,10 @@ linebreak.</p>
   <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;main&gt;</span>
       <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Firefox is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Chrome is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Safari is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Edge is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Firefox is Mozilla's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Chrome is Google's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Safari is Apple's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Edge is Microsoft's web browser.<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/main&gt;</span>
     <span class="nt">&lt;footer&gt;</span>
       <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
@@ -995,16 +995,16 @@ linebreak.</p>
 <p>For this document, the following statements are true:</p>
 
 <ul>
-  <li><code>h2</code> is a child of <code>main</code></li>
-  <li><code>footer</code> is a child of <code>body</code></li>
-  <li><code>h2</code> is a sibling of <code>p</code></li>
-  <li><code>h2</code> has four siblings</li>
-  <li><code>main</code> is a parent of <code>h2</code></li>
-  <li><code>main</code> has five children</li>
-  <li><code>h2</code> and <code>main</code> are descendants of <code>body</code></li>
-  <li><code>html</code> and <code>body</code> are ancestors of <code>p</code></li>
-  <li><code>main</code> and <code>footer</code> are wrapped inside a <code>body</code>-element</li>
-  <li>The <code>html</code>-element is wrapped around the <code>body</code>-element</li>
+  <li><code class="highlighter-rouge">h2</code> is a child of <code class="highlighter-rouge">main</code></li>
+  <li><code class="highlighter-rouge">footer</code> is a child of <code class="highlighter-rouge">body</code></li>
+  <li><code class="highlighter-rouge">h2</code> is a sibling of <code class="highlighter-rouge">p</code></li>
+  <li><code class="highlighter-rouge">h2</code> has four siblings</li>
+  <li><code class="highlighter-rouge">main</code> is a parent of <code class="highlighter-rouge">h2</code></li>
+  <li><code class="highlighter-rouge">main</code> has five children</li>
+  <li><code class="highlighter-rouge">h2</code> and <code class="highlighter-rouge">main</code> are descendants of <code class="highlighter-rouge">body</code></li>
+  <li><code class="highlighter-rouge">html</code> and <code class="highlighter-rouge">body</code> are ancestors of <code class="highlighter-rouge">p</code></li>
+  <li><code class="highlighter-rouge">main</code> and <code class="highlighter-rouge">footer</code> are wrapped inside a <code class="highlighter-rouge">body</code>-element</li>
+  <li>The <code class="highlighter-rouge">html</code>-element is wrapped around the <code class="highlighter-rouge">body</code>-element</li>
 </ul>
 
 <p>One way we can make use of these relationships in our CSS is through <em>inheritance</em>. Inheritance means that some CSS properties, like text color or font size, get passed down, or <em>inherited</em> from parent to children and further descendants. So if we want all the text in our document to be green, instead of styling every single element we can add the following CSS:</p>
@@ -1019,7 +1019,7 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
 <p>All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn’t have its own color property value.</p>
@@ -1039,34 +1039,34 @@ linebreak.</p>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">body</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">footer</span> <span class="p">{</span>
-        <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
+        <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;main&gt;</span>
       <span class="nt">&lt;h2&gt;</span>Web Browsers<span class="nt">&lt;/h2&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.mozilla.org/en-US/firefox/new/&quot;</span><span class="nt">&gt;</span>Firefox<span class="nt">&lt;/a&gt;</span> is Mozilla&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.google.com/chrome/&quot;</span><span class="nt">&gt;</span>Chrome<span class="nt">&lt;/a&gt;</span> is Google&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.apple.com/lae/safari/&quot;</span><span class="nt">&gt;</span>Safari<span class="nt">&lt;/a&gt;</span> is Apple&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://www.microsoft.com/en-us/windows/microsoft-edge&quot;</span><span class="nt">&gt;</span>Edge<span class="nt">&lt;/a&gt;</span> is Microsoft&#39;s web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.mozilla.org/en-US/firefox/new/"</span><span class="nt">&gt;</span>Firefox<span class="nt">&lt;/a&gt;</span> is Mozilla's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com/chrome/"</span><span class="nt">&gt;</span>Chrome<span class="nt">&lt;/a&gt;</span> is Google's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"http://www.apple.com/lae/safari/"</span><span class="nt">&gt;</span>Safari<span class="nt">&lt;/a&gt;</span> is Apple's web browser.<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">"https://www.microsoft.com/en-us/windows/microsoft-edge"</span><span class="nt">&gt;</span>Edge<span class="nt">&lt;/a&gt;</span> is Microsoft's web browser.<span class="nt">&lt;/p&gt;</span>
     <span class="nt">&lt;/main&gt;</span>
     <span class="nt">&lt;footer&gt;</span>
       <span class="nt">&lt;h3&gt;</span>Learn more<span class="nt">&lt;/h3&gt;</span>
-      <span class="nt">&lt;p&gt;</span>Read the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;https://en.wikipedia.org/wiki/Web_browser&quot;</span><span class="nt">&gt;</span>Wikipedia article about web browsers<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Read the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://en.wikipedia.org/wiki/Web_browser"</span><span class="nt">&gt;</span>Wikipedia article about web browsers<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
     <span class="nt">&lt;/footer&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>In this document, all elements without a specified text color will inherit the green text color from the <code>body</code>-element. The <code>footer</code> has its own white text color that overwrites the green text color from the <code>body</code>-element. It also has a green background color.</p>
+<p>In this document, all elements without a specified text color will inherit the green text color from the <code class="highlighter-rouge">body</code>-element. The <code class="highlighter-rouge">footer</code> has its own white text color that overwrites the green text color from the <code class="highlighter-rouge">body</code>-element. It also has a green background color.</p>
 
-<p>You will notice that the <code>a</code>-elements don’t inherit the text color of their ancestors. That is because the <code>a</code>-element has its own blue text color specified in the user agent style sheet.</p>
+<p>You will notice that the <code class="highlighter-rouge">a</code>-elements don’t inherit the text color of their ancestors. That is because the <code class="highlighter-rouge">a</code>-element has its own blue text color specified in the user agent style sheet.</p>
 
-<p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code>footer</code> by adding the following CSS:</p>
+<p>Unfortunately, blue on green is not very readable. It might be a good idea to change the link color for the <code class="highlighter-rouge">footer</code> by adding the following CSS:</p>
 
 <div class="m-switch">
   
@@ -1078,29 +1078,29 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">footer</span> <span class="nt">a</span> <span class="p">{</span>
-  <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-  <span class="k">text-decoration</span><span class="o">:</span> <span class="k">underline</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+  <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">underline</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>You might wonder why there is an empty space between <code>footer</code> and <code>a</code> in the <code>footer a</code> selector. This empty space is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">descendant combinator</a>. The descendant combinator lets you select elements that are descendants of another element.</p>
+<p>You might wonder why there is an empty space between <code class="highlighter-rouge">footer</code> and <code class="highlighter-rouge">a</code> in the <code class="highlighter-rouge">footer a</code> selector. This empty space is called <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors">descendant combinator</a>. The descendant combinator lets you select elements that are descendants of another element.</p>
 
-<p>This becomes a bit clearer when you read the selectors from right to left. <code>footer a</code> will select every <code>a</code> element, that is a <em>descendant</em> of a <code>footer</code>-element. You can also combine more selectors. For example <code>footer h2 a</code> would select every link inside of a level two headline that is inside of a footer.</p>
+<p>This becomes a bit clearer when you read the selectors from right to left. <code class="highlighter-rouge">footer a</code> will select every <code class="highlighter-rouge">a</code> element, that is a <em>descendant</em> of a <code class="highlighter-rouge">footer</code>-element. You can also combine more selectors. For example <code class="highlighter-rouge">footer h2 a</code> would select every link inside of a level two headline that is inside of a footer.</p>
 
-<p>Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with <code>text-decoration: underline;</code>. This way people can still recognize that they are links, not just regular text.</p>
+<p>Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with <code class="highlighter-rouge">text-decoration: underline;</code>. This way people can still recognize that they are links, not just regular text.</p>
 
-<h4 id="the-inherit-keyword">The <code>inherit</code> keyword</h4>
+<h4 id="the-inherit-keyword">The <code class="highlighter-rouge">inherit</code> keyword</h4>
 
-<p>This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the <code>color</code> values for <code>footer</code> <em>and</em> <code>footer a</code> to yellow to achieve this. Ugh, so much work!</p>
+<p>This is all well and good, but what if we decide to change the text color in our footer from white to yellow? In our example we would have to change the <code class="highlighter-rouge">color</code> values for <code class="highlighter-rouge">footer</code> <em>and</em> <code class="highlighter-rouge">footer a</code> to yellow to achieve this. Ugh, so much work!</p>
 
-<p>Thankfully, there is the <code>inherit</code> keyword.</p>
+<p>Thankfully, there is the <code class="highlighter-rouge">inherit</code> keyword.</p>
 
-<p>The <code>inherit</code> keyword forces some attributes, like color, to be <em>inherited</em> from the parent element. So in our example we could give our <code>footer a</code> the property value <code>color: inherit;</code>. This way the links inside our footer are always the same color as the text in our footer.</p>
+<p>The <code class="highlighter-rouge">inherit</code> keyword forces some attributes, like color, to be <em>inherited</em> from the parent element. So in our example we could give our <code class="highlighter-rouge">footer a</code> the property value <code class="highlighter-rouge">color: inherit;</code>. This way the links inside our footer are always the same color as the text in our footer.</p>
 
-<p>There is also the newer <code>currentcolor</code> keyword. <code>currentcolor</code> always represents the text color of a certain element. If you want to change another attribute than <code>color</code> to that same element’s text color, you could do that with a declaration like <code>border-color: currentcolor</code>.</p>
+<p>There is also the newer <code class="highlighter-rouge">currentcolor</code> keyword. <code class="highlighter-rouge">currentcolor</code> always represents the text color of a certain element. If you want to change another attribute than <code class="highlighter-rouge">color</code> to that same element’s text color, you could do that with a declaration like <code class="highlighter-rouge">border-color: currentcolor</code>.</p>
 
 <h4 id="specificity">Specificity</h4>
 
-<p>Specificity means that a rule that is <em>more specific</em> overpowers a rule that is <em>less specific</em>. For example selecting every link inside a footer element with <code>footer a</code> is <em>more specific</em> than selecting every link element everywhere with <code>a</code>.</p>
+<p>Specificity means that a rule that is <em>more specific</em> overpowers a rule that is <em>less specific</em>. For example selecting every link inside a footer element with <code class="highlighter-rouge">footer a</code> is <em>more specific</em> than selecting every link element everywhere with <code class="highlighter-rouge">a</code>.</p>
 
 <p>Some selectors are more specific by default. For example a <em>class selector</em> will always have a higher specificity than an <em>element selector</em>. This makes sense, because selecting only elements with a certain class attribute is <em>more specific</em> than selecting <em>every</em> element of a type.</p>
 
@@ -1117,24 +1117,24 @@ linebreak.</p>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">a</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">body</span> <span class="nt">a</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nc">.danger-link</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">red</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">&quot;danger-link&quot;</span> <span class="na">href=</span><span class="s">&quot;danger.html&quot;</span><span class="nt">&gt;</span>I am a very dangerous link, do not click me!<span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"danger-link"</span> <span class="na">href=</span><span class="s">"danger.html"</span><span class="nt">&gt;</span>I am a very dangerous link, do not click me!<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>In this example the link will end up red. The first rule for <code>a</code> will be overwritten by the <em>more specific</em> rule <code>body a</code>.</p>
+<p>In this example the link will end up red. The first rule for <code class="highlighter-rouge">a</code> will be overwritten by the <em>more specific</em> rule <code class="highlighter-rouge">body a</code>.</p>
 
-<p>The class selector <code>.danger-link</code> is even more specific, therefore it overwrites them both.</p>
+<p>The class selector <code class="highlighter-rouge">.danger-link</code> is even more specific, therefore it overwrites them both.</p>
 
 <p>It is important to keep in mind that in the cascade <em>specificity beats the order</em> of rules in your stylesheet. If a rule is followed by another rule with the <em>same specificity</em>, the second rule overwrites the first. If the first rule has a <em>higher specificity</em>, the first rule still overwrites any less specific rules that come after it.</p>
 
@@ -1151,34 +1151,34 @@ linebreak.</p>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;style&gt;</span>
       <span class="nt">body</span> <span class="nt">p</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
       <span class="p">}</span>
       <span class="nt">p</span> <span class="p">{</span>
-        <span class="k">color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
       <span class="p">}</span>
     <span class="nt">&lt;/style&gt;</span>
   <span class="nt">&lt;/head&gt;</span>
   <span class="nt">&lt;body&gt;</span>
-    <span class="nt">&lt;p&gt;</span>I am a green paragraph of text because &quot;body p&quot; is more specific than &quot;p&quot;<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>I am a green paragraph of text because "body p" is more specific than "p"<span class="nt">&lt;/p&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
-<p>Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like <code>.site-header nav ul li a</code>. If you want to read more about this, the Mozilla Developer Network has a <a href="https://developer.mozilla.org/en/docs/Web/CSS/Specificity">more detailed article on specificity</a>.</p>
+<p>Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like <code class="highlighter-rouge">.site-header nav ul li a</code>. If you want to read more about this, the Mozilla Developer Network has a <a href="https://developer.mozilla.org/en/docs/Web/CSS/Specificity">more detailed article on specificity</a>.</p>
 
   </article>
 
   <article>
     <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
-<p>There are a few more selectors to select subsets out of many elements. <code>:nth-child</code>, <code>:nth-of-type</code> and the <code>~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
+<p>There are a few more selectors to select subsets out of many elements. <code class="highlighter-rouge">:nth-child</code>, <code class="highlighter-rouge">:nth-of-type</code> and the <code class="highlighter-rouge">~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
 
-<p>The <code>:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code>li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code>2nd</code> element, <code>3n</code> for every third, <code>3n-1</code> for every third but starting with the second and so on.</p>
+<p>The <code class="highlighter-rouge">:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. All you need to do is assign <code class="highlighter-rouge">li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code class="highlighter-rouge">2nd</code> element, <code class="highlighter-rouge">3n</code> for every third, <code class="highlighter-rouge">3n-1</code> for every third but starting with the second and so on.</p>
 
 <p data-height="381" data-theme-id="dark" data-slug-hash="rwVygY" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses nth-child" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/rwVygY/">CSSclasses nth-child</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-<p>The <code>:nth-of-type</code> works almost like the <code>:nth-child</code>. But <code>:nth-child</code> doesn’t care about what type the elements are. If you put a <code>div</code> in the middle of the list, <code>:nth-child</code> will treat that just like one of the list elements. That is where <code>:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
+<p>The <code class="highlighter-rouge">:nth-of-type</code> works almost like the <code class="highlighter-rouge">:nth-child</code>. But <code class="highlighter-rouge">:nth-child</code> doesn’t care about what type the elements are. If you put a <code class="highlighter-rouge">div</code> in the middle of the list, <code class="highlighter-rouge">:nth-child</code> will treat that just like one of the list elements. That is where <code class="highlighter-rouge">:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
 
-<p>The <code>~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
+<p>The <code class="highlighter-rouge">~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, simple rules can add dynamic behavior to your collection of fruits and vegetables:</p>
 
 <div class="m-switch">
   
@@ -1189,11 +1189,11 @@ linebreak.</p>
   <label class="m-switch__label" for="switch_32_65">Light</label>
 </div>
 
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
 
-<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="k">background-color</span><span class="o">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
+<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
-<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code>.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code>:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code>~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
+<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code class="highlighter-rouge">.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code class="highlighter-rouge">:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code class="highlighter-rouge">~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
 
 <p data-height="476" data-theme-id="dark" data-slug-hash="dRoWEY" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses :checked" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/dRoWEY/">CSSclasses :checked</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -1203,7 +1203,7 @@ linebreak.</p>
 
   <article>
     <h3 id="transition">Transition</h3>
-<p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code>:hover</code> and add the <code>transition</code> property to the mix:</p>
+<p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code class="highlighter-rouge">:hover</code> and add the <code class="highlighter-rouge">transition</code> property to the mix:</p>
 
 <div class="m-switch">
   
@@ -1218,27 +1218,27 @@ linebreak.</p>
 <span class="c">&lt;!-- ... --&gt;</span>
   <span class="nt">&lt;style&gt;</span>
     <span class="nc">.changeonhover</span> <span class="p">{</span>
-      <span class="k">color</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">green</span><span class="p">;</span>
-      <span class="k">text-align</span><span class="o">:</span> <span class="k">center</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">200px</span><span class="p">;</span>
-      <span class="k">font-family</span><span class="o">:</span> <span class="k">sans-serif</span><span class="p">;</span>
-      <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">solid</span> <span class="nb">black</span><span class="p">;</span>
-      <span class="n">transition</span><span class="o">:</span> <span class="m">1s</span> <span class="n">all</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+      <span class="nl">transition</span><span class="p">:</span> <span class="m">1s</span> <span class="n">all</span><span class="p">;</span>
     <span class="p">}</span>
     <span class="nc">.changeonhover</span><span class="nd">:hover</span> <span class="p">{</span>
-      <span class="k">background-color</span><span class="o">:</span> <span class="nb">blue</span><span class="p">;</span>
-      <span class="k">width</span><span class="o">:</span> <span class="m">600px</span><span class="p">;</span>
-      <span class="k">height</span><span class="o">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">600px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
     <span class="p">}</span>
   <span class="nt">&lt;/style&gt;</span>
 <span class="nt">&lt;/head&gt;</span>
 <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;changeonhover&quot;</span><span class="nt">&gt;</span>Hover me! Hover Me!<span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"changeonhover"</span><span class="nt">&gt;</span>Hover me! Hover Me!<span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span></code></pre></figure>
 
-<p>Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert <code>transition: 1s all;</code> which is the transition shorthand with just the first two values that are a <code>transition-duration</code> of 1 second and the <code>transition-property</code> of <code>all</code> which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:</p>
+<p>Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert <code class="highlighter-rouge">transition: 1s all;</code> which is the transition shorthand with just the first two values that are a <code class="highlighter-rouge">transition-duration</code> of 1 second and the <code class="highlighter-rouge">transition-property</code> of <code class="highlighter-rouge">all</code> which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:</p>
 
 <p data-height="458" data-theme-id="dark" data-slug-hash="MowpMv" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses :hover" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/MowpMv/">CSSclasses :hover</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -1256,7 +1256,7 @@ linebreak.</p>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">1s</span> <span class="nt">width</span> <span class="nt">0</span><span class="nc">.2s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">2s</span> <span class="nt">background-color</span><span class="o">,</span> <span class="nt">0</span><span class="nc">.5s</span> <span class="nt">height</span> <span class="nt">0</span><span class="nc">.5s</span><span class="o">;</span></code></pre></figure>
 
-<p>Let’s break it down: <code>1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
+<p>Let’s break it down: <code class="highlighter-rouge">1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
 
 <div class="m-switch">
   
@@ -1276,9 +1276,9 @@ linebreak.</p>
   <article>
     <h3 id="transform">Transform</h3>
 
-<p>Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including <code>translate</code> (moving the element), <code>scale</code> (make it bigger/smaller), <code>skew</code> (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add <code>transform: scale(2);</code> to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.</p>
+<p>Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including <code class="highlighter-rouge">translate</code> (moving the element), <code class="highlighter-rouge">scale</code> (make it bigger/smaller), <code class="highlighter-rouge">skew</code> (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add <code class="highlighter-rouge">transform: scale(2);</code> to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.</p>
 
-<p>Let’s go through these one by one. <code>translate</code> can be used in two different ways:</p>
+<p>Let’s go through these one by one. <code class="highlighter-rouge">translate</code> can be used in two different ways:</p>
 
 <div class="m-switch">
   
@@ -1290,17 +1290,17 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.movedownright</span> <span class="p">{</span>
-  <span class="n">transform</span><span class="o">:</span> <span class="n">translate</span><span class="p">(</span><span class="m">10px</span><span class="o">,</span> <span class="m">20px</span><span class="p">);</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translate</span><span class="p">(</span><span class="m">10px</span><span class="p">,</span> <span class="m">20px</span><span class="p">);</span>
 <span class="p">}</span>
 <span class="nc">.movedownright2</span> <span class="p">{</span>
-  <span class="n">transform</span><span class="o">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">10px</span><span class="p">)</span> <span class="n">translateY</span><span class="p">(</span><span class="m">20px</span><span class="p">);</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">10px</span><span class="p">)</span> <span class="n">translateY</span><span class="p">(</span><span class="m">20px</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Both classes <code>.movedownright</code> and <code>.movedownright2</code> manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. <code>.movedownright</code> uses a shorthand syntax for translateX and translateY, <code>.movedownright2</code> uses the individual <code>translateX</code> and <code>translateY</code> transforms. Notice how you can add several transforms by just leaving a space between them.</p>
+<p>Both classes <code class="highlighter-rouge">.movedownright</code> and <code class="highlighter-rouge">.movedownright2</code> manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. <code class="highlighter-rouge">.movedownright</code> uses a shorthand syntax for translateX and translateY, <code class="highlighter-rouge">.movedownright2</code> uses the individual <code class="highlighter-rouge">translateX</code> and <code class="highlighter-rouge">translateY</code> transforms. Notice how you can add several transforms by just leaving a space between them.</p>
 
-<p><code>scale</code> can be used to scale elements up or down, where <code>transform: scale(0);</code> means the element is gone, <code>transform: scale(0.5);</code> scales it down to 50% of the original size and <code>transform: scale(2);</code> doubles the size to 200%.</p>
+<p><code class="highlighter-rouge">scale</code> can be used to scale elements up or down, where <code class="highlighter-rouge">transform: scale(0);</code> means the element is gone, <code class="highlighter-rouge">transform: scale(0.5);</code> scales it down to 50% of the original size and <code class="highlighter-rouge">transform: scale(2);</code> doubles the size to 200%.</p>
 
-<p>Using <code>skew</code> or <code>skewX</code> and <code>skewY</code> you can skew your elements by given angles on the x- or y-axis. With rotate you can <code>rotate</code> your elements by a given angle.</p>
+<p>Using <code class="highlighter-rouge">skew</code> or <code class="highlighter-rouge">skewX</code> and <code class="highlighter-rouge">skewY</code> you can skew your elements by given angles on the x- or y-axis. With rotate you can <code class="highlighter-rouge">rotate</code> your elements by a given angle.</p>
 
 <div class="m-switch">
   
@@ -1312,19 +1312,19 @@ linebreak.</p>
 </div>
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.skewme</span> <span class="p">{</span>
-  <span class="n">transform</span><span class="o">:</span> <span class="n">skew</span><span class="p">(</span><span class="m">20</span><span class="n">deg</span><span class="o">,</span> <span class="m">30</span><span class="n">deg</span><span class="p">);</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">skew</span><span class="p">(</span><span class="m">20deg</span><span class="p">,</span> <span class="m">30deg</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="c">/* .skewme2 does the same as .skewme */</span>
 <span class="nc">.skewme2</span> <span class="p">{</span>
-  <span class="n">transform</span><span class="o">:</span> <span class="n">skewX</span><span class="p">(</span><span class="m">20</span><span class="n">deg</span><span class="p">)</span> <span class="n">skewY</span><span class="p">(</span><span class="m">30</span><span class="n">deg</span><span class="p">);</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">skewX</span><span class="p">(</span><span class="m">20deg</span><span class="p">)</span> <span class="n">skewY</span><span class="p">(</span><span class="m">30deg</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="nc">.rotateme</span> <span class="p">{</span>
-  <span class="n">transform</span><span class="o">:</span> <span class="n">rotate</span><span class="p">(</span><span class="m">30</span><span class="n">deg</span><span class="p">);</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">rotate</span><span class="p">(</span><span class="m">30deg</span><span class="p">);</span>
 <span class="p">}</span></code></pre></figure>
 
-<p>Now here is an example of using several transforms at once, but only on <code>:hover</code> when you move the cursor over an element (notice how we are very happy to use transitions again as well):</p>
+<p>Now here is an example of using several transforms at once, but only on <code class="highlighter-rouge">:hover</code> when you move the cursor over an element (notice how we are very happy to use transitions again as well):</p>
 
 <p data-height="481" data-theme-id="17669" data-slug-hash="jPJNNo" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/jPJNNo/">jPJNNo</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
@@ -1338,17 +1338,17 @@ linebreak.</p>
 <p>Believe it or not: Now you know the basics of getting content and styles on your website! You might have noticed that, once you got the hang of the basic syntax, CSS is surprisingly simple and often self-explanatory. From here on, you have all the tools you need to explore the many more properties and possibilities of CSS. Start experimenting – we want to see what you discovered in the demos!</p>
 
 <ul>
-  <li><strong>The dotted circle:</strong> You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the <code>border-radius</code> property!<br />
+  <li><strong>The dotted circle:</strong> You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the <code class="highlighter-rouge">border-radius</code> property!<br />
 (<a href="http://codepen.io/verpixelt/full/NGxOrL/" target="_blank">Visual example</a> — Try not to look at the code)</li>
-  <li><strong>The fancy link:</strong> <code>border-radius</code>, <code>background-color</code>, <code>padding</code>, <code>:hover</code> … you know most of the things to create a nice looking link like this!<br />
+  <li><strong>The fancy link:</strong> <code class="highlighter-rouge">border-radius</code>, <code class="highlighter-rouge">background-color</code>, <code class="highlighter-rouge">padding</code>, <code class="highlighter-rouge">:hover</code> … you know most of the things to create a nice looking link like this!<br />
 (<a href="http://codepen.io/verpixelt/full/zvrmdv/" target="_blank">Visual example</a> — Try not to look at the code)</li>
-  <li><strong>The Polaroid:</strong> You know how to add an <code>&lt;img&gt;</code>, you know how to apply <code>padding. If now you can figure out how </code>box-shadow` works, creating a Polaroid effect like this will be a piece of cake for you!<br />
+  <li><strong>The Polaroid:</strong> You know how to add an <code class="highlighter-rouge">&lt;img&gt;</code>, you know how to apply <code class="highlighter-rouge">padding. If now you can figure out how </code>box-shadow` works, creating a Polaroid effect like this will be a piece of cake for you!<br />
 (<a href="http://codepen.io/verpixelt/full/PPZyBd/" target="_blank">Visual example</a> — Try not to look at the code)</li>
-  <li><strong>The Little Galaxy:</strong> <code>transform</code>, <code>animation</code>, <code>@keyframes</code> — All the new things!<br />
+  <li><strong>The Little Galaxy:</strong> <code class="highlighter-rouge">transform</code>, <code class="highlighter-rouge">animation</code>, <code class="highlighter-rouge">@keyframes</code> — All the new things!<br />
 (<a href="http://codepen.io/verpixelt/full/VveEqy/" target="_blank">Visual example</a> — Try not to look at the code)</li>
-  <li><strong>The Smiley:</strong> You will need to read up a little bit on <code>border-radius</code> to make the meh face smile on <code>:hover</code>. Also you will need to understand how to use selectors for elements inside of other elements. To make it go a little smooth, you need to add a <code>transition</code>.<br />
+  <li><strong>The Smiley:</strong> You will need to read up a little bit on <code class="highlighter-rouge">border-radius</code> to make the meh face smile on <code class="highlighter-rouge">:hover</code>. Also you will need to understand how to use selectors for elements inside of other elements. To make it go a little smooth, you need to add a <code class="highlighter-rouge">transition</code>.<br />
 (<a href="http://codepen.io/verpixelt/full/ojbaVo/" target="_blank">Visual example</a> — Try not to look at the code)</li>
-  <li><strong>Chasing The Laser Pointer:</strong> You are the cat, chasing the laser pointer with your cursor. You will need to know about <code>:hover</code>, the <code>~ sibling</code> selector and <code>transition</code>. Also, some <code>position</code> knowledge. Moving things can be done in several ways, you should check out <code>transform: translate</code>.<br />
+  <li><strong>Chasing The Laser Pointer:</strong> You are the cat, chasing the laser pointer with your cursor. You will need to know about <code class="highlighter-rouge">:hover</code>, the <code class="highlighter-rouge">~ sibling</code> selector and <code class="highlighter-rouge">transition</code>. Also, some <code class="highlighter-rouge">position</code> knowledge. Moving things can be done in several ways, you should check out <code class="highlighter-rouge">transform: translate</code>.<br />
 (<a href="http://codepen.io/verpixelt/full/YywRyj/" target="_blank">Visual example</a> — Try not to look at the code)</li>
 </ul>
 
