@@ -11,8 +11,11 @@ github_username:  CSSclasses
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 permalink: pretty
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 include:
   - .nojekyll

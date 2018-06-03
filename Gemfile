@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.2.1'
-gem 'pygments.rb', '~> 0.6.3'
-gem 'kramdown', '~> 1.12.0'
+gem 'jekyll', '~> 3.8.2'
+gem 'kramdown', '~> 1.16.2'
+gem 'rouge', '~> 3.1.1'
