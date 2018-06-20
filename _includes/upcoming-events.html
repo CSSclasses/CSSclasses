@@ -1,23 +1,29 @@
-<section id="upcoming-events">
-  <h1>Join our next events!</h1>
-  <ul id="upcoming-events-list">
-    <li class="upcoming-event">
-      <ul class="list-simple">
-        <li class="list-simple__el">
-          <div><strong>When:</strong></div>
-          Sunday, June 10th, 11:00am-ca. 6:00pm
+{% if site.data.events %}
+  <section id="upcoming-events">
+    <h1>Join our next events!</h1>
+    <ul id="upcoming-events-list">
+      {% for event in site.data.events %}
+        <li class="upcoming-event">
+          <ul class="list-simple">
+            <li class="list-simple__el">
+              <div><strong>When:</strong></div>
+              {{ event.date }}
+            </li>
+            <li class="list-simple__el">
+              <div><strong>Where:</strong></div>
+              {% if event.map_link %}<a href="http://maps.google.com/?q=52.500381,13.41973" target="_blank">{% endif %}
+                {% if event.address %}{{ event.address }}{% else %}To Be Announced, {{ event.city }}{% endif %}
+              {% if event.map_link %}</a>{% endif %}
+            </li>
+          </ul>
+          <div class="upcoming-event__register">
+            <a href="{{ event.meetup_link }}" target="_blank" class="btn btn--upcoming-events">Sign up for free</a>
+          </div>
         </li>
-        <li class="list-simple__el">
-          <div><strong>Where:</strong></div>
-          <a href="http://maps.google.com/?q=52.500381,13.41973" target="_blank">Co-Up, Adalbertstr. 7-8, Berlin-Kreuzberg</a>
-        </li>
-      </ul>
-      <div class="upcoming-event__register">
-        <a href="https://www.meetup.com/opentechschool-berlin/events/250845199/" target="_blank" class="btn btn--upcoming-events">Sign up for free</a>
-      </div>
-    </li>
-  </ul>
-  <p>Are you interested in helping out as a coach? Great! We are always looking for help. Basic knowledge of HTML and CSS is sufficient to become a coach, more important is the fun in teaching and sharing knowledge. Read more about how to become a coach <a href="/coaches/">here</a>.</p>
-  <p>To keep updated, <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">follow us on Twitter</a>.</p>
-  <hr>
-</section>
+      {% endfor %}
+    </ul>
+    <p>Are you interested in helping out as a coach? Great! We are always looking for help. Basic knowledge of HTML and CSS is sufficient to become a coach, more important is the fun in teaching and sharing knowledge. Read more about how to become a coach <a href="/coaches/">here</a>.</p>
+    <p>To keep updated, <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">follow us on Twitter</a>.</p>
+    <hr>
+  </section>
+{% endif %}
