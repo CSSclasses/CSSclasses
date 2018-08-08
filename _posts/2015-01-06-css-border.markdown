@@ -27,7 +27,7 @@ You can also put a nice `border` around your elements. Try this:
 </body>
 {% endhighlight %}
 
-Now you assigned your `div` to have a `black` border that is `5px` thick and `solid`. Let’s `dissect the border property a little bit with a different border and a generic description:
+Now you assigned your `div` to have a `black` border that is `5px` thick and `solid`. Let’s dissect the border property a little bit with a different border and a generic description:
 
 {% include switch.html %}
 
