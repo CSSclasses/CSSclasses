@@ -87,7 +87,7 @@ Now, let us insert a `div` and style it a little bit. So parts of your file shou
 </body>
 {% endhighlight %}
 
-So now if you save and hit refresh, you should see a green block with some white text stating "I’m a div" on it. So here you see some properties, you already know `color`. There is also `background-color, width and height.
+So now if you save and hit refresh, you should see a green block with some white text stating "I’m a div" on it. So here you see some properties, you already know `color`. There is also `background-color`, `width` and `height`.
 
 ### Shorthand
 On some occasions you might see properties defined in different ways but doing the same thing, such as:
