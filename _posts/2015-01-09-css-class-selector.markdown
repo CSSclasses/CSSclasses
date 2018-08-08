@@ -28,7 +28,7 @@ Until now we used the element selector to apply styles to an element. What’s w
 </body>
 {% endhighlight %}
 
-Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second `div` should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:
+Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second `div` should be blue. We can achieve that by assigning classes to the `div`s in our HTML. We can then apply styles to each class in our CSS:
 
 {% include switch.html %}
 
@@ -60,5 +60,5 @@ Copy this code example into your html file, and check out what it looks like in 
 </body>
 {% endhighlight %}
 
-Now here you should note several things. Both `div`s get the styles of the `div` rule, as this applies to all `div`s. Then the first `div` also gets the styles of the class `.greenthing`. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second `div` has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: `.border-dotted`. This class is remarkable as it `overrides` the border style that was defined in the `div selector.
+Now here you should note several things. Both `div`s get the styles of the `div` rule, as this applies to all `div`s. Then the first `div` also gets the styles of the class `.greenthing`. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second `div` has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: `.border-dotted`. This class is remarkable as it `overrides` the border style that was defined in the `div` selector.
 
