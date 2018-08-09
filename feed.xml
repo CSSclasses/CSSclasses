@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jun 2018 17:36:21 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Jun 2018 17:36:21 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Aug 2018 09:19:39 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Aug 2018 09:19:39 +0000</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -644,7 +644,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a different div but i look like the other one! 😞&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the `divs in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
+&lt;p&gt;Copy this code example into your html file, and check out what it looks like in the browser. Now let’s say the second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; should be blue. We can achieve that by assigning classes to the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s in our HTML. We can then apply styles to each class in our CSS:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
@@ -681,7 +681,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;bluething border-dotted&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;I am a different div and I don’t look like the other one any more! 😀&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now here you should note several things. Both &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s get the styles of the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; rule, as this applies to all &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s. Then the first &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; also gets the styles of the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code class=&quot;highlighter-rouge&quot;&gt;overrides&lt;/code&gt; the border style that was defined in the `div selector.&lt;/p&gt;
+&lt;p&gt;Now here you should note several things. Both &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s get the styles of the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; rule, as this applies to all &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt;s. Then the first &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; also gets the styles of the class &lt;code class=&quot;highlighter-rouge&quot;&gt;.greenthing&lt;/code&gt;. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;.border-dotted&lt;/code&gt;. This class is remarkable as it &lt;code class=&quot;highlighter-rouge&quot;&gt;overrides&lt;/code&gt; the border style that was defined in the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; selector.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
