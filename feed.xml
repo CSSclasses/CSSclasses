@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Aug 2018 09:19:39 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Aug 2018 09:19:39 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Aug 2018 09:22:10 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Aug 2018 09:22:10 +0000</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -795,7 +795,7 @@ different sections and chapters so you can easily skip on topics you are already
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&lt;/span&gt;I am a div with a border&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now you assigned your &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; to have a &lt;code class=&quot;highlighter-rouge&quot;&gt;black&lt;/code&gt; border that is &lt;code class=&quot;highlighter-rouge&quot;&gt;5px&lt;/code&gt; thick and &lt;code class=&quot;highlighter-rouge&quot;&gt;solid&lt;/code&gt;. Let’s `dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
+&lt;p&gt;Now you assigned your &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; to have a &lt;code class=&quot;highlighter-rouge&quot;&gt;black&lt;/code&gt; border that is &lt;code class=&quot;highlighter-rouge&quot;&gt;5px&lt;/code&gt; thick and &lt;code class=&quot;highlighter-rouge&quot;&gt;solid&lt;/code&gt;. Let’s dissect the border property a little bit with a different border and a generic description:&lt;/p&gt;
 
 &lt;div class=&quot;m-switch&quot;&gt;
   
