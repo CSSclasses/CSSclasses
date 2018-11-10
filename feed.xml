@@ -5,8 +5,8 @@
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
     <link>http://cssclass.es/</link>
     <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Sep 2018 15:18:13 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Sep 2018 15:18:13 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Nov 2018 14:15:07 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Nov 2018 14:15:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -23,6 +23,8 @@
   &lt;li&gt;&lt;a href=&quot;https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties&quot; target=&quot;_blank&quot;&gt;A Visual Guide to CSS3 Flexbox Properties&lt;/a&gt; – Another great resource to explore and and understand how to work with Flexbox.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://flexbox.io&quot; target=&quot;_blank&quot;&gt;Flexbox.io&lt;/a&gt; by Wes Bos&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://gridbyexample.com/&quot; target=&quot;blank&quot;&gt;Grid by Example&lt;/a&gt; – If you are even more adventurous and want to check out the latest and still experimental way to layout in CSS, spend some time to explore the CSS Grid Layout Module. We recommend this excellent resource by Rachel Andrew.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learncssgrid.com/&quot; target=&quot;_blank&quot;&gt;learncssgrid.com&lt;/a&gt; - A written tutorial and overview of CSS Grid properties with visuals.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cssgrid.io/&quot; target=&quot;_blank&quot;&gt;CSSGrid.io&lt;/a&gt; - by Wes Bos - 25 short Video tutorials to learn CSS Grid&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;transition&quot;&gt;Transition&lt;/h4&gt;
