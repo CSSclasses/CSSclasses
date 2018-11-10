@@ -40,7 +40,7 @@ At this point, you have a solid understanding of how to color, size and even tra
 
 * <a href="http://alistapart.com/article/howtosizetextincss/" target="_blank">How to Size Text in CSS</a> – classic article on how to set your font sizes with ems that are relative values instead of px that are fixed.
 * <a href="http://snook.ca/archives/html_and_css/font-size-with-rem" target="_blank">Font Sizing With REM</a> – can be considered an update on the former link that gives another modern alternative for font sizing. Makes sense to read the former article first.
-* <a hraf="http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/" target="_blank">Size Matters: Balancing Line Length And Font Size In Responsive Web Design</a>
+* <a href="http://www.smashingmagazine.com/2014/09/29/balancing-line-length-font-size-responsive-web-design/" target="_blank">Size Matters: Balancing Line Length And Font Size In Responsive Web Design</a>
 
 #### Responsive Web Design
 * <a href="http://alistapart.com/article/responsive-web-design" target="_blank">Responsive Web Design</a> - The classic article defining what Responsive Web Design is and how you can adapt your site to any screen size.
