@@ -14,6 +14,8 @@ At this point, you have a solid understanding of how to color, size and even tra
 * <a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a> – Another great resource to explore and and understand how to work with Flexbox.
 * <a href="http://flexbox.io" target="_blank">Flexbox.io</a> by Wes Bos
 * <a href="http://gridbyexample.com/" target="blank">Grid by Example</a> – If you are even more adventurous and want to check out the latest and still experimental way to layout in CSS, spend some time to explore the CSS Grid Layout Module. We recommend this excellent resource by Rachel Andrew.
+* <a href="https://learncssgrid.com/" target="_blank">learncssgrid.com</a> - A written tutorial and overview of CSS Grid properties with visuals.
+* <a href="https://cssgrid.io/" target="_blank">CSSGrid.io</a> - by Wes Bos - 25 short Video tutorials to learn CSS Grid
 
 #### Transition
 
