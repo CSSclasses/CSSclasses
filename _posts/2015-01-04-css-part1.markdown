@@ -3,30 +3,18 @@ layout: post
 title: "CSS Basics"
 ---
 
-## CSS
+## Topics covered
 * [CSS - what is that?](#css---what-is-that)
 * [Start with inline styles](#start-with-inline-styles)
 * [Basic CSS syntax](#basic-css-syntax)
 * [Useful properties](#useful-css-properties)
 * [Shorthand](#shorthand)
-* [Font-Family](#font-family)
-* [Font-Size](#font-size)
-* [Border](#border)
-* [The Box Model](#the-box-model)
-* [Hover](#hover)
-* [Class Selector](#class-selector)
-* [Cascade and Inheritance](#cascade-and-inheritance)
-* [More Selectors](#more-selectors-nth-child-nth-of-type-sibling)
-* [Transition](#transition)
-* [Transform](#transform)
-* [Challenges](#challenges-start-experimenting)
-* [Resources](#resources)
 
 ### CSS - what is that?
 CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the "cascading" part of our **C**ascading **S**tyle **S**heet.
 
 ### Start with inline styles
-To get you started, you can just insert a `style` tag inside of your `head` tag:
+To get you started, you can insert a `style` tag inside of your `head` tag:
 
 {% include switch.html %}
 
@@ -41,7 +29,7 @@ To get you started, you can just insert a `style` tag inside of your `head` tag:
 {% endhighlight %}
 
 ### Basic CSS syntax
-CSS has a simple syntax. The file consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:
+CSS has a simple syntax. CSS styling consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:
 
 {% include switch.html %}
 
@@ -51,7 +39,7 @@ h1 {
 }
 {% endhighlight %}
 
-`h1` is the selector, the HTML element we want to style. `color` is one of the properties that we can give to our selector, and `red` is the value of this property. The right syntax is:
+`h1` is the selector, the HTML element we want to style. `color` is one of the properties that we can give to our selector, and `red` is the value of this property. The pattern of CSS syntax is:
 
 {% include switch.html %}
 
@@ -87,7 +75,7 @@ Now, let us insert a `div` and style it a little bit. So parts of your file shou
 </body>
 {% endhighlight %}
 
-So now if you save and hit refresh, you should see a green block with some white text stating "I’m a div" on it. So here you see some properties, you already know `color`. There is also `background-color`, `width` and `height`.
+So now if you save and hit refresh, you should see a green block with some white text stating "I’m a div" on it. Here you see some properties, you already know `color`. There is also `background-color`, `width` and `height`.
 
 ### Shorthand
 On some occasions you might see properties defined in different ways but doing the same thing, such as:
@@ -106,4 +94,4 @@ anotherselector {
 }
 {% endhighlight %}
 
-This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don't worry too much about it for now. It's just good that you know that it exists in case you see it. If you think it's confusing, just use the non shorthand format for your own code and specify each property at a time.
+This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don't worry too much about it. For now, it's good to know it exists in case you see it somewhere else. If you think it's confusing, use the non shorthand format for your own code and specify each property at a time.

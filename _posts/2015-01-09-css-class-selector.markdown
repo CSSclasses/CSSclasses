@@ -4,7 +4,7 @@ title: "CSS Class Selector"
 ---
 
 ### Class Selector
-Until now we used the element selector to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled `div`s on your page.
+Until now we selected HTML elements to apply styles to an element. What’s wrong with that? Nothing, until you want to have two or more differently styled `div`s on your page.
 
 {% include switch.html %}
 
@@ -60,5 +60,4 @@ Copy this code example into your html file, and check out what it looks like in 
 </body>
 {% endhighlight %}
 
-Now here you should note several things. Both `div`s get the styles of the `div` rule, as this applies to all `div`s. Then the first `div` also gets the styles of the class `.greenthing`. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second `div` has two classes – you can assign as many of them as you want! Just separate them by a space. In the CSS code, class selectors are marked by a dot like this: `.border-dotted`. This class is remarkable as it `overrides` the border style that was defined in the `div` selector.
-
+Now here you should note several things. Both `div`s get the styles of the `div` rule, as this applies to all `div`s. Then the first `div` also gets the styles of the class `.greenthing`. In HTML the classes get assigned by writing a class attribute inside of the opening tag of the element. The second `div` has two classes – you can assign as many of them as you want. You separate class names by a space. In the CSS code, class selectors are marked by a dot like this: `.border-dotted`. This class is remarkable as it `overrides` the border style that was defined in the `div` selector.

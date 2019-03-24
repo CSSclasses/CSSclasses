@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Boilerplate"
+title: "HTML introduction"
 ---
 
 ## Basic HTML & HTML boilerplate
@@ -22,11 +22,11 @@ A Tag is the thing that indicates an element’s purpose. For example, the `<p>`
 <p>This is a paragraph.</p>
 {% endhighlight %}
 
-You can see the closing tag includes a `/` before its name; otherwise it would be another opening tag!
+You can see the closing tag includes a `/` before its name; otherwise it would be another opening tag.
 
 Always double-check that you’ve closed all your elements; otherwise, a browser can and will get mixed up trying to understand your HTML document.
 
-Lastly, having elements inside of each other (“nesting”) looks just like this:
+Lastly, having elements inside of each other (“nesting”) looks like this:
 
 {% include switch.html %}
 
@@ -59,14 +59,16 @@ In most circumstances "normal flow" is the way that elements are laid out on a w
 
 In our example, each of these boxes are one of two different types: **inline boxes** or **block boxes**. So what exactly does this mean? Let’s start with block boxes.
 
-**Block boxes** are stacked vertically one after the other in the order they’ve been written in the HTML file, and they usually occupy the whole width of the page. They normally start in the upper left corner and go down to the bottom.
+#### Block boxes
+Block boxes are stacked vertically one after the other in the order they’ve been written in the HTML file, and they usually occupy the whole width of the page. They normally start in the upper left corner and go down to the bottom.
 
-Here is a simple example. Don’t get confused by the additional CSS. It’s just there for the purpose of making the boxes visible.
+Here is a small example with 3 div elements or 3 boxes. Don’t get confused by the additional CSS. It’s there for the purpose of making the boxes visible.
 
 <p data-height="765" data-theme-id="dark" data-slug-hash="PjqpyM" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses Block Boxes" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/PjqpyM/">CSSclasses Block Boxes</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-**Inline Boxes** work a bit differently. These boxes will also start at the upper left corner, but will arrange themselves horizontally.
+#### Inline Boxes
+Inline Boxes work a bit differently. These boxes will also start at the upper left corner, but will arrange themselves horizontally.
 
 Here’s an example of that as well.
 
@@ -78,7 +80,7 @@ So HTML elements are by default either **block boxes** or **inline boxes** (of c
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block-level elements</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente" target="_blank">Inline elements</a>
 
-For now just keep in mind, that every box has some sort of display value.
+For now, keep in mind, that every box has some sort of display value.
 
 ### HTML Boilerplate
 There is some basic structure you don't need to spend too much time on that is always there. Let's handle this in a very quick walkthrough (code, line-by-line comments):
@@ -124,7 +126,7 @@ And there we are, this is our first valid HTML file! Here it is again, so you ca
 </html>
 {% endhighlight %}
 
-Are you looking for a place to put your CSS? Don't rush, we will come to that. At the moment, we are looking at HTML only. If you know what you are doing, you can skip over to the <a href="#start-with-inline-styles">CSS</a> part.
+Are you looking for a place to put your CSS? Don't rush, we will come to that. At the moment, we are looking at HTML only. If you know what you are doing, you can skip over to [the CSS part]({% post_url 2015-01-04-css-part1 %}).
 
 ### (Practical) Elements
 
@@ -164,7 +166,7 @@ linebreak.
 {% endhighlight %}
 
 #### Images
-The image tag is special as it is self-closing, it has no closing tag (like the break tag). It also has a special attribute the src which carries the path to the actual image. The alt attribute is a placeholder, if for some reason the image does not load.
+The image tag is special as it is self-closing, it has no closing tag (like the break tag). It also has a special attribute, the src, which carries the path to the actual image. The alt attribute is an image description, which is displayed if for some reason the image does not load and always will be read to screen reader users.
 
 {% include switch.html %}
 
@@ -174,7 +176,7 @@ The image tag is special as it is self-closing, it has no closing tag (like the 
 <img src="https://placehold.it/664x442" alt="placeholder image">
 
 #### Links
-Links take the user to another page. The tag is simply an a which stands for anchor. It comes with the href (hyper reference) attribute, that tells the browser where to go to. You can also add a title attribute that shows once the user hovers over it.
+Links take the user to another page. The tag is an a which stands for anchor. It comes with the href (hyper reference) attribute, that tells the browser where to go to. You can also add a title attribute that shows once the user hovers over it.
 
 {% include switch.html %}
 

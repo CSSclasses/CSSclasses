@@ -5,7 +5,7 @@ title: "CSS Challenges"
 
 ### Challenges: Start experimenting!
 
-Believe it or not: Now you know the basics of getting content and styles on your website! You might have noticed that, once you got the hang of the basic syntax, CSS is surprisingly simple and often self-explanatory. From here on, you have all the tools you need to explore the many more properties and possibilities of CSS. Start experimenting – we want to see what you discovered in the demos!
+Now you know the basics of getting content and styles on your website! From here on, you have all the tools you need to explore the many more properties and possibilities of CSS. Start experimenting – we would love to see what you discovered in the demos!
 
 * **The dotted circle:** You already know how to apply these borders to a box, right? Now make it a circle! Hint: Look up the `border-radius` property!<br>
 (<a href="http://codepen.io/verpixelt/full/NGxOrL/" target="_blank">Visual example</a> — Try not to look at the code)

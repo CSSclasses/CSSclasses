@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS Transitions"
+title: "CSS Transforms"
 ---
 
 ### Transform
