@@ -1,13 +1,13 @@
 language: ruby
 rvm:
-  - 2.2
+  - 2.3
 install:
   - gem install bundler
   - bundle install
-  - nvm install 6 && nvm use 6
+  - nvm install 10 && nvm use 10
   - npm install
-  - node_modules/bower/bin/bower install
+  - npx bower install
 script:
-  - npm run grunt build
+  - npm run build
 after_success:
   - bash deploy.sh
