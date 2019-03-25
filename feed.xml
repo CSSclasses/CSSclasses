@@ -3,10 +3,10 @@
   <channel>
     <title>CSSclasses</title>
     <description>CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.</description>
-    <link>http://cssclass.es/</link>
-    <atom:link href="http://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Nov 2018 14:15:40 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Nov 2018 14:15:40 +0000</lastBuildDate>
+    <link>https://cssclass.es/</link>
+    <atom:link href="https://cssclass.es/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 Mar 2019 21:44:19 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Mar 2019 21:44:19 +0000</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -91,8 +91,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/15/css-resources/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/15/css-resources/</guid>
+        <link>https://cssclass.es/2015/01/15/css-resources/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/15/css-resources/</guid>
         
         
       </item>
@@ -119,8 +119,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/14/css-challenges/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/14/css-challenges/</guid>
+        <link>https://cssclass.es/2015/01/14/css-challenges/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/14/css-challenges/</guid>
         
         
       </item>
@@ -184,8 +184,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 </description>
         <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/13/css-transform/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/13/css-transform/</guid>
+        <link>https://cssclass.es/2015/01/13/css-transform/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/13/css-transform/</guid>
         
         
       </item>
@@ -262,8 +262,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/12/css-transitions/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/12/css-transitions/</guid>
+        <link>https://cssclass.es/2015/01/12/css-transitions/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/12/css-transitions/</guid>
         
         
       </item>
@@ -302,8 +302,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 </description>
         <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/11/css-more-selectors/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/11/css-more-selectors/</guid>
+        <link>https://cssclass.es/2015/01/11/css-more-selectors/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/11/css-more-selectors/</guid>
         
         
       </item>
@@ -608,8 +608,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Most of the time you don’t need to think about specificity too much, but sometimes high specificity can cause bugs or unexpected behavior. You can prevent this by avoiding overly specific selectors, like &lt;code class=&quot;highlighter-rouge&quot;&gt;.site-header nav ul li a&lt;/code&gt;. If you want to read more about this, the Mozilla Developer Network has a &lt;a href=&quot;https://developer.mozilla.org/en/docs/Web/CSS/Specificity&quot;&gt;more detailed article on specificity&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/10/css-cascade-inheritance/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/10/css-cascade-inheritance/</guid>
+        <link>https://cssclass.es/2015/01/10/css-cascade-inheritance/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/10/css-cascade-inheritance/</guid>
         
         
       </item>
@@ -687,8 +687,8 @@ different sections and chapters so you can easily skip on topics you are already
 
 </description>
         <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/09/css-class-selector/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/09/css-class-selector/</guid>
+        <link>https://cssclass.es/2015/01/09/css-class-selector/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/09/css-class-selector/</guid>
         
         
       </item>
@@ -723,8 +723,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;If you apply this CSS to our &lt;a href=&quot;#border&quot;&gt;border&lt;/a&gt; example, you will see no change at first. But if you move your mouse cursor over the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; (you “&lt;code class=&quot;highlighter-rouge&quot;&gt;hover&lt;/code&gt;” it), you will see the style changes applied, that we defined with the &lt;code class=&quot;highlighter-rouge&quot;&gt;div:hover&lt;/code&gt; pseudo-class. There are some more pseudo-classes like that that you can learn about later.&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/08/css-hover/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/08/css-hover/</guid>
+        <link>https://cssclass.es/2015/01/08/css-hover/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/08/css-hover/</guid>
         
         
       </item>
@@ -760,8 +760,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;If you specify that, now your box will actually occupy just 80px, as the borders and paddings become part of the box. This usually makes it easier to understand, so we suggest you use it.&lt;/p&gt;
 </description>
         <pubDate>Wed, 07 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/07/css-box-model/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/07/css-box-model/</guid>
+        <link>https://cssclass.es/2015/01/07/css-box-model/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/07/css-box-model/</guid>
         
         
       </item>
@@ -814,8 +814,8 @@ different sections and chapters so you can easily skip on topics you are already
 &lt;p&gt;Here you see an even thicker border that is not solid and has a different color, but is also &lt;code class=&quot;highlighter-rouge&quot;&gt;dashed&lt;/code&gt; instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. Let’s just say there are a lot more than would fit nicely on this page. Often you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links at the end of the tutorial). This color value is in HEX RGB notation. It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then just copy and paste the value from there.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://cssclass.es/2015/01/06/css-border/</link>
-        <guid isPermaLink="true">http://cssclass.es/2015/01/06/css-border/</guid>
+        <link>https://cssclass.es/2015/01/06/css-border/</link>
+        <guid isPermaLink="true">https://cssclass.es/2015/01/06/css-border/</guid>
         
         
       </item>
