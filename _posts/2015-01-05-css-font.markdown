@@ -3,6 +3,10 @@ layout: post
 title: "CSS Font Properties"
 ---
 
+## Topics covered
+* [Font-Family](#font-family)
+* [Font-Size](#font-size)
+
 ### Font-family
 The `font-family` CSS property allows for a prioritized list of font family names and/or generic family names to be specified for the selected element. Unlike most other CSS properties, values are separated by a comma to indicate that they are alternatives. The browser will select the first font on the list that is installed on the computer, or that can be downloaded.
 
@@ -36,7 +40,7 @@ p {
 }
 {% endhighlight %}
 
-Keep going with our example let’s add a font-family to the `div` we’ve created before.
+On our example, let’s add a font-family to the `div` we’ve created before.
 
 {% include switch.html %}
 
@@ -58,11 +62,11 @@ Keep going with our example let’s add a font-family to the `div` we’ve creat
 </body>
 {% endhighlight %}
 
-If you hit refresh (CMD + R) again, your font-family should have changed from the default serif to sans-serif. Now that wasn’t so hard, was it?
+If you hit refresh (CMD + R) again, your font-family should have changed from the default serif to sans-serif.
 
 ### Font-Size
 
-The `font-size` property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most simple technique for now (you should really revisit this topic later). We will assign fixed pixel values to our elements:
+The `font-size` property allows you to set a font size for the text in your Element. There are different ways to set font-sizes that can get a little tricky, so let us only use the most basic technique for now. We will assign fixed pixel values to our elements:
 
 {% include switch.html %}
 
@@ -91,4 +95,4 @@ The `font-size` property allows you to set a font size for the text in your Elem
 </body>
 {% endhighlight %}
 
-First you can see we set the `font-size` for everything inside of the html element to a small `10px` (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of `32px` assigned, so the browser shows us a big heading while the div has the small text size without having any `font-size` property declared.
+First you can see we set the `font-size` for everything inside of the html element to a small `10px` (by default modern browsers set 16px). All the elements on the inside will inherit this value, if they don’t have a different rule for their font size. As you can see, the h1 has a value of `32px` assigned, so the browser shows us a big heading while the div has the small text size without having a specific `font-size` property declared for itself.

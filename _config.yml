@@ -36,14 +36,14 @@ exclude:
 navigation:
   - title: Home
     url: /
+  - title: Materials
+    url: /materials/
   - title: About
     url: /about/
   - title: Coaches
     url: /coaches/
   - title: Attendees
     url: /attendees/
-  - title: Learning Materials
-    url: /materials/
   - title: Run Your Own Event
     url: /run-your-own-event/
   - title: Code of Conduct

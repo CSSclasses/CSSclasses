@@ -3,6 +3,12 @@ layout: post
 title: "Cascade and Inheritance"
 ---
 
+## Topics covered
+* [Cascade and Inheritance](#cascade-and-inheritance)
+* [Developer Tools to the rescue](#developer-tools-to-the-rescue)
+* [Parents, Children, Siblings, Inheritance](#parents-children-siblings-inheritance)
+* [Specificity](#specificity)
+
 ### Cascade and Inheritance
 
 As the name Cascading Style Sheets suggests, CSS specifies the _styles_ for a document in a _cascading_ manner. But what exactly does _cascading_ mean?
@@ -43,8 +49,8 @@ Here is one way to do this:
   </style>
 </head>
 <body>
-  <p>I am a normal green paragraph of text.</p>
-  <p>I am another normal green paragraph of text.</p>
+  <p>I am a standard green paragraph of text.</p>
+  <p>I am another standard green paragraph of text.</p>
   <p class="warning">Warning! I am a red paragraph of text!</p>
 </body>
 {% endhighlight %}
@@ -55,7 +61,7 @@ This is a good example why you would want to overwrite your own styles: Apply ge
 
 If you think that is all very complicated, you are not wrong. Thankfully, computers are much better at figuring these things out than humans.
 
-#### Developer Tools to the rescue
+### Developer Tools to the rescue
 
 Developer tools are our best friends when building websites. They can give us a lot of feedback about the elements on a web page.
 
@@ -63,7 +69,7 @@ One great developer tool is _inspect element_.
 
 The basic idea behind inspect element is that you can click any element on a page and your browser will tell you a lot of useful things about it. For example which styles are assigned to the element.
 
-Inspect element or something similar is available in all modern browsers. In Chrome and Firefox you just need to right click on the page and select _Inspect Element_ from the context menu. If you are using Safari you first need to [enable developer tools in the browser](https://support.apple.com/kb/PH21414). If you are using Edge, inspect element is called _DOM Inspector_. You also need to [enable it first in the f12 Developer Tools menu](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/settings/).
+Inspect element or something similar is available in all modern browsers. In Chrome and Firefox you need to right click on the page and select _Inspect Element_ from the context menu. If you are using Safari you first need to [enable developer tools in the browser](https://support.apple.com/kb/PH21414). If you are using Edge, inspect element is called _DOM Inspector_. You also need to [enable it first in the f12 Developer Tools menu](https://developer.microsoft.com/en-us/microsoft-edge/platform/documentation/f12-devtools-guide/settings/).
 
 You can read more about how to use developer tools in your browser using the following links:
 
@@ -84,12 +90,12 @@ Here is an animated gif of what inspect element looks like in Google Chrome:
 <figure>
   <img src="{{site.baseurl}}/assets/images/inspect-element.png" alt="Image of the styles panel in Google Chrome Developer Tools">
   <figcaption>
-    <p>The styles panel shows you what styles are applied to an element and where to find them.</p>
+    <p>The styles panel shows you which styles are applied to an element and where to find them.</p>
     <p>It also indicates overwritten styles as <strike>striked out</strike></p>
   </figcaption>
 </figure>
 
-#### Parents, Children, Siblings, Inheritance
+### Parents, Children, Siblings, Inheritance
 
 When we talk about an HTML document, we often describe it as a family tree. When an element stands between the opening tag and the closing tag of another element, it is _wrapped_ inside another element. Elements that are wrapped inside another element are also called _children_. The tree of elements in a document is also called the _[DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)_, and the elements in the tree are called _DOM nodes_.
 
@@ -115,7 +121,7 @@ Consider the following document:
 </html>
 {% endhighlight %}
 
-For this document, the following statements are true:
+For this document, the following statements apply:
 
 - `h2` is a child of `main`
 - `footer` is a child of `body`
@@ -140,7 +146,7 @@ body {
 
 All visible elements in an HTML document are descendants of the body element. Therefore the color green now applies to every element on the page, as long as the element doesn't have its own color property value.
 
-Now let's make this document a bit more interesting:
+Now let's give this document a bit more variety:
 
 {% include switch.html %}
 
@@ -190,7 +196,7 @@ footer a {
 
 You might wonder why there is an empty space between `footer` and `a` in the `footer a` selector. This empty space is called [descendant combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_selectors). The descendant combinator lets you select elements that are descendants of another element.
 
-This becomes a bit clearer when you read the selectors from right to left. `footer a` will select every `a` element, that is a _descendant_ of a `footer`-element. You can also combine more selectors. For example `footer h2 a` would select every link inside of a level two headline that is inside of a footer.
+This becomes a bit clearer when you read the selectors from right to left. `footer a` will select every `a` element, that is a _descendant_ of a `footer`-element. You can also combine more selectors. For example `footer h2 a` would select every link inside of a level two heading that is inside of a footer.
 
 Knowing this we can make sure that all our links inside the footer have a white text color. We also want to make sure that they are underlined with `text-decoration: underline;`. This way people can still recognize that they are links, not just regular text.
 
@@ -204,7 +210,7 @@ The `inherit` keyword forces some attributes, like color, to be _inherited_ from
 
 There is also the newer `currentcolor` keyword. `currentcolor` always represents the text color of a certain element. If you want to change another attribute than `color` to that same element's text color, you could do that with a declaration like `border-color: currentcolor`.
 
-#### Specificity
+### Specificity
 
 Specificity means that a rule that is _more specific_ overpowers a rule that is _less specific_. For example selecting every link inside a footer element with `footer a` is _more specific_ than selecting every link element everywhere with `a`.
 

@@ -34,7 +34,7 @@ Transitions are a nice way to add some interactive animations to your site. If y
 </body>
 {% endhighlight %}
 
-Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert `transition: 1s all;` which is the transition shorthand with just the first two values that are a `transition-duration` of 1 second and the `transition-property` of `all` which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:
+Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert `transition: 1s all;` which is the transition shorthand with only the first two values that are a `transition-duration` of 1 second and the `transition-property` of `all` which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:
 
 <p data-height="458" data-theme-id="dark" data-slug-hash="MowpMv" data-default-tab="result" data-user="CSSclasses"
 data-embed-version="2" data-pen-title="CSSclasses :hover" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/MowpMv/">CSSclasses :hover</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
@@ -57,4 +57,4 @@ transition: transition-duration transition-property transition-delay transition-
 {% endhighlight %}
 
 
-So in our example the width gets transitioned for one second, but only after a 0.2 second delay with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.
+So in our example the width gets transitioned for one second, but only after a 0.2 second delay, with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.
