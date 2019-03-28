@@ -1,0 +1,26 @@
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include bp(xx) {
+        flex-direction: row;
+        margin-top: 4em;
+    }
+
+    &__link {
+        border-bottom: none;
+        font-size: 1.25em;
+        margin-top: 1em;
+        text-align: right;
+
+        &:first-child {
+            margin-top: 0;
+            text-align-last: left;
+        }
+
+        @include bp(xx) {
+            margin-top: 0;
+        }
+    }
+}

@@ -8,5 +8,13 @@ layout: subpage
   </header>
   <article class="post-content">
     {{ content }}
+    <nav class="post-navigation">
+        {% if page.previous.url %}
+            <a class="post-navigation__link" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+        {% endif %}
+        {% if page.next.url %}
+            <a class="post-navigation__link" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+        {% endif %}
+    </nav>
   </article>
 </div>
