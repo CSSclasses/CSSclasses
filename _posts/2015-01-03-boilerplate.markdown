@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "HTML introduction"
+categories: Materials
 ---
 
 ## Basic HTML & HTML boilerplate

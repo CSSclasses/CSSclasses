@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS Box Model"
+categories: Materials
 ---
 
 ### The Box Model

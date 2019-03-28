@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cascade and Inheritance"
+categories: Materials
 ---
 
 ## Topics covered

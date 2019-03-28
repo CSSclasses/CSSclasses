@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS Challenges"
+categories: Materials
 ---
 
 ### Challenges: Start experimenting!

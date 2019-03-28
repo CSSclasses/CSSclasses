@@ -11,7 +11,7 @@ github_username:  CSSclasses
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title/
 
 kramdown:
   input: GFM
