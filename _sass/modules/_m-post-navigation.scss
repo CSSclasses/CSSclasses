@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    flex-wrap: wrap;
 
-    @include bp(xx) {
+    @include bp(x) {
         flex-direction: row;
         margin-top: 4em;
     }
@@ -12,15 +13,38 @@
         border-bottom: none;
         font-size: 1.25em;
         margin-top: 1em;
-        text-align: right;
+        text-align: center;
 
-        &:first-child {
-            margin-top: 0;
-            text-align-last: left;
+        &--prev,
+        &--next {
+            flex-basis: 100%;
+
+            @include bp(x) {
+                margin-top: 0;
+                flex-basis: 50%;
+            }
         }
 
-        @include bp(xx) {
-            margin-top: 0;
+        &--prev {
+            @include bp(x) {
+                text-align: left;
+            }
+        }
+
+        &--next {
+            @include bp(x) {
+                text-align: right;
+
+                &:first-child {
+                    margin-left: 50%;
+                }
+            }
+        }
+
+        &--overview {
+            flex-basis: 100%;
+            font-size: 1em;
+            margin-top: 2em;
         }
     }
 }
