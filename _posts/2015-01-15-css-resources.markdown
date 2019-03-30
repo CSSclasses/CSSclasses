@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS Resources"
+categories: Materials
 ---
 
 ## Overview

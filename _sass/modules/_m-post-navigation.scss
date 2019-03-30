@@ -1,0 +1,50 @@
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    @include bp(x) {
+        flex-direction: row;
+        margin-top: 4em;
+    }
+
+    &__link {
+        border-bottom: none;
+        font-size: 1.25em;
+        margin-top: 1em;
+        text-align: center;
+
+        &--prev,
+        &--next {
+            flex-basis: 100%;
+
+            @include bp(x) {
+                margin-top: 0;
+                flex-basis: 50%;
+            }
+        }
+
+        &--prev {
+            @include bp(x) {
+                text-align: left;
+            }
+        }
+
+        &--next {
+            @include bp(x) {
+                text-align: right;
+
+                &:first-child {
+                    margin-left: 50%;
+                }
+            }
+        }
+
+        &--overview {
+            flex-basis: 100%;
+            font-size: 1em;
+            margin-top: 2em;
+        }
+    }
+}

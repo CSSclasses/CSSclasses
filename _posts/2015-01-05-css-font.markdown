@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS Font Properties"
+categories: Materials
 ---
 
 ## Topics covered

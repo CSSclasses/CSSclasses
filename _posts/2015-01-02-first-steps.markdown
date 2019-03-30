@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First Steps"
+categories: Materials
 ---
 
 ## The Basic Workflow

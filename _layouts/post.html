@@ -8,5 +8,14 @@ layout: subpage
   </header>
   <article class="post-content">
     {{ content }}
+    <nav class="post-navigation">
+        {% if page.previous.url %}
+            <a class="post-navigation__link post-navigation__link--prev" href="{{ page.previous.url }}">&larr; {{ page.previous.title }}</a>
+        {% endif %}
+        {% if page.next.url %}
+            <a class="post-navigation__link post-navigation__link--next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+        {% endif %}
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
   </article>
 </div>
