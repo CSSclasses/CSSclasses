@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSSclasses – MATERIALS</title>
-  <meta name="description" content="CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.">
+  <title>CSS Basics</title>
+  <meta name="description" content="Topics covered  CSS - what is that?  Start with inline styles  Basic CSS syntax  Useful properties  Shorthand">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="https://cssclass.es/materials/">
+  <link rel="canonical" href="https://cssclass.es/materials/css-part1/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="https://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -83,7 +83,7 @@
   
       
       
-      <li class="current navigation__list-item">
+      <li class=" navigation__list-item">
           <a class="navigation__a hover-effect" data-hover="Materials"href="/materials/">Materials</a>
       </li>
   
@@ -133,43 +133,143 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <h1>Learning Materials</h1>
-
-<p>
-  These are the learning materials for the CSSclasses beginners workshop. In this workshop, you’ll learn the very basics of creating a website. We’ll walk through every step together, and our coaches will assist you if you run into any problems or have questions. At the end of the workshop, you’ll find tips and links on how to educate yourself further, and ideas and suggestions on what to experiment with.
-</p>
-
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CSS Basics</h1>
+  </header>
+  <article class="post-content">
+    <h2 id="topics-covered">Topics covered</h2>
 <ul>
-  
-    <li><a href="/materials/first-steps/">First Steps</a></li>
-  
-    <li><a href="/materials/boilerplate/">HTML introduction</a></li>
-  
-    <li><a href="/materials/css-part1/">CSS Basics</a></li>
-  
-    <li><a href="/materials/css-font/">CSS Font Properties</a></li>
-  
-    <li><a href="/materials/css-border/">CSS Border Properties</a></li>
-  
-    <li><a href="/materials/css-box-model/">CSS Box Model</a></li>
-  
-    <li><a href="/materials/css-hover/">CSS Hover</a></li>
-  
-    <li><a href="/materials/css-class-selector/">CSS Class Selector</a></li>
-  
-    <li><a href="/materials/css-cascade-inheritance/">Cascade and Inheritance</a></li>
-  
-    <li><a href="/materials/css-more-selectors/">CSS More Selectors</a></li>
-  
-    <li><a href="/materials/css-transitions/">CSS Transitions</a></li>
-  
-    <li><a href="/materials/css-transform/">CSS Transforms</a></li>
-  
-    <li><a href="/materials/css-challenges/">CSS Challenges</a></li>
-  
-    <li><a href="/materials/css-resources/">CSS Resources</a></li>
-  
+  <li><a href="#css---what-is-that">CSS - what is that?</a></li>
+  <li><a href="#start-with-inline-styles">Start with inline styles</a></li>
+  <li><a href="#basic-css-syntax">Basic CSS syntax</a></li>
+  <li><a href="#useful-css-properties">Useful properties</a></li>
+  <li><a href="#shorthand">Shorthand</a></li>
 </ul>
+
+<h3 id="css---what-is-that">CSS - what is that?</h3>
+<p>CSS is used to style your HTML elements. You can manipulate the colors, margins, positions and many other properties of elements. This is done through the rules you write. Sometimes more than one rule applies to an element, so CSS decides which properties are actually applied to the element in case the two rules conflict with each other. This is the “cascading” part of our <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heet.</p>
+
+<h3 id="start-with-inline-styles">Start with inline styles</h3>
+<p>To get you started, you can insert a <code class="highlighter-rouge">style</code> tag inside of your <code class="highlighter-rouge">head</code> tag:</p>
+
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_11_22" type="radio" name="switch_11" value="dark" />
+  <label class="m-switch__label" for="switch_11_22">Dark</label>
+  
+  <input class="m-switch__input" id="switch_11_23" type="radio" name="switch_11" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_11_23">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Our Page Title<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+    <span class="c">/* CSS styling rules here. Yes, comments are different in CSS. It’s not our fault! */</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span></code></pre></figure>
+
+<h3 id="basic-css-syntax">Basic CSS syntax</h3>
+<p>CSS has a simple syntax. CSS styling consists of a list of rules. Each rule consists of one or more selectors and a declaration block. Your selectors identify your HTML elements, so they are used to declare which part of the markup a style applies to. Let’s take the h1 title we wrote in our HTML file and give it a nice red color:</p>
+
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_12_24" type="radio" name="switch_12" value="dark" />
+  <label class="m-switch__label" for="switch_12_24">Dark</label>
+  
+  <input class="m-switch__input" id="switch_12_25" type="radio" name="switch_12" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_12_25">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">h1</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p><code class="highlighter-rouge">h1</code> is the selector, the HTML element we want to style. <code class="highlighter-rouge">color</code> is one of the properties that we can give to our selector, and <code class="highlighter-rouge">red</code> is the value of this property. The pattern of CSS syntax is:</p>
+
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_13_26" type="radio" name="switch_13" value="dark" />
+  <label class="m-switch__label" for="switch_13_26">Dark</label>
+  
+  <input class="m-switch__input" id="switch_13_27" type="radio" name="switch_13" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_13_27">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span> <span class="c">/* remember always to write a ; after your value. */</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Refresh your browser (CMD + R) and see how the color of your title has changed. Wow, so red! Isn’t this nice?</p>
+
+<h3 id="useful-css-properties">Useful CSS properties</h3>
+
+<p>Now, let us insert a <code class="highlighter-rouge">div</code> and style it a little bit. So parts of your file should look like this:</p>
+
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_14_28" type="radio" name="switch_14" value="dark" />
+  <label class="m-switch__label" for="switch_14_28">Dark</label>
+  
+  <input class="m-switch__input" id="switch_14_29" type="radio" name="switch_14" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_14_29">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<span class="c">&lt;!-- ... --&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+    <span class="nt">div</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;div&gt;</span>I’m a div<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>So now if you save and hit refresh, you should see a green block with some white text stating “I’m a div” on it. Here you see some properties, you already know <code class="highlighter-rouge">color</code>. There is also <code class="highlighter-rouge">background-color</code>, <code class="highlighter-rouge">width</code> and <code class="highlighter-rouge">height</code>.</p>
+
+<h3 id="shorthand">Shorthand</h3>
+<p>On some occasions you might see properties defined in different ways but doing the same thing, such as:</p>
+
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_15_30" type="radio" name="switch_15" value="dark" />
+  <label class="m-switch__label" for="switch_15_30">Dark</label>
+  
+  <input class="m-switch__input" id="switch_15_31" type="radio" name="switch_15" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_15_31">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">selector</span> <span class="p">{</span>
+  <span class="nl">border-width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+  <span class="nl">border-style</span><span class="p">:</span> <span class="nb">dotted</span><span class="p">;</span>
+  <span class="nl">border-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">anotherselector</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">dotted</span> <span class="no">green</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>This is what we call shorthand. Some properties have a shorthand format that allows us to define more properties at once, but just in one line. The order and the way it works is not always very obvious so you might need to look it up on a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties" target="_blank">reference</a>, but don’t worry too much about it. For now, it’s good to know it exists in case you see it somewhere else. If you think it’s confusing, use the non shorthand format for your own code and specify each property at a time.</p>
+
+    <nav class="post-navigation">
+        
+            <a class="post-navigation__link post-navigation__link--prev" href="/materials/boilerplate/">&larr; HTML introduction</a>
+        
+        
+            <a class="post-navigation__link post-navigation__link--next" href="/materials/css-font/">CSS Font Properties &rarr;</a>
+        
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
+  </article>
+</div>
+
       </main>
       <section class="l-width-extended">
         

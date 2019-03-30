@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSSclasses – MATERIALS</title>
-  <meta name="description" content="CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.">
+  <title>CSS Border Properties</title>
+  <meta name="description" content="BorderYou can also put a nice border around your elements. Try this:">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="https://cssclass.es/materials/">
+  <link rel="canonical" href="https://cssclass.es/materials/css-border/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="https://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -83,7 +83,7 @@
   
       
       
-      <li class="current navigation__list-item">
+      <li class=" navigation__list-item">
           <a class="navigation__a hover-effect" data-hover="Materials"href="/materials/">Materials</a>
       </li>
   
@@ -133,43 +133,68 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <h1>Learning Materials</h1>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CSS Border Properties</h1>
+  </header>
+  <article class="post-content">
+    <h3 id="border">Border</h3>
+<p>You can also put a nice <code class="highlighter-rouge">border</code> around your elements. Try this:</p>
 
-<p>
-  These are the learning materials for the CSSclasses beginners workshop. In this workshop, you’ll learn the very basics of creating a website. We’ll walk through every step together, and our coaches will assist you if you run into any problems or have questions. At the end of the workshop, you’ll find tips and links on how to educate yourself further, and ideas and suggestions on what to experiment with.
-</p>
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_20_40" type="radio" name="switch_20" value="dark" />
+  <label class="m-switch__label" for="switch_20_40">Dark</label>
+  
+  <input class="m-switch__input" id="switch_20_41" type="radio" name="switch_20" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_20_41">Light</label>
+</div>
 
-<ul>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<span class="c">&lt;!-- ... --&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+    <span class="nt">div</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;div&gt;</span>I am a div with a border<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>Now you assigned your <code class="highlighter-rouge">div</code> to have a <code class="highlighter-rouge">black</code> border that is <code class="highlighter-rouge">5px</code> thick and <code class="highlighter-rouge">solid</code>. Let’s dissect the border property a little bit with a different border and a generic description:</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/first-steps/">First Steps</a></li>
+  <input class="m-switch__input" id="switch_21_42" type="radio" name="switch_21" value="dark" />
+  <label class="m-switch__label" for="switch_21_42">Dark</label>
   
-    <li><a href="/materials/boilerplate/">HTML introduction</a></li>
-  
-    <li><a href="/materials/css-part1/">CSS Basics</a></li>
-  
-    <li><a href="/materials/css-font/">CSS Font Properties</a></li>
-  
-    <li><a href="/materials/css-border/">CSS Border Properties</a></li>
-  
-    <li><a href="/materials/css-box-model/">CSS Box Model</a></li>
-  
-    <li><a href="/materials/css-hover/">CSS Hover</a></li>
-  
-    <li><a href="/materials/css-class-selector/">CSS Class Selector</a></li>
-  
-    <li><a href="/materials/css-cascade-inheritance/">Cascade and Inheritance</a></li>
-  
-    <li><a href="/materials/css-more-selectors/">CSS More Selectors</a></li>
-  
-    <li><a href="/materials/css-transitions/">CSS Transitions</a></li>
-  
-    <li><a href="/materials/css-transform/">CSS Transforms</a></li>
-  
-    <li><a href="/materials/css-challenges/">CSS Challenges</a></li>
-  
-    <li><a href="/materials/css-resources/">CSS Resources</a></li>
-  
-</ul>
+  <input class="m-switch__input" id="switch_21_43" type="radio" name="switch_21" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_21_43">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">border</span><span class="o">:</span> <span class="nt">20px</span> <span class="nt">dashed</span> <span class="nf">#ff88aa</span><span class="o">;</span>
+<span class="nt">border</span><span class="o">:</span> <span class="o">&lt;</span><span class="nt">line-width</span><span class="o">&gt;</span> <span class="o">||</span> <span class="o">&lt;</span><span class="nt">line-style</span><span class="o">&gt;</span> <span class="o">||</span> <span class="o">&lt;</span><span class="nt">color</span><span class="o">&gt;;</span></code></pre></figure>
+
+<p>Here you see an even thicker border that has a different color, and is also <code class="highlighter-rouge">dashed</code> instead of `solid. The color is a good example for how many different types of values a lot of CSS properties accept. There are a lot more than would fit nicely on this page. Often, you’ll find yourself searching the web for the accepted input values, or looking them up in the CSS spec (check links in <a href="/materials/css-resources/">the Resources section</a>). This color value is in HEX RGB notation (meaning, hexadecimal red green blue). It can be convenient to use a color picker tool (you can find them online or even use good ol’ MSPaint!) to find the color you want and then copy and paste the value from there.</p>
+
+    <nav class="post-navigation">
+        
+            <a class="post-navigation__link post-navigation__link--prev" href="/materials/css-font/">&larr; CSS Font Properties</a>
+        
+        
+            <a class="post-navigation__link post-navigation__link--next" href="/materials/css-box-model/">CSS Box Model &rarr;</a>
+        
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
+  </article>
+</div>
+
       </main>
       <section class="l-width-extended">
         

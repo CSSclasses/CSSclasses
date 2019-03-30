@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSSclasses – MATERIALS</title>
-  <meta name="description" content="CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.">
+  <title>CSS Transforms</title>
+  <meta name="description" content="Transform">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="https://cssclass.es/materials/">
+  <link rel="canonical" href="https://cssclass.es/materials/css-transform/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="https://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -83,7 +83,7 @@
   
       
       
-      <li class="current navigation__list-item">
+      <li class=" navigation__list-item">
           <a class="navigation__a hover-effect" data-hover="Materials"href="/materials/">Materials</a>
       </li>
   
@@ -133,43 +133,79 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <h1>Learning Materials</h1>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CSS Transforms</h1>
+  </header>
+  <article class="post-content">
+    <h3 id="transform">Transform</h3>
 
-<p>
-  These are the learning materials for the CSSclasses beginners workshop. In this workshop, you’ll learn the very basics of creating a website. We’ll walk through every step together, and our coaches will assist you if you run into any problems or have questions. At the end of the workshop, you’ll find tips and links on how to educate yourself further, and ideas and suggestions on what to experiment with.
-</p>
+<p>Transforms can be used to manipulate elements. You can take any element and add one or many transforms to it, including <code class="highlighter-rouge">translate</code> (moving the element), <code class="highlighter-rouge">scale</code> (make it bigger/smaller), <code class="highlighter-rouge">skew</code> (distort the element) and many more. All these transforms happen without disturbing the rendering flow. What does that mean? If you have an element that is a 100px square and you add <code class="highlighter-rouge">transform: scale(2);</code> to it, it is now scaled up to be a 200px square element, but all other elements around it stay in their positions. If instead you double width and height of your element, that will push other elements away.</p>
 
-<ul>
+<p>Let’s go through these one by one. <code class="highlighter-rouge">translate</code> can be used in two different ways:</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/first-steps/">First Steps</a></li>
+  <input class="m-switch__input" id="switch_36_72" type="radio" name="switch_36" value="dark" />
+  <label class="m-switch__label" for="switch_36_72">Dark</label>
   
-    <li><a href="/materials/boilerplate/">HTML introduction</a></li>
+  <input class="m-switch__input" id="switch_36_73" type="radio" name="switch_36" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_36_73">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.movedownright</span> <span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translate</span><span class="p">(</span><span class="m">10px</span><span class="p">,</span> <span class="m">20px</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nc">.movedownright2</span> <span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">translateX</span><span class="p">(</span><span class="m">10px</span><span class="p">)</span> <span class="n">translateY</span><span class="p">(</span><span class="m">20px</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Both classes <code class="highlighter-rouge">.movedownright</code> and <code class="highlighter-rouge">.movedownright2</code> manipulate any element in the same way: move it 10px right and 20px down. Negative values (e.g. -10px) would move it left or up. <code class="highlighter-rouge">.movedownright</code> uses a shorthand syntax for translateX and translateY, <code class="highlighter-rouge">.movedownright2</code> uses the individual <code class="highlighter-rouge">translateX</code> and <code class="highlighter-rouge">translateY</code> transforms. Notice how you can add several transforms by just leaving a space between them.</p>
+
+<p><code class="highlighter-rouge">scale</code> can be used to scale elements up or down, where <code class="highlighter-rouge">transform: scale(0);</code> means the element is gone, <code class="highlighter-rouge">transform: scale(0.5);</code> scales it down to 50% of the original size and <code class="highlighter-rouge">transform: scale(2);</code> doubles the size to 200%.</p>
+
+<p>Using <code class="highlighter-rouge">skew</code> or <code class="highlighter-rouge">skewX</code> and <code class="highlighter-rouge">skewY</code> you can skew your elements by given angles on the x- or y-axis. With rotate you can <code class="highlighter-rouge">rotate</code> your elements by a given angle.</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/css-part1/">CSS Basics</a></li>
+  <input class="m-switch__input" id="switch_37_74" type="radio" name="switch_37" value="dark" />
+  <label class="m-switch__label" for="switch_37_74">Dark</label>
   
-    <li><a href="/materials/css-font/">CSS Font Properties</a></li>
-  
-    <li><a href="/materials/css-border/">CSS Border Properties</a></li>
-  
-    <li><a href="/materials/css-box-model/">CSS Box Model</a></li>
-  
-    <li><a href="/materials/css-hover/">CSS Hover</a></li>
-  
-    <li><a href="/materials/css-class-selector/">CSS Class Selector</a></li>
-  
-    <li><a href="/materials/css-cascade-inheritance/">Cascade and Inheritance</a></li>
-  
-    <li><a href="/materials/css-more-selectors/">CSS More Selectors</a></li>
-  
-    <li><a href="/materials/css-transitions/">CSS Transitions</a></li>
-  
-    <li><a href="/materials/css-transform/">CSS Transforms</a></li>
-  
-    <li><a href="/materials/css-challenges/">CSS Challenges</a></li>
-  
-    <li><a href="/materials/css-resources/">CSS Resources</a></li>
-  
-</ul>
+  <input class="m-switch__input" id="switch_37_75" type="radio" name="switch_37" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_37_75">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.skewme</span> <span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">skew</span><span class="p">(</span><span class="m">20deg</span><span class="p">,</span> <span class="m">30deg</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c">/* .skewme2 does the same as .skewme */</span>
+<span class="nc">.skewme2</span> <span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">skewX</span><span class="p">(</span><span class="m">20deg</span><span class="p">)</span> <span class="n">skewY</span><span class="p">(</span><span class="m">30deg</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nc">.rotateme</span> <span class="p">{</span>
+  <span class="nl">transform</span><span class="p">:</span> <span class="n">rotate</span><span class="p">(</span><span class="m">30deg</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Now here is an example of using several transforms at once, but only on <code class="highlighter-rouge">:hover</code> when you move the cursor over an element (notice how we are very happy to use transitions again as well):</p>
+
+<p data-height="481" data-theme-id="17669" data-slug-hash="jPJNNo" data-default-tab="result" data-user="verpixelt" class="codepen">See the Pen <a href="http://codepen.io/verpixelt/pen/jPJNNo/">jPJNNo</a> by Kevin Lorenz (<a href="http://codepen.io/verpixelt">@verpixelt</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+
+    <nav class="post-navigation">
+        
+            <a class="post-navigation__link post-navigation__link--prev" href="/materials/css-transitions/">&larr; CSS Transitions</a>
+        
+        
+            <a class="post-navigation__link post-navigation__link--next" href="/materials/css-challenges/">CSS Challenges &rarr;</a>
+        
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
+  </article>
+</div>
+
       </main>
       <section class="l-width-extended">
         

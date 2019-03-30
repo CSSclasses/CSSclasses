@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSSclasses – MATERIALS</title>
-  <meta name="description" content="CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.">
+  <title>CSS Transitions</title>
+  <meta name="description" content="TransitionTransitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically a...">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="https://cssclass.es/materials/">
+  <link rel="canonical" href="https://cssclass.es/materials/css-transitions/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="https://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -83,7 +83,7 @@
   
       
       
-      <li class="current navigation__list-item">
+      <li class=" navigation__list-item">
           <a class="navigation__a hover-effect" data-hover="Materials"href="/materials/">Materials</a>
       </li>
   
@@ -133,43 +133,92 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <h1>Learning Materials</h1>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CSS Transitions</h1>
+  </header>
+  <article class="post-content">
+    <h3 id="transition">Transition</h3>
+<p>Transitions are a nice way to add some interactive animations to your site. If you add a transition to an element, the browser will automatically animate between two states when they change. To try that you can combine what you just learned about classes and <code class="highlighter-rouge">:hover</code> and add the <code class="highlighter-rouge">transition</code> property to the mix:</p>
 
-<p>
-  These are the learning materials for the CSSclasses beginners workshop. In this workshop, you’ll learn the very basics of creating a website. We’ll walk through every step together, and our coaches will assist you if you run into any problems or have questions. At the end of the workshop, you’ll find tips and links on how to educate yourself further, and ideas and suggestions on what to experiment with.
-</p>
+<div class="m-switch">
+  
+  <input class="m-switch__input" id="switch_33_66" type="radio" name="switch_33" value="dark" />
+  <label class="m-switch__label" for="switch_33_66">Dark</label>
+  
+  <input class="m-switch__input" id="switch_33_67" type="radio" name="switch_33" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_33_67">Light</label>
+</div>
 
-<ul>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;head&gt;</span>
+<span class="c">&lt;!-- ... --&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+    <span class="nc">.changeonhover</span> <span class="p">{</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+      <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+      <span class="nl">font-family</span><span class="p">:</span> <span class="nb">sans-serif</span><span class="p">;</span>
+      <span class="nl">border</span><span class="p">:</span> <span class="m">5px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+      <span class="nl">transition</span><span class="p">:</span> <span class="m">1s</span> <span class="n">all</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nc">.changeonhover</span><span class="nd">:hover</span> <span class="p">{</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+      <span class="nl">width</span><span class="p">:</span> <span class="m">600px</span><span class="p">;</span>
+      <span class="nl">height</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"changeonhover"</span><span class="nt">&gt;</span>Hover me! Hover Me!<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span></code></pre></figure>
+
+<p>Notice how you did not need to define an animation but still the browser animates between the two states? All we did is insert <code class="highlighter-rouge">transition: 1s all;</code> which is the transition shorthand with only the first two values that are a <code class="highlighter-rouge">transition-duration</code> of 1 second and the <code class="highlighter-rouge">transition-property</code> of <code class="highlighter-rouge">all</code> which means the browser will animate between all properties that have changed. You could also define different transitions for different properties, separated by a comma. Let’s go a little overboard with that and also use the other transition values:</p>
+
+<p data-height="458" data-theme-id="dark" data-slug-hash="MowpMv" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses :hover" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/MowpMv/">CSSclasses :hover</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>Notice how we used a very complicated transition shorthand here:</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/first-steps/">First Steps</a></li>
+  <input class="m-switch__input" id="switch_34_68" type="radio" name="switch_34" value="dark" />
+  <label class="m-switch__label" for="switch_34_68">Dark</label>
   
-    <li><a href="/materials/boilerplate/">HTML introduction</a></li>
+  <input class="m-switch__input" id="switch_34_69" type="radio" name="switch_34" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_34_69">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">1s</span> <span class="nt">width</span> <span class="nt">0</span><span class="nc">.2s</span> <span class="nt">ease-out</span><span class="o">,</span> <span class="nt">2s</span> <span class="nt">background-color</span><span class="o">,</span> <span class="nt">0</span><span class="nc">.5s</span> <span class="nt">height</span> <span class="nt">0</span><span class="nc">.5s</span><span class="o">;</span></code></pre></figure>
+
+<p>Let’s break it down: <code class="highlighter-rouge">1s width 0.2s ease-out</code> are the values that define the transition just for the width. The shorthand syntax is:</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/css-part1/">CSS Basics</a></li>
+  <input class="m-switch__input" id="switch_35_70" type="radio" name="switch_35" value="dark" />
+  <label class="m-switch__label" for="switch_35_70">Dark</label>
   
-    <li><a href="/materials/css-font/">CSS Font Properties</a></li>
-  
-    <li><a href="/materials/css-border/">CSS Border Properties</a></li>
-  
-    <li><a href="/materials/css-box-model/">CSS Box Model</a></li>
-  
-    <li><a href="/materials/css-hover/">CSS Hover</a></li>
-  
-    <li><a href="/materials/css-class-selector/">CSS Class Selector</a></li>
-  
-    <li><a href="/materials/css-cascade-inheritance/">Cascade and Inheritance</a></li>
-  
-    <li><a href="/materials/css-more-selectors/">CSS More Selectors</a></li>
-  
-    <li><a href="/materials/css-transitions/">CSS Transitions</a></li>
-  
-    <li><a href="/materials/css-transform/">CSS Transforms</a></li>
-  
-    <li><a href="/materials/css-challenges/">CSS Challenges</a></li>
-  
-    <li><a href="/materials/css-resources/">CSS Resources</a></li>
-  
-</ul>
+  <input class="m-switch__input" id="switch_35_71" type="radio" name="switch_35" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_35_71">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">transition</span><span class="o">:</span> <span class="nt">transition-duration</span> <span class="nt">transition-property</span> <span class="nt">transition-delay</span> <span class="nt">transition-timing-function</span><span class="o">;</span></code></pre></figure>
+
+<p>So in our example the width gets transitioned for one second, but only after a 0.2 second delay, with a timing function of ease-out. And then you use a comma and define the transition for the next property if you want to. Phew, sounds complicated, right? But as you can see in the example, you don’t always need to define all values, as they will have default values, as the 2s background-color transition shows. Don’t worry. It’s ok to look this up every time until you remember it.</p>
+
+    <nav class="post-navigation">
+        
+            <a class="post-navigation__link post-navigation__link--prev" href="/materials/css-more-selectors/">&larr; CSS More Selectors</a>
+        
+        
+            <a class="post-navigation__link post-navigation__link--next" href="/materials/css-transform/">CSS Transforms &rarr;</a>
+        
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
+  </article>
+</div>
+
       </main>
       <section class="l-width-extended">
         

@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>CSSclasses – MATERIALS</title>
-  <meta name="description" content="CSSclasses is for beginners and experts alike: Using CSS as a simple and low-barrier entry language, we empower people to understand their browser and to learn how to experiment with code. Workshop and hackathon in one event.">
+  <title>CSS More Selectors</title>
+  <meta name="description" content="More selectors: nth-child, nth-of-type, siblingThere are a few more selectors to select subsets out of many elements. :nth-child, :nth-of-type and the ~ sibl...">
 
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="canonical" href="https://cssclass.es/materials/">
+  <link rel="canonical" href="https://cssclass.es/materials/css-more-selectors/">
   <link rel="alternate" type="application/rss+xml" title="CSSclasses" href="https://cssclass.es/feed.xml" />
 
   <meta property="og:title" content="CSSclasses">
@@ -83,7 +83,7 @@
   
       
       
-      <li class="current navigation__list-item">
+      <li class=" navigation__list-item">
           <a class="navigation__a hover-effect" data-hover="Materials"href="/materials/">Materials</a>
       </li>
   
@@ -133,43 +133,54 @@
 </header>
 
       <main class="l-width-content l--has-pt">
-        <h1>Learning Materials</h1>
+        <div class="post">
+  <header class="post-header">
+    <h1 class="post-title">CSS More Selectors</h1>
+  </header>
+  <article class="post-content">
+    <h3 id="more-selectors-nth-child-nth-of-type-sibling">More selectors: nth-child, nth-of-type, sibling</h3>
+<p>There are a few more selectors to select subsets out of many elements. <code class="highlighter-rouge">:nth-child</code>, <code class="highlighter-rouge">:nth-of-type</code> and the <code class="highlighter-rouge">~</code> sibling selector are a few common examples of css selectors that are often very useful.</p>
 
-<p>
-  These are the learning materials for the CSSclasses beginners workshop. In this workshop, you’ll learn the very basics of creating a website. We’ll walk through every step together, and our coaches will assist you if you run into any problems or have questions. At the end of the workshop, you’ll find tips and links on how to educate yourself further, and ideas and suggestions on what to experiment with.
-</p>
+<p>The <code class="highlighter-rouge">:nth-child</code> is very useful if you have recurring elements with alternating styling. Take an unordered list for example: You want odd rows to be white, even rows to be a bit darker. You can assign different style rules to even list elements without messing with the HTML markup – which is handy when you have to change the styles again later. This can be achieved by assigning <code class="highlighter-rouge">li:nth-child(even) { background-color: #f3f3f3; }</code> to those list elements. Instead of even you could also use 2n to select any <code class="highlighter-rouge">2nd</code> element, <code class="highlighter-rouge">3n</code> for every third, <code class="highlighter-rouge">3n-1</code> for every third but starting with the second and so on.</p>
 
-<ul>
+<p data-height="381" data-theme-id="dark" data-slug-hash="rwVygY" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses nth-child" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/rwVygY/">CSSclasses nth-child</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>The <code class="highlighter-rouge">:nth-of-type</code> works almost like the <code class="highlighter-rouge">:nth-child</code>. But <code class="highlighter-rouge">:nth-child</code> doesn’t care about what type the elements are. If you put a <code class="highlighter-rouge">div</code> in the middle of the list, <code class="highlighter-rouge">:nth-child</code> will treat that just like one of the list elements. That is where <code class="highlighter-rouge">:nth-of-type</code> is stricter: It only executes the rule on elements of the given selector.</p>
+
+<p>The <code class="highlighter-rouge">~</code> sibling selector selects all elements that are <em>neighbors</em> of a selected element. So if you take the following example, sibling selectors can add dynamic behavior to your collection of fruits and vegetables:</p>
+
+<div class="m-switch">
   
-    <li><a href="/materials/first-steps/">First Steps</a></li>
+  <input class="m-switch__input" id="switch_32_64" type="radio" name="switch_32" value="dark" />
+  <label class="m-switch__label" for="switch_32_64">Dark</label>
   
-    <li><a href="/materials/boilerplate/">HTML introduction</a></li>
-  
-    <li><a href="/materials/css-part1/">CSS Basics</a></li>
-  
-    <li><a href="/materials/css-font/">CSS Font Properties</a></li>
-  
-    <li><a href="/materials/css-border/">CSS Border Properties</a></li>
-  
-    <li><a href="/materials/css-box-model/">CSS Box Model</a></li>
-  
-    <li><a href="/materials/css-hover/">CSS Hover</a></li>
-  
-    <li><a href="/materials/css-class-selector/">CSS Class Selector</a></li>
-  
-    <li><a href="/materials/css-cascade-inheritance/">Cascade and Inheritance</a></li>
-  
-    <li><a href="/materials/css-more-selectors/">CSS More Selectors</a></li>
-  
-    <li><a href="/materials/css-transitions/">CSS Transitions</a></li>
-  
-    <li><a href="/materials/css-transform/">CSS Transforms</a></li>
-  
-    <li><a href="/materials/css-challenges/">CSS Challenges</a></li>
-  
-    <li><a href="/materials/css-resources/">CSS Resources</a></li>
-  
-</ul>
+  <input class="m-switch__input" id="switch_32_65" type="radio" name="switch_32" value="light" checked="checked" />
+  <label class="m-switch__label" for="switch_32_65">Light</label>
+</div>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.vegetable-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.vegetable</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="m">#aaf0bb</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="nc">.fruit-checkbox</span><span class="nd">:checked</span> <span class="o">~</span> <span class="nc">.fruit</span> <span class="p">{</span> <span class="nl">background-color</span><span class="p">:</span> <span class="m">#ffaabb</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
+
+<p>While these rules look very complex, they are not so bad when you take them apart. The first selector <code class="highlighter-rouge">.vegetable-checkbox</code> looks for anything that has the class “vegetable-checkbox” in the HTML. By adding the <code class="highlighter-rouge">:checked</code> that rule only applies if it is a checkbox that is checked. Then the <code class="highlighter-rouge">~</code> indicates that another selector follows. This following selector in the end is our target that gets the styles in the rule, if there is any element in the neighborhood that is found by the first selector.</p>
+
+<p data-height="476" data-theme-id="dark" data-slug-hash="dRoWEY" data-default-tab="result" data-user="CSSclasses" data-embed-version="2" data-pen-title="CSSclasses :checked" class="codepen">See the Pen <a href="https://codepen.io/team/CSSclasses/pen/dRoWEY/">CSSclasses :checked</a> by CSSclasses (<a href="https://codepen.io/CSSclasses">@CSSclasses</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+
+    <nav class="post-navigation">
+        
+            <a class="post-navigation__link post-navigation__link--prev" href="/materials/css-cascade-inheritance/">&larr; Cascade and Inheritance</a>
+        
+        
+            <a class="post-navigation__link post-navigation__link--next" href="/materials/css-transitions/">CSS Transitions &rarr;</a>
+        
+        <a class="post-navigation__link post-navigation__link--overview" href="/materials/">&#8635; Back to overview</a>
+    </nav>
+  </article>
+</div>
+
       </main>
       <section class="l-width-extended">
         
