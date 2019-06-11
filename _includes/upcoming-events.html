@@ -11,7 +11,7 @@
             </li>
             <li class="list-simple__el">
               <div><strong>Where:</strong></div>
-              {% if event.map_link %}<a href="http://maps.google.com/?q=52.500381,13.41973" target="_blank">{% endif %}
+              {% if event.map_link %}<a href="{{ event.map_link }}" target="_blank">{% endif %}
                 {% if event.address %}{{ event.address }}{% else %}To Be Announced, {{ event.city }}{% endif %}
               {% if event.map_link %}</a>{% endif %}
             </li>
