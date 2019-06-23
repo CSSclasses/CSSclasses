@@ -7,3 +7,8 @@
   key: hamburg
   countryCode: de
   introduction: Hamburg is the second city where CSSclasses is taking place regularly. Since the first event in May 2016, regular beginner workshops and expert classes have been offered where everyone is encouraged to join.
+
+- name: Amsterdam
+  key: amsterdam
+  countryCode: nl
+  introduction: The Amsterdam CSSclasses was kicked off in June 2019 by the team of NLHTML5. They are planning to regularly off beginner workshops and expert classes.
